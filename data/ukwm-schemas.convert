@@ -1,0 +1,5 @@
+[org.ukui.ukwm]
+overlay-key = /apps/ukwm/general/overlay_key
+attach-modal-dialogs = /apps/ukwm/general/attach_modal_dialogs
+workspaces-only-on-primary = /apps/ukwm/general/workspaces_only_on_primary
+draggable-border-width = /apps/ukwm/general/draggable_border_width

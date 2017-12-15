@@ -45,7 +45,7 @@
  * - window group, accessible with meta_get_window_group_for_screen()
  * - top window group, accessible with meta_get_top_window_group_for_screen()
  *
- * Mutter will place actors representing windows in the window group, except for
+ * Ukwm will place actors representing windows in the window group, except for
  * override-redirect windows (ie. popups and menus) which will be placed in the
  * top window group.
  */
@@ -59,7 +59,7 @@
 #include <meta/errors.h>
 #include <meta/window.h>
 #include "compositor-private.h"
-#include <meta/compositor-mutter.h>
+#include <meta/compositor-ukwm.h>
 #include <meta/prefs.h>
 #include <meta/main.h>
 #include <meta/meta-backend.h>
@@ -78,7 +78,7 @@
 #include "meta-sync-ring.h"
 
 #include "backends/x11/meta-backend-x11.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 #ifdef HAVE_WAYLAND
 #include "wayland/meta-wayland-private.h"
@@ -456,7 +456,7 @@ redirect_windows (MetaScreen *screen)
 
   n_retries = 0;
 
-  /* Some compositors (like old versions of Mutter) might not properly unredirect
+  /* Some compositors (like old versions of Ukwm) might not properly unredirect
    * subwindows before destroying the WM selection window; so we wait a while
    * for such a compositor to exit before giving up.
    */

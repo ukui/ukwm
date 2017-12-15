@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -549,7 +550,7 @@ meta_cursor_renderer_native_trigger_frame (MetaCursorRendererNative *native,
                        (GSourceFunc) meta_cursor_renderer_native_update_animation,
                        native);
       g_source_set_name_by_id (priv->animation_timeout_id,
-                               "[mutter] meta_cursor_renderer_native_update_animation");
+                               "[ukwm] meta_cursor_renderer_native_update_animation");
     }
 }
 

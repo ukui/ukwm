@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2008 Iain Holmes
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -147,7 +148,7 @@ guint meta_display_get_keybinding_action (MetaDisplay  *display,
 
 /* meta_display_set_input_focus_window is like XSetInputFocus, except
  * that (a) it can't detect timestamps later than the current time,
- * since Mutter isn't part of the XServer, and thus gives erroneous
+ * since Ukwm isn't part of the XServer, and thus gives erroneous
  * behavior in this circumstance (so don't do it), (b) it uses
  * display->last_focus_time since we don't have access to the true
  * Xserver one, (c) it makes use of display->user_time since checking

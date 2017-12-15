@@ -5,6 +5,7 @@
  * Copyright (C) 2006 Elijah Newren
  * Copyright (C) 2008 Thomas Thurman
  * Copyright (C) 2010 Milan Bouchet-Valat, Copyright (C) 2011 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -23,7 +24,7 @@
 /**
  * SECTION:prefs
  * @title: Preferences
- * @short_description: Mutter preferences
+ * @short_description: Ukwm preferences
  */
 
 #include <config.h>
@@ -60,7 +61,7 @@
 /* These are the different schemas we are keeping
  * a GSettings instance for */
 #define SCHEMA_GENERAL         "org.gnome.desktop.wm.preferences"
-#define SCHEMA_MUTTER          "org.gnome.mutter"
+#define SCHEMA_UKWM          "org.ukui.ukwm"
 #define SCHEMA_INTERFACE       "org.gnome.desktop.interface"
 #define SCHEMA_INPUT_SOURCES   "org.gnome.desktop.input-sources"
 #define SCHEMA_XSETTINGS       "org.gnome.settings-daemon.plugins.xsettings"
@@ -284,14 +285,14 @@ static MetaBoolPreference preferences_bool[] =
   {
     {
       { "attach-modal-dialogs",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_ATTACH_MODAL_DIALOGS,
       },
       &attach_modal_dialogs,
     },
     {
       { "center-new-windows",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_CENTER_NEW_WINDOWS,
       },
       &center_new_windows,
@@ -312,7 +313,7 @@ static MetaBoolPreference preferences_bool[] =
     },
     {
       { "dynamic-workspaces",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_DYNAMIC_WORKSPACES,
       },
       &dynamic_workspaces,
@@ -333,7 +334,7 @@ static MetaBoolPreference preferences_bool[] =
     },
     {
       { "focus-change-on-pointer-rest",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_FOCUS_CHANGE_ON_POINTER_REST,
       },
       &focus_change_on_pointer_rest
@@ -375,21 +376,21 @@ static MetaBoolPreference preferences_bool[] =
     },
     {
       { "edge-tiling",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_EDGE_TILING,
       },
       &edge_tiling,
     },
     {
       { "workspaces-only-on-primary",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_WORKSPACES_ONLY_ON_PRIMARY,
       },
       &workspaces_only_on_primary,
     },
     {
       { "auto-maximize",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_AUTO_MAXIMIZE,
       },
       &auto_maximize,
@@ -433,7 +434,7 @@ static MetaStringPreference preferences_string[] =
     },
     {
       { "overlay-key",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_KEYBINDINGS,
       },
       overlay_key_handler,
@@ -481,7 +482,7 @@ static MetaIntPreference preferences_int[] =
     },
     {
       { "draggable-border-width",
-        SCHEMA_MUTTER,
+        SCHEMA_UKWM,
         META_PREF_DRAGGABLE_BORDER_WIDTH,
       },
       &draggable_border_width
@@ -498,7 +499,7 @@ static MetaIntPreference preferences_int[] =
 
 /*
  * This is used to keep track of override schemas used to
- * override preferences from the "normal" metacity/mutter
+ * override preferences from the "normal" metacity/ukwm
  * schemas; we modify the preferences arrays directly, but
  * we also need to remember what we have done to handle
  * subsequent overrides correctly.
@@ -933,7 +934,7 @@ queue_changed (MetaPreference pref)
     {
       changed_idle = g_idle_add_full (META_PRIORITY_PREFS_NOTIFY,
                                       changed_idle_handler, NULL, NULL);
-      g_source_set_name_by_id (changed_idle, "[mutter] changed_idle_handler");
+      g_source_set_name_by_id (changed_idle, "[ukwm] changed_idle_handler");
     }
 }
 
@@ -955,9 +956,9 @@ meta_prefs_init (void)
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_GENERAL), settings);
 
-  settings = g_settings_new (SCHEMA_MUTTER);
+  settings = g_settings_new (SCHEMA_UKWM);
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
-  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_MUTTER), settings);
+  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_UKWM), settings);
 
   settings = g_settings_new (SCHEMA_MOUSE);
   g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);

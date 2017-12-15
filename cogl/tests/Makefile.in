@@ -106,7 +106,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/cogl-config.h \
-	$(top_builddir)/cogl-mutter-config.h
+	$(top_builddir)/cogl-ukwm-config.h
 CONFIG_CLEAN_FILES = config.env
 CONFIG_CLEAN_VPATH_FILES =
 am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
@@ -316,7 +316,7 @@ INTROSPECTION_TYPELIBDIR = @INTROSPECTION_TYPELIBDIR@
 LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -328,7 +328,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -416,7 +416,7 @@ top_srcdir = @top_srcdir@
 SUBDIRS = conform $(am__append_1) micro-perf data
 DIST_SUBDIRS = conform unit micro-perf data
 EXTRA_DIST = README test-launcher.sh run-tests.sh
-@ENABLE_INSTALLED_TESTS_TRUE@insttestdir = $(libexecdir)/installed-tests/mutter-cogl
+@ENABLE_INSTALLED_TESTS_TRUE@insttestdir = $(libexecdir)/installed-tests/ukwm-cogl
 @ENABLE_INSTALLED_TESTS_TRUE@insttest_SCRIPTS = run-tests.sh
 @ENABLE_INSTALLED_TESTS_TRUE@insttest_DATA = config.env
 all: all-recursive

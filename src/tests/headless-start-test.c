@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2017 Red Hat, Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -192,7 +193,7 @@ main (int argc, char *argv[])
 
   meta_override_compositor_configuration (META_COMPOSITOR_TYPE_WAYLAND,
                                           META_TYPE_BACKEND_TEST);
-  meta_wayland_override_display_name ("mutter-test-display");
+  meta_wayland_override_display_name ("ukwm-test-display");
 
   meta_init ();
   meta_register_with_session ();

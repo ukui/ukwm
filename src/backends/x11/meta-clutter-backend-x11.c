@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2016 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -31,7 +32,7 @@
 #include "backends/x11/meta-clutter-backend-x11.h"
 #include "backends/x11/meta-stage-x11-nested.h"
 #include "clutter/clutter.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 #include "meta/meta-backend.h"
 
 struct _MetaClutterBackendX11

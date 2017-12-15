@@ -1,10 +1,11 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter window deletion */
+/* Ukwm window deletion */
 
 /*
  * Copyright (C) 2001, 2002 Havoc Pennington
  * Copyright (C) 2004 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as

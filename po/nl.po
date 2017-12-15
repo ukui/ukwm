@@ -1,5 +1,5 @@
-# Dutch translation for mutter
-# This file is distributed under the same license as the mutter package.
+# Dutch translation for ukwm
+# This file is distributed under the same license as the ukwm package.
 # Tino Meinen <a.t.meinen@chello.nl>, 2003–2004, 2006, 2008.
 # Reinout van Schouwen <reinouts@gnome.org>, 2003–2007, 2013, 2016 (nalezen).
 # Michiel Sikkes <michiels@gnome.org>, 2005.
@@ -7,7 +7,7 @@
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter\n"
+"Project-Id-Version: ukwm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-23 22:41+0100\n"
 "PO-Revision-Date: 2016-10-17 18:24+0200\n"
@@ -21,255 +21,255 @@ msgstr ""
 "X-Project-Style: gnome\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/50-mutter-navigation.xml.in.h:1
+#: ../data/50-ukwm-navigation.xml.in.h:1
 msgid "Navigation"
 msgstr "Navigatie"
 
-#: ../data/50-mutter-navigation.xml.in.h:2
+#: ../data/50-ukwm-navigation.xml.in.h:2
 msgid "Move window to workspace 1"
 msgstr "Venster verplaatsen naar werkblad 1"
 
-#: ../data/50-mutter-navigation.xml.in.h:3
+#: ../data/50-ukwm-navigation.xml.in.h:3
 msgid "Move window to workspace 2"
 msgstr "Venster verplaatsen naar werkblad 2"
 
-#: ../data/50-mutter-navigation.xml.in.h:4
+#: ../data/50-ukwm-navigation.xml.in.h:4
 msgid "Move window to workspace 3"
 msgstr "Venster verplaatsen naar werkblad 3"
 
-#: ../data/50-mutter-navigation.xml.in.h:5
+#: ../data/50-ukwm-navigation.xml.in.h:5
 msgid "Move window to workspace 4"
 msgstr "Venster verplaatsen naar werkblad 4"
 
-#: ../data/50-mutter-navigation.xml.in.h:6
+#: ../data/50-ukwm-navigation.xml.in.h:6
 msgid "Move window to last workspace"
 msgstr "Venster verplaatsen naar laatste werkblad"
 
-#: ../data/50-mutter-navigation.xml.in.h:7
+#: ../data/50-ukwm-navigation.xml.in.h:7
 msgid "Move window one workspace to the left"
 msgstr "Venster één werkblad naar links verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:8
+#: ../data/50-ukwm-navigation.xml.in.h:8
 msgid "Move window one workspace to the right"
 msgstr "Venster één werkblad naar rechts verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:9
+#: ../data/50-ukwm-navigation.xml.in.h:9
 msgid "Move window one workspace up"
 msgstr "Venster één werkblad naar boven verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:10
+#: ../data/50-ukwm-navigation.xml.in.h:10
 msgid "Move window one workspace down"
 msgstr "Venster één werkblad naar beneden verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:11
+#: ../data/50-ukwm-navigation.xml.in.h:11
 msgid "Move window one monitor to the left"
 msgstr "Venster één monitor naar links verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:12
+#: ../data/50-ukwm-navigation.xml.in.h:12
 msgid "Move window one monitor to the right"
 msgstr "Venster één monitor naar rechts verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:13
+#: ../data/50-ukwm-navigation.xml.in.h:13
 msgid "Move window one monitor up"
 msgstr "Venster één monitor naar boven verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:14
+#: ../data/50-ukwm-navigation.xml.in.h:14
 msgid "Move window one monitor down"
 msgstr "Venster één monitor naar beneden verplaatsen"
 
-#: ../data/50-mutter-navigation.xml.in.h:15
+#: ../data/50-ukwm-navigation.xml.in.h:15
 msgid "Switch applications"
 msgstr "Tussen toepassingen schakelen"
 
-#: ../data/50-mutter-navigation.xml.in.h:16
+#: ../data/50-ukwm-navigation.xml.in.h:16
 msgid "Switch to previous application"
 msgstr "Schakelen naar vorige toepassing"
 
-#: ../data/50-mutter-navigation.xml.in.h:17
+#: ../data/50-ukwm-navigation.xml.in.h:17
 msgid "Switch windows"
 msgstr "Tussen vensters schakelen"
 
-#: ../data/50-mutter-navigation.xml.in.h:18
+#: ../data/50-ukwm-navigation.xml.in.h:18
 msgid "Switch to previous window"
 msgstr "Schakelen naar vorig venster"
 
-#: ../data/50-mutter-navigation.xml.in.h:19
+#: ../data/50-ukwm-navigation.xml.in.h:19
 msgid "Switch windows of an application"
 msgstr "Wisselen van venster binnen een toepassing"
 
-#: ../data/50-mutter-navigation.xml.in.h:20
+#: ../data/50-ukwm-navigation.xml.in.h:20
 msgid "Switch to previous window of an application"
 msgstr "Wisselen naar vorig gebruikte venster van een toepassing"
 
-#: ../data/50-mutter-navigation.xml.in.h:21
+#: ../data/50-ukwm-navigation.xml.in.h:21
 msgid "Switch system controls"
 msgstr "Systeemschermen wisselen"
 
-#: ../data/50-mutter-navigation.xml.in.h:22
+#: ../data/50-ukwm-navigation.xml.in.h:22
 msgid "Switch to previous system control"
 msgstr "Schakelen naar vorige systeemregelaar"
 
-#: ../data/50-mutter-navigation.xml.in.h:23
+#: ../data/50-ukwm-navigation.xml.in.h:23
 msgid "Switch windows directly"
 msgstr "Direct tussen vensters schakelen"
 
-#: ../data/50-mutter-navigation.xml.in.h:24
+#: ../data/50-ukwm-navigation.xml.in.h:24
 msgid "Switch directly to previous window"
 msgstr "Schakel direct naar vorig venster"
 
-#: ../data/50-mutter-navigation.xml.in.h:25
+#: ../data/50-ukwm-navigation.xml.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Direct wisselen van venster binnen een toepassing"
 
-#: ../data/50-mutter-navigation.xml.in.h:26
+#: ../data/50-ukwm-navigation.xml.in.h:26
 msgid "Switch directly to previous window of an app"
 msgstr "Direct wisselen naar vorig venster van een toepassing"
 
-#: ../data/50-mutter-navigation.xml.in.h:27
+#: ../data/50-ukwm-navigation.xml.in.h:27
 msgid "Switch system controls directly"
 msgstr "Direct tussen systeemschermen wisselen"
 
-#: ../data/50-mutter-navigation.xml.in.h:28
+#: ../data/50-ukwm-navigation.xml.in.h:28
 msgid "Switch directly to previous system control"
 msgstr "Direct schakelen naar vorige systeemregelaar"
 
-#: ../data/50-mutter-navigation.xml.in.h:29
+#: ../data/50-ukwm-navigation.xml.in.h:29
 msgid "Hide all normal windows"
 msgstr "Alle normale vensters verbergen"
 
-#: ../data/50-mutter-navigation.xml.in.h:30
+#: ../data/50-ukwm-navigation.xml.in.h:30
 msgid "Switch to workspace 1"
 msgstr "Schakelen naar werkblad 1"
 
-#: ../data/50-mutter-navigation.xml.in.h:31
+#: ../data/50-ukwm-navigation.xml.in.h:31
 msgid "Switch to workspace 2"
 msgstr "Schakelen naar werkblad 2"
 
-#: ../data/50-mutter-navigation.xml.in.h:32
+#: ../data/50-ukwm-navigation.xml.in.h:32
 msgid "Switch to workspace 3"
 msgstr "Schakelen naar werkblad 3"
 
-#: ../data/50-mutter-navigation.xml.in.h:33
+#: ../data/50-ukwm-navigation.xml.in.h:33
 msgid "Switch to workspace 4"
 msgstr "Schakelen naar werkblad 4"
 
-#: ../data/50-mutter-navigation.xml.in.h:34
+#: ../data/50-ukwm-navigation.xml.in.h:34
 msgid "Switch to last workspace"
 msgstr "Overschakelen naar laatste werkblad"
 
-#: ../data/50-mutter-navigation.xml.in.h:35
+#: ../data/50-ukwm-navigation.xml.in.h:35
 msgid "Move to workspace left"
 msgstr "Verplaatsen naar werkblad links"
 
-#: ../data/50-mutter-navigation.xml.in.h:36
+#: ../data/50-ukwm-navigation.xml.in.h:36
 msgid "Move to workspace right"
 msgstr "Verplaatsen naar werkblad rechts"
 
-#: ../data/50-mutter-navigation.xml.in.h:37
+#: ../data/50-ukwm-navigation.xml.in.h:37
 msgid "Move to workspace above"
 msgstr "Verplaatsen naar werkblad hierboven"
 
-#: ../data/50-mutter-navigation.xml.in.h:38
+#: ../data/50-ukwm-navigation.xml.in.h:38
 msgid "Move to workspace below"
 msgstr "Verplaatsen naar werkblad hieronder"
 
-#: ../data/50-mutter-system.xml.in.h:1
+#: ../data/50-ukwm-system.xml.in.h:1
 msgid "System"
 msgstr "Systeem"
 
-#: ../data/50-mutter-system.xml.in.h:2
+#: ../data/50-ukwm-system.xml.in.h:2
 msgid "Show the run command prompt"
 msgstr "Het opdrachtregelvenster tonen"
 
-#: ../data/50-mutter-system.xml.in.h:3
+#: ../data/50-ukwm-system.xml.in.h:3
 msgid "Show the activities overview"
 msgstr "Het activiteitenoverzicht tonen"
 
-#: ../data/50-mutter-windows.xml.in.h:1
+#: ../data/50-ukwm-windows.xml.in.h:1
 msgid "Windows"
 msgstr "Vensters"
 
-#: ../data/50-mutter-windows.xml.in.h:2
+#: ../data/50-ukwm-windows.xml.in.h:2
 msgid "Activate the window menu"
 msgstr "Venstermenu activeren"
 
-#: ../data/50-mutter-windows.xml.in.h:3
+#: ../data/50-ukwm-windows.xml.in.h:3
 msgid "Toggle fullscreen mode"
 msgstr "Volledig-schermmodus omschakelen"
 
-#: ../data/50-mutter-windows.xml.in.h:4
+#: ../data/50-ukwm-windows.xml.in.h:4
 msgid "Toggle maximization state"
 msgstr "Maximalisatie in- of uitschakelen"
 
-#: ../data/50-mutter-windows.xml.in.h:5
+#: ../data/50-ukwm-windows.xml.in.h:5
 msgid "Maximize window"
 msgstr "Venster maximaliseren"
 
-#: ../data/50-mutter-windows.xml.in.h:6
+#: ../data/50-ukwm-windows.xml.in.h:6
 msgid "Restore window"
 msgstr "Venster herstellen"
 
-#: ../data/50-mutter-windows.xml.in.h:7
+#: ../data/50-ukwm-windows.xml.in.h:7
 msgid "Toggle shaded state"
 msgstr "Oprollen in- of uitschakelen"
 
-#: ../data/50-mutter-windows.xml.in.h:8
+#: ../data/50-ukwm-windows.xml.in.h:8
 msgid "Close window"
 msgstr "Venster sluiten"
 
-#: ../data/50-mutter-windows.xml.in.h:9
+#: ../data/50-ukwm-windows.xml.in.h:9
 msgid "Hide window"
 msgstr "Venster verbergen"
 
-#: ../data/50-mutter-windows.xml.in.h:10
+#: ../data/50-ukwm-windows.xml.in.h:10
 msgid "Move window"
 msgstr "Venster verplaatsen"
 
-#: ../data/50-mutter-windows.xml.in.h:11
+#: ../data/50-ukwm-windows.xml.in.h:11
 msgid "Resize window"
 msgstr "Vensterafmetingen veranderen"
 
-#: ../data/50-mutter-windows.xml.in.h:12
+#: ../data/50-ukwm-windows.xml.in.h:12
 msgid "Toggle window on all workspaces or one"
 msgstr "Schakelen tussen venster op alle werkbladen zichtbaar of op één"
 
-#: ../data/50-mutter-windows.xml.in.h:13
+#: ../data/50-ukwm-windows.xml.in.h:13
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Vensters naar voren halen indien bedekt of anders naar achter brengen"
 
-#: ../data/50-mutter-windows.xml.in.h:14
+#: ../data/50-ukwm-windows.xml.in.h:14
 msgid "Raise window above other windows"
 msgstr "Venster voor andere vensters halen"
 
-#: ../data/50-mutter-windows.xml.in.h:15
+#: ../data/50-ukwm-windows.xml.in.h:15
 msgid "Lower window below other windows"
 msgstr "Venster achter andere vensters brengen"
 
-#: ../data/50-mutter-windows.xml.in.h:16
+#: ../data/50-ukwm-windows.xml.in.h:16
 msgid "Maximize window vertically"
 msgstr "Venster verticaal maximaliseren"
 
-#: ../data/50-mutter-windows.xml.in.h:17
+#: ../data/50-ukwm-windows.xml.in.h:17
 msgid "Maximize window horizontally"
 msgstr "Venster horizontaal maximaliseren"
 
-#: ../data/50-mutter-windows.xml.in.h:18
+#: ../data/50-ukwm-windows.xml.in.h:18
 msgid "View split on left"
 msgstr "Weergave gesplitst op links"
 
-#: ../data/50-mutter-windows.xml.in.h:19
+#: ../data/50-ukwm-windows.xml.in.h:19
 msgid "View split on right"
 msgstr "Weergave gesplitst op rechts"
 
-#: ../data/mutter.desktop.in.h:1
-msgid "Mutter"
-msgstr "Mutter"
+#: ../data/ukwm.desktop.in.h:1
+msgid "Ukwm"
+msgstr "Ukwm"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr "Controletoets voor uitgebreide vensterbeheerfunctionaliteit"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -281,11 +281,11 @@ msgstr ""
 "toets en de bedoeling is dat deze sneltoets ofwel de standaardwaarde bevat "
 "ofwel leeggemaakt is."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr "Blokkerende dialoogvensters vastmaken"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -295,11 +295,11 @@ msgstr ""
 "maar vastgekoppeld aan het achterliggende venster en bewegen daardoor ook "
 "mee met het achterliggende venster."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Randtegels inschakelen bij het slepen van vensters naar schermranden"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -310,11 +310,11 @@ msgstr ""
 "schermgrootte brengen. Het laten vallen van vensters op de bovenrand van het "
 "scherm maximaliseert ze helemaal. "
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr "Werkbladen worden dynamisch beheerd"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -324,11 +324,11 @@ msgstr ""
 "werkbladen is (gegeven door de sleutel num-workspaces in org.gnome.desktop."
 "wm.preferences)."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr "Werkbladen alleen voor primaire venster"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -336,11 +336,11 @@ msgstr ""
 "Geeft aan of wisselen van werkblad voor vensters op alle schermen of alleen "
 "voor vensters op het hoofdscherm moet gebeuren."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr "Geen tab-pop-up"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -348,11 +348,11 @@ msgstr ""
 "Bepaalt of het gebruik van pop-up en markering van het kader uitgeschakeld "
 "wordt voor het vensterbladeren."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Aandacht vertragen totdat de muispijl stopt met bewegen"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
@@ -362,11 +362,11 @@ msgstr ""
 "‘mouse’, dan zal de aandacht niet direct veranderd worden bij het binnengaan "
 "van een venster, maar slechts wanneer de muispijl stopt met bewegen."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr "Sleepbare randbreedte"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -375,11 +375,11 @@ msgstr ""
 "onvoldoende zijn, worden onzichtbare randen toegevoegd om deze waarde te "
 "bereiken."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Vensters van bijna-monitorformaat auto-maximaliseren"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -387,11 +387,11 @@ msgstr ""
 "Indien ingeschakeld, worden vensters die initieel ongeveer even groot zijn "
 "als de monitor automatisch gemaximaliseerd."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr "Plaats nieuwe vensters in het midden"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -399,59 +399,59 @@ msgstr ""
 "Indien waar zullen nieuwe vensters steeds in het midden van het actieve "
 "scherm van de monitor geplaatst worden."
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr "Venster selecteren uit tab-pop-up"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr "Tab-pop-up annuleren"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
 msgid "Switch to VT 1"
 msgstr "Schakelen naar VT 1"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
 msgid "Switch to VT 2"
 msgstr "Schakelen naar VT 2"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
 msgid "Switch to VT 3"
 msgstr "Schakelen naar VT 3"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
 msgid "Switch to VT 4"
 msgstr "Schakelen naar VT 4"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
 msgid "Switch to VT 5"
 msgstr "Schakelen naar VT 5"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
 msgid "Switch to VT 6"
 msgstr "Schakelen naar VT 6"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
 msgid "Switch to VT 7"
 msgstr "Schakelen naar VT 7"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:8
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:8
 msgid "Switch to VT 8"
 msgstr "Schakelen naar VT 8"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:9
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:9
 msgid "Switch to VT 9"
 msgstr "Schakelen naar VT 9"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:10
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:10
 msgid "Switch to VT 10"
 msgstr "Schakelen naar VT 10"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:11
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:11
 msgid "Switch to VT 11"
 msgstr "Schakelen naar VT 11"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:12
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:12
 msgid "Switch to VT 12"
 msgstr "Schakelen naar VT 12"
 
@@ -556,28 +556,28 @@ msgstr "Uitvoeren als een geneste compositor"
 msgid "Run as a full display server, rather than nested"
 msgstr "Uitvoeren als een volledige display server, in plaats van genest"
 
-#: ../src/core/mutter.c:39
+#: ../src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001–%d Havoc Pennington, Red Hat, Inc., en anderen\n"
 "Dit is vrije software; zie de broncode voor de kopieervoorwaarden.\n"
 "Er is GEEN garantie; zelfs niet voor VERKOOPBAARHEID of GESCHIKTHEID VOOR "
 "EEN BEPAALD DOEL.\n"
 
-#: ../src/core/mutter.c:53
+#: ../src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Versie-informatie tonen"
 
-#: ../src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "Te gebruiken Mutter-plug-in"
+#: ../src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "Te gebruiken Ukwm-plug-in"
 
 #: ../src/core/prefs.c:1997
 #, c-format
@@ -599,8 +599,8 @@ msgid "Screen %d on display '%s' is invalid\n"
 msgstr "Scherm %d op beeldscherm '%s' is ongeldig\n"
 
 #: ../src/core/util.c:121
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter is gecompileerd zonder ondersteuning voor verbose-mode\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Ukwm is gecompileerd zonder ondersteuning voor verbose-mode\n"
 
 #: ../src/x11/session.c:1815
 msgid ""
@@ -695,8 +695,8 @@ msgstr "%s (op %s)"
 #~ msgid "Failed to parse saved session file: %s\n"
 #~ msgstr "Verwerken van opgeslagen sessiebestand mislukt: %s\n"
 
-#~ msgid "<mutter_session> attribute seen but we already have the session ID"
-#~ msgstr "<mutter_session>-attribuut opgemerkt maar sessie-ID was al bekend"
+#~ msgid "<ukwm_session> attribute seen but we already have the session ID"
+#~ msgstr "<ukwm_session>-attribuut opgemerkt maar sessie-ID was al bekend"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Onbekend attribuut ‘%s’ op <%s>-element"

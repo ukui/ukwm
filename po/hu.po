@@ -1,6 +1,6 @@
-# Hungarian translation of mutter.
+# Hungarian translation of ukwm.
 # Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mutter package.
+# This file is distributed under the same license as the ukwm package.
 #
 # Andras Timar <timar at gnome dot hu>, 2002, 2003.
 # Gabor Sari <saga at externet dot hu>, 2003.
@@ -9,9 +9,9 @@
 # Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2015, 2016, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter master\n"
+"Project-Id-Version: ukwm master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mutter&keywords=I18N+L10N&component=general\n"
+"product=ukwm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-29 16:09+0000\n"
 "PO-Revision-Date: 2017-09-05 17:35+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
@@ -23,255 +23,255 @@ msgstr ""
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-ukwm-navigation.xml:6
 msgid "Navigation"
 msgstr "Navigáció"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-ukwm-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Ablak áthelyezése az 1. munkaterületre"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-ukwm-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Ablak áthelyezése a 2. munkaterületre"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-ukwm-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Ablak áthelyezése a 3. munkaterületre"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-ukwm-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Ablak áthelyezése a 4. munkaterületre"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-ukwm-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Ablak áthelyezése az utolsó munkaterületre"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-ukwm-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "Ablak áthelyezése a balra lévő munkaterületre"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-ukwm-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "Ablak áthelyezése a jobbra lévő munkaterületre"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-ukwm-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "Ablak áthelyezése egy munkaterülettel feljebb"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-ukwm-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "Ablak áthelyezése egy munkaterülettel lejjebb"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-ukwm-navigation.xml:36
 msgid "Move window one monitor to the left"
 msgstr "Ablak áthelyezése a balra lévő monitorra"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-ukwm-navigation.xml:39
 msgid "Move window one monitor to the right"
 msgstr "Ablak áthelyezése a jobbra lévő monitorra"
 
-#: data/50-mutter-navigation.xml:42
+#: data/50-ukwm-navigation.xml:42
 msgid "Move window one monitor up"
 msgstr "Ablak áthelyezése egy monitorral feljebb"
 
-#: data/50-mutter-navigation.xml:45
+#: data/50-ukwm-navigation.xml:45
 msgid "Move window one monitor down"
 msgstr "Ablak áthelyezése egy monitorral lejjebb"
 
-#: data/50-mutter-navigation.xml:49
+#: data/50-ukwm-navigation.xml:49
 msgid "Switch applications"
 msgstr "Alkalmazásváltás"
 
-#: data/50-mutter-navigation.xml:54
+#: data/50-ukwm-navigation.xml:54
 msgid "Switch to previous application"
 msgstr "Váltás az előző alkalmazásra"
 
-#: data/50-mutter-navigation.xml:58
+#: data/50-ukwm-navigation.xml:58
 msgid "Switch windows"
 msgstr "Ablakváltás"
 
-#: data/50-mutter-navigation.xml:63
+#: data/50-ukwm-navigation.xml:63
 msgid "Switch to previous window"
 msgstr "Váltás az előző ablakra"
 
-#: data/50-mutter-navigation.xml:67
+#: data/50-ukwm-navigation.xml:67
 msgid "Switch windows of an application"
 msgstr "Váltás egy alkalmazás ablakai között"
 
-#: data/50-mutter-navigation.xml:72
+#: data/50-ukwm-navigation.xml:72
 msgid "Switch to previous window of an application"
 msgstr "Váltás egy alkalmazás előző ablakára"
 
-#: data/50-mutter-navigation.xml:76
+#: data/50-ukwm-navigation.xml:76
 msgid "Switch system controls"
 msgstr "Váltás a rendszer vezérlői közt"
 
-#: data/50-mutter-navigation.xml:81
+#: data/50-ukwm-navigation.xml:81
 msgid "Switch to previous system control"
 msgstr "Váltás az előző rendszervezérlőre"
 
-#: data/50-mutter-navigation.xml:85
+#: data/50-ukwm-navigation.xml:85
 msgid "Switch windows directly"
 msgstr "Váltás az ablakok közt közvetlenül"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-ukwm-navigation.xml:90
 msgid "Switch directly to previous window"
 msgstr "Váltás közvetlenül az előző ablakra"
 
-#: data/50-mutter-navigation.xml:94
+#: data/50-ukwm-navigation.xml:94
 msgid "Switch windows of an app directly"
 msgstr "Váltás egy alkalmazás ablakai között közvetlenül"
 
-#: data/50-mutter-navigation.xml:99
+#: data/50-ukwm-navigation.xml:99
 msgid "Switch directly to previous window of an app"
 msgstr "Váltás közvetlenül egy alkalmazás előző ablakára"
 
-#: data/50-mutter-navigation.xml:103
+#: data/50-ukwm-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr "Váltás a rendszer vezérlői közt közvetlenül"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-ukwm-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr "Váltás közvetlenül az előző rendszervezérlőre"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-ukwm-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "Minden normál ablak elrejtése"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-ukwm-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "Váltás az 1. munkaterületre"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-ukwm-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "Váltás a 2. munkaterületre"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-ukwm-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "Váltás a 3. munkaterületre"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-ukwm-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "Váltás a 4. munkaterületre"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-ukwm-navigation.xml:126
 msgid "Switch to last workspace"
 msgstr "Váltás az utolsó munkaterületre"
 
-#: data/50-mutter-navigation.xml:129
+#: data/50-ukwm-navigation.xml:129
 msgid "Move to workspace left"
 msgstr "Áthelyezés a bal oldali munkaterületre"
 
-#: data/50-mutter-navigation.xml:132
+#: data/50-ukwm-navigation.xml:132
 msgid "Move to workspace right"
 msgstr "Áthelyezés a jobb oldali munkaterületre"
 
-#: data/50-mutter-navigation.xml:135
+#: data/50-ukwm-navigation.xml:135
 msgid "Move to workspace above"
 msgstr "Áthelyezés a felső munkaterületre"
 
-#: data/50-mutter-navigation.xml:138
+#: data/50-ukwm-navigation.xml:138
 msgid "Move to workspace below"
 msgstr "Áthelyezés az alsó munkaterületre"
 
-#: data/50-mutter-system.xml:6
+#: data/50-ukwm-system.xml:6
 msgid "System"
 msgstr "Rendszer"
 
-#: data/50-mutter-system.xml:8
+#: data/50-ukwm-system.xml:8
 msgid "Show the run command prompt"
 msgstr "A parancs futtatása ablak megjelenítése"
 
-#: data/50-mutter-system.xml:10
+#: data/50-ukwm-system.xml:10
 msgid "Show the activities overview"
 msgstr "A tevékenységek áttekintés megjelenítése"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-ukwm-windows.xml:6
 msgid "Windows"
 msgstr "Ablakok"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-ukwm-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Ablakmenü aktiválása"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-ukwm-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Teljes képernyős üzemmód"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-ukwm-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Maximalizált állapot átváltása"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-ukwm-windows.xml:14
 msgid "Maximize window"
 msgstr "Ablak maximalizálása"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-ukwm-windows.xml:16
 msgid "Restore window"
 msgstr "Ablak visszaállítása"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-ukwm-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "Felgördített állapot átváltása"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-ukwm-windows.xml:20
 msgid "Close window"
 msgstr "Ablak bezárása"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-ukwm-windows.xml:22
 msgid "Hide window"
 msgstr "Ablak elrejtése"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-ukwm-windows.xml:24
 msgid "Move window"
 msgstr "Ablak áthelyezése"
 
-#: data/50-mutter-windows.xml:26
+#: data/50-ukwm-windows.xml:26
 msgid "Resize window"
 msgstr "Ablak átméretezése"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-ukwm-windows.xml:29
 msgid "Toggle window on all workspaces or one"
 msgstr "Ablak megjelenítése minden munkaterületen vagy csak az egyiken"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-ukwm-windows.xml:31
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Fedett ablak előtérbe hozása, egyébként háttérbe küldése"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-ukwm-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "Ablak más ablakok elé hozása"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-ukwm-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "Ablak más ablakok mögé küldése"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-ukwm-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "Ablak függőleges maximalizálása"
 
-#: data/50-mutter-windows.xml:39
+#: data/50-ukwm-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "Ablak vízszintes maximalizálása"
 
-#: data/50-mutter-windows.xml:43
+#: data/50-ukwm-windows.xml:43
 msgid "View split on left"
 msgstr "Bal oldali felosztás megjelenítése"
 
-#: data/50-mutter-windows.xml:47
+#: data/50-ukwm-windows.xml:47
 msgid "View split on right"
 msgstr "Jobb oldali felosztás megjelenítése"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/ukwm.desktop.in:4
+msgid "Ukwm"
+msgstr "Ukwm"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "A kiterjesztett ablakkezelési műveletekhez használandó módosító"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -282,11 +282,11 @@ msgstr ""
 "alkalmazásindító rendszer. Az alapértelmezés a „Windows” billentyű PC "
 "hardver esetén. Ezt vagy az alapértelmezetten, vagy üresen kell hagyni."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Kizárólagos párbeszédablakok csatolása"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -296,11 +296,11 @@ msgstr ""
 "hanem a szülőablak címsorához csatolva jelennek meg, és a szülőablakkal "
 "együtt kerülnek mozgatásra."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Szélek csempézésének engedélyezése ablakok képernyőszélekre ejtésekor"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -311,11 +311,11 @@ msgstr ""
 "felét fogják elfoglalni. Az ablakok felső képernyőszélre ejtése teljesen "
 "maximalizálja azokat."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Munkaterületek dinamikus kezelése"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -324,11 +324,11 @@ msgstr ""
 "A munkaterületek dinamikusan vannak-e kezelve, vagy a számuk rögzített (ezt "
 "a num-workspaces kulcs adja meg az org.gnome.desktop.wm.preferences fájlban)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Munkaterületek csak az elsődlegesen"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -336,11 +336,11 @@ msgstr ""
 "A munkaterület-váltás minden monitor ablakaihoz, vagy csak az elsődleges "
 "monitor ablakaihoz történjen meg."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Nincs tab felugró"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -348,11 +348,11 @@ msgstr ""
 "Megadja, hogy a felugró ablak és a kiemelő keret letiltandó-e az ablakok "
 "közti lépkedéskor."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Fókuszváltozások késleltetése a mutató mozgásának megállásáig"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -362,11 +362,11 @@ msgstr ""
 "fókusz nem változik meg azonnal egy ablakra mutatáskor, hanem csak a mutató "
 "megállása után."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Húzható szegély szélessége"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -375,11 +375,11 @@ msgstr ""
 "elegendők, akkor láthatatlan szegélyek kerülnek hozzáadásra ezen érték "
 "eléréséhez."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Közel monitorméretű ablakok automatikus maximalizálása"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -387,11 +387,11 @@ msgstr ""
 "Ha engedélyezve van, akkor a monitor méretével egyező méretű új ablakok "
 "automatikusan maximalizálva lesznek."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Az új ablakok középre helyezése"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -399,11 +399,11 @@ msgstr ""
 "Ha igaz, az új ablakok mindig a monitor aktív képernyőjének közepére lesznek "
 "helyezve."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/org.ukui.ukwm.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Kísérleti funkciók engedélyezése"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/org.ukui.ukwm.gschema.xml.in:108
 #| msgid ""
 #| "To enable experimental features, add the feature keyword to the list. "
 #| "Whether the feature requires restarting the compositor depends on the "
@@ -413,7 +413,7 @@ msgstr "Kísérleti funkciók engedélyezése"
 #| "manager” — use the new monitor configuration system, aimed to replace the "
 #| "old one. This enables a higher level configuration API to be used by "
 #| "configuration applications, as well as the ability to configure per "
-#| "logical monitor scale. • “scale-monitor-framebuffer” — makes mutter "
+#| "logical monitor scale. • “scale-monitor-framebuffer” — makes ukwm "
 #| "default to layout logical monitors in a logical pixel coordinate space, "
 #| "while scaling monitor framebuffers instead of window content, to manage "
 #| "HiDPI monitors. Does not require a restart. Also enabling “monitor-config-"
@@ -424,7 +424,7 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"ukwm default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
 "enables remote desktop support. To support remote desktop with screen "
@@ -436,7 +436,7 @@ msgstr ""
 "függően. Egyik kísérleti funkciónál sem szükséges, hogy továbbra is elérhető "
 "vagy beállítható legyen. Ne várja el azt, hogy ha bármit hozzáad ehhez a "
 "beállításhoz, akkor az a jövőben is elérhető lesz. Jelenleg lehetséges "
-"kulcsszavak: • „scale-monitor-framebuffer” — alapértelmezetté teszi a mutter "
+"kulcsszavak: • „scale-monitor-framebuffer” — alapértelmezetté teszi a ukwm "
 "programot a logikai monitorok elrendezéséhez egy logikai "
 "képpontkoordináta-térben, miközben átméretezi a monitor keretpufferét az "
 "ablaktartalom helyett azért, hogy kezelje a HiDPI monitorokat. Nem igényel "
@@ -445,71 +445,71 @@ msgstr ""
 "funkciónak is engedélyezve kell lennie. • „screen-cast” — engedélyezi a "
 "képernyőrögzítés támogatását."
 
-#: data/org.gnome.mutter.gschema.xml.in:145
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Ablakok kiválasztása tab billentyűre felugró ablakból"
 
-#: data/org.gnome.mutter.gschema.xml.in:150
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Tab felugró kikapcsolása"
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/org.ukui.ukwm.gschema.xml.in:155
 msgid "Switch monitor configurations"
 msgstr "Monitorkonfiguráció átváltása"
 
-#: data/org.gnome.mutter.gschema.xml.in:160
+#: data/org.ukui.ukwm.gschema.xml.in:160
 msgid "Rotates the built-in monitor configuration"
 msgstr "Cserélgeti a beépített monitorkonfigurációkat"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Váltás az 1. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Váltás a 2. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Váltás a 3. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Váltás a 4. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Váltás az 5. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Váltás a 6. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Váltás a 7. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Váltás a 8. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Váltás a 9. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Váltás a 10. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Váltás a 11. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Váltás a 12. VT-re"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "Gyorsbillentyűk újraengedélyezése"
 
@@ -634,28 +634,28 @@ msgstr "_Erőltetett kilépés"
 msgid "_Wait"
 msgstr "Vá_rakozás"
 
-#: src/core/mutter.c:39
+#: src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., és mások\n"
 "Ez egy szabad szoftver; lásd a forrást a másolás feltételeiről.\n"
 "NINCS garancia; még az ELADHATÓSÁGRA vagy EGY ADOTT CÉLRA VALÓ ALKALMASSÁGRA "
 "vonatkozólag sem.\n"
 
-#: src/core/mutter.c:53
+#: src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Verzió kiírása"
 
-#: src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "Használandó Mutter bővítmény"
+#: src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "Használandó Ukwm bővítmény"
 
 #: src/core/prefs.c:1997
 #, c-format
@@ -677,8 +677,8 @@ msgid "Screen %d on display “%s” is invalid\n"
 msgstr "A(z) %d. képernyő a(z) „%s” megjelenítőn érvénytelen\n"
 
 #: src/core/util.c:120
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "A Mutter ablakkezelőt a részletes mód támogatása nélkül fordították\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "A Ukwm ablakkezelőt a részletes mód támogatása nélkül fordították\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563
 #, c-format

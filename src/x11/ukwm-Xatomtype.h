@@ -1,7 +1,7 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
 /**
- * \file mutter-Xatomtype.h  Types for communicating with X about properties
+ * \file ukwm-Xatomtype.h  Types for communicating with X about properties
  *
  * This files defines crock C structures for calling XGetWindowProperty and
  * XChangeProperty.  All fields must be longs as the semantics of property
@@ -13,6 +13,7 @@
 /***********************************************************
 
 Copyright 1987, 1998  The Open Group
+Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
 
 Permission to use, copy, modify, distribute, and sell this software and its
 documentation for any purpose is hereby granted without fee, provided that

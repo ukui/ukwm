@@ -1,11 +1,12 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X window decorations */
+/* Ukwm X window decorations */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
  * Copyright (C) 2003, 2004 Red Hat, Inc.
  * Copyright (C) 2005 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as

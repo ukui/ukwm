@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -31,7 +32,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-/* This is copied from GTK+ and modified to work with mutter's
+/* This is copied from GTK+ and modified to work with ukwm's
  * internal structures. Originating code comes from gtk/gtkaccelgroup.c
  */
 

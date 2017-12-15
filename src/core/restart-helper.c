@@ -4,14 +4,15 @@
  * SECTION:restart-helper
  * @short_description: helper program during a restart
  *
- * To smoothly restart Mutter, we want to keep the composite
+ * To smoothly restart Ukwm, we want to keep the composite
  * overlay window enabled during the restart. This is done by
  * spawning this program, which keeps a reference to the the composite
- * overlay window until Mutter picks it back up.
+ * overlay window until Ukwm picks it back up.
  */
 
 /*
  * Copyright (C) 2014 Red Hat, Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -56,13 +57,13 @@ main (int    argc,
 				    mask, &xwa);
 
   XSetSelectionOwner (display,
-		      XInternAtom (display, "_MUTTER_RESTART_HELPER", False),
+		      XInternAtom (display, "_UKWM_RESTART_HELPER", False),
 		      selection_window,
 		      CurrentTime);
 
-  /* Mutter looks for an (arbitrary) line printed to stdout to know that
+  /* Ukwm looks for an (arbitrary) line printed to stdout to know that
    * we have started and have a reference to the COW. XSync() so that
-   * everything is set on the X server before Mutter starts restarting.
+   * everything is set on the X server before Ukwm starts restarting.
    */
   XSync (display, False);
 
@@ -74,7 +75,7 @@ main (int    argc,
       XEvent xev;
 
       XNextEvent (display, &xev);
-      /* Mutter restarted and unset the selection to indicate that
+      /* Ukwm restarted and unset the selection to indicate that
        * it has a reference on the COW again */
       if (xev.xany.type == SelectionClear)
 	return 0;

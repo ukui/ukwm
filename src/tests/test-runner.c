@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Red Hat, Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -97,7 +98,7 @@ test_case_new (void)
 {
   TestCase *test = g_new0 (TestCase, 1);
 
-  test->log_handler_id = g_log_set_handler ("mutter",
+  test->log_handler_id = g_log_set_handler ("ukwm",
                                             G_LOG_LEVEL_CRITICAL | G_LOG_LEVEL_WARNING,
                                             test_case_log_func,
                                             test);
@@ -505,7 +506,7 @@ test_case_destroy (TestCase *test,
   g_hash_table_destroy (test->clients);
   g_free (test);
 
-  g_log_remove_handler ("mutter", test->log_handler_id);
+  g_log_remove_handler ("ukwm", test->log_handler_id);
 
   return TRUE;
 }
@@ -734,7 +735,7 @@ main (int argc, char **argv)
 
   if (all_tests)
     {
-      GFile *test_dir = g_file_new_for_path (MUTTER_PKGDATADIR "/tests");
+      GFile *test_dir = g_file_new_for_path (UKWM_PKGDATADIR "/tests");
 
       if (!find_metatests_in_directory (test_dir, tests, &error))
         {
@@ -758,7 +759,7 @@ main (int argc, char **argv)
       g_free (curdir);
     }
 
-  /* Then initalize mutter with a different set of arguments */
+  /* Then initalize ukwm with a different set of arguments */
 
   char *fake_args[] = { NULL, (char *)"--wayland", (char *)"--nested" };
   fake_args[0] = argv[0];
@@ -768,13 +769,13 @@ main (int argc, char **argv)
   ctx = meta_get_option_context ();
   if (!g_option_context_parse (ctx, &fake_argc, &fake_argv, &error))
     {
-      g_printerr ("mutter: %s\n", error->message);
+      g_printerr ("ukwm: %s\n", error->message);
       exit (1);
     }
   g_option_context_free (ctx);
 
   meta_plugin_manager_load ("default");
-  meta_wayland_override_display_name ("mutter-test-display");
+  meta_wayland_override_display_name ("ukwm-test-display");
 
   meta_init ();
   meta_register_with_session ();

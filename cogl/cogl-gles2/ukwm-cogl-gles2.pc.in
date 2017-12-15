@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/ukwm
+includedir=@includedir@/ukwm
+apiversion=@LIBUKWM_API_VERSION@
+requires=@COGL_PKG_REQUIRES@ ukwm-cogl-@LIBUKWM_API_VERSION@
+
+Name: Cogl
+Description: An object oriented GL/GLES Abstraction/Utility Layer
+Version: @UKWM_VERSION@
+Libs: -L${libdir} -lukwm-cogl-gles2-@LIBUKWM_API_VERSION@
+Cflags: -I${includedir}/cogl
+Requires: ${requires}

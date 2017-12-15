@@ -90,7 +90,7 @@ PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = @build@
 host_triplet = @host@
-@HAVE_INTROSPECTION_TRUE@am__append_1 = CoglPango-@LIBMUTTER_API_VERSION@.gir
+@HAVE_INTROSPECTION_TRUE@am__append_1 = CoglPango-@LIBUKWM_API_VERSION@.gir
 @HAVE_INTROSPECTION_TRUE@am__append_2 = $(gir_DATA) $(typelib_DATA)
 subdir = cogl-pango
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
@@ -109,7 +109,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(cogl_pangoheaders_HEADERS) \
 	$(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/cogl-config.h \
-	$(top_builddir)/cogl-mutter-config.h
+	$(top_builddir)/cogl-ukwm-config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
@@ -139,36 +139,36 @@ am__uninstall_files_from_dir = { \
     || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
-am__installdirs = "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" \
+am__installdirs = "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(girdir)" \
 	"$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" \
 	"$(DESTDIR)$(cogl_pangoheadersdir)"
-LTLIBRARIES = $(mutterlib_LTLIBRARIES)
+LTLIBRARIES = $(ukwmlib_LTLIBRARIES)
 am__DEPENDENCIES_1 =
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_DEPENDENCIES = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
 am__objects_1 =
-am__objects_2 = libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.lo \
-	libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.lo \
-	libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.lo \
-	libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.lo \
-	libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.lo \
+am__objects_2 = libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.lo \
+	libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.lo \
+	libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.lo \
+	libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.lo \
+	libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.lo \
 	$(am__objects_1)
 am__objects_3 = $(am__objects_1)
-am_libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+am_libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_2) $(am__objects_1) $(am__objects_3)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
-	$(am_libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_OBJECTS)
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
+	$(am_libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LINK = $(LIBTOOL) \
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LINK = $(LIBTOOL) \
 	$(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 	--mode=link $(CCLD) \
-	$(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) \
+	$(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) \
 	$(CFLAGS) \
-	$(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LDFLAGS) \
+	$(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
@@ -204,9 +204,9 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_SOURCES)
+SOURCES = $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_SOURCES)
 DIST_SOURCES =  \
-	$(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_SOURCES)
+	$(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -234,7 +234,7 @@ am__define_uniq_tagged_files = \
 ETAGS = etags
 CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in \
-	$(srcdir)/mutter-cogl-pango.pc.in $(top_srcdir)/build/depcomp
+	$(srcdir)/ukwm-cogl-pango.pc.in $(top_srcdir)/build/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 ACLOCAL = @ACLOCAL@
 AMTAR = @AMTAR@
@@ -331,7 +331,7 @@ INTROSPECTION_TYPELIBDIR = @INTROSPECTION_TYPELIBDIR@
 LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -343,7 +343,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -448,15 +448,15 @@ source_h_priv = \
 	cogl-pango-pipeline-cache.h \
 	$(NULL)
 
-mutterlibdir = $(libdir)/mutter
-mutterlib_LTLIBRARIES = libmutter-cogl-pango-@LIBMUTTER_API_VERSION@.la
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_SOURCES = $(source_c) $(source_h) $(source_h_priv)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LIBADD = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+ukwmlibdir = $(libdir)/ukwm
+ukwmlib_LTLIBRARIES = libukwm-cogl-pango-@LIBUKWM_API_VERSION@.la
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_SOURCES = $(source_c) $(source_h) $(source_h_priv)
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LIBADD = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(COGL_DEP_LIBS) $(COGL_PANGO_DEP_LIBS) $(COGL_EXTRA_LDFLAGS)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-export-dynamic \
-	-rpath $(mutterlibdir) \
+	-rpath $(ukwmlibdir) \
 	-export-symbols-regex "^cogl_pango_.*" \
 	-no-undefined \
 	-avoid-version
@@ -470,31 +470,31 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)			\
 	-I$(top_builddir)
 
-cogl_base_includedir = $(includedir)/mutter
+cogl_base_includedir = $(includedir)/ukwm
 cogl_pangoheadersdir = $(cogl_base_includedir)/cogl/cogl-pango
 cogl_pangoheaders_HEADERS = $(source_h)
-pc_files = mutter-cogl-pango-$(LIBMUTTER_API_VERSION).pc
+pc_files = ukwm-cogl-pango-$(LIBUKWM_API_VERSION).pc
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(pc_files)
 INTROSPECTION_GIRS = $(am__append_1)
 @HAVE_INTROSPECTION_TRUE@INTROSPECTION_COMPILER_ARGS = --includedir=$(top_builddir)/cogl
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = CoglPango
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_VERSION = @LIBMUTTER_API_VERSION@
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_LIBS = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la libmutter-cogl-pango-$(LIBMUTTER_API_VERSION).la
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_FILES = $(source_h) $(source_c)
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS)
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_INCLUDES = Pango-1.0 PangoCairo-1.0
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_EXPORT_PACKAGES = mutter-cogl-pango-@LIBMUTTER_API_VERSION@
-@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = \
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_NAMESPACE = CoglPango
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_VERSION = @LIBUKWM_API_VERSION@
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_LIBS = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la libukwm-cogl-pango-$(LIBUKWM_API_VERSION).la
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_FILES = $(source_h) $(source_c)
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS)
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_INCLUDES = Pango-1.0 PangoCairo-1.0
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_EXPORT_PACKAGES = ukwm-cogl-pango-@LIBUKWM_API_VERSION@
+@HAVE_INTROSPECTION_TRUE@CoglPango_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = \
 @HAVE_INTROSPECTION_TRUE@	--warn-all \
 @HAVE_INTROSPECTION_TRUE@	--identifier-prefix=CoglPango \
 @HAVE_INTROSPECTION_TRUE@	--symbol-prefix=cogl_pango \
 @HAVE_INTROSPECTION_TRUE@	--c-include='cogl-pango/cogl-pango.h' \
-@HAVE_INTROSPECTION_TRUE@	--include-uninstalled=$(top_builddir)/cogl/Cogl-@LIBMUTTER_API_VERSION@.gir
+@HAVE_INTROSPECTION_TRUE@	--include-uninstalled=$(top_builddir)/cogl/Cogl-@LIBUKWM_API_VERSION@.gir
 
-@HAVE_INTROSPECTION_TRUE@girdir = $(mutterlibdir)
+@HAVE_INTROSPECTION_TRUE@girdir = $(ukwmlibdir)
 @HAVE_INTROSPECTION_TRUE@gir_DATA = $(INTROSPECTION_GIRS)
-@HAVE_INTROSPECTION_TRUE@typelibdir = $(mutterlibdir)
+@HAVE_INTROSPECTION_TRUE@typelibdir = $(ukwmlibdir)
 @HAVE_INTROSPECTION_TRUE@typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 all: all-am
 
@@ -530,33 +530,33 @@ $(ACLOCAL_M4):  $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(am__aclocal_m4_deps):
 
-install-mutterlibLTLIBRARIES: $(mutterlib_LTLIBRARIES)
+install-ukwmlibLTLIBRARIES: $(ukwmlib_LTLIBRARIES)
 	@$(NORMAL_INSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	list2=; for p in $$list; do \
 	  if test -f $$p; then \
 	    list2="$$list2 $$p"; \
 	  else :; fi; \
 	done; \
 	test -z "$$list2" || { \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(mutterlibdir)" || exit 1; \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(mutterlibdir)"; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(ukwmlibdir)" || exit 1; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(ukwmlibdir)"; \
 	}
 
-uninstall-mutterlibLTLIBRARIES:
+uninstall-ukwmlibLTLIBRARIES:
 	@$(NORMAL_UNINSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	for p in $$list; do \
 	  $(am__strip_dir) \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(mutterlibdir)/$$f'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(mutterlibdir)/$$f"; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(ukwmlibdir)/$$f'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(ukwmlibdir)/$$f"; \
 	done
 
-clean-mutterlibLTLIBRARIES:
-	-test -z "$(mutterlib_LTLIBRARIES)" || rm -f $(mutterlib_LTLIBRARIES)
-	@list='$(mutterlib_LTLIBRARIES)'; \
+clean-ukwmlibLTLIBRARIES:
+	-test -z "$(ukwmlib_LTLIBRARIES)" || rm -f $(ukwmlib_LTLIBRARIES)
+	@list='$(ukwmlib_LTLIBRARIES)'; \
 	locs=`for p in $$list; do echo $$p; done | \
 	      sed 's|^[^/]*$$|.|; s|/[^/]*$$||; s|$$|/so_locations|' | \
 	      sort -u`; \
@@ -565,8 +565,8 @@ clean-mutterlibLTLIBRARIES:
 	  rm -f $${locs}; \
 	}
 
-libmutter-cogl-pango-@LIBMUTTER_API_VERSION@.la: $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) 
-	$(AM_V_CCLD)$(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LINK) -rpath $(mutterlibdir) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LIBADD) $(LIBS)
+libukwm-cogl-pango-@LIBUKWM_API_VERSION@.la: $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LINK) -rpath $(ukwmlibdir) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LIBADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -574,11 +574,11 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.Plo@am__quote@
 
 .c.o:
 @am__fastdepCC_TRUE@	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
@@ -604,40 +604,40 @@ distclean-compile:
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LTCOMPILE) -c -o $@ $<
 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.lo: cogl-pango-display-list.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.Tpo -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.lo `test -f 'cogl-pango-display-list.c' || echo '$(srcdir)/'`cogl-pango-display-list.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.Tpo $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-display-list.c' object='libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.lo: cogl-pango-display-list.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.Tpo -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.lo `test -f 'cogl-pango-display-list.c' || echo '$(srcdir)/'`cogl-pango-display-list.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.Tpo $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-display-list.c' object='libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-display-list.lo `test -f 'cogl-pango-display-list.c' || echo '$(srcdir)/'`cogl-pango-display-list.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-display-list.lo `test -f 'cogl-pango-display-list.c' || echo '$(srcdir)/'`cogl-pango-display-list.c
 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.lo: cogl-pango-fontmap.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.Tpo -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.lo `test -f 'cogl-pango-fontmap.c' || echo '$(srcdir)/'`cogl-pango-fontmap.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.Tpo $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-fontmap.c' object='libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.lo: cogl-pango-fontmap.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.Tpo -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.lo `test -f 'cogl-pango-fontmap.c' || echo '$(srcdir)/'`cogl-pango-fontmap.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.Tpo $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-fontmap.c' object='libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-fontmap.lo `test -f 'cogl-pango-fontmap.c' || echo '$(srcdir)/'`cogl-pango-fontmap.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-fontmap.lo `test -f 'cogl-pango-fontmap.c' || echo '$(srcdir)/'`cogl-pango-fontmap.c
 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.lo: cogl-pango-render.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.Tpo -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.lo `test -f 'cogl-pango-render.c' || echo '$(srcdir)/'`cogl-pango-render.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.Tpo $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-render.c' object='libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.lo: cogl-pango-render.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.Tpo -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.lo `test -f 'cogl-pango-render.c' || echo '$(srcdir)/'`cogl-pango-render.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.Tpo $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-render.c' object='libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-render.lo `test -f 'cogl-pango-render.c' || echo '$(srcdir)/'`cogl-pango-render.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-render.lo `test -f 'cogl-pango-render.c' || echo '$(srcdir)/'`cogl-pango-render.c
 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.lo: cogl-pango-glyph-cache.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.Tpo -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.lo `test -f 'cogl-pango-glyph-cache.c' || echo '$(srcdir)/'`cogl-pango-glyph-cache.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.Tpo $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-glyph-cache.c' object='libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.lo: cogl-pango-glyph-cache.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.Tpo -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.lo `test -f 'cogl-pango-glyph-cache.c' || echo '$(srcdir)/'`cogl-pango-glyph-cache.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.Tpo $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-glyph-cache.c' object='libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-glyph-cache.lo `test -f 'cogl-pango-glyph-cache.c' || echo '$(srcdir)/'`cogl-pango-glyph-cache.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-glyph-cache.lo `test -f 'cogl-pango-glyph-cache.c' || echo '$(srcdir)/'`cogl-pango-glyph-cache.c
 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.lo: cogl-pango-pipeline-cache.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.Tpo -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.lo `test -f 'cogl-pango-pipeline-cache.c' || echo '$(srcdir)/'`cogl-pango-pipeline-cache.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.Tpo $(DEPDIR)/libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-pipeline-cache.c' object='libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.lo: cogl-pango-pipeline-cache.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.Tpo -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.lo `test -f 'cogl-pango-pipeline-cache.c' || echo '$(srcdir)/'`cogl-pango-pipeline-cache.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.Tpo $(DEPDIR)/libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-pango-pipeline-cache.c' object='libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la-cogl-pango-pipeline-cache.lo `test -f 'cogl-pango-pipeline-cache.c' || echo '$(srcdir)/'`cogl-pango-pipeline-cache.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la-cogl-pango-pipeline-cache.lo `test -f 'cogl-pango-pipeline-cache.c' || echo '$(srcdir)/'`cogl-pango-pipeline-cache.c
 
 mostlyclean-libtool:
 	-rm -f *.lo
@@ -815,7 +815,7 @@ check-am: all-am
 check: check-am
 all-am: Makefile $(LTLIBRARIES) $(DATA) $(HEADERS)
 installdirs:
-	for dir in "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cogl_pangoheadersdir)"; do \
+	for dir in "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cogl_pangoheadersdir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: install-am
@@ -852,7 +852,7 @@ maintainer-clean-generic:
 	@echo "it deletes files that may require special tools to rebuild."
 clean: clean-am
 
-clean-am: clean-generic clean-libtool clean-mutterlibLTLIBRARIES \
+clean-am: clean-generic clean-libtool clean-ukwmlibLTLIBRARIES \
 	mostlyclean-am
 
 distclean: distclean-am
@@ -874,7 +874,7 @@ info: info-am
 info-am:
 
 install-data-am: install-cogl_pangoheadersHEADERS install-girDATA \
-	install-mutterlibLTLIBRARIES install-pkgconfigDATA \
+	install-ukwmlibLTLIBRARIES install-pkgconfigDATA \
 	install-typelibDATA
 
 install-dvi: install-dvi-am
@@ -922,20 +922,20 @@ ps: ps-am
 ps-am:
 
 uninstall-am: uninstall-cogl_pangoheadersHEADERS uninstall-girDATA \
-	uninstall-mutterlibLTLIBRARIES uninstall-pkgconfigDATA \
+	uninstall-ukwmlibLTLIBRARIES uninstall-pkgconfigDATA \
 	uninstall-typelibDATA
 
 .MAKE: install-am install-strip
 
 .PHONY: CTAGS GTAGS TAGS all all-am check check-am clean clean-generic \
-	clean-libtool clean-mutterlibLTLIBRARIES cscopelist-am ctags \
+	clean-libtool clean-ukwmlibLTLIBRARIES cscopelist-am ctags \
 	ctags-am distclean distclean-compile distclean-generic \
 	distclean-libtool distclean-tags distdir dvi dvi-am html \
 	html-am info info-am install install-am \
 	install-cogl_pangoheadersHEADERS install-data install-data-am \
 	install-dvi install-dvi-am install-exec install-exec-am \
 	install-girDATA install-html install-html-am install-info \
-	install-info-am install-man install-mutterlibLTLIBRARIES \
+	install-info-am install-man install-ukwmlibLTLIBRARIES \
 	install-pdf install-pdf-am install-pkgconfigDATA install-ps \
 	install-ps-am install-strip install-typelibDATA installcheck \
 	installcheck-am installdirs maintainer-clean \
@@ -943,7 +943,7 @@ uninstall-am: uninstall-cogl_pangoheadersHEADERS uninstall-girDATA \
 	mostlyclean-generic mostlyclean-libtool pdf pdf-am ps ps-am \
 	tags tags-am uninstall uninstall-am \
 	uninstall-cogl_pangoheadersHEADERS uninstall-girDATA \
-	uninstall-mutterlibLTLIBRARIES uninstall-pkgconfigDATA \
+	uninstall-ukwmlibLTLIBRARIES uninstall-pkgconfigDATA \
 	uninstall-typelibDATA
 
 .PRECIOUS: Makefile
@@ -951,7 +951,7 @@ uninstall-am: uninstall-cogl_pangoheadersHEADERS uninstall-girDATA \
 
 -include $(INTROSPECTION_MAKEFILE)
 
-@HAVE_INTROSPECTION_TRUE@CoglPango-@LIBMUTTER_API_VERSION@.gir: libmutter-cogl-pango-$(LIBMUTTER_API_VERSION).la Makefile
+@HAVE_INTROSPECTION_TRUE@CoglPango-@LIBUKWM_API_VERSION@.gir: libukwm-cogl-pango-$(LIBUKWM_API_VERSION).la Makefile
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

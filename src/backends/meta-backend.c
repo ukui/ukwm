@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -26,7 +27,7 @@
 
 #include <stdlib.h>
 
-#include <clutter/clutter-mutter.h>
+#include <clutter/clutter-ukwm.h>
 #include <meta/meta-backend.h>
 #include <meta/main.h>
 #include <meta/util.h>
@@ -521,7 +522,7 @@ meta_backend_real_get_relative_motion_deltas (MetaBackend *backend,
 static void
 meta_backend_class_init (MetaBackendClass *klass)
 {
-  const gchar *mutter_stage_views;
+  const gchar *ukwm_stage_views;
   GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
   object_class->finalize = meta_backend_finalize;
@@ -555,8 +556,8 @@ meta_backend_class_init (MetaBackendClass *klass)
                   NULL, NULL, NULL,
                   G_TYPE_NONE, 1, G_TYPE_INT);
 
-  mutter_stage_views = g_getenv ("MUTTER_STAGE_VIEWS");
-  stage_views_disabled = g_strcmp0 (mutter_stage_views, "0") == 0;
+  ukwm_stage_views = g_getenv ("UKWM_STAGE_VIEWS");
+  stage_views_disabled = g_strcmp0 (ukwm_stage_views, "0") == 0;
 }
 
 static void
@@ -885,7 +886,7 @@ meta_backend_update_last_device (MetaBackend *backend,
       priv->device_update_idle_id =
         g_idle_add ((GSourceFunc) update_last_device, backend);
       g_source_set_name_by_id (priv->device_update_idle_id,
-                               "[mutter] update_last_device");
+                               "[ukwm] update_last_device");
     }
 }
 
@@ -925,7 +926,7 @@ meta_backend_set_client_pointer_constraint (MetaBackend           *backend,
     priv->client_pointer_constraint = g_object_ref (constraint);
 }
 
-/* Mutter is responsible for pulling events off the X queue, so Clutter
+/* Ukwm is responsible for pulling events off the X queue, so Clutter
  * doesn't need (and shouldn't) run its normal event source which polls
  * the X fd, but we do have to deal with dispatching events that accumulate
  * in the clutter queue. This happens, for example, when clutter generate

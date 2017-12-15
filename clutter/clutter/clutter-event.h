@@ -6,6 +6,7 @@
  * Authored By Matthew Allum  <mallum@openedhand.com>
  *
  * Copyright (C) 2006 OpenedHand
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -778,7 +779,7 @@ ClutterScrollFinishFlags clutter_event_get_scroll_finish_flags       (const Clut
 CLUTTER_AVAILABLE_IN_ALL
 guint                    clutter_event_get_mode_group                (const ClutterEvent     *event);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 gboolean                 clutter_event_get_pad_event_details         (const ClutterEvent     *event,
                                                                       guint                  *number,
                                                                       guint                  *mode,

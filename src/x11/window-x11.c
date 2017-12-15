@@ -5,6 +5,7 @@
  * Copyright (C) 2002, 2003 Red Hat, Inc.
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -607,7 +608,7 @@ meta_window_x11_unmanage (MetaWindow *window)
         meta_window_x11_set_wm_state (window);
 
       /* If we're unmanaging a window that is not withdrawn, then
-       * either (a) mutter is exiting, in which case we need to map
+       * either (a) ukwm is exiting, in which case we need to map
        * the window so the next WM will know that it's not Withdrawn,
        * or (b) we want to create a new MetaWindow to replace the
        * current one, which will happen automatically if we re-map
@@ -1006,7 +1007,7 @@ send_sync_request (MetaWindow *window)
                                                    sync_request_timeout,
                                                    window);
   g_source_set_name_by_id (window->sync_request_timeout_id,
-                           "[mutter] sync_request_timeout");
+                           "[ukwm] sync_request_timeout");
 
   meta_compositor_sync_updates_frozen (window->display->compositor, window);
 }
@@ -1181,10 +1182,10 @@ meta_window_x11_move_resize_internal (MetaWindow                *window,
     need_configure_notify = TRUE;
 
   /* MapRequest events with a PPosition or UPosition hint with a frame
-   * are moved by mutter without resizing; send a configure notify
+   * are moved by ukwm without resizing; send a configure notify
    * in such cases.  See #322840.  (Note that window->constructing is
    * only true iff this call is due to a MapRequest, and when
-   * PPosition/UPosition hints aren't set, mutter seems to send a
+   * PPosition/UPosition hints aren't set, ukwm seems to send a
    * ConfigureNotify anyway due to the above code.)
    */
   if (window->constructing && window->frame &&
@@ -2827,7 +2828,7 @@ set_wm_state_on_xwindow (MetaDisplay *display,
 {
   unsigned long data[2];
 
-  /* Mutter doesn't use icon windows, so data[1] should be None
+  /* Ukwm doesn't use icon windows, so data[1] should be None
    * according to the ICCCM 2.0 Section 4.1.3.1.
    */
   data[0] = state;
@@ -2856,7 +2857,7 @@ meta_window_x11_set_wm_state (MetaWindow *window)
   set_wm_state_on_xwindow (window->display, window->xwindow, state);
 }
 
-/* The MUTTER_WM_CLASS_FILTER environment variable is designed for
+/* The UKWM_WM_CLASS_FILTER environment variable is designed for
  * performance and regression testing environments where we want to do
  * tests with only a limited set of windows and ignore all other windows
  *
@@ -2880,7 +2881,7 @@ maybe_filter_xwindow (MetaDisplay       *display,
 
   if (!initialized)
     {
-      const char *filter_string = g_getenv ("MUTTER_WM_CLASS_FILTER");
+      const char *filter_string = g_getenv ("UKWM_WM_CLASS_FILTER");
       if (filter_string)
         filter_wm_classes = g_strsplit (filter_string, ",", -1);
       initialized = TRUE;
@@ -2913,7 +2914,7 @@ maybe_filter_xwindow (MetaDisplay       *display,
     {
       /* We want to try and get the window managed by the next WM that come along,
        * so we need to make sure that windows that are requested to be mapped while
-       * Mutter is running (!must_be_viewable), or windows already viewable at startup
+       * Ukwm is running (!must_be_viewable), or windows already viewable at startup
        * get a non-withdrawn WM_STATE property. Previously unmapped windows are left
        * with whatever WM_STATE property they had.
        */
@@ -3081,7 +3082,7 @@ meta_window_x11_new (MetaDisplay       *display,
 
   /*
    * XAddToSaveSet can only be called on windows created by a different
-   * client.  with Mutter we want to be able to create manageable windows
+   * client.  with Ukwm we want to be able to create manageable windows
    * from within the process (such as a dummy desktop window). As we do not
    * want this call failing to prevent the window from being managed, we
    * call this before creating the return-checked error trap.
@@ -3353,8 +3354,8 @@ meta_window_x11_set_allowed_actions_hint (MetaWindow *window)
       data[i] = window->display->atom__NET_WM_ACTION_SHADE;
       ++i;
     }
-  /* sticky according to EWMH is different from mutter's sticky;
-   * mutter doesn't support EWMH sticky
+  /* sticky according to EWMH is different from ukwm's sticky;
+   * ukwm doesn't support EWMH sticky
    */
   if (window->has_maximize_func)
     {

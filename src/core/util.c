@@ -3,6 +3,7 @@
 /*
  * Copyright (C) 2001 Havoc Pennington
  * Copyright (C) 2005 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -63,14 +64,14 @@ static FILE* logfile = NULL;
 static void
 ensure_logfile (void)
 {
-  if (logfile == NULL && g_getenv ("MUTTER_USE_LOGFILE"))
+  if (logfile == NULL && g_getenv ("UKWM_USE_LOGFILE"))
     {
       char *filename = NULL;
       char *tmpl;
       int fd;
       GError *err;
 
-      tmpl = g_strdup_printf ("mutter-%d-debug-log-XXXXXX",
+      tmpl = g_strdup_printf ("ukwm-%d-debug-log-XXXXXX",
                               (int) getpid ());
 
       err = NULL;
@@ -117,7 +118,7 @@ meta_set_verbose (gboolean setting)
 {
 #ifndef WITH_VERBOSE_MODE
   if (setting)
-    meta_fatal (_("Mutter was compiled without support for verbose mode\n"));
+    meta_fatal (_("Ukwm was compiled without support for verbose mode\n"));
 #else
   if (setting)
     ensure_logfile ();
@@ -645,7 +646,7 @@ meta_show_dialog (const char *type,
     }
 
   append_argument (args, "--class");
-  append_argument (args, "mutter-dialog");
+  append_argument (args, "ukwm-dialog");
   append_argument (args, "--title");
   append_argument (args, "");
   append_argument (args, "--text");
@@ -921,7 +922,7 @@ meta_later_add (MetaLaterType  when,
        * there so it will happen before GTK+ repaints.
        */
       later->source = g_idle_add_full (META_PRIORITY_RESIZE, call_idle_later, later, NULL);
-      g_source_set_name_by_id (later->source, "[mutter] call_idle_later");
+      g_source_set_name_by_id (later->source, "[ukwm] call_idle_later");
       ensure_later_repaint_func ();
       break;
     case META_LATER_CALC_SHOWING:
@@ -932,7 +933,7 @@ meta_later_add (MetaLaterType  when,
       break;
     case META_LATER_IDLE:
       later->source = g_idle_add_full (G_PRIORITY_DEFAULT_IDLE, call_idle_later, later, NULL);
-      g_source_set_name_by_id (later->source, "[mutter] call_idle_later");
+      g_source_set_name_by_id (later->source, "[ukwm] call_idle_later");
       break;
     }
 

@@ -310,7 +310,7 @@ LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBINPUT_REQ_VERSION = @LIBINPUT_REQ_VERSION@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -325,7 +325,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -408,7 +408,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 common_ldadd = \
-	$(top_builddir)/clutter/libmutter-clutter-@LIBMUTTER_API_VERSION@.la
+	$(top_builddir)/clutter/libukwm-clutter-@LIBUKWM_API_VERSION@.la
 
 common_sources = \
 	cally-examples-util.c	\

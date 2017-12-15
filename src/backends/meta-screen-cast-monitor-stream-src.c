@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2017 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -29,7 +30,7 @@
 #include "backends/meta-logical-monitor.h"
 #include "backends/meta-monitor.h"
 #include "clutter/clutter.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 struct _MetaScreenCastMonitorStreamSrc
 {

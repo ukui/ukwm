@@ -2,6 +2,7 @@
  * An OpenGL based 'interactive canvas' library.
  * Authored By Matthew Allum  <mallum@openedhand.com>
  * Copyright (C) 2006-2007 OpenedHand
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -118,7 +119,7 @@ struct _ClutterBackendX11Class
   ClutterBackendClass parent_class;
 };
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 GType clutter_backend_x11_get_type (void) G_GNUC_CONST;
 
 ClutterBackend *clutter_backend_x11_new (void);

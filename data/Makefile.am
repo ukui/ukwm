@@ -1,5 +1,5 @@
 desktopfiles_in_files = \
-	mutter.desktop.in
+	ukwm.desktop.in
 desktopfilesdir = $(datadir)/applications
 desktopfiles_DATA = $(desktopfiles_in_files:.desktop.in=.desktop)
 
@@ -8,13 +8,13 @@ desktopfiles_DATA = $(desktopfiles_in_files:.desktop.in=.desktop)
 
 xmldir = $(GNOME_KEYBINDINGS_KEYSDIR)
 xml_DATA = \
-        50-mutter-navigation.xml \
-        50-mutter-system.xml \
-        50-mutter-windows.xml
+        50-ukwm-navigation.xml \
+        50-ukwm-system.xml \
+        50-ukwm-windows.xml
 
 gschema_in_files = \
-	org.gnome.mutter.gschema.xml.in	\
-	org.gnome.mutter.wayland.gschema.xml.in
+	org.ukui.ukwm.gschema.xml.in	\
+	org.ukui.ukwm.wayland.gschema.xml.in
 gsettings_SCHEMAS = $(gschema_in_files:.xml.in=.xml)
 
 %.gschema.xml: %.gschema.xml.in Makefile
@@ -24,7 +24,7 @@ gsettings_SCHEMAS = $(gschema_in_files:.xml.in=.xml)
 @GSETTINGS_RULES@
 
 convertdir = $(datadir)/GConf/gsettings
-convert_DATA = mutter-schemas.convert
+convert_DATA = ukwm-schemas.convert
 
 CLEANFILES = \
 	$(desktopfiles_DATA) \

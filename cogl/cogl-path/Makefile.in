@@ -124,7 +124,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(cogl_pathheaders_HEADERS) \
 	$(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/cogl-config.h \
-	$(top_builddir)/cogl-mutter-config.h
+	$(top_builddir)/cogl-ukwm-config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
@@ -154,49 +154,49 @@ am__uninstall_files_from_dir = { \
     || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
-am__installdirs = "$(DESTDIR)$(mutterlibdir)" \
+am__installdirs = "$(DESTDIR)$(ukwmlibdir)" \
 	"$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(cogl_pathheadersdir)" \
 	"$(DESTDIR)$(cogl_pathheadersdir)"
-LTLIBRARIES = $(mutterlib_LTLIBRARIES)
+LTLIBRARIES = $(ukwmlib_LTLIBRARIES)
 am__DEPENDENCIES_1 =
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_DEPENDENCIES = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 am__dirstamp = $(am__leading_dot)dirstamp
 am__objects_1 =
-am__objects_2 = tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo \
-	tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo \
+am__objects_2 = tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo \
+	tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo \
 	$(am__objects_1)
 am__objects_3 = $(am__objects_2) \
-	libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.lo \
+	libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.lo \
 	$(am__objects_1)
 am__objects_4 = $(am__objects_1)
 am__objects_5 = $(am__objects_4) $(am__objects_1)
-am_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+am_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_3) $(am__objects_5)
-am__objects_6 = libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.lo
+am__objects_6 = libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.lo
 am__objects_7 = $(am__objects_1) $(am__objects_6)
-nodist_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+nodist_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_7)
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
-	$(am_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS) \
-	$(nodist_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS)
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
+	$(am_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS) \
+	$(nodist_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_LINK = $(LIBTOOL) \
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_LINK = $(LIBTOOL) \
 	$(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 	--mode=link $(CCLD) \
-	$(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) \
+	$(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) \
 	$(CFLAGS) \
-	$(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_LDFLAGS) \
+	$(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
@@ -232,10 +232,10 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_SOURCES) \
-	$(nodist_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_SOURCES)
+SOURCES = $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_SOURCES) \
+	$(nodist_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_SOURCES)
 DIST_SOURCES =  \
-	$(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_SOURCES)
+	$(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -264,7 +264,7 @@ am__define_uniq_tagged_files = \
 ETAGS = etags
 CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in \
-	$(srcdir)/mutter-cogl-path.pc.in \
+	$(srcdir)/ukwm-cogl-path.pc.in \
 	$(top_srcdir)/build/autotools/Makefile.am.enums \
 	$(top_srcdir)/build/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
@@ -363,7 +363,7 @@ INTROSPECTION_TYPELIBDIR = @INTROSPECTION_TYPELIBDIR@
 LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -375,7 +375,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -520,19 +520,19 @@ glib_enum_headers = $(source_1_x_h)
 enum_tmpl_h = $(addprefix $(srcdir)/, $(glib_enum_h:.h=.h.in))
 enum_tmpl_c = $(addprefix $(srcdir)/, $(glib_enum_c:.c=.c.in))
 enum_headers = $(addprefix $(srcdir)/, $(glib_enum_headers))
-mutterlibdir = $(libdir)/mutter
-mutterlib_LTLIBRARIES = libmutter-cogl-path-@LIBMUTTER_API_VERSION@.la
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_SOURCES = $(source_c) $(source_h)
-nodist_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_SOURCES = $(BUILT_SOURCES)
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_LIBADD = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+ukwmlibdir = $(libdir)/ukwm
+ukwmlib_LTLIBRARIES = libukwm-cogl-path-@LIBUKWM_API_VERSION@.la
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_SOURCES = $(source_c) $(source_h)
+nodist_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_SOURCES = $(BUILT_SOURCES)
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_LIBADD = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(COGL_DEP_LIBS) $(COGL_EXTRA_LDFLAGS)
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-export-dynamic \
 	-export-symbols-regex "^(cogl|cogl2)_(framebuffer|path|is|clip|[sg]et)_.*" \
 	-no-undefined \
 	-avoid-version \
-	-rpath $(mutterlibdir)
+	-rpath $(ukwmlibdir)
 
 AM_CPPFLAGS = \
 	-DCOGL_COMPILATION		\
@@ -544,11 +544,11 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)			\
 	-I$(top_builddir)
 
-cogl_base_includedir = $(includedir)/mutter
+cogl_base_includedir = $(includedir)/ukwm
 cogl_pathheadersdir = $(cogl_base_includedir)/cogl/cogl-path
 cogl_pathheaders_HEADERS = $(source_h)
 nodist_cogl_pathheaders_HEADERS = cogl-path-enum-types.h
-pc_files = mutter-cogl-path-$(LIBMUTTER_API_VERSION).pc
+pc_files = ukwm-cogl-path-$(LIBUKWM_API_VERSION).pc
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(pc_files)
 all: $(BUILT_SOURCES)
@@ -587,33 +587,33 @@ $(ACLOCAL_M4):  $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 $(am__aclocal_m4_deps):
 
-install-mutterlibLTLIBRARIES: $(mutterlib_LTLIBRARIES)
+install-ukwmlibLTLIBRARIES: $(ukwmlib_LTLIBRARIES)
 	@$(NORMAL_INSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	list2=; for p in $$list; do \
 	  if test -f $$p; then \
 	    list2="$$list2 $$p"; \
 	  else :; fi; \
 	done; \
 	test -z "$$list2" || { \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(mutterlibdir)" || exit 1; \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(mutterlibdir)"; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(ukwmlibdir)" || exit 1; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(ukwmlibdir)"; \
 	}
 
-uninstall-mutterlibLTLIBRARIES:
+uninstall-ukwmlibLTLIBRARIES:
 	@$(NORMAL_UNINSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	for p in $$list; do \
 	  $(am__strip_dir) \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(mutterlibdir)/$$f'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(mutterlibdir)/$$f"; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(ukwmlibdir)/$$f'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(ukwmlibdir)/$$f"; \
 	done
 
-clean-mutterlibLTLIBRARIES:
-	-test -z "$(mutterlib_LTLIBRARIES)" || rm -f $(mutterlib_LTLIBRARIES)
-	@list='$(mutterlib_LTLIBRARIES)'; \
+clean-ukwmlibLTLIBRARIES:
+	-test -z "$(ukwmlib_LTLIBRARIES)" || rm -f $(ukwmlib_LTLIBRARIES)
+	@list='$(ukwmlib_LTLIBRARIES)'; \
 	locs=`for p in $$list; do echo $$p; done | \
 	      sed 's|^[^/]*$$|.|; s|/[^/]*$$||; s|$$|/so_locations|' | \
 	      sort -u`; \
@@ -627,36 +627,36 @@ tesselator/$(am__dirstamp):
 tesselator/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) tesselator/$(DEPDIR)
 	@: > tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo:  \
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo:  \
 	tesselator/$(am__dirstamp) \
 	tesselator/$(DEPDIR)/$(am__dirstamp)
 
-libmutter-cogl-path-@LIBMUTTER_API_VERSION@.la: $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) 
-	$(AM_V_CCLD)$(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_LINK) -rpath $(mutterlibdir) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_LIBADD) $(LIBS)
+libukwm-cogl-path-@LIBUKWM_API_VERSION@.la: $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_LINK) -rpath $(ukwmlibdir) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_LIBADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -666,17 +666,17 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.Plo@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.Plo@am__quote@
 
 .c.o:
 @am__fastdepCC_TRUE@	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
@@ -702,82 +702,82 @@ distclean-compile:
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LTCOMPILE) -c -o $@ $<
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo: tesselator/dict.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo `test -f 'tesselator/dict.c' || echo '$(srcdir)/'`tesselator/dict.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/dict.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo: tesselator/dict.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo `test -f 'tesselator/dict.c' || echo '$(srcdir)/'`tesselator/dict.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/dict.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-dict.lo `test -f 'tesselator/dict.c' || echo '$(srcdir)/'`tesselator/dict.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-dict.lo `test -f 'tesselator/dict.c' || echo '$(srcdir)/'`tesselator/dict.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo: tesselator/geom.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo `test -f 'tesselator/geom.c' || echo '$(srcdir)/'`tesselator/geom.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/geom.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo: tesselator/geom.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo `test -f 'tesselator/geom.c' || echo '$(srcdir)/'`tesselator/geom.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/geom.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-geom.lo `test -f 'tesselator/geom.c' || echo '$(srcdir)/'`tesselator/geom.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-geom.lo `test -f 'tesselator/geom.c' || echo '$(srcdir)/'`tesselator/geom.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo: tesselator/mesh.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo `test -f 'tesselator/mesh.c' || echo '$(srcdir)/'`tesselator/mesh.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/mesh.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo: tesselator/mesh.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo `test -f 'tesselator/mesh.c' || echo '$(srcdir)/'`tesselator/mesh.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/mesh.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-mesh.lo `test -f 'tesselator/mesh.c' || echo '$(srcdir)/'`tesselator/mesh.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-mesh.lo `test -f 'tesselator/mesh.c' || echo '$(srcdir)/'`tesselator/mesh.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo: tesselator/normal.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo `test -f 'tesselator/normal.c' || echo '$(srcdir)/'`tesselator/normal.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/normal.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo: tesselator/normal.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo `test -f 'tesselator/normal.c' || echo '$(srcdir)/'`tesselator/normal.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/normal.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-normal.lo `test -f 'tesselator/normal.c' || echo '$(srcdir)/'`tesselator/normal.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-normal.lo `test -f 'tesselator/normal.c' || echo '$(srcdir)/'`tesselator/normal.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo: tesselator/priorityq.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo `test -f 'tesselator/priorityq.c' || echo '$(srcdir)/'`tesselator/priorityq.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/priorityq.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo: tesselator/priorityq.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo `test -f 'tesselator/priorityq.c' || echo '$(srcdir)/'`tesselator/priorityq.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/priorityq.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-priorityq.lo `test -f 'tesselator/priorityq.c' || echo '$(srcdir)/'`tesselator/priorityq.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-priorityq.lo `test -f 'tesselator/priorityq.c' || echo '$(srcdir)/'`tesselator/priorityq.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo: tesselator/render.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo `test -f 'tesselator/render.c' || echo '$(srcdir)/'`tesselator/render.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/render.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo: tesselator/render.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo `test -f 'tesselator/render.c' || echo '$(srcdir)/'`tesselator/render.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/render.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-render.lo `test -f 'tesselator/render.c' || echo '$(srcdir)/'`tesselator/render.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-render.lo `test -f 'tesselator/render.c' || echo '$(srcdir)/'`tesselator/render.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo: tesselator/sweep.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo `test -f 'tesselator/sweep.c' || echo '$(srcdir)/'`tesselator/sweep.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/sweep.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo: tesselator/sweep.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo `test -f 'tesselator/sweep.c' || echo '$(srcdir)/'`tesselator/sweep.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/sweep.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-sweep.lo `test -f 'tesselator/sweep.c' || echo '$(srcdir)/'`tesselator/sweep.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-sweep.lo `test -f 'tesselator/sweep.c' || echo '$(srcdir)/'`tesselator/sweep.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo: tesselator/tess.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo `test -f 'tesselator/tess.c' || echo '$(srcdir)/'`tesselator/tess.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/tess.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo: tesselator/tess.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo `test -f 'tesselator/tess.c' || echo '$(srcdir)/'`tesselator/tess.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/tess.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tess.lo `test -f 'tesselator/tess.c' || echo '$(srcdir)/'`tesselator/tess.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tess.lo `test -f 'tesselator/tess.c' || echo '$(srcdir)/'`tesselator/tess.c
 
-tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo: tesselator/tessmono.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo -MD -MP -MF tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.Tpo -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo `test -f 'tesselator/tessmono.c' || echo '$(srcdir)/'`tesselator/tessmono.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.Tpo tesselator/$(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/tessmono.c' object='tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo' libtool=yes @AMDEPBACKSLASH@
+tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo: tesselator/tessmono.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo -MD -MP -MF tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.Tpo -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo `test -f 'tesselator/tessmono.c' || echo '$(srcdir)/'`tesselator/tessmono.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.Tpo tesselator/$(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='tesselator/tessmono.c' object='tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-tessmono.lo `test -f 'tesselator/tessmono.c' || echo '$(srcdir)/'`tesselator/tessmono.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o tesselator/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-tessmono.lo `test -f 'tesselator/tessmono.c' || echo '$(srcdir)/'`tesselator/tessmono.c
 
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.lo: cogl-path.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.Tpo -c -o libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.lo `test -f 'cogl-path.c' || echo '$(srcdir)/'`cogl-path.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.Tpo $(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-path.c' object='libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.lo: cogl-path.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.Tpo -c -o libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.lo `test -f 'cogl-path.c' || echo '$(srcdir)/'`cogl-path.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.Tpo $(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-path.c' object='libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path.lo `test -f 'cogl-path.c' || echo '$(srcdir)/'`cogl-path.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path.lo `test -f 'cogl-path.c' || echo '$(srcdir)/'`cogl-path.c
 
-libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.lo: cogl-path-enum-types.c
-@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.lo -MD -MP -MF $(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.Tpo -c -o libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.lo `test -f 'cogl-path-enum-types.c' || echo '$(srcdir)/'`cogl-path-enum-types.c
-@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.Tpo $(DEPDIR)/libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.Plo
-@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-path-enum-types.c' object='libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.lo' libtool=yes @AMDEPBACKSLASH@
+libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.lo: cogl-path-enum-types.c
+@am__fastdepCC_TRUE@	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -MT libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.lo -MD -MP -MF $(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.Tpo -c -o libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.lo `test -f 'cogl-path-enum-types.c' || echo '$(srcdir)/'`cogl-path-enum-types.c
+@am__fastdepCC_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.Tpo $(DEPDIR)/libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.Plo
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	$(AM_V_CC)source='cogl-path-enum-types.c' object='libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.lo' libtool=yes @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libmutter_cogl_path_@LIBMUTTER_API_VERSION@_la-cogl-path-enum-types.lo `test -f 'cogl-path-enum-types.c' || echo '$(srcdir)/'`cogl-path-enum-types.c
+@am__fastdepCC_FALSE@	$(AM_V_CC@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libukwm_cogl_path_@LIBUKWM_API_VERSION@_la_CFLAGS) $(CFLAGS) -c -o libukwm_cogl_path_@LIBUKWM_API_VERSION@_la-cogl-path-enum-types.lo `test -f 'cogl-path-enum-types.c' || echo '$(srcdir)/'`cogl-path-enum-types.c
 
 mostlyclean-libtool:
 	-rm -f *.lo
@@ -936,7 +936,7 @@ check: $(BUILT_SOURCES)
 	$(MAKE) $(AM_MAKEFLAGS) check-am
 all-am: Makefile $(LTLIBRARIES) $(DATA) $(HEADERS)
 installdirs:
-	for dir in "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(cogl_pathheadersdir)" "$(DESTDIR)$(cogl_pathheadersdir)"; do \
+	for dir in "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(cogl_pathheadersdir)" "$(DESTDIR)$(cogl_pathheadersdir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: $(BUILT_SOURCES)
@@ -977,7 +977,7 @@ maintainer-clean-generic:
 	-test -z "$(BUILT_SOURCES)" || rm -f $(BUILT_SOURCES)
 clean: clean-am
 
-clean-am: clean-generic clean-libtool clean-mutterlibLTLIBRARIES \
+clean-am: clean-generic clean-libtool clean-ukwmlibLTLIBRARIES \
 	mostlyclean-am
 
 distclean: distclean-am
@@ -999,7 +999,7 @@ info: info-am
 info-am:
 
 install-data-am: install-cogl_pathheadersHEADERS \
-	install-mutterlibLTLIBRARIES \
+	install-ukwmlibLTLIBRARIES \
 	install-nodist_cogl_pathheadersHEADERS install-pkgconfigDATA
 
 install-dvi: install-dvi-am
@@ -1047,21 +1047,21 @@ ps: ps-am
 ps-am:
 
 uninstall-am: uninstall-cogl_pathheadersHEADERS \
-	uninstall-mutterlibLTLIBRARIES \
+	uninstall-ukwmlibLTLIBRARIES \
 	uninstall-nodist_cogl_pathheadersHEADERS \
 	uninstall-pkgconfigDATA
 
 .MAKE: all check install install-am install-strip
 
 .PHONY: CTAGS GTAGS TAGS all all-am check check-am clean clean-generic \
-	clean-libtool clean-mutterlibLTLIBRARIES cscopelist-am ctags \
+	clean-libtool clean-ukwmlibLTLIBRARIES cscopelist-am ctags \
 	ctags-am distclean distclean-compile distclean-generic \
 	distclean-libtool distclean-tags distdir dvi dvi-am html \
 	html-am info info-am install install-am \
 	install-cogl_pathheadersHEADERS install-data install-data-am \
 	install-dvi install-dvi-am install-exec install-exec-am \
 	install-html install-html-am install-info install-info-am \
-	install-man install-mutterlibLTLIBRARIES \
+	install-man install-ukwmlibLTLIBRARIES \
 	install-nodist_cogl_pathheadersHEADERS install-pdf \
 	install-pdf-am install-pkgconfigDATA install-ps install-ps-am \
 	install-strip installcheck installcheck-am installdirs \
@@ -1069,7 +1069,7 @@ uninstall-am: uninstall-cogl_pathheadersHEADERS \
 	mostlyclean-compile mostlyclean-generic mostlyclean-libtool \
 	pdf pdf-am ps ps-am tags tags-am uninstall uninstall-am \
 	uninstall-cogl_pathheadersHEADERS \
-	uninstall-mutterlibLTLIBRARIES \
+	uninstall-ukwmlibLTLIBRARIES \
 	uninstall-nodist_cogl_pathheadersHEADERS \
 	uninstall-pkgconfigDATA
 

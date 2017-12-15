@@ -4,6 +4,7 @@
  * A Low Level GPU Graphics and Utilities API
  *
  * Copyright (C) 2012 Intel Corporation.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -28,7 +29,7 @@
  *
  */
 
-#if !defined(COGL_COMPILATION) && !defined(COGL_ENABLE_MUTTER_API)
+#if !defined(COGL_COMPILATION) && !defined(COGL_ENABLE_UKWM_API)
 #error "cogl-gl-header.h should only be included when compiling Cogl"
 #endif
 

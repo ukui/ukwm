@@ -7,8 +7,6 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=mutter&keywords=I18N"
-"+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-02 10:05+0000\n"
 "PO-Revision-Date: 2017-08-20 14:45+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
@@ -20,369 +18,369 @@ msgstr ""
 "X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=2; plural=n !=1;\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-ukwm-navigation.xml:6
 msgid "Navigation"
 msgstr "नेभिगेशन"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-ukwm-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र १ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-ukwm-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र २ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-ukwm-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र ३ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-ukwm-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र ४ मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-ukwm-navigation.xml:21
 #, fuzzy
 #| msgid "Move window to workspace 1"
 msgid "Move window to last workspace"
 msgstr "सञ्झ्याललाई कार्यक्षेत्र १० मा सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-ukwm-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र बायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-ukwm-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र दायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-ukwm-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र माथि सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-ukwm-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र तल सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-ukwm-navigation.xml:36
 #, fuzzy
 #| msgid "Move window one workspace to the left"
 msgid "Move window one monitor to the left"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र बायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-ukwm-navigation.xml:39
 #, fuzzy
 #| msgid "Move window one workspace to the right"
 msgid "Move window one monitor to the right"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र दायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:42
+#: data/50-ukwm-navigation.xml:42
 #, fuzzy
 #| msgid "Move window one workspace up"
 msgid "Move window one monitor up"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र माथि सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:45
+#: data/50-ukwm-navigation.xml:45
 #, fuzzy
 #| msgid "Move window one workspace down"
 msgid "Move window one monitor down"
 msgstr "सञ्झ्याललाई एक कार्यक्षेत्र तल सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:49
+#: data/50-ukwm-navigation.xml:49
 #, fuzzy
 msgid "Switch applications"
 msgstr "स्विच"
 
-#: data/50-mutter-navigation.xml:54
+#: data/50-ukwm-navigation.xml:54
 #, fuzzy
 msgid "Switch to previous application"
 msgstr "अघिल्लो निर्गत श्रोतमा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:58
+#: data/50-ukwm-navigation.xml:58
 #, fuzzy
 msgid "Switch windows"
 msgstr "सञ्झ्यालहरू बीचमा स्विच गर्ने उपकरण"
 
-#: data/50-mutter-navigation.xml:63
+#: data/50-ukwm-navigation.xml:63
 #, fuzzy
 msgid "Switch to previous window"
 msgstr "सबै भ्यूपोर्टमा भएकामध्ये खुलिरहेको अघिल्लो विन्डोमा जान्छ ।"
 
-#: data/50-mutter-navigation.xml:67
+#: data/50-ukwm-navigation.xml:67
 #, fuzzy
 #| msgid "Move between windows of an application with popup"
 msgid "Switch windows of an application"
 msgstr "सञ्झ्यालहरू बीचमा स्विच गर्ने उपकरण"
 
-#: data/50-mutter-navigation.xml:72
+#: data/50-ukwm-navigation.xml:72
 #, fuzzy
 #| msgid "Move between windows of an application with popup"
 msgid "Switch to previous window of an application"
 msgstr "अघिल्लो कागजात सञ्झ्याललाई स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:76
+#: data/50-ukwm-navigation.xml:76
 #, fuzzy
 msgid "Switch system controls"
 msgstr "नियन्त्रणहरू"
 
-#: data/50-mutter-navigation.xml:81
+#: data/50-ukwm-navigation.xml:81
 #, fuzzy
 msgid "Switch to previous system control"
 msgstr "अघिल्लो श्रोतमा जाने"
 
-#: data/50-mutter-navigation.xml:85
+#: data/50-ukwm-navigation.xml:85
 #, fuzzy
 msgid "Switch windows directly"
 msgstr "दृश्यात्मक सञ्झ्यालहरू बीचमा स्विच गर्ने उपकरण"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-ukwm-navigation.xml:90
 #, fuzzy
 msgid "Switch directly to previous window"
 msgstr "अघिल्लो कागजात सञ्झ्याललाई स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:94
+#: data/50-ukwm-navigation.xml:94
 #, fuzzy
 #| msgid "Move between windows of an application immediately"
 msgid "Switch windows of an app directly"
 msgstr "सञ्झ्यालहरू बीचमा स्विच गर्ने उपकरण"
 
-#: data/50-mutter-navigation.xml:99
+#: data/50-ukwm-navigation.xml:99
 #, fuzzy
 msgid "Switch directly to previous window of an app"
 msgstr "अघिल्लो कागजात सञ्झ्याललाई स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:103
+#: data/50-ukwm-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr ""
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-ukwm-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr ""
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-ukwm-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "सामान्य सन्ज्यालहरु सबै लुकाउनुहोस्"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-ukwm-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "कार्यक्षेत्र १ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-ukwm-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "कार्यक्षेत्र २ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-ukwm-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "कार्यक्षेत्र ३ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-ukwm-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "कार्यक्षेत्र ४ मा स्विच गर्नुहोस्"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-ukwm-navigation.xml:126
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to last workspace"
 msgstr "बाया कार्यक्षेत्र मा स्विच गर्नुहोस"
 
-#: data/50-mutter-navigation.xml:129
+#: data/50-ukwm-navigation.xml:129
 #, fuzzy
 #| msgid "Move to Workspace _Left"
 msgid "Move to workspace left"
 msgstr "कार्यक्षेत्र बायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:132
+#: data/50-ukwm-navigation.xml:132
 #, fuzzy
 #| msgid "Move to Workspace R_ight"
 msgid "Move to workspace right"
 msgstr "कार्यक्षेत्र दायाँ सार्नुहोस्"
 
-#: data/50-mutter-navigation.xml:135
+#: data/50-ukwm-navigation.xml:135
 #, fuzzy
 #| msgid "Move to Workspace _Left"
 msgid "Move to workspace above"
 msgstr "माथिल्लो  कार्यक्षेत्र मा स्विच गर्नुहोस"
 
-#: data/50-mutter-navigation.xml:138
+#: data/50-ukwm-navigation.xml:138
 #, fuzzy
 #| msgid "Move to Workspace _Down"
 msgid "Move to workspace below"
 msgstr "तल्लो  कार्यक्षेत्र मा स्विच गर्नुहोस"
 
-#: data/50-mutter-system.xml:6
+#: data/50-ukwm-system.xml:6
 msgid "System"
 msgstr "प्रणाली"
 
-#: data/50-mutter-system.xml:8
+#: data/50-ukwm-system.xml:8
 #, fuzzy
 msgid "Show the run command prompt"
 msgstr "सहयोगका लागि, %s चलाउनुहोस् र प्रोम्पटमा `सहायता' टाइप गर्नुहोस्"
 
-#: data/50-mutter-system.xml:10
+#: data/50-ukwm-system.xml:10
 #, fuzzy
 msgid "Show the activities overview"
 msgstr "ओेभर्भीयु  देखाउनुहोस्"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-ukwm-windows.xml:6
 msgid "Windows"
 msgstr "विन्डोहरू"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-ukwm-windows.xml:8
 msgid "Activate the window menu"
 msgstr "संज्यालको मेनु सक्रिय गर्ने"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-ukwm-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "पूरा पर्दा मोड टगल गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-ukwm-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "बढाइएको स्थितिलाई टगल गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-ukwm-windows.xml:14
 msgid "Maximize window"
 msgstr "सञ्झ्याल बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-ukwm-windows.xml:16
 #, fuzzy
 #| msgid "Resize window"
 msgid "Restore window"
 msgstr "पूर्वावस्थामा ल्याउनुहोस्"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-ukwm-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "छायाँ पारिएको वस्तुस्थिति टगल गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-ukwm-windows.xml:20
 msgid "Close window"
 msgstr "सञ्झ्याल बन्द गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-ukwm-windows.xml:22
 #, fuzzy
 #| msgid "Resize window"
 msgid "Hide window"
 msgstr "सञ्झ्याल लुकाउनुहोस्"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-ukwm-windows.xml:24
 msgid "Move window"
 msgstr "सञ्झ्याल सार्नुहोस्"
 
-#: data/50-mutter-windows.xml:26
+#: data/50-ukwm-windows.xml:26
 msgid "Resize window"
 msgstr "सञ्झ्याललाई रिसाइज गर्नुहोस्"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-ukwm-windows.xml:29
 #, fuzzy
 #| msgid "Toggle window on all workspaces"
 msgid "Toggle window on all workspaces or one"
 msgstr "सञ्झ्याललाई सबै कार्यस्थानमा देखिने बनाउनुहोस्"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-ukwm-windows.xml:31
 #, fuzzy
 #| msgid "Raise obscured window, otherwise lower"
 msgid "Raise window if covered, otherwise lower it"
 msgstr "अदृश्य सञ्झ्याल बढाउनुहोस्, अन्यथा घटाउनुहोस्"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-ukwm-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "सञ्झ्याललाई अन्य सञ्झ्याल माथि बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-ukwm-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "अन्य सञ्झ्याल तल सञ्झ्याल झार्नुहोस्"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-ukwm-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "ठाडो रूपमा सञ्झ्याल बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:39
+#: data/50-ukwm-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "तेर्सो रूपमा सञ्झ्याल बढाउनुहोस्"
 
-#: data/50-mutter-windows.xml:43
+#: data/50-ukwm-windows.xml:43
 #, fuzzy
 msgid "View split on left"
 msgstr "स्प्लिट"
 
-#: data/50-mutter-windows.xml:47
+#: data/50-ukwm-windows.xml:47
 #, fuzzy
 msgid "View split on right"
 msgstr "स्प्लिट"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
+#: data/ukwm.desktop.in:4
+msgid "Ukwm"
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/org.ukui.ukwm.gschema.xml.in:7
 #, fuzzy
 #| msgid "Modifier to use for modified window click actions"
 msgid "Modifier to use for extended window management operations"
 msgstr "परिमार्जित सञ्झ्याल क्लिक कार्य परिमार्जन गर्नका लागि प्रयोग गरिने परिमार्जक"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview and application "
 "launching system. The default is intended to be the “Windows key” on PC hardware. It’s expected "
 "that this binding either the default or set to the empty string."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/org.ukui.ukwm.gschema.xml.in:20
 #, fuzzy
 msgid "Attach modal dialogs"
 msgstr "संवादहरू"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear attached to the "
 "titlebar of the parent window and are moved together with the parent window."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them vertically and resizes them "
 "horizontally to cover half of the available area. Dropping windows on the top screen edge "
 "maximizes them completely."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/org.ukui.ukwm.gschema.xml.in:40
 #, fuzzy
 msgid "Workspaces are managed dynamically"
 msgstr "यो यन्त्र रङ व्यवस्थित छैन।"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a static number of "
 "workspaces (determined by the num-workspaces key in org.gnome.desktop.wm.preferences)."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/org.ukui.ukwm.gschema.xml.in:50
 #, fuzzy
 msgid "Workspaces only on primary"
 msgstr "कार्यस्थानहरु"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all monitors or only for "
 "windows on the primary monitor."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/org.ukui.ukwm.gschema.xml.in:59
 #, fuzzy
 msgid "No tab popup"
 msgstr "पपअप पुरा गर्ने"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled for window cycling."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/org.ukui.ukwm.gschema.xml.in:69
 #, fuzzy
 #| msgid ""
 #| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then the focused window "
@@ -396,42 +394,42 @@ msgstr ""
 "कुञ्जीद्वारा निर्दिष्ट गरिएको विलम्ब पछि स्वचालित रूपमा बढ्दछ । यसलाई बढाउनु न सञ्झ्यालमा क्लिक गर्नुसँग सम्बन्धित "
 "छैन, त्यस्तै तान्ने र छोड्ने गर्दा सञ्झ्यालमा प्रविष्टि गर्नुसँग पनि सम्बन्धित छैन ।"
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/org.ukui.ukwm.gschema.xml.in:79
 #, fuzzy
 msgid "Draggable border width"
 msgstr "सीमाना चौडाई"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are not enough, invisible "
 "borders will be added to meet this value."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor automatically get maximized."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/org.ukui.ukwm.gschema.xml.in:98
 #, fuzzy
 msgid "Place new windows in the center"
 msgstr "नयाँ कल राख्नुहोस्"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active screen of the monitor."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/org.ukui.ukwm.gschema.xml.in:107
 #, fuzzy
 msgid "Enable experimental features"
 msgstr "माउस पहुँच सुविधाहरू सक्षम  पार्न सकिएन"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/org.ukui.ukwm.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. Whether the feature "
 "requires restarting the compositor depends on the given feature. Any experimental feature is not "
@@ -439,82 +437,82 @@ msgid ""
 "be future proof. Currently possible keywords: • “monitor-config-manager” — use the new monitor "
 "configuration system, aimed to replace the old one. This enables a higher level configuration "
 "API to be used by configuration applications, as well as the ability to configure per logical "
-"monitor scale. • “scale-monitor-framebuffer” — makes mutter default to layout logical monitors "
+"monitor scale. • “scale-monitor-framebuffer” — makes ukwm default to layout logical monitors "
 "in a logical pixel coordinate space, while scaling monitor framebuffers instead of window "
 "content, to manage HiDPI monitors. Does not require a restart. Also enabling “monitor-config-"
 "manager” is required for this feature to be enabled."
 msgstr ""
 
-#: data/org.gnome.mutter.gschema.xml.in:151
+#: data/org.ukui.ukwm.gschema.xml.in:151
 #, fuzzy
 #| msgid "Move between windows with popup"
 msgid "Select window from tab popup"
 msgstr "पपअप भएको सञ्झ्याल बीचमा सार्नुहोस्"
 
-#: data/org.gnome.mutter.gschema.xml.in:156
+#: data/org.ukui.ukwm.gschema.xml.in:156
 #, fuzzy
 msgid "Cancel tab popup"
 msgstr "रद्द गर्नुहोस्"
 
-#: data/org.gnome.mutter.gschema.xml.in:161
+#: data/org.ukui.ukwm.gschema.xml.in:161
 #, fuzzy
 msgid "Switch monitor configurations"
 msgstr "मनिटरको कन्फिगरेसन बदल्न सकिएन"
 
-#: data/org.gnome.mutter.gschema.xml.in:166
+#: data/org.ukui.ukwm.gschema.xml.in:166
 #, fuzzy
 msgid "Rotates the built-in monitor configuration"
 msgstr "मनिटरको कन्फिगरेसन बदल्न सकिएन"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "कार्यक्षेत्र १ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "कार्यक्षेत्र २ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "कार्यक्षेत्र ३ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "कार्यक्षेत्र ४ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "कार्यक्षेत्र ५ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "कार्यक्षेत्र ६ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "कार्यक्षेत्र ७ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "कार्यक्षेत्र ८ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "कार्यक्षेत्र ९ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "कार्यक्षेत्र १० मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "कार्यक्षेत्र ११ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "कार्यक्षेत्र १२ मा स्विच गर्नुहोस्"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "सर्टकट सक्षम गर्नुहोस्"
 
@@ -646,7 +644,7 @@ msgstr "अन्त्य गर्न दवाब दिनुहोस्"
 msgid "_Wait"
 msgstr "प्रतिक्षा गर्नुहोस्"
 
-#: src/core/mutter.c:39
+#: src/core/ukwm.c:39
 #, fuzzy, c-format
 #| msgid ""
 #| "metacity %s\n"
@@ -654,7 +652,7 @@ msgstr "प्रतिक्षा गर्नुहोस्"
 #| "This is free software; see the source for copying conditions.\n"
 #| "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
@@ -664,13 +662,13 @@ msgstr ""
 "यो नि:शुल्क सफ्टवेयर हो; प्रतिलिपि सर्तका लागि स्रोत हेर्नुहोस् ।\n"
 "वारेन्टी छैन; ब्यापारीकरण गरिएको छैन वा निश्चित उद्देश्यको लागि मिलाइएको पनि छैन ।\n"
 
-#: src/core/mutter.c:53
+#: src/core/ukwm.c:53
 msgid "Print version"
 msgstr "मुद्रण संस्करण"
 
-#: src/core/mutter.c:59
+#: src/core/ukwm.c:59
 #, fuzzy
-msgid "Mutter plugin to use"
+msgid "Ukwm plugin to use"
 msgstr "प्लगइन निश्चित गर्नका लागि प्रयोग गरिने प्लगइन प्रवन्धक"
 
 #: src/core/prefs.c:1997
@@ -699,7 +697,7 @@ msgstr "पर्दा %d को प्रदर्शन '%s' अमान्�
 #: src/core/util.c:120
 #, fuzzy
 #| msgid "Metacity was compiled without support for verbose mode\n"
-msgid "Mutter was compiled without support for verbose mode\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "भर्बोज मोडलाई सहयोग बिनानै मेटासिटि सङ्ग्रह गरियो\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563

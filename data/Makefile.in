@@ -219,7 +219,7 @@ LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBICONV = @LIBICONV@
 LIBINTL = @LIBINTL@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -236,18 +236,18 @@ MKDIR_P = @MKDIR_P@
 MSGFMT = @MSGFMT@
 MSGFMT_015 = @MSGFMT_015@
 MSGMERGE = @MSGMERGE@
-MUTTER_CFLAGS = @MUTTER_CFLAGS@
-MUTTER_LIBS = @MUTTER_LIBS@
-MUTTER_MAJOR_VERSION = @MUTTER_MAJOR_VERSION@
-MUTTER_MICRO_VERSION = @MUTTER_MICRO_VERSION@
-MUTTER_MINOR_VERSION = @MUTTER_MINOR_VERSION@
-MUTTER_NATIVE_BACKEND_CFLAGS = @MUTTER_NATIVE_BACKEND_CFLAGS@
-MUTTER_NATIVE_BACKEND_LIBS = @MUTTER_NATIVE_BACKEND_LIBS@
-MUTTER_PLUGIN_API_VERSION = @MUTTER_PLUGIN_API_VERSION@
-MUTTER_PLUGIN_DIR = @MUTTER_PLUGIN_DIR@
-MUTTER_VERSION = @MUTTER_VERSION@
-MUTTER_WAYLAND_CFLAGS = @MUTTER_WAYLAND_CFLAGS@
-MUTTER_WAYLAND_LIBS = @MUTTER_WAYLAND_LIBS@
+UKWM_CFLAGS = @UKWM_CFLAGS@
+UKWM_LIBS = @UKWM_LIBS@
+UKWM_MAJOR_VERSION = @UKWM_MAJOR_VERSION@
+UKWM_MICRO_VERSION = @UKWM_MICRO_VERSION@
+UKWM_MINOR_VERSION = @UKWM_MINOR_VERSION@
+UKWM_NATIVE_BACKEND_CFLAGS = @UKWM_NATIVE_BACKEND_CFLAGS@
+UKWM_NATIVE_BACKEND_LIBS = @UKWM_NATIVE_BACKEND_LIBS@
+UKWM_PLUGIN_API_VERSION = @UKWM_PLUGIN_API_VERSION@
+UKWM_PLUGIN_DIR = @UKWM_PLUGIN_DIR@
+UKWM_VERSION = @UKWM_VERSION@
+UKWM_WAYLAND_CFLAGS = @UKWM_WAYLAND_CFLAGS@
+UKWM_WAYLAND_LIBS = @UKWM_WAYLAND_LIBS@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -342,23 +342,23 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 desktopfiles_in_files = \
-	mutter.desktop.in
+	ukwm.desktop.in
 
 desktopfilesdir = $(datadir)/applications
 desktopfiles_DATA = $(desktopfiles_in_files:.desktop.in=.desktop)
 xmldir = $(GNOME_KEYBINDINGS_KEYSDIR)
 xml_DATA = \
-        50-mutter-navigation.xml \
-        50-mutter-system.xml \
-        50-mutter-windows.xml
+        50-ukwm-navigation.xml \
+        50-ukwm-system.xml \
+        50-ukwm-windows.xml
 
 gschema_in_files = \
-	org.gnome.mutter.gschema.xml.in	\
-	org.gnome.mutter.wayland.gschema.xml.in
+	org.ukui.ukwm.gschema.xml.in	\
+	org.ukui.ukwm.wayland.gschema.xml.in
 
 gsettings_SCHEMAS = $(gschema_in_files:.xml.in=.xml)
 convertdir = $(datadir)/GConf/gsettings
-convert_DATA = mutter-schemas.convert
+convert_DATA = ukwm-schemas.convert
 CLEANFILES = \
 	$(desktopfiles_DATA) \
 	$(gsettings_SCHEMAS)

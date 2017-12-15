@@ -2,6 +2,7 @@
 
 /*
  * Copyright 2013 Red Hat, Inc.
+ * Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -75,7 +76,7 @@ dbus_idle_callback (MetaIdleMonitor *monitor,
   g_dbus_connection_emit_signal (g_dbus_interface_skeleton_get_connection (skeleton),
                                  watch->dbus_name,
                                  g_dbus_interface_skeleton_get_object_path (skeleton),
-                                 "org.gnome.Mutter.IdleMonitor",
+                                 "org.ukui.ukwm.IdleMonitor",
                                  "WatchFired",
                                  g_variant_new ("(u)", watch_id),
                                  NULL);
@@ -197,7 +198,7 @@ on_device_added (ClutterDeviceManager     *device_manager,
 
   device_id = clutter_input_device_get_device_id (device);
   monitor = meta_idle_monitor_get_for_device (device_id);
-  path = g_strdup_printf ("/org/gnome/Mutter/IdleMonitor/Device%d", device_id);
+  path = g_strdup_printf ("/org/ukui/ukwm/IdleMonitor/Device%d", device_id);
 
   create_monitor_skeleton (manager, monitor, path);
   g_free (path);
@@ -212,7 +213,7 @@ on_device_removed (ClutterDeviceManager     *device_manager,
   char *path;
 
   device_id = clutter_input_device_get_device_id (device);
-  path = g_strdup_printf ("/org/gnome/Mutter/IdleMonitor/Device%d", device_id);
+  path = g_strdup_printf ("/org/ukui/ukwm/IdleMonitor/Device%d", device_id);
   g_dbus_object_manager_server_unexport (manager, path);
   g_free (path);
 }
@@ -228,12 +229,12 @@ on_bus_acquired (GDBusConnection *connection,
   GSList *devices, *iter;
   char *path;
 
-  manager = g_dbus_object_manager_server_new ("/org/gnome/Mutter/IdleMonitor");
+  manager = g_dbus_object_manager_server_new ("/org/ukui/ukwm/IdleMonitor");
 
   /* We never clear the core monitor, as that's supposed to cumulate idle times from
      all devices */
   monitor = meta_idle_monitor_get_core ();
-  path = g_strdup ("/org/gnome/Mutter/IdleMonitor/Core");
+  path = g_strdup ("/org/ukui/ukwm/IdleMonitor/Core");
   create_monitor_skeleton (manager, monitor, path);
   g_free (path);
 
@@ -278,7 +279,7 @@ meta_idle_monitor_init_dbus (void)
     return;
 
   dbus_name_id = g_bus_own_name (G_BUS_TYPE_SESSION,
-                                 "org.gnome.Mutter.IdleMonitor",
+                                 "org.ukui.ukwm.IdleMonitor",
                                  G_BUS_NAME_OWNER_FLAGS_ALLOW_REPLACEMENT |
                                  (meta_get_replace_current_wm () ?
                                   G_BUS_NAME_OWNER_FLAGS_REPLACE : 0),

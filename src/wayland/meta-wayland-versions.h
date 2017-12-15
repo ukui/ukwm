@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2012,2013 Intel Corporation
  *               2013 Red Hat, Inc.
+ *               2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -28,7 +29,7 @@
 /* #define META_WL_REGISTRY_VERSION 1 */
 #define META_WL_CALLBACK_VERSION 1
 
-/* Not handled by mutter-wayland directly */
+/* Not handled by ukwm-wayland directly */
 /* #define META_WL_SHM_VERSION        1 */
 /* #define META_WL_SHM_POOL_VERSION   1 */
 /* #define META_WL_DRM_VERSION        1 */

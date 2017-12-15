@@ -5,6 +5,7 @@
  * Copyright (C) 2002, 2003, 2004 Red Hat, Inc.
  * Copyright (C) 2003, 2004 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -23,7 +24,7 @@
 /**
  * SECTION:display
  * @title: MetaDisplay
- * @short_description: Mutter X display handler
+ * @short_description: Ukwm X display handler
  *
  * The display is represented as a #MetaDisplay struct.
  */
@@ -44,7 +45,7 @@
 #include "workspace-private.h"
 #include "bell.h"
 #include <meta/compositor.h>
-#include <meta/compositor-mutter.h>
+#include <meta/compositor-ukwm.h>
 #include <X11/Xatom.h>
 #include <meta/meta-enum-types.h>
 #include "meta-idle-monitor-dbus.h"
@@ -153,8 +154,8 @@ static guint display_signals [LAST_SIGNAL] = { 0 };
 static MetaDisplay *the_display = NULL;
 
 
-static const char *gnome_wm_keybindings = "Mutter";
-static const char *net_wm_name = "Mutter";
+static const char *gnome_wm_keybindings = "Ukwm";
+static const char *net_wm_name = "Ukwm";
 
 static void update_cursor_theme (void);
 
@@ -295,7 +296,7 @@ meta_display_class_init (MetaDisplayClass *klass)
    *
    * The ::show-restart-message signal will be emitted to indicate
    * that the compositor should show a message during restart. This is
-   * emitted when meta_restart() is called, either by Mutter
+   * emitted when meta_restart() is called, either by Ukwm
    * internally or by the embedding compositor.  The message should be
    * immediately added to the Clutter stage in its final form -
    * ::restart will be emitted to exit the application and leave the
@@ -323,7 +324,7 @@ meta_display_class_init (MetaDisplayClass *klass)
    *
    * The ::restart signal is emitted to indicate that compositor
    * should reexec the process. This is
-   * emitted when meta_restart() is called, either by Mutter
+   * emitted when meta_restart() is called, either by Ukwm
    * internally or by the embedding compositor. See also
    * ::show-restart-message.
    *
@@ -827,11 +828,11 @@ meta_display_open (void)
         XFixesQueryVersion (display->xdisplay, &xfixes_major, &xfixes_minor);
 
         if (xfixes_major * 100 + xfixes_minor < 500)
-          meta_fatal ("Mutter requires XFixes 5.0");
+          meta_fatal ("Ukwm requires XFixes 5.0");
       }
     else
       {
-        meta_fatal ("Mutter requires XFixes 5.0");
+        meta_fatal ("Ukwm requires XFixes 5.0");
       }
 
     meta_verbose ("Attempted to init XFixes, found error base %d event base %d\n",
@@ -898,7 +899,7 @@ meta_display_open (void)
 
     meta_prop_set_utf8_string_hint (display,
                                     display->leader_window,
-                                    display->atom__MUTTER_VERSION,
+                                    display->atom__UKWM_VERSION,
                                     VERSION);
 
     data[0] = display->leader_window;
@@ -935,7 +936,7 @@ meta_display_open (void)
   display->last_user_time = timestamp;
   display->compositor = NULL;
 
-  /* Mutter used to manage all X screens of the display in a single process, but
+  /* Ukwm used to manage all X screens of the display in a single process, but
    * now it always manages exactly one screen - the default screen retrieved
    * from GDK.
    */
@@ -972,7 +973,7 @@ meta_display_open (void)
   g_signal_connect (display->gesture_tracker, "state-changed",
                     G_CALLBACK (gesture_tracker_state_changed), display);
 
-  /* We know that if mutter is running as a Wayland compositor,
+  /* We know that if ukwm is running as a Wayland compositor,
    * we start out with no windows.
    */
   if (!meta_is_wayland_compositor ())
@@ -1312,7 +1313,7 @@ find_timestamp_predicate (Display  *xdisplay,
   MetaDisplay *display = (MetaDisplay *) arg;
 
   return (ev->type == PropertyNotify &&
-          ev->xproperty.atom == display->atom__MUTTER_TIMESTAMP_PING);
+          ev->xproperty.atom == display->atom__UKWM_TIMESTAMP_PING);
 }
 
 /* Get a timestamp, even if it means a roundtrip */
@@ -1327,7 +1328,7 @@ meta_display_get_current_time_roundtrip (MetaDisplay *display)
       XEvent property_event;
 
       XChangeProperty (display->xdisplay, display->timestamp_pinging_window,
-                       display->atom__MUTTER_TIMESTAMP_PING,
+                       display->atom__UKWM_TIMESTAMP_PING,
                        XA_STRING, 8, PropModeAppend, NULL, 0);
       XIfEvent (display->xdisplay,
                 &property_event,
@@ -1414,7 +1415,7 @@ meta_display_queue_autoraise_callback (MetaDisplay *display,
                         meta_prefs_get_auto_raise_delay (),
                         window_raise_with_delay_callback,
                         window, NULL);
-  g_source_set_name_by_id (display->autoraise_timeout_id, "[mutter] window_raise_with_delay_callback");
+  g_source_set_name_by_id (display->autoraise_timeout_id, "[ukwm] window_raise_with_delay_callback");
   display->autoraise_window = window;
 }
 
@@ -1538,7 +1539,7 @@ request_xserver_input_focus_change (MetaDisplay *display,
 
   meta_error_trap_push (display);
 
-  /* In order for mutter to know that the focus request succeeded, we track
+  /* In order for ukwm to know that the focus request succeeded, we track
    * the serial of the "focus request" we made, but if we take the serial
    * of the XSetInputFocus request, then there's no way to determine the
    * difference between focus events as a result of the SetInputFocus and
@@ -1556,7 +1557,7 @@ request_xserver_input_focus_change (MetaDisplay *display,
                   timestamp);
 
   XChangeProperty (display->xdisplay, display->timestamp_pinging_window,
-                   display->atom__MUTTER_FOCUS_SET,
+                   display->atom__UKWM_FOCUS_SET,
                    XA_STRING, 8, PropModeAppend, NULL, 0);
 
   XUngrabServer (display->xdisplay);
@@ -1721,7 +1722,7 @@ meta_display_notify_window_created (MetaDisplay  *display,
  * @display: A #MetaDisplay
  * @xwindow: An X11 window
  *
- * Returns: %TRUE iff window is one of mutter's internal "no focus" windows
+ * Returns: %TRUE iff window is one of ukwm's internal "no focus" windows
  * (there is one per screen) which will have the focus when there is no
  * actual client window focused.
  */
@@ -2045,9 +2046,9 @@ meta_display_end_grab_op (MetaDisplay *display,
  * Gets the current grab operation, if any.
  *
  * Return value: the current grab operation, or %META_GRAB_OP_NONE if
- * Mutter doesn't currently have a grab. %META_GRAB_OP_COMPOSITOR will
+ * Ukwm doesn't currently have a grab. %META_GRAB_OP_COMPOSITOR will
  * be returned if a compositor-plugin modal operation is in effect
- * (See mutter_begin_modal_for_plugin())
+ * (See ukwm_begin_modal_for_plugin())
  */
 MetaGrabOp
 meta_display_get_grab_op (MetaDisplay *display)
@@ -2170,7 +2171,7 @@ static gboolean is_syncing = FALSE;
  *
  * FIXME: This is *only* called by meta_display_open(), but by that time
  * we have already turned syncing on or off on startup, and we don't
- * have any way to do so while Mutter is running, so it's rather
+ * have any way to do so while Ukwm is running, so it's rather
  * pointless.
  *
  * Returns: %TRUE if we must wait for events whenever we send X requests;
@@ -2278,7 +2279,7 @@ meta_display_ping_window (MetaWindow *window,
   ping_data->ping_timeout_id = g_timeout_add (PING_TIMEOUT_DELAY,
 					      meta_display_ping_timeout,
 					      ping_data);
-  g_source_set_name_by_id (ping_data->ping_timeout_id, "[mutter] meta_display_ping_timeout");
+  g_source_set_name_by_id (ping_data->ping_timeout_id, "[ukwm] meta_display_ping_timeout");
 
   display->pending_pings = g_slist_prepend (display->pending_pings, ping_data);
 
@@ -2757,7 +2758,7 @@ meta_display_increment_focus_sentinel (MetaDisplay *display)
 
   XChangeProperty (display->xdisplay,
                    display->screen->xroot,
-                   display->atom__MUTTER_SENTINEL,
+                   display->atom__UKWM_SENTINEL,
                    XA_CARDINAL,
                    32, PropModeReplace, (guchar*) data, 1);
 

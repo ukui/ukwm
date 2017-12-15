@@ -2,6 +2,7 @@
 
 /*
  * Copyright 2013 Red Hat, Inc.
+ * Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -22,7 +23,7 @@
 /**
  * SECTION:cursor-tracker
  * @title: MetaCursorTracker
- * @short_description: Mutter cursor tracking helper. Originally only
+ * @short_description: Ukwm cursor tracking helper. Originally only
  *                     tracking the cursor image, now more of a "core
  *                     pointer abstraction"
  */

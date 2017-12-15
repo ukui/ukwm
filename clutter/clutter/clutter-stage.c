@@ -6,6 +6,7 @@
  * Authored By Matthew Allum  <mallum@openedhand.com>
  *
  * Copyright (C) 2006 OpenedHand
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -69,7 +70,7 @@
 #include "clutter-main.h"
 #include "clutter-marshal.h"
 #include "clutter-master-clock.h"
-#include "clutter-mutter.h"
+#include "clutter-ukwm.h"
 #include "clutter-paint-volume-private.h"
 #include "clutter-private.h"
 #include "clutter-stage-manager-private.h"
@@ -3443,7 +3444,7 @@ clutter_stage_new (void)
  * be used by applications.
  *
  * Since: 0.8
- * Deprecated: mutter: This function does not do anything.
+ * Deprecated: ukwm: This function does not do anything.
  */
 void
 clutter_stage_ensure_current (ClutterStage *stage)

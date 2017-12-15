@@ -1,9 +1,9 @@
-installed_test_metadir = $(datadir)/installed-tests/mutter-clutter
-installed_testdir = $(libexecdir)/installed-tests/mutter-clutter
+installed_test_metadir = $(datadir)/installed-tests/ukwm-clutter
+installed_testdir = $(libexecdir)/installed-tests/ukwm-clutter
 include $(top_srcdir)/build/autotools/glib-tap.mk
 
 AM_CFLAGS = -g $(CLUTTER_CFLAGS) $(MAINTAINER_CFLAGS)
-LDADD = $(top_builddir)/../cogl/cogl/libmutter-cogl-@LIBMUTTER_API_VERSION@.la $(top_builddir)/clutter/libmutter-clutter-@LIBMUTTER_API_VERSION@.la $(CLUTTER_LIBS) $(LIBM)
+LDADD = $(top_builddir)/../cogl/cogl/libukwm-cogl-@LIBUKWM_API_VERSION@.la $(top_builddir)/clutter/libukwm-clutter-@LIBUKWM_API_VERSION@.la $(CLUTTER_LIBS) $(LIBM)
 AM_LDFLAGS = -export-dynamic
 AM_CPPFLAGS = \
 	-DG_LOG_DOMAIN=\"Clutter-Conform\"	\
@@ -26,10 +26,7 @@ actor_tests = \
 	actor-layout \
 	actor-meta \
 	actor-offscreen-limit-max-size \
-	actor-offscreen-redirect \
 	actor-paint-opacity \
-	actor-pick \
-	actor-shader-effect \
 	actor-size \
 	$(NULL)
 

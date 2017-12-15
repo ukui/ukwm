@@ -9,6 +9,7 @@
  *
  * Copyright (C) 2006, 2007, 2008 OpenedHand Ltd
  * Copyright (C) 2009, 2010 Intel Corp
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -48,7 +49,7 @@
 #include "clutter-debug.h"
 #include "clutter-event-private.h"
 #include "clutter-marshal.h"
-#include "clutter-mutter.h"
+#include "clutter-ukwm.h"
 #include "clutter-private.h"
 #include "clutter-stage-manager-private.h"
 #include "clutter-stage-private.h"

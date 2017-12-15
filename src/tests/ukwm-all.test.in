@@ -1,0 +1,5 @@
+[Test]
+Description=All Ukwm tests
+Exec=@libexecdir@/installed-tests/ukwm/ukwm-test-runner --all
+Type=session
+Output=TAP

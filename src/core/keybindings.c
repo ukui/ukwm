@@ -1,11 +1,12 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter Keybindings */
+/* Ukwm Keybindings */
 /*
  * Copyright (C) 2001 Havoc Pennington
  * Copyright (C) 2002 Red Hat Inc.
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -54,8 +55,8 @@
 #endif
 
 #define SCHEMA_COMMON_KEYBINDINGS "org.gnome.desktop.wm.keybindings"
-#define SCHEMA_MUTTER_KEYBINDINGS "org.gnome.mutter.keybindings"
-#define SCHEMA_MUTTER_WAYLAND_KEYBINDINGS "org.gnome.mutter.wayland.keybindings"
+#define SCHEMA_UKWM_KEYBINDINGS "org.ukui.ukwm.keybindings"
+#define SCHEMA_UKWM_WAYLAND_KEYBINDINGS "org.ukui.ukwm.wayland.keybindings"
 
 #define META_KEY_BINDING_PRIMARY_LAYOUT 0
 #define META_KEY_BINDING_SECONDARY_LAYOUT 1
@@ -220,7 +221,7 @@ key_combo_key (MetaResolvedKeyCombo *resolved_combo,
   /* On X, keycodes are only 8 bits while libxkbcommon supports 32 bit
      keycodes, but since we're using the same XKB keymaps that X uses,
      we won't find keycodes bigger than 8 bits in practice. The bits
-     that mutter cares about in the modifier mask are also all in the
+     that ukwm cares about in the modifier mask are also all in the
      lower 8 bits both on X and clutter key events. This means that we
      can use a 32 bit integer to safely concatenate both keycode and
      mask and thus making it easy to use them as an index in a
@@ -376,7 +377,7 @@ get_keycodes_for_keysym (MetaKeyBindingManager  *keys,
 
   keycodes = g_array_new (FALSE, FALSE, sizeof (xkb_keysym_t));
 
-  /* Special-case: Fake mutter keysym */
+  /* Special-case: Fake ukwm keysym */
   if (keysym == META_KEY_ABOVE_TAB)
     {
       keycode = KEY_GRAVE + 8;
@@ -1051,7 +1052,7 @@ get_keybinding_action (MetaKeyBindingManager *keys,
   /* This is much more vague than the MetaDisplay::overlay-key signal,
    * which is only emitted if the overlay-key is the only key pressed;
    * as this method is primarily intended for plugins to allow processing
-   * of mutter keybindings while holding a grab, the overlay-key-only-pressed
+   * of ukwm keybindings while holding a grab, the overlay-key-only-pressed
    * tracking is left to the plugin here.
    */
   if (resolved_key_combo_intersect (resolved_combo,
@@ -2015,14 +2016,14 @@ process_overlay_key (MetaDisplay *display,
         }
       else
         {
-          /* In some rare race condition, mutter might not receive the Super_L
+          /* In some rare race condition, ukwm might not receive the Super_L
            * KeyRelease event because:
            * - the compositor might end the modal mode and call XIUngrabDevice
            *   while the key is still down
            * - passive grabs are only activated on KeyPress and not KeyRelease.
            *
            * In this case, keys->overlay_key_only_pressed might be wrong.
-           * Mutter still ought to acknowledge events, otherwise the X server
+           * Ukwm still ought to acknowledge events, otherwise the X server
            * will not send the next events.
            *
            * https://bugzilla.gnome.org/show_bug.cgi?id=666101
@@ -3614,8 +3615,8 @@ static void
 init_builtin_key_bindings (MetaDisplay *display)
 {
   GSettings *common_keybindings = g_settings_new (SCHEMA_COMMON_KEYBINDINGS);
-  GSettings *mutter_keybindings = g_settings_new (SCHEMA_MUTTER_KEYBINDINGS);
-  GSettings *mutter_wayland_keybindings = g_settings_new (SCHEMA_MUTTER_WAYLAND_KEYBINDINGS);
+  GSettings *ukwm_keybindings = g_settings_new (SCHEMA_UKWM_KEYBINDINGS);
+  GSettings *ukwm_wayland_keybindings = g_settings_new (SCHEMA_UKWM_WAYLAND_KEYBINDINGS);
 
   add_builtin_keybinding (display,
                           "switch-to-workspace-1",
@@ -3867,14 +3868,14 @@ init_builtin_key_bindings (MetaDisplay *display)
 
   add_builtin_keybinding (display,
                           "switch-monitor",
-                          mutter_keybindings,
+                          ukwm_keybindings,
                           META_KEY_BINDING_NONE,
                           META_KEYBINDING_ACTION_SWITCH_MONITOR,
                           handle_switch_monitor, 0);
 
   add_builtin_keybinding (display,
                           "rotate-monitor",
-                          mutter_keybindings,
+                          ukwm_keybindings,
                           META_KEY_BINDING_NONE,
                           META_KEYBINDING_ACTION_ROTATE_MONITOR,
                           handle_rotate_monitor, 0);
@@ -3885,84 +3886,84 @@ init_builtin_key_bindings (MetaDisplay *display)
     {
       add_builtin_keybinding (display,
                               "switch-to-session-1",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 1);
 
       add_builtin_keybinding (display,
                               "switch-to-session-2",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 2);
 
       add_builtin_keybinding (display,
                               "switch-to-session-3",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 3);
 
       add_builtin_keybinding (display,
                               "switch-to-session-4",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 4);
 
       add_builtin_keybinding (display,
                               "switch-to-session-5",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 5);
 
       add_builtin_keybinding (display,
                               "switch-to-session-6",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 6);
 
       add_builtin_keybinding (display,
                               "switch-to-session-7",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 7);
 
       add_builtin_keybinding (display,
                               "switch-to-session-8",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 8);
 
       add_builtin_keybinding (display,
                               "switch-to-session-9",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 9);
 
       add_builtin_keybinding (display,
                               "switch-to-session-10",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 10);
 
       add_builtin_keybinding (display,
                               "switch-to-session-11",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 11);
 
       add_builtin_keybinding (display,
                               "switch-to-session-12",
-                              mutter_wayland_keybindings,
+                              ukwm_wayland_keybindings,
                               META_KEY_BINDING_NON_MASKABLE,
                               META_KEYBINDING_ACTION_NONE,
                               handle_switch_vt, 12);
@@ -3971,7 +3972,7 @@ init_builtin_key_bindings (MetaDisplay *display)
 
   add_builtin_keybinding (display,
                           "restore-shortcuts",
-                          mutter_wayland_keybindings,
+                          ukwm_wayland_keybindings,
                           META_KEY_BINDING_NON_MASKABLE,
                           META_KEYBINDING_ACTION_NONE,
                           handle_restore_shortcuts, 0);
@@ -4005,14 +4006,14 @@ init_builtin_key_bindings (MetaDisplay *display)
 
   add_builtin_keybinding (display,
                           "toggle-tiled-left",
-                          mutter_keybindings,
+                          ukwm_keybindings,
                           META_KEY_BINDING_PER_WINDOW,
                           META_KEYBINDING_ACTION_TOGGLE_TILED_LEFT,
                           handle_toggle_tiled, META_TILE_LEFT);
 
   add_builtin_keybinding (display,
                           "toggle-tiled-right",
-                          mutter_keybindings,
+                          ukwm_keybindings,
                           META_KEY_BINDING_PER_WINDOW,
                           META_KEYBINDING_ACTION_TOGGLE_TILED_RIGHT,
                           handle_toggle_tiled, META_TILE_RIGHT);
@@ -4333,8 +4334,8 @@ init_builtin_key_bindings (MetaDisplay *display)
                           handle_move_to_center, 0);
 
   g_object_unref (common_keybindings);
-  g_object_unref (mutter_keybindings);
-  g_object_unref (mutter_wayland_keybindings);
+  g_object_unref (ukwm_keybindings);
+  g_object_unref (ukwm_wayland_keybindings);
 }
 
 void

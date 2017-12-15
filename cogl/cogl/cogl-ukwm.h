@@ -4,6 +4,7 @@
  * A Low Level GPU Graphics and Utilities API
  *
  * Copyright (C) 2016 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -28,10 +29,10 @@
  *
  */
 
-#ifndef __COGL_MUTTER_H___
-#define __COGL_MUTTER_H___
+#ifndef __COGL_UKWM_H___
+#define __COGL_UKWM_H___
 
-#include "cogl-mutter-config.h"
+#include "cogl-ukwm-config.h"
 #include "cogl-defines.h"
 
 #include <cogl/cogl-texture.h>
@@ -45,4 +46,4 @@
 void cogl_renderer_set_custom_winsys (CoglRenderer                *renderer,
                                       CoglCustomWinsysVtableGetter winsys_vtable_getter);
 
-#endif /* __COGL_MUTTER_H___ */
+#endif /* __COGL_UKWM_H___ */

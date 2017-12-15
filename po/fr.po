@@ -1,4 +1,4 @@
-# French translation of mutter.
+# French translation of ukwm.
 # Copyright (C) 2002-2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the metacity package.
 #
@@ -17,9 +17,7 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=mutter"
-"&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: ukwm master\n"
 "POT-Creation-Date: 2017-08-29 16:09+0000\n"
 "PO-Revision-Date: 2017-09-05 10:52+0100\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
@@ -31,256 +29,256 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-ukwm-navigation.xml:6
 msgid "Navigation"
 msgstr "Navigation"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-ukwm-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Déplacer la fenêtre vers l’espace de travail 1"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-ukwm-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Déplacer la fenêtre vers l’espace de travail 2"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-ukwm-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Déplacer la fenêtre vers l’espace de travail 3"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-ukwm-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Déplacer la fenêtre vers l’espace de travail 4"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-ukwm-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Déplacer la fenêtre vers le dernier espace de travail"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-ukwm-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "Déplacer la fenêtre d’un espace de travail vers la gauche"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-ukwm-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "Déplacer la fenêtre d’un espace de travail vers la droite"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-ukwm-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "Déplacer la fenêtre d’un espace de travail vers le haut"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-ukwm-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "Déplacer la fenêtre d’un espace de travail vers le bas"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-ukwm-navigation.xml:36
 msgid "Move window one monitor to the left"
 msgstr "Déplacer la fenêtre d’un écran vers la gauche"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-ukwm-navigation.xml:39
 msgid "Move window one monitor to the right"
 msgstr "Déplacer la fenêtre d’un écran vers la droite"
 
-#: data/50-mutter-navigation.xml:42
+#: data/50-ukwm-navigation.xml:42
 msgid "Move window one monitor up"
 msgstr "Déplacer la fenêtre d’un écran vers le haut"
 
-#: data/50-mutter-navigation.xml:45
+#: data/50-ukwm-navigation.xml:45
 msgid "Move window one monitor down"
 msgstr "Déplacer la fenêtre d’un écran vers le bas"
 
-#: data/50-mutter-navigation.xml:49
+#: data/50-ukwm-navigation.xml:49
 msgid "Switch applications"
 msgstr "Changer d’application"
 
-#: data/50-mutter-navigation.xml:54
+#: data/50-ukwm-navigation.xml:54
 msgid "Switch to previous application"
 msgstr "Passer à l’application précédente"
 
-#: data/50-mutter-navigation.xml:58
+#: data/50-ukwm-navigation.xml:58
 msgid "Switch windows"
 msgstr "Changer de fenêtre"
 
-#: data/50-mutter-navigation.xml:63
+#: data/50-ukwm-navigation.xml:63
 msgid "Switch to previous window"
 msgstr "Passer à la fenêtre précédente"
 
-#: data/50-mutter-navigation.xml:67
+#: data/50-ukwm-navigation.xml:67
 msgid "Switch windows of an application"
 msgstr "Changer de fenêtre d’une application"
 
-#: data/50-mutter-navigation.xml:72
+#: data/50-ukwm-navigation.xml:72
 msgid "Switch to previous window of an application"
 msgstr "Passer à la fenêtre précédente d’une application"
 
-#: data/50-mutter-navigation.xml:76
+#: data/50-ukwm-navigation.xml:76
 msgid "Switch system controls"
 msgstr "Changer les contrôles système"
 
-#: data/50-mutter-navigation.xml:81
+#: data/50-ukwm-navigation.xml:81
 msgid "Switch to previous system control"
 msgstr "Passer au contrôle système précédent"
 
-#: data/50-mutter-navigation.xml:85
+#: data/50-ukwm-navigation.xml:85
 msgid "Switch windows directly"
 msgstr "Changer de fenêtre directement"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-ukwm-navigation.xml:90
 msgid "Switch directly to previous window"
 msgstr "Passer directement à la fenêtre précédente"
 
-#: data/50-mutter-navigation.xml:94
+#: data/50-ukwm-navigation.xml:94
 msgid "Switch windows of an app directly"
 msgstr "Changer de fenêtre d’une application directement"
 
-#: data/50-mutter-navigation.xml:99
+#: data/50-ukwm-navigation.xml:99
 msgid "Switch directly to previous window of an app"
 msgstr "Passer directement à la fenêtre précédente d’une application"
 
-#: data/50-mutter-navigation.xml:103
+#: data/50-ukwm-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr "Changer les contrôles système directement"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-ukwm-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr "Passer directement au contrôle système précédent"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-ukwm-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "Masquer toutes les fenêtres normales"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-ukwm-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "Passer à l’espace de travail 1"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-ukwm-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "Passer à l’espace de travail 2"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-ukwm-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "Passer à l’espace de travail 3"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-ukwm-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "Passer à l’espace de travail 4"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-ukwm-navigation.xml:126
 msgid "Switch to last workspace"
 msgstr "Passer au dernier espace de travail"
 
-#: data/50-mutter-navigation.xml:129
+#: data/50-ukwm-navigation.xml:129
 msgid "Move to workspace left"
 msgstr "Déplacer vers l’espace de travail de gauche"
 
-#: data/50-mutter-navigation.xml:132
+#: data/50-ukwm-navigation.xml:132
 msgid "Move to workspace right"
 msgstr "Déplacer vers l’espace de travail de droite"
 
-#: data/50-mutter-navigation.xml:135
+#: data/50-ukwm-navigation.xml:135
 msgid "Move to workspace above"
 msgstr "Déplacer vers l’espace de travail du dessus"
 
-#: data/50-mutter-navigation.xml:138
+#: data/50-ukwm-navigation.xml:138
 msgid "Move to workspace below"
 msgstr "Déplacer vers l’espace de travail du dessous"
 
-#: data/50-mutter-system.xml:6
+#: data/50-ukwm-system.xml:6
 msgid "System"
 msgstr "Système"
 
-#: data/50-mutter-system.xml:8
+#: data/50-ukwm-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Afficher la fenêtre pour lancer une commande"
 
-#: data/50-mutter-system.xml:10
+#: data/50-ukwm-system.xml:10
 msgid "Show the activities overview"
 msgstr "Afficher l’aperçu des activités"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-ukwm-windows.xml:6
 msgid "Windows"
 msgstr "Fenêtres"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-ukwm-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Activer le menu fenêtre"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-ukwm-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Basculer le mode plein écran"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-ukwm-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Basculer l’état d’agrandissement"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-ukwm-windows.xml:14
 msgid "Maximize window"
 msgstr "Maximiser la fenêtre"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-ukwm-windows.xml:16
 msgid "Restore window"
 msgstr "Restaurer la fenêtre"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-ukwm-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "Basculer l’état de repli"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-ukwm-windows.xml:20
 msgid "Close window"
 msgstr "Fermer la fenêtre"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-ukwm-windows.xml:22
 msgid "Hide window"
 msgstr "Masquer la fenêtre"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-ukwm-windows.xml:24
 msgid "Move window"
 msgstr "Déplacer la fenêtre"
 
-#: data/50-mutter-windows.xml:26
+#: data/50-ukwm-windows.xml:26
 msgid "Resize window"
 msgstr "Redimensionner la fenêtre"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-ukwm-windows.xml:29
 msgid "Toggle window on all workspaces or one"
 msgstr "Placer la fenêtre sur tous les espaces de travail, ou sur un seul"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-ukwm-windows.xml:31
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Mettre la fenêtre au premier plan si elle est cachée, sinon à l’arrière-plan"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-ukwm-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "Mettre la fenêtre au premier plan"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-ukwm-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "Mettre la fenêtre sous les autres fenêtres"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-ukwm-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "Maximiser la fenêtre verticalement"
 
-#: data/50-mutter-windows.xml:39
+#: data/50-ukwm-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "Maximiser la fenêtre horizontalement"
 
-#: data/50-mutter-windows.xml:43
+#: data/50-ukwm-windows.xml:43
 msgid "View split on left"
 msgstr "Vue divisée sur la gauche"
 
-#: data/50-mutter-windows.xml:47
+#: data/50-ukwm-windows.xml:47
 msgid "View split on right"
 msgstr "Vue divisée sur la droite"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/ukwm.desktop.in:4
+msgid "Ukwm"
+msgstr "Ukwm"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Touche à utiliser pour les opérations étendues de gestion des fenêtres"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -292,11 +290,11 @@ msgstr ""
 "matériel PC est la touche Windows. En principe, ce raccourci est configuré "
 "sur le réglage par défaut ou sur la chaîne vide."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Attacher les boîtes de dialogue modale"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -306,11 +304,11 @@ msgstr ""
 "dialogue apparaissent attachées à la barre de titre de la fenêtre parente et "
 "sont déplacées ensembles avec elle."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Activer l’empilage des fenêtres déposées sur les bords de l’écran"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -321,11 +319,11 @@ msgstr ""
 "la moitié de la zone disponible. Le dépôt des fenêtres sur le bord supérieur "
 "de l’écran les maximise complètement."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Les espaces de travail sont gérés de manière dynamique"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -335,11 +333,11 @@ msgstr ""
 "nombre d’espaces de travail est fixe (déterminé par la clé num-workspaces "
 "dans org.gnome.desktop.wm.preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Espaces de travail seulement sur l’écran principal"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -348,11 +346,11 @@ msgstr ""
 "fenêtres de tous les écrans ou seulement pour les fenêtres de l’écran "
 "principal."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Aucune apparition suite à un appui sur la touche tab"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -360,11 +358,11 @@ msgstr ""
 "Détermine si l’utilisation de fenêtres surgissantes et de mise en valeur "
 "doit être désactivée pour la consultation des fenêtres."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Attend l’arrêt du pointeur avant le changement de focus"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -374,11 +372,11 @@ msgstr ""
 "alors le focus ne sera pas changé immédiatement en passant sur une fenêtre, "
 "mais seulement après que le pointeur s’arrête."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Largeur de bordure ajustable"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -387,13 +385,13 @@ msgstr ""
 "visibles du thème ne sont pas suffisantes, des bordures invisibles sont "
 "ajoutées pour arriver à cette valeur."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 "Maximiser automatiquement les fenêtres dont la taille est proche de celle de "
 "l’écran"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -401,11 +399,11 @@ msgstr ""
 "Si activé, les nouvelles fenêtres qui ont presque la taille de l’écran à "
 "l’ouverture seront maximisées automatiquement."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Placer les nouvelles fenêtres au centre"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -413,11 +411,11 @@ msgstr ""
 "Si true (vrai), les nouvelles fenêtres seront toujours placées au centre de "
 "l’écran actif du moniteur."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/org.ukui.ukwm.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Activer les fonctionnalités expérimentales"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/org.ukui.ukwm.gschema.xml.in:108
 #| msgid ""
 #| "To enable experimental features, add the feature keyword to the list. "
 #| "Whether the feature requires restarting the compositor depends on the "
@@ -427,7 +425,7 @@ msgstr "Activer les fonctionnalités expérimentales"
 #| "manager” — use the new monitor configuration system, aimed to replace the "
 #| "old one. This enables a higher level configuration API to be used by "
 #| "configuration applications, as well as the ability to configure per "
-#| "logical monitor scale. • “scale-monitor-framebuffer” — makes mutter "
+#| "logical monitor scale. • “scale-monitor-framebuffer” — makes ukwm "
 #| "default to layout logical monitors in a logical pixel coordinate space, "
 #| "while scaling monitor framebuffers instead of window content, to manage "
 #| "HiDPI monitors. Does not require a restart. Also enabling “monitor-config-"
@@ -438,7 +436,7 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"ukwm default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
 "enables remote desktop support. To support remote desktop with screen "
@@ -451,7 +449,7 @@ msgstr ""
 "peut disparaître ou ne plus être configurable. Ne vous attendez pas à ce que"
 " le "
 "contenu de ce réglage soit stable dans le temps. Les mots-clés actuellement "
-"possibles sont : • « scale-monitor-framebuffer » — demande à mutter "
+"possibles sont : • « scale-monitor-framebuffer » — demande à ukwm "
 "d’utiliser par défaut une disposition par moniteur logique dans un espace de "
 "coordonnées de pixels logique, tout en mettant à l’échelle les "
 "« framebuffers » de moniteur au lieu des contenus de fenêtre pour pouvoir "
@@ -460,73 +458,73 @@ msgstr ""
 "la prise en charge du bureau distant avec partage de l’écran, « screen-cast » "
 "doit aussi être activé. • « screen-cast »  — active la diffusion de l’écran. "
 
-#: data/org.gnome.mutter.gschema.xml.in:145
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr ""
 "Sélectionner la fenêtre dans la vue qui apparaît suite à un appui sur la "
 "touche tab"
 
-#: data/org.gnome.mutter.gschema.xml.in:150
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Fermer la vue qui apparaît suite à un appui sur la touche tab"
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/org.ukui.ukwm.gschema.xml.in:155
 msgid "Switch monitor configurations"
 msgstr "Changer de configuration de moniteur"
 
-#: data/org.gnome.mutter.gschema.xml.in:160
+#: data/org.ukui.ukwm.gschema.xml.in:160
 msgid "Rotates the built-in monitor configuration"
 msgstr "Passe à la prochaine configuration intégrée de moniteur"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Passer à l’émulateur de terminal 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Passer à l’émulateur de terminal 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Passer à l’émulateur de terminal 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Passer à l’émulateur de terminal 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Passer à l’émulateur de terminal 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Passer à l’émulateur de terminal 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Passer à l’émulateur de terminal 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Passer à l’émulateur de terminal 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Passer à l’émulateur de terminal 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Passer à l’émulateur de terminal 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Passer à l’émulateur de terminal 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Passer à l’émulateur de terminal 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "Réactiver les raccourcis"
 
@@ -650,29 +648,29 @@ msgstr "_Forcer à quitter"
 msgid "_Wait"
 msgstr "_Attendre"
 
-#: src/core/mutter.c:39
+#: src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., et autres.\n"
 "Ceci est un logiciel libre ; consultez le code source pour les\n"
 "conditions de copie.\n"
 "Il n’y a AUCUNE garantie ; même pas de VALEUR MARCHANDE ou\n"
 "d’ADÉQUATION À UN USAGE PARTICULIER.\n"
 
-#: src/core/mutter.c:53
+#: src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Afficher la version"
 
-#: src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "Greffon de Mutter à utiliser"
+#: src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "Greffon de Ukwm à utiliser"
 
 #: src/core/prefs.c:1997
 #, c-format
@@ -694,8 +692,8 @@ msgid "Screen %d on display “%s” is invalid\n"
 msgstr "L’écran %d sur l’affichage « %s » n’est pas valide\n"
 
 #: src/core/util.c:120
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter a été compilé sans la prise en charge du mode bavard\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Ukwm a été compilé sans la prise en charge du mode bavard\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563
 #, c-format

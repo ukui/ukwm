@@ -7,6 +7,7 @@
  * Copyright (C) 2001 Dominik Vogt, Matthias Clasen, and fvwm2 team
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -25,7 +26,7 @@
 /**
  * SECTION:screen
  * @title: MetaScreen
- * @short_description: Mutter X screen handler
+ * @short_description: Ukwm X screen handler
  */
 
 #include <config.h>
@@ -521,7 +522,7 @@ create_guard_window (Display *xdisplay, MetaScreen *screen)
 		   &attributes);
 
   /* https://bugzilla.gnome.org/show_bug.cgi?id=710346 */
-  XStoreName (xdisplay, guard_window, "mutter guard window");
+  XStoreName (xdisplay, guard_window, "ukwm guard window");
 
   {
     if (!meta_is_wayland_compositor ())
@@ -1057,7 +1058,7 @@ set_desktop_viewport_hint (MetaScreen *screen)
     return;
 
   /*
-   * Mutter does not implement viewports, so this is a fixed 0,0
+   * Ukwm does not implement viewports, so this is a fixed 0,0
    */
   data[0] = 0;
   data[1] = 0;
@@ -1470,7 +1471,7 @@ meta_screen_update_tile_preview (MetaScreen *screen,
                        meta_screen_update_tile_preview_timeout,
                        screen);
       g_source_set_name_by_id (screen->tile_preview_timeout_id,
-                               "[mutter] meta_screen_update_tile_preview_timeout");
+                               "[ukwm] meta_screen_update_tile_preview_timeout");
     }
   else
     {

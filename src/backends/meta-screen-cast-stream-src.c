@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2015-2017 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -35,7 +36,7 @@
 #include <sys/mman.h>
 
 #include "backends/meta-screen-cast-stream.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 #include "core/meta-fraction.h"
 #include "meta/boxes.h"
 

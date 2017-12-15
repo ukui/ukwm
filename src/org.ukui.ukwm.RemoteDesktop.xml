@@ -4,10 +4,10 @@
 <node>
 
   <!--
-      org.gnome.Mutter.RemoteDesktop:
+      org.ukui.ukwm.RemoteDesktop:
       @short_description: Remote desktop interface
   -->
-  <interface name="org.gnome.Mutter.RemoteDesktop">
+  <interface name="org.ukui.ukwm.RemoteDesktop">
 
     <!--
 	CreateSession:
@@ -20,10 +20,10 @@
   </interface>
 
   <!--
-       org.gnome.Mutter.RemoteDesktop.Session:
+       org.ukui.ukwm.RemoteDesktop.Session:
        @short_description: Remote desktop session
   -->
-  <interface name="org.gnome.Mutter.RemoteDesktop.Session">
+  <interface name="org.ukui.ukwm.RemoteDesktop.Session">
 
     <!--
 	SessionId:

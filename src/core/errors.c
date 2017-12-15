@@ -3,6 +3,7 @@
 /*
  * Copyright (C) 2001 Havoc Pennington, error trapping inspired by GDK
  * code copyrighted by the GTK team.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -21,7 +22,7 @@
 /**
  * SECTION:errors
  * @title: Errors
- * @short_description: Mutter X error handling
+ * @short_description: Ukwm X error handling
  */
 
 #include <config.h>

@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2002 Sun Microsystems Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -40,7 +41,7 @@ gboolean meta_bell_notify (MetaDisplay *display,
  * @audible: True for an audible bell, false for a visual bell
  *
  * Turns the bell to audible or visual. This tells X what to do, but
- * not Mutter; you will need to set the "visual bell" pref for that.
+ * not Ukwm; you will need to set the "visual bell" pref for that.
  *
  * If the configure script found we had no XKB, this is a no-op.
  */

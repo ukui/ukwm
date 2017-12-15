@@ -4,6 +4,7 @@
  * A Low Level GPU Graphics and Utilities API
  *
  * Copyright (C) 2011 Intel Corporation.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -41,7 +42,7 @@
 #include "cogl-object.h"
 #include "cogl-context-private.h"
 #include "cogl-util-gl-private.h"
-#include "cogl-mutter.h"
+#include "cogl-ukwm.h"
 
 #include "cogl-renderer.h"
 #include "cogl-renderer-private.h"

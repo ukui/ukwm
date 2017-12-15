@@ -7,6 +7,7 @@
  * Copyright (C) 2001 Dominik Vogt, Matthias Clasen, and fvwm2 team
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -477,7 +478,7 @@ meta_startup_notification_ensure_timeout (MetaStartupNotification *sn)
                                                         startup_sequence_timeout,
                                                         sn);
   g_source_set_name_by_id (sn->startup_sequence_timeout,
-                           "[mutter] startup_sequence_timeout");
+                           "[ukwm] startup_sequence_timeout");
 }
 #endif
 

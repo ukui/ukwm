@@ -8,6 +8,7 @@
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
  * Copyright (C) 2013 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -255,16 +256,16 @@ meta_monitor_manager_dummy_read_current (MetaMonitorManager *manager)
   /* To control what monitor configuration is generated, there are two available
    * environmental variables that can be used:
    *
-   * MUTTER_DEBUG_NUM_DUMMY_MONITORS
+   * UKWM_DEBUG_NUM_DUMMY_MONITORS
    *
    * Specifies the number of dummy monitors to include in the stage. Every
    * monitor is 1024x786 pixels and they are placed on a horizontal row.
    *
-   * MUTTER_DEBUG_DUMMY_MONITOR_SCALES
+   * UKWM_DEBUG_DUMMY_MONITOR_SCALES
    *
    * A comma separated list that specifies the scales of the dummy monitors.
    *
-   * MUTTER_DEBUG_TILED_DUMMY_MONITORS
+   * UKWM_DEBUG_TILED_DUMMY_MONITORS
    *
    * If set to "1" the dummy monitors will emulate being tiled, i.e. each have a
    * unique tile group id, made up of multiple outputs and CRTCs.
@@ -272,11 +273,11 @@ meta_monitor_manager_dummy_read_current (MetaMonitorManager *manager)
    * For example the following configuration results in two monitors, where the
    * first one has the monitor scale 1, and the other the monitor scale 2.
    *
-   * MUTTER_DEBUG_NUM_DUMMY_MONITORS=2
-   * MUTTER_DEBUG_DUMMY_MONITOR_SCALES=1,2
-   * MUTTER_DEBUG_TILED_DUMMY_MONITORS=1
+   * UKWM_DEBUG_NUM_DUMMY_MONITORS=2
+   * UKWM_DEBUG_DUMMY_MONITOR_SCALES=1,2
+   * UKWM_DEBUG_TILED_DUMMY_MONITORS=1
    */
-  num_monitors_str = getenv ("MUTTER_DEBUG_NUM_DUMMY_MONITORS");
+  num_monitors_str = getenv ("UKWM_DEBUG_NUM_DUMMY_MONITORS");
   if (num_monitors_str)
     {
       num_monitors = g_ascii_strtoll (num_monitors_str, NULL, 10);
@@ -298,7 +299,7 @@ meta_monitor_manager_dummy_read_current (MetaMonitorManager *manager)
   for (i = 0; i < num_monitors; i++)
     monitor_scales[i] = 1.0;
 
-  monitor_scales_str = getenv ("MUTTER_DEBUG_DUMMY_MONITOR_SCALES");
+  monitor_scales_str = getenv ("UKWM_DEBUG_DUMMY_MONITOR_SCALES");
   if (monitor_scales_str)
     {
       gchar **scales_str_list;
@@ -316,7 +317,7 @@ meta_monitor_manager_dummy_read_current (MetaMonitorManager *manager)
       g_strfreev (scales_str_list);
     }
 
-  tiled_monitors_str = g_getenv ("MUTTER_DEBUG_TILED_DUMMY_MONITORS");
+  tiled_monitors_str = g_getenv ("UKWM_DEBUG_TILED_DUMMY_MONITORS");
   tiled_monitors = g_strcmp0 (tiled_monitors_str, "1") == 0;
 
   modes = g_array_sized_new (FALSE, TRUE, sizeof (MetaCrtcMode), MAX_MODES);
@@ -660,7 +661,7 @@ meta_monitor_manager_dummy_init (MetaMonitorManagerDummy *manager)
   const char *nested_offscreen_transform;
 
   nested_offscreen_transform =
-    g_getenv ("MUTTER_DEBUG_NESTED_OFFSCREEN_TRANSFORM");
+    g_getenv ("UKWM_DEBUG_NESTED_OFFSCREEN_TRANSFORM");
   if (g_strcmp0 (nested_offscreen_transform, "1") == 0)
     manager->is_transform_handled = FALSE;
   else

@@ -1,10 +1,11 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter visual bell */
+/* Ukwm visual bell */
 
 /*
  * Copyright (C) 2002 Sun Microsystems Inc.
  * Copyright (C) 2005, 2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -24,7 +25,7 @@
  * SECTION:bell
  * @short_description: Ring the bell or flash the screen
  *
- * Sometimes, X programs "ring the bell", whatever that means. Mutter lets
+ * Sometimes, X programs "ring the bell", whatever that means. Ukwm lets
  * the user configure the bell to be audible or visible (aka visual), and
  * if it's visual it can be configured to be frame-flash or fullscreen-flash.
  * We never get told about audible bells; X handles them just fine by itself.
@@ -129,7 +130,7 @@ bell_flash_window_frame (MetaWindow *window)
    */
   id = g_timeout_add_full (META_PRIORITY_REDRAW, 100,
         bell_unflash_frame, window->frame, NULL);
-  g_source_set_name_by_id (id, "[mutter] bell_unflash_frame");
+  g_source_set_name_by_id (id, "[ukwm] bell_unflash_frame");
 }
 
 static void

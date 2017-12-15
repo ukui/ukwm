@@ -1,13 +1,13 @@
-# Friulian translation for mutter.
-# Copyright (C) 2016 mutter's COPYRIGHT HOLDER
-# This file is distributed under the same license as the mutter package.
+# Friulian translation for ukwm.
+# Copyright (C) 2016 ukwm's COPYRIGHT HOLDER
+# This file is distributed under the same license as the ukwm package.
 # Fabio Tomat <f.t.public@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter master\n"
+"Project-Id-Version: ukwm master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mutter&keywords=I18N+L10N&component=general\n"
+"product=ukwm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-07-22 09:45+0000\n"
 "PO-Revision-Date: 2017-07-22 22:53+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
@@ -18,255 +18,255 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.2\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-ukwm-navigation.xml:6
 msgid "Navigation"
 msgstr "Navigazion"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-ukwm-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Sposte barcon tal spazi di lavôr 1"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-ukwm-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Sposte barcon tal spazi di lavôr 2"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-ukwm-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Sposte barcon tal spazi di lavôr 3"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-ukwm-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Sposte barcon tal spazi di lavôr 4"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-ukwm-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Sposte barcon tal ultin spazi di lavôr"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-ukwm-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "Sposte barcon tal spazi di lavôr a çampe"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-ukwm-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "Sposte barcon tal spazi di lavôr a drete"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-ukwm-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "Sposte barcon tal spazi di lavôr parsore"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-ukwm-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "Sposte barcon tal spazi di lavôr sot"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-ukwm-navigation.xml:36
 msgid "Move window one monitor to the left"
 msgstr "Sposte barcon tal visôr a çampe"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-ukwm-navigation.xml:39
 msgid "Move window one monitor to the right"
 msgstr "Sposte barcon tal visôr a drete"
 
-#: data/50-mutter-navigation.xml:42
+#: data/50-ukwm-navigation.xml:42
 msgid "Move window one monitor up"
 msgstr "Sposte barcon tal visôr parsore"
 
-#: data/50-mutter-navigation.xml:45
+#: data/50-ukwm-navigation.xml:45
 msgid "Move window one monitor down"
 msgstr "Sposte barcon tal visôr sot"
 
-#: data/50-mutter-navigation.xml:49
+#: data/50-ukwm-navigation.xml:49
 msgid "Switch applications"
 msgstr "Passâ di une aplicazion in chê altre"
 
-#: data/50-mutter-navigation.xml:54
+#: data/50-ukwm-navigation.xml:54
 msgid "Switch to previous application"
 msgstr "Passe ae aplicazion prime"
 
-#: data/50-mutter-navigation.xml:58
+#: data/50-ukwm-navigation.xml:58
 msgid "Switch windows"
 msgstr "Passâ di un barcon in chel altri"
 
-#: data/50-mutter-navigation.xml:63
+#: data/50-ukwm-navigation.xml:63
 msgid "Switch to previous window"
 msgstr "Passe al barcon prime"
 
-#: data/50-mutter-navigation.xml:67
+#: data/50-ukwm-navigation.xml:67
 msgid "Switch windows of an application"
 msgstr "Passâ di un barcon in chel altri di une aplicazion"
 
-#: data/50-mutter-navigation.xml:72
+#: data/50-ukwm-navigation.xml:72
 msgid "Switch to previous window of an application"
 msgstr "Passe al barcon prime di une aplicazion"
 
-#: data/50-mutter-navigation.xml:76
+#: data/50-ukwm-navigation.xml:76
 msgid "Switch system controls"
 msgstr "Passâ di un control di sisteme in chel altri"
 
-#: data/50-mutter-navigation.xml:81
+#: data/50-ukwm-navigation.xml:81
 msgid "Switch to previous system control"
 msgstr "Passe al control di sisteme precedent"
 
-#: data/50-mutter-navigation.xml:85
+#: data/50-ukwm-navigation.xml:85
 msgid "Switch windows directly"
 msgstr "Passe dret ai barcons"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-ukwm-navigation.xml:90
 msgid "Switch directly to previous window"
 msgstr "Passe dret al barcon precedent"
 
-#: data/50-mutter-navigation.xml:94
+#: data/50-ukwm-navigation.xml:94
 msgid "Switch windows of an app directly"
 msgstr "Passe dret a un barcon di une aplicazion"
 
-#: data/50-mutter-navigation.xml:99
+#: data/50-ukwm-navigation.xml:99
 msgid "Switch directly to previous window of an app"
 msgstr "Passe dret al barcon precedent di une aplicazion"
 
-#: data/50-mutter-navigation.xml:103
+#: data/50-ukwm-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr "Passe dret ai controi dal sisteme"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-ukwm-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr "Passe dret al control precedent dal sisteme"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-ukwm-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "Plate ducj i barcons normâi"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-ukwm-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "Passe al spazi di lavôr 1"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-ukwm-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "Passe al spazi di lavôr 2"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-ukwm-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "Passe al spazi di lavôr 3"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-ukwm-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "Passe al spazi di lavôr 4"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-ukwm-navigation.xml:126
 msgid "Switch to last workspace"
 msgstr "Passe al ultin spazi di lavôr"
 
-#: data/50-mutter-navigation.xml:129
+#: data/50-ukwm-navigation.xml:129
 msgid "Move to workspace left"
 msgstr "Sposte il spazi di lavôr a çampe"
 
-#: data/50-mutter-navigation.xml:132
+#: data/50-ukwm-navigation.xml:132
 msgid "Move to workspace right"
 msgstr "Sposte il spazi di lavôr a drete"
 
-#: data/50-mutter-navigation.xml:135
+#: data/50-ukwm-navigation.xml:135
 msgid "Move to workspace above"
 msgstr "Sposte il spazi di lavôr parsore"
 
-#: data/50-mutter-navigation.xml:138
+#: data/50-ukwm-navigation.xml:138
 msgid "Move to workspace below"
 msgstr "Sposte il spazi di lavôr sot"
 
-#: data/50-mutter-system.xml:6
+#: data/50-ukwm-system.xml:6
 msgid "System"
 msgstr "Sisteme"
 
-#: data/50-mutter-system.xml:8
+#: data/50-ukwm-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Mostre la richieste \"eseguìs comant\""
 
-#: data/50-mutter-system.xml:10
+#: data/50-ukwm-system.xml:10
 msgid "Show the activities overview"
 msgstr "Mostre la panoramiche ativitâts"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-ukwm-windows.xml:6
 msgid "Windows"
 msgstr "Barcons"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-ukwm-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Ative il menù dal barcon"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-ukwm-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Ative/Disative modalitât plen visôr"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-ukwm-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Ative/Disative il stât slargjât"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-ukwm-windows.xml:14
 msgid "Maximize window"
 msgstr "Slargje il barcon"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-ukwm-windows.xml:16
 msgid "Restore window"
 msgstr "Ripristine barcon"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-ukwm-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "Ative/Disative stât inrodolât"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-ukwm-windows.xml:20
 msgid "Close window"
 msgstr "Siere il barcon"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-ukwm-windows.xml:22
 msgid "Hide window"
 msgstr "Plate il barcon"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-ukwm-windows.xml:24
 msgid "Move window"
 msgstr "Sposte il barcon"
 
-#: data/50-mutter-windows.xml:26
+#: data/50-ukwm-windows.xml:26
 msgid "Resize window"
 msgstr "Ridimensione barcon"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-ukwm-windows.xml:29
 msgid "Toggle window on all workspaces or one"
 msgstr "Ative/Disative barcon su ducj i spazis di lavôr o nome un"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-ukwm-windows.xml:31
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Tire sù il barcon se al è cuviert, se no sbassilu"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-ukwm-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "Met il barcon parsore di chei altris"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-ukwm-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "Bute il barcon sot di chei altris"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-ukwm-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "Slargje il barcon par verticâl"
 
-#: data/50-mutter-windows.xml:39
+#: data/50-ukwm-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "Slargje il barcon par orizontâl"
 
-#: data/50-mutter-windows.xml:43
+#: data/50-ukwm-windows.xml:43
 msgid "View split on left"
 msgstr "Slargje dividint ae çampe"
 
-#: data/50-mutter-windows.xml:47
+#: data/50-ukwm-windows.xml:47
 msgid "View split on right"
 msgstr "Slargje dividint ae drete"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/ukwm.desktop.in:4
+msgid "Ukwm"
+msgstr "Ukwm"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Modificadôr di doprâ pes operazions estesis di gjestion barcons"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -278,11 +278,11 @@ msgstr ""
 "predefinît al è pensât par jessi il “tast Windows” su hardware PC. Si spiete "
 "che cheste scurte e sedi il valôr predefinît o une stringhe vueide."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Dialics modâi tacâts"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -291,12 +291,12 @@ msgstr ""
 "Se metût a VÊR, invezit di vê sbaris di titul indipendentis, i dialics modâi "
 "a semein tacâts ae sbare dal titul dal barcon gjenitôr e si spostin cun lui."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Abilite il piastrelâ tal ôr cuant che si strissine i barcons tal ôr dal visôr"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -307,11 +307,11 @@ msgstr ""
 "cuvierzi metât dal spazi disponibil. Strissinant sul ôr superiôr dal schermi "
 "al slargje i barcons dal dut."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "I spazis di vore a son ministrât in maniere dinamiche"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -321,11 +321,11 @@ msgstr ""
 "il lôr numar al è fis (determinât de clâf num-workspaces in org.gnome."
 "desktop.wm.preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Spazis di vore nome tal visôr primari"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -333,11 +333,11 @@ msgstr ""
 "Determine se il cambi di spazi di lavôr al à di vignî pai barcons su ducj i "
 "visôrs o nome pai barcons sul visôr primari."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Nissun tab popup"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -345,11 +345,11 @@ msgstr ""
 "Determine se disabilitâ l'ûs di popup e di curnîs di evidenziadure tal passâ "
 "di un barcon a chel altri."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Tarde il cambiament dal focus fintremai che il puntadôr si ferme"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -359,11 +359,11 @@ msgstr ""
 "alore il focus nol ven spostât subite cuant che si passe suntun barcon, ma "
 "nome cuant che il puntadôr si ferme."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Largjece dal ôr che si pues strissinâ"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -371,11 +371,11 @@ msgstr ""
 "Il spessôr totâl pai ôrs che si puedin strissinâ. Se i ôrs visibii dal teme "
 "no bastin, a vegnin zontâts dai ôrs invisibii par rivâ a chest valôr."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Slargje in automatic i barcons grancj su par ju come il visôr"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -383,11 +383,11 @@ msgstr ""
 "Se abilitât, i gnûfs barcons che a an al inizi la stesse dimension dal visôr "
 "a vegnin slargjâts in automatic."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Place i gnûfs barcons tal mieç"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -395,11 +395,11 @@ msgstr ""
 "Se metût a VÊR, i gnûfs barcons a vegnaran plaçâts simpri tal mieç dal "
 "schermi atîf dal visôr."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/org.ukui.ukwm.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Abilite funzionalitâts sperimentâls"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/org.ukui.ukwm.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
@@ -409,7 +409,7 @@ msgid ""
 "monitor configuration system, aimed to replace the old one. This enables a "
 "higher level configuration API to be used by configuration applications, as "
 "well as the ability to configure per logical monitor scale. • “scale-monitor-"
-"framebuffer” — makes mutter default to layout logical monitors in a logical "
+"framebuffer” — makes ukwm default to layout logical monitors in a logical "
 "pixel coordinate space, while scaling monitor framebuffers instead of window "
 "content, to manage HiDPI monitors. Does not require a restart. Also enabling "
 "“monitor-config-manager” is required for this feature to be enabled."
@@ -424,74 +424,74 @@ msgstr ""
 "visôr, fat par sostituî chel vecjo. Chest al abilite une API di nivel "
 "superiôr che e pues jessi doprade di aplicazions di configurazion, cussì "
 "come la capacitât di configurâ par scjale di monitor logjic. • “scale-"
-"monitor-framebuffer” — al rint come predefinît par mutter la disposizion dai "
+"monitor-framebuffer” — al rint come predefinît par ukwm la disposizion dai "
 "visôrs logjics intun spazi logjic di coordenadis dai pixel, intant i "
 "framebuffer dai visôrs par scjalâ, invezit dal contignût dal barcon, a "
 "gjestissin i visôrs HiDPI. Nol covente tornâ a inviâ. In plui al è necessari "
 "abilitâ “monitor-config-manager” par fâ in mût che cheste funzionalitât e "
 "sedi abilitade."
 
-#: data/org.gnome.mutter.gschema.xml.in:151
+#: data/org.ukui.ukwm.gschema.xml.in:151
 msgid "Select window from tab popup"
 msgstr "Selezione barcon dal tab popup"
 
-#: data/org.gnome.mutter.gschema.xml.in:156
+#: data/org.ukui.ukwm.gschema.xml.in:156
 msgid "Cancel tab popup"
 msgstr "Anule tab popup"
 
-#: data/org.gnome.mutter.gschema.xml.in:161
+#: data/org.ukui.ukwm.gschema.xml.in:161
 msgid "Switch monitor configurations"
 msgstr "Cambie configurazions visôr"
 
-#: data/org.gnome.mutter.gschema.xml.in:166
+#: data/org.ukui.ukwm.gschema.xml.in:166
 msgid "Rotates the built-in monitor configuration"
 msgstr "Al volte la configurazion dal visôr integrât"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Passe al VT 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Passe al VT 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Passe al VT 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Passe al VT 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Passe al VT 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Passe al VT 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Passe al VT 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Passe al VT 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Passe al VT 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Passe al VT 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Passe al VT 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Passe al VT 12"
 
@@ -615,28 +615,28 @@ msgstr "Sfuarce _Jessude"
 msgid "_Wait"
 msgstr "_Spiete"
 
-#: src/core/mutter.c:39
+#: src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., e altris\n"
 "Chest al è software libar; viodi i sorzints pes condizions di copie.\n"
 "No je NISSUNE garanzie; nancje di CUMIERÇABILITÂT o IDONEITÂT A UNE "
 "FINALITÂT PARTICOLÂR.\n"
 
-#: src/core/mutter.c:53
+#: src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Stampe version"
 
-#: src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "Plugin Mutter di doprâ"
+#: src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "Plugin Ukwm di doprâ"
 
 #: src/core/prefs.c:1997
 #, c-format
@@ -658,8 +658,8 @@ msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Schermi %d su display “%s” no valit\n"
 
 #: src/core/util.c:120
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter al è stât compilât cence supuart pe modalitât fetose\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Ukwm al è stât compilât cence supuart pe modalitât fetose\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563
 #, c-format

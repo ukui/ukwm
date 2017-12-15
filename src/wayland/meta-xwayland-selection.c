@@ -1,5 +1,6 @@
 /*
  * Copyright © 2012 Intel Corporation
+ * Copyright © 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission to use, copy, modify, distribute, and sell this software and
  * its documentation for any purpose is hereby granted without fee, provided
@@ -78,7 +79,7 @@ typedef struct {
 typedef struct {
   MetaSelectionBridge selection;
   MetaWaylandSurface *focus_surface;
-  Window dnd_window; /* Mutter-internal window, acts as peer on wayland drop sites */
+  Window dnd_window; /* Ukwm-internal window, acts as peer on wayland drop sites */
   Window dnd_dest; /* X11 drag dest window */
   guint32 last_motion_time;
 } MetaDndBridge;

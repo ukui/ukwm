@@ -4,6 +4,7 @@
  * An OpenGL based 'interactive canvas' library.
  *
  * Copyright (C) 2011 Intel Corp
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -97,7 +98,7 @@ CLUTTER_DEPRECATED_IN_1_10_FOR(clutter_actor_get_background_color)
 void            clutter_stage_get_color         (ClutterStage       *stage,
                                                  ClutterColor       *color);
 
-CLUTTER_DEPRECATED_IN_MUTTER
+CLUTTER_DEPRECATED_IN_UKWM
 void            clutter_stage_ensure_current    (ClutterStage       *stage);
 
 G_END_DECLS

@@ -1,6 +1,7 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 /*
  * Copyright (C) 2013 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -16,10 +17,10 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-/* This file is shared between mutter (src/core/meta-display-config-shared.h)
+/* This file is shared between ukwm (src/core/meta-display-config-shared.h)
    and gnome-desktop (libgnome-desktop/meta-xrandr-shared.h).
 
-   The canonical place for all changes is mutter.
+   The canonical place for all changes is ukwm.
 
    There should be no includes in this file.
 */

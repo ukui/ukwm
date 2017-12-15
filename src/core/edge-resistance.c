@@ -4,6 +4,7 @@
 
 /*
  * Copyright (C) 2005, 2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -438,7 +439,7 @@ apply_edge_resistance (MetaWindow                *window,
                                    edge_resistance_timeout,
                                    resistance_data);
                   g_source_set_name_by_id (resistance_data->timeout_id,
-                                           "[mutter] edge_resistance_timeout");
+                                           "[ukwm] edge_resistance_timeout");
                   resistance_data->timeout_setup = TRUE;
                   resistance_data->timeout_edge_pos = compare;
                   resistance_data->timeout_over = FALSE;

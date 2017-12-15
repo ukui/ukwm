@@ -6,7 +6,7 @@
 #include <config.h>
 
 #include <X11/extensions/Xdamage.h>
-#include <meta/compositor-mutter.h>
+#include <meta/compositor-ukwm.h>
 #include "meta-surface-actor.h"
 #include "meta-plugin-manager.h"
 

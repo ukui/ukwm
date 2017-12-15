@@ -1,5 +1,5 @@
 <schemalist>
-  <schema id="org.gnome.mutter.wayland.keybindings" path="/org/gnome/mutter/wayland/keybindings/"
+  <schema id="org.ukui.ukwm.wayland.keybindings" path="/org/ukui/ukwm/wayland/keybindings/"
 	  gettext-domain="@GETTEXT_DOMAIN@">
     <key name="switch-to-session-1" type="as">
       <default><![CDATA[['<Primary><Alt>F1']]]></default>

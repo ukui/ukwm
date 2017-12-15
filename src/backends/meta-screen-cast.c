@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2015-2017 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -30,8 +31,8 @@
 #include "backends/meta-screen-cast-session.h"
 #include "backends/meta-remote-desktop-session.h"
 
-#define META_SCREEN_CAST_DBUS_SERVICE "org.gnome.Mutter.ScreenCast"
-#define META_SCREEN_CAST_DBUS_PATH "/org/gnome/Mutter/ScreenCast"
+#define META_SCREEN_CAST_DBUS_SERVICE "org.ukui.ukwm.ScreenCast"
+#define META_SCREEN_CAST_DBUS_PATH "/org/ukui/ukwm/ScreenCast"
 
 struct _MetaScreenCast
 {

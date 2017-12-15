@@ -5,6 +5,7 @@
  * Copyright (C) 2002, 2003, 2004 Red Hat, Inc.
  * Copyright (C) 2003, 2004 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -743,7 +744,7 @@ handle_window_focus_event (MetaDisplay  *display,
    *
    * My suggestion is to change it so that we clearly separate
    * actual keyboard focus tracking using the xterm algorithm,
-   * and mutter's "pretend" focus window, and go through all
+   * and ukwm's "pretend" focus window, and go through all
    * the code and decide which one should be used in each place;
    * a hard bit is deciding on a policy for that.
    *
@@ -1492,7 +1493,7 @@ handle_other_xevent (MetaDisplay *display,
              * sentinel_counter variable declaration in display.h
              */
             if (event->xproperty.atom ==
-                display->atom__MUTTER_SENTINEL)
+                display->atom__UKWM_SENTINEL)
               {
                 meta_display_decrement_focus_sentinel (display);
               }
@@ -1687,7 +1688,7 @@ window_has_xwindow (MetaWindow *window,
  * @event: The event that just happened
  *
  * This is the most important function in the whole program. It is the heart,
- * it is the nexus, it is the Grand Central Station of Mutter's world.
+ * it is the nexus, it is the Grand Central Station of Ukwm's world.
  * When we create a #MetaDisplay, we ask GDK to pass *all* events for *all*
  * windows to this function. So every time anything happens that we might
  * want to know about, this function gets called. You see why it gets a bit

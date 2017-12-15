@@ -80,18 +80,18 @@ AC_CONFIG_SRCDIR(cogl/cogl.h)
 AC_CONFIG_AUX_DIR([build])
 AC_CONFIG_MACRO_DIR([build/autotools])
 AC_CONFIG_HEADERS(cogl-config.h)
-AC_CONFIG_HEADERS(cogl-mutter-config.h)
+AC_CONFIG_HEADERS(cogl-ukwm-config.h)
 AC_GNU_SOURCE
 
 dnl ================================================================
-dnl Check that we are configured by mutter
+dnl Check that we are configured by ukwm
 dnl ================================================================
 
-AC_ARG_VAR([MUTTER_VERSION])
-AC_ARG_VAR([LIBMUTTER_API_VERSION])
+AC_ARG_VAR([UKWM_VERSION])
+AC_ARG_VAR([LIBUKWM_API_VERSION])
 
-AS_IF([test "x$MUTTER_VERSION" = "x"],
-      [AC_MSG_ERROR([Clutter can only be configured by mutter])],)
+AS_IF([test "x$UKWM_VERSION" = "x"],
+      [AC_MSG_ERROR([Clutter can only be configured by ukwm])],)
 
 dnl ================================================================
 dnl Required versions for dependencies
@@ -955,16 +955,16 @@ AC_OUTPUT(
 Makefile
 test-fixtures/Makefile
 cogl/Makefile
-cogl/mutter-cogl-$LIBMUTTER_API_VERSION.pc:cogl/mutter-cogl.pc.in
+cogl/ukwm-cogl-$LIBUKWM_API_VERSION.pc:cogl/ukwm-cogl.pc.in
 cogl/cogl-defines.h
 cogl/cogl-gl-header.h
 cogl/cogl-egl-defines.h
 cogl-pango/Makefile
-cogl-pango/mutter-cogl-pango-$LIBMUTTER_API_VERSION.pc:cogl-pango/mutter-cogl-pango.pc.in
+cogl-pango/ukwm-cogl-pango-$LIBUKWM_API_VERSION.pc:cogl-pango/ukwm-cogl-pango.pc.in
 cogl-path/Makefile
-cogl-path/mutter-cogl-path-$LIBMUTTER_API_VERSION.pc:cogl-path/mutter-cogl-path.pc.in
+cogl-path/ukwm-cogl-path-$LIBUKWM_API_VERSION.pc:cogl-path/ukwm-cogl-path.pc.in
 cogl-gles2/Makefile
-cogl-gles2/mutter-cogl-gles2-$LIBMUTTER_API_VERSION.pc:cogl-gles2/mutter-cogl-gles2.pc.in
+cogl-gles2/ukwm-cogl-gles2-$LIBUKWM_API_VERSION.pc:cogl-gles2/ukwm-cogl-gles2.pc.in
 tests/Makefile
 tests/config.env
 tests/conform/Makefile

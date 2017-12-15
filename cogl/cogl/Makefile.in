@@ -143,7 +143,7 @@ host_triplet = @host@
 
 @UNIT_TESTS_TRUE@am__append_15 = $(top_builddir)/test-fixtures/libtest-fixtures.la
 @HAVE_INTROSPECTION_TRUE@@UNIT_TESTS_TRUE@am__append_16 = $(top_builddir)/test-fixtures/libtest-fixtures.la
-@HAVE_INTROSPECTION_TRUE@am__append_17 = Cogl-@LIBMUTTER_API_VERSION@.gir
+@HAVE_INTROSPECTION_TRUE@am__append_17 = Cogl-@LIBUKWM_API_VERSION@.gir
 @HAVE_INTROSPECTION_TRUE@am__append_18 = $(gir_DATA) $(typelib_DATA)
 subdir = cogl
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
@@ -163,7 +163,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(cogl_proto_include_HEADERS) \
 	$(am__coglinclude_HEADERS_DIST) $(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/cogl-config.h \
-	$(top_builddir)/cogl-mutter-config.h
+	$(top_builddir)/cogl-ukwm-config.h
 CONFIG_CLEAN_FILES = cogl-defines.h cogl-gl-header.h \
 	cogl-egl-defines.h
 CONFIG_CLEAN_VPATH_FILES =
@@ -194,17 +194,17 @@ am__uninstall_files_from_dir = { \
     || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
-am__installdirs = "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" \
+am__installdirs = "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(girdir)" \
 	"$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" \
 	"$(DESTDIR)$(cogl_proto_includedir)" \
 	"$(DESTDIR)$(cogldeprecatedincludedir)" \
 	"$(DESTDIR)$(coglincludedir)" "$(DESTDIR)$(coglincludedir)"
-LTLIBRARIES = $(mutterlib_LTLIBRARIES)
+LTLIBRARIES = $(ukwmlib_LTLIBRARIES)
 am__DEPENDENCIES_1 =
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES =  \
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_DEPENDENCIES =  \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__append_15)
-am__libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST =  \
+am__libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES_DIST =  \
 	driver/nop/cogl-driver-nop.c \
 	driver/nop/cogl-framebuffer-nop-private.h \
 	driver/nop/cogl-framebuffer-nop.c \
@@ -409,21 +409,21 @@ am__objects_10 = $(am__objects_4) $(am__objects_5) cogl-gpu-info.lo \
 	deprecated/cogl-framebuffer-deprecated.lo $(am__objects_1) \
 	cogl-glib-source.lo $(am__objects_6) $(am__objects_7) \
 	$(am__objects_8) $(am__objects_9)
-am_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+am_libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_10)
-nodist_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+nodist_libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_1)
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
-	$(am_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS) \
-	$(nodist_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS)
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
+	$(am_libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS) \
+	$(nodist_libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LINK = $(LIBTOOL) $(AM_V_lt) \
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CCLD) $(AM_CFLAGS) $(CFLAGS) \
-	$(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LDFLAGS) \
+	$(libukwm_cogl_@LIBUKWM_API_VERSION@_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
@@ -459,10 +459,10 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES) \
-	$(nodist_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES)
+SOURCES = $(libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES) \
+	$(nodist_libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES)
 DIST_SOURCES =  \
-	$(am__libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST)
+	$(am__libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES_DIST)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
 	install-data-recursive install-dvi-recursive \
@@ -504,7 +504,7 @@ am__coglinclude_HEADERS_DIST = deprecated/cogl-material-compat.h \
 	cogl-sub-texture.h cogl-atlas-texture.h cogl-meta-texture.h \
 	cogl-primitive-texture.h cogl-depth-state.h cogl-buffer.h \
 	cogl-pixel-buffer.h cogl-macros.h cogl-fence.h cogl-version.h \
-	cogl-error.h cogl-gtype-private.h cogl-mutter.h \
+	cogl-error.h cogl-gtype-private.h cogl-ukwm.h \
 	cogl-glib-source.h winsys/cogl-texture-pixmap-x11.h \
 	cogl-xlib.h cogl-glx.h cogl-wayland-server.h cogl-egl.h
 HEADERS = $(cogl_proto_include_HEADERS) \
@@ -540,7 +540,7 @@ CTAGS = ctags
 DIST_SUBDIRS = $(SUBDIRS)
 am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/cogl-defines.h.in \
 	$(srcdir)/cogl-egl-defines.h.in $(srcdir)/cogl-gl-header.h.in \
-	$(srcdir)/mutter-cogl.pc.in $(top_srcdir)/build/depcomp
+	$(srcdir)/ukwm-cogl.pc.in $(top_srcdir)/build/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 am__relativize = \
   dir0=`pwd`; \
@@ -662,7 +662,7 @@ INTROSPECTION_TYPELIBDIR = @INTROSPECTION_TYPELIBDIR@
 LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -674,7 +674,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -776,7 +776,7 @@ AM_CPPFLAGS = -I$(top_srcdir) -I$(top_builddir) -I$(srcdir)/deprecated \
 	-DCOGL_GLES2_LIBNAME=\"$(COGL_GLES2_LIBNAME)\" \
 	-DCOGL_LOCALEDIR=\""$(localedir)"\" $(NULL) $(am__append_1)
 AM_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
-pc_files = mutter-cogl-$(LIBMUTTER_API_VERSION).pc
+pc_files = ukwm-cogl-$(LIBUKWM_API_VERSION).pc
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(pc_files)
 cogl_deprecated_h = \
@@ -811,7 +811,7 @@ cogl_nonintrospected_h = cogl-object.h cogl-renderer.h \
 	cogl-primitive-texture.h cogl-depth-state.h cogl-buffer.h \
 	cogl-pixel-buffer.h cogl-macros.h cogl-fence.h cogl-version.h \
 	cogl-error.h cogl-bitmap.h cogl-color.h cogl-matrix.h \
-	cogl-texture.h cogl-types.h cogl-gtype-private.h cogl-mutter.h \
+	cogl-texture.h cogl-types.h cogl-gtype-private.h cogl-ukwm.h \
 	$(NULL) cogl-glib-source.h $(am__append_6) $(am__append_8) \
 	$(am__append_10) $(am__append_12)
 cogl_nodist_h = $(NULL) $(am__append_13)
@@ -958,21 +958,21 @@ cogl_sources_c = $(cogl_driver_sources) $(cogl_winsys_common_sources) \
 	deprecated/cogl-framebuffer-deprecated.c $(NULL) \
 	cogl-glib-source.c $(am__append_7) $(am__append_9) \
 	$(am__append_11) $(am__append_14)
-mutterlibdir = $(libdir)/mutter
-mutterlib_LTLIBRARIES = libmutter-cogl-@LIBMUTTER_API_VERSION@.la
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LIBADD = $(LIBM) \
+ukwmlibdir = $(libdir)/ukwm
+ukwmlib_LTLIBRARIES = libukwm-cogl-@LIBUKWM_API_VERSION@.la
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_LIBADD = $(LIBM) \
 	$(COGL_DEP_LIBS) $(COGL_EXTRA_LDFLAGS) $(am__append_15)
 # XXX: The aim is to eventually get rid of all private API exports
 # for cogl-pango.
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-no-undefined \
 	-avoid-version \
 	-export-dynamic \
-	-rpath $(mutterlibdir) \
+	-rpath $(ukwmlibdir) \
 	-export-symbols-regex "^(cogl|_cogl_debug_flags|_cogl_atlas_new|_cogl_atlas_add_reorganize_callback|_cogl_atlas_reserve_space|_cogl_callback|_cogl_util_get_eye_planes_for_screen_poly|_cogl_atlas_texture_remove_reorganize_callback|_cogl_atlas_texture_add_reorganize_callback|_cogl_texture_get_format|_cogl_texture_foreach_sub_texture_in_region|_cogl_texture_set_region|_cogl_profile_trace_message|_cogl_context_get_default|_cogl_framebuffer_get_stencil_bits|_cogl_clip_stack_push_rectangle|_cogl_framebuffer_get_modelview_stack|_cogl_object_default_unref|_cogl_pipeline_foreach_layer_internal|_cogl_clip_stack_push_primitive|_cogl_buffer_unmap_for_fill_or_fallback|_cogl_framebuffer_draw_primitive|_cogl_debug_instances|_cogl_framebuffer_get_projection_stack|_cogl_pipeline_layer_get_texture|_cogl_buffer_map_for_fill_or_fallback|_cogl_texture_can_hardware_repeat|_cogl_pipeline_prune_to_n_layers|_cogl_primitive_draw|test_|unit_test_|_cogl_winsys_glx_get_vtable|_cogl_winsys_egl_xlib_get_vtable|_cogl_winsys_egl_get_vtable|_cogl_closure_disconnect|_cogl_onscreen_notify_complete|_cogl_onscreen_notify_frame_sync|_cogl_winsys_egl_renderer_connect_common|_cogl_winsys_error_quark|_cogl_set_error|_cogl_poll_renderer_add_fd|_cogl_poll_renderer_add_idle|_cogl_framebuffer_winsys_update_size|_cogl_winsys_egl_make_current|_cogl_pixel_format_get_bytes_per_pixel).*"
 
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES = $(cogl_sources_c)
-nodist_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES = $(BUILT_SOURCES)
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES = $(cogl_sources_c)
+nodist_libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES = $(BUILT_SOURCES)
 
 # Cogl installed headers
 cogl_headers = \
@@ -981,7 +981,7 @@ cogl_headers = \
 	cogl-pango.h \
 	$(NULL)
 
-cogl_base_includedir = $(includedir)/mutter
+cogl_base_includedir = $(includedir)/ukwm
 cogldeprecatedincludedir = $(cogl_base_includedir)/cogl/cogl/deprecated
 cogldeprecatedinclude_HEADERS = $(cogl_deprecated_h) $(cogl_deprecated_nonintrospected_h)
 coglincludedir = $(cogl_base_includedir)/cogl/cogl
@@ -990,18 +990,18 @@ nodist_coglinclude_HEADERS = $(cogl_nodist_h) cogl-defines.h
 cogl_proto_includedir = $(cogl_base_includedir)/cogl/cogl/gl-prototypes
 cogl_proto_include_HEADERS = $(cogl_gl_prototypes_h)
 INTROSPECTION_GIRS = $(am__append_17)
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = Cogl
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_VERSION = $(LIBMUTTER_API_VERSION)
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_NAMESPACE = Cogl
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_VERSION = $(LIBUKWM_API_VERSION)
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 @HAVE_INTROSPECTION_TRUE@	$(am__append_16)
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_FILES = $(cogl_1_public_h)
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) -UCOGL_COMPILATION -D__COGL_H_INSIDE__ -D__COGL_XLIB_H_INSIDE__ -D__COGL_EGL_H_INSIDE__ -D__COGL_GLX_H_INSIDE__ -DCOGL_GIR_SCANNING
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_INCLUDES = GL-1.0 GObject-2.0
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_EXPORT_PACKAGES = mutter-cogl-@LIBMUTTER_API_VERSION@
-@HAVE_INTROSPECTION_TRUE@Cogl_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = --warn-all --c-include='cogl/cogl.h'
-@HAVE_INTROSPECTION_TRUE@girdir = $(mutterlibdir)
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_FILES = $(cogl_1_public_h)
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) -UCOGL_COMPILATION -D__COGL_H_INSIDE__ -D__COGL_XLIB_H_INSIDE__ -D__COGL_EGL_H_INSIDE__ -D__COGL_GLX_H_INSIDE__ -DCOGL_GIR_SCANNING
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_INCLUDES = GL-1.0 GObject-2.0
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_EXPORT_PACKAGES = ukwm-cogl-@LIBUKWM_API_VERSION@
+@HAVE_INTROSPECTION_TRUE@Cogl_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = --warn-all --c-include='cogl/cogl.h'
+@HAVE_INTROSPECTION_TRUE@girdir = $(ukwmlibdir)
 @HAVE_INTROSPECTION_TRUE@gir_DATA = $(INTROSPECTION_GIRS)
-@HAVE_INTROSPECTION_TRUE@typelibdir = $(mutterlibdir)
+@HAVE_INTROSPECTION_TRUE@typelibdir = $(ukwmlibdir)
 @HAVE_INTROSPECTION_TRUE@typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 all: $(BUILT_SOURCES)
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
@@ -1044,33 +1044,33 @@ cogl-gl-header.h: $(top_builddir)/config.status $(srcdir)/cogl-gl-header.h.in
 cogl-egl-defines.h: $(top_builddir)/config.status $(srcdir)/cogl-egl-defines.h.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
 
-install-mutterlibLTLIBRARIES: $(mutterlib_LTLIBRARIES)
+install-ukwmlibLTLIBRARIES: $(ukwmlib_LTLIBRARIES)
 	@$(NORMAL_INSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	list2=; for p in $$list; do \
 	  if test -f $$p; then \
 	    list2="$$list2 $$p"; \
 	  else :; fi; \
 	done; \
 	test -z "$$list2" || { \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(mutterlibdir)" || exit 1; \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(mutterlibdir)"; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(ukwmlibdir)" || exit 1; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(ukwmlibdir)"; \
 	}
 
-uninstall-mutterlibLTLIBRARIES:
+uninstall-ukwmlibLTLIBRARIES:
 	@$(NORMAL_UNINSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	for p in $$list; do \
 	  $(am__strip_dir) \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(mutterlibdir)/$$f'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(mutterlibdir)/$$f"; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(ukwmlibdir)/$$f'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(ukwmlibdir)/$$f"; \
 	done
 
-clean-mutterlibLTLIBRARIES:
-	-test -z "$(mutterlib_LTLIBRARIES)" || rm -f $(mutterlib_LTLIBRARIES)
-	@list='$(mutterlib_LTLIBRARIES)'; \
+clean-ukwmlibLTLIBRARIES:
+	-test -z "$(ukwmlib_LTLIBRARIES)" || rm -f $(ukwmlib_LTLIBRARIES)
+	@list='$(ukwmlib_LTLIBRARIES)'; \
 	locs=`for p in $$list; do echo $$p; done | \
 	      sed 's|^[^/]*$$|.|; s|/[^/]*$$||; s|$$|/so_locations|' | \
 	      sort -u`; \
@@ -1194,8 +1194,8 @@ winsys/cogl-winsys-egl-x11.lo: winsys/$(am__dirstamp) \
 winsys/cogl-winsys-egl.lo: winsys/$(am__dirstamp) \
 	winsys/$(DEPDIR)/$(am__dirstamp)
 
-libmutter-cogl-@LIBMUTTER_API_VERSION@.la: $(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) 
-	$(AM_V_CCLD)$(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LINK) -rpath $(mutterlibdir) $(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LIBADD) $(LIBS)
+libukwm-cogl-@LIBUKWM_API_VERSION@.la: $(libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_cogl_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libukwm_cogl_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libukwm_cogl_@LIBUKWM_API_VERSION@_la_LINK) -rpath $(ukwmlibdir) $(libukwm_cogl_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_cogl_@LIBUKWM_API_VERSION@_la_LIBADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -1675,7 +1675,7 @@ check: $(BUILT_SOURCES)
 all-am: Makefile $(LTLIBRARIES) $(DATA) $(HEADERS)
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cogl_proto_includedir)" "$(DESTDIR)$(cogldeprecatedincludedir)" "$(DESTDIR)$(coglincludedir)" "$(DESTDIR)$(coglincludedir)"; do \
+	for dir in "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cogl_proto_includedir)" "$(DESTDIR)$(cogldeprecatedincludedir)" "$(DESTDIR)$(coglincludedir)" "$(DESTDIR)$(coglincludedir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: $(BUILT_SOURCES)
@@ -1726,7 +1726,7 @@ maintainer-clean-generic:
 	-test -z "$(BUILT_SOURCES)" || rm -f $(BUILT_SOURCES)
 clean: clean-recursive
 
-clean-am: clean-generic clean-libtool clean-mutterlibLTLIBRARIES \
+clean-am: clean-generic clean-libtool clean-ukwmlibLTLIBRARIES \
 	mostlyclean-am
 
 distclean: distclean-recursive
@@ -1750,7 +1750,7 @@ info-am:
 install-data-am: install-cogl_proto_includeHEADERS \
 	install-cogldeprecatedincludeHEADERS \
 	install-coglincludeHEADERS install-girDATA \
-	install-mutterlibLTLIBRARIES install-nodist_coglincludeHEADERS \
+	install-ukwmlibLTLIBRARIES install-nodist_coglincludeHEADERS \
 	install-pkgconfigDATA install-typelibDATA
 
 install-dvi: install-dvi-recursive
@@ -1800,7 +1800,7 @@ ps-am:
 uninstall-am: uninstall-cogl_proto_includeHEADERS \
 	uninstall-cogldeprecatedincludeHEADERS \
 	uninstall-coglincludeHEADERS uninstall-girDATA \
-	uninstall-mutterlibLTLIBRARIES \
+	uninstall-ukwmlibLTLIBRARIES \
 	uninstall-nodist_coglincludeHEADERS uninstall-pkgconfigDATA \
 	uninstall-typelibDATA
 
@@ -1809,7 +1809,7 @@ uninstall-am: uninstall-cogl_proto_includeHEADERS \
 
 .PHONY: $(am__recursive_targets) CTAGS GTAGS TAGS all all-am check \
 	check-am clean clean-generic clean-libtool \
-	clean-mutterlibLTLIBRARIES cscopelist-am ctags ctags-am \
+	clean-ukwmlibLTLIBRARIES cscopelist-am ctags ctags-am \
 	distclean distclean-compile distclean-generic \
 	distclean-libtool distclean-tags distdir dvi dvi-am html \
 	html-am info info-am install install-am \
@@ -1818,7 +1818,7 @@ uninstall-am: uninstall-cogl_proto_includeHEADERS \
 	install-coglincludeHEADERS install-data install-data-am \
 	install-dvi install-dvi-am install-exec install-exec-am \
 	install-girDATA install-html install-html-am install-info \
-	install-info-am install-man install-mutterlibLTLIBRARIES \
+	install-info-am install-man install-ukwmlibLTLIBRARIES \
 	install-nodist_coglincludeHEADERS install-pdf install-pdf-am \
 	install-pkgconfigDATA install-ps install-ps-am install-strip \
 	install-typelibDATA installcheck installcheck-am installdirs \
@@ -1828,7 +1828,7 @@ uninstall-am: uninstall-cogl_proto_includeHEADERS \
 	uninstall-am uninstall-cogl_proto_includeHEADERS \
 	uninstall-cogldeprecatedincludeHEADERS \
 	uninstall-coglincludeHEADERS uninstall-girDATA \
-	uninstall-mutterlibLTLIBRARIES \
+	uninstall-ukwmlibLTLIBRARIES \
 	uninstall-nodist_coglincludeHEADERS uninstall-pkgconfigDATA \
 	uninstall-typelibDATA
 
@@ -1837,7 +1837,7 @@ uninstall-am: uninstall-cogl_proto_includeHEADERS \
 
 -include $(INTROSPECTION_MAKEFILE)
 
-@HAVE_INTROSPECTION_TRUE@Cogl-@LIBMUTTER_API_VERSION@.gir: libmutter-cogl-$(LIBMUTTER_API_VERSION).la Makefile
+@HAVE_INTROSPECTION_TRUE@Cogl-@LIBUKWM_API_VERSION@.gir: libukwm-cogl-$(LIBUKWM_API_VERSION).la Makefile
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

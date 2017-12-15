@@ -2,6 +2,7 @@
 
 /*
  * Copyright (c) 2008 Intel Corp.
+ * Copyright (c) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Author: Tomas Frydrych <tf@linux.intel.com>
  *
@@ -47,7 +48,7 @@ void
 meta_plugin_manager_set_plugin_type (GType gtype)
 {
   if (plugin_type != G_TYPE_NONE)
-    meta_fatal ("Mutter plugin already set: %s", g_type_name (plugin_type));
+    meta_fatal ("Ukwm plugin already set: %s", g_type_name (plugin_type));
 
   plugin_type = gtype;
 }
@@ -58,7 +59,7 @@ meta_plugin_manager_set_plugin_type (GType gtype)
 void
 meta_plugin_manager_load (const gchar       *plugin_name)
 {
-  const gchar *dpath = MUTTER_PLUGIN_DIR "/";
+  const gchar *dpath = UKWM_PLUGIN_DIR "/";
   gchar       *path;
   MetaModule  *module;
 

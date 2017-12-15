@@ -2,6 +2,7 @@
  * An OpenGL based 'interactive canvas' library.
  * Authored By Matthew Allum  <mallum@openedhand.com>
  * Copyright (C) 2006-2007 OpenedHand
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -42,7 +43,7 @@
 #include "clutter-event-private.h"
 #include "clutter-feature.h"
 #include "clutter-main.h"
-#include "clutter-mutter.h"
+#include "clutter-ukwm.h"
 #include "clutter-paint-volume-private.h"
 #include "clutter-private.h"
 #include "clutter-stage-private.h"

@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -647,7 +648,7 @@ meta_backend_native_get_barrier_manager (MetaBackendNative *native)
 /**
  * meta_activate_session:
  *
- * Tells mutter to activate the session. When mutter is a
+ * Tells ukwm to activate the session. When ukwm is a
  * display server, this tells logind to switch over to
  * the new session.
  */

@@ -4,6 +4,7 @@
  * An OpenGL based 'interactive canvas' library.
  *
  * Copyright (C) 2016 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -20,8 +21,8 @@
  *
  */
 
-#ifndef __CLUTTER_MUTTER_H__
-#define __CLUTTER_MUTTER_H__
+#ifndef __CLUTTER_UKWM_H__
+#define __CLUTTER_UKWM_H__
 
 #define __CLUTTER_H_INSIDE__
 
@@ -31,16 +32,16 @@
 #include "cogl/clutter-stage-cogl.h"
 #include "x11/clutter-stage-x11.h"
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void clutter_set_custom_backend_func (ClutterBackend *(* func) (void));
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 gboolean        _clutter_get_sync_to_vblank     (void);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 int64_t clutter_stage_get_frame_counter (ClutterStage *stage);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void clutter_stage_capture_into (ClutterStage          *stage,
                                  gboolean               paint,
                                  cairo_rectangle_int_t *rect,
@@ -48,4 +49,4 @@ void clutter_stage_capture_into (ClutterStage          *stage,
 
 #undef __CLUTTER_H_INSIDE__
 
-#endif /* __CLUTTER_MUTTER_H__ */
+#endif /* __CLUTTER_UKWM_H__ */

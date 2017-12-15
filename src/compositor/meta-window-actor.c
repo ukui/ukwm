@@ -23,7 +23,7 @@
 #include <meta/meta-enum-types.h>
 #include <meta/meta-shadow-factory.h>
 
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 #include "compositor-private.h"
 #include "meta-shaped-texture-private.h"
 #include "meta-window-actor-private.h"
@@ -217,7 +217,7 @@ meta_window_actor_class_init (MetaWindowActorClass *klass)
    * @actor: the #MetaWindowActor instance
    *
    * The ::first-frame signal will be emitted the first time a frame
-   * of window contents has been drawn by the application and Mutter
+   * of window contents has been drawn by the application and Ukwm
    * has had the chance to drawn that frame to the screen. If the
    * window starts off initially hidden, obscured, or on on a
    * different workspace, the ::first-frame signal will be emitted
@@ -976,7 +976,7 @@ queue_send_frame_messages_timeout (MetaWindowActor *self)
   * to be drawn when the timer expires.
   */
   priv->send_frame_messages_timer = g_timeout_add_full (META_PRIORITY_REDRAW, offset, send_frame_messages_timeout, self, NULL);
-  g_source_set_name_by_id (priv->send_frame_messages_timer, "[mutter] send_frame_messages_timeout");
+  g_source_set_name_by_id (priv->send_frame_messages_timer, "[ukwm] send_frame_messages_timeout");
 }
 
 void
@@ -1858,7 +1858,7 @@ meta_window_actor_update_opaque_region (MetaWindowActor *self)
        *
        * If the client gives bad coordinates where it does not
        * fully paint, the behavior is defined by the specification
-       * to be undefined, and considered a client bug. In mutter's
+       * to be undefined, and considered a client bug. In ukwm's
        * case, graphical glitches will occur.
        */
       opaque_region = cairo_region_copy (priv->window->opaque_region);

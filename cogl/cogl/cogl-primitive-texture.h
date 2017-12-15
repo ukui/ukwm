@@ -4,6 +4,7 @@
  * A Low Level GPU Graphics and Utilities API
  *
  * Copyright (C) 2012 Intel Corporation.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -63,7 +64,7 @@ COGL_BEGIN_DECLS
  * primitive textures.</note>
  */
 
-#if defined(__COGL_H_INSIDE__) && !defined(COGL_ENABLE_MUTTER_API) && \
+#if defined(__COGL_H_INSIDE__) && !defined(COGL_ENABLE_UKWM_API) && \
   !defined(COGL_GIR_SCANNING)
 /* For the public C api we typedef interface types as void to avoid needing
  * lots of casting in code and instead we will rely on runtime type checking

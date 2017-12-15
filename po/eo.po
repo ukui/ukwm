@@ -1,13 +1,11 @@
-# Esperanto translation for mutter.
+# Esperanto translation for ukwm.
 # Copyright (C) 2011 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mutter package.
+# This file is distributed under the same license as the ukwm package.
 # Michael MORONI < >, 2011.
 # Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2012, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mutter"
-"&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: ukwm\n"
 "POT-Creation-Date: 2015-02-14 11:06+0000\n"
 "PO-Revision-Date: 2015-02-14 22:34+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
@@ -20,255 +18,255 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/50-mutter-navigation.xml.in.h:1
+#: ../data/50-ukwm-navigation.xml.in.h:1
 msgid "Navigation"
 msgstr "Navigado"
 
-#: ../data/50-mutter-navigation.xml.in.h:2
+#: ../data/50-ukwm-navigation.xml.in.h:2
 msgid "Move window to workspace 1"
 msgstr "Movi la fenestron al laborspaco 1"
 
-#: ../data/50-mutter-navigation.xml.in.h:3
+#: ../data/50-ukwm-navigation.xml.in.h:3
 msgid "Move window to workspace 2"
 msgstr "Movi la fenestron al laborspaco 2"
 
-#: ../data/50-mutter-navigation.xml.in.h:4
+#: ../data/50-ukwm-navigation.xml.in.h:4
 msgid "Move window to workspace 3"
 msgstr "Movi la fenestron al laborspaco 3"
 
-#: ../data/50-mutter-navigation.xml.in.h:5
+#: ../data/50-ukwm-navigation.xml.in.h:5
 msgid "Move window to workspace 4"
 msgstr "Movi la fenestron al laborspaco 4"
 
-#: ../data/50-mutter-navigation.xml.in.h:6
+#: ../data/50-ukwm-navigation.xml.in.h:6
 msgid "Move window to last workspace"
 msgstr "Movi la fenestron al lasta laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:7
+#: ../data/50-ukwm-navigation.xml.in.h:7
 msgid "Move window one workspace to the left"
 msgstr "Movi la fenestron al la maldekstra laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:8
+#: ../data/50-ukwm-navigation.xml.in.h:8
 msgid "Move window one workspace to the right"
 msgstr "Movi la fenestron al la dekstra laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:9
+#: ../data/50-ukwm-navigation.xml.in.h:9
 msgid "Move window one workspace up"
 msgstr "Movi la fenestron al la supra laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:10
+#: ../data/50-ukwm-navigation.xml.in.h:10
 msgid "Move window one workspace down"
 msgstr "Movi la fenestron al la suba laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:11
+#: ../data/50-ukwm-navigation.xml.in.h:11
 msgid "Move window one monitor to the left"
 msgstr "Movi la fenestron al la maldekstra ekrano"
 
-#: ../data/50-mutter-navigation.xml.in.h:12
+#: ../data/50-ukwm-navigation.xml.in.h:12
 msgid "Move window one monitor to the right"
 msgstr "Movi la fenestron al la dekstra ekrano"
 
-#: ../data/50-mutter-navigation.xml.in.h:13
+#: ../data/50-ukwm-navigation.xml.in.h:13
 msgid "Move window one monitor up"
 msgstr "Movi la fenestron al la supra ekrano"
 
-#: ../data/50-mutter-navigation.xml.in.h:14
+#: ../data/50-ukwm-navigation.xml.in.h:14
 msgid "Move window one monitor down"
 msgstr "Movi la fenestron al la suba ekrano"
 
-#: ../data/50-mutter-navigation.xml.in.h:15
+#: ../data/50-ukwm-navigation.xml.in.h:15
 msgid "Switch applications"
 msgstr "Ŝanĝi aplikaĵojn"
 
-#: ../data/50-mutter-navigation.xml.in.h:16
+#: ../data/50-ukwm-navigation.xml.in.h:16
 msgid "Switch to previous application"
 msgstr "Ŝalti al antaŭa aplikaĵo"
 
-#: ../data/50-mutter-navigation.xml.in.h:17
+#: ../data/50-ukwm-navigation.xml.in.h:17
 msgid "Switch windows"
 msgstr "Ŝanĝi fenestrojn"
 
-#: ../data/50-mutter-navigation.xml.in.h:18
+#: ../data/50-ukwm-navigation.xml.in.h:18
 msgid "Switch to previous window"
 msgstr "Ŝalti al antaŭa fenestro"
 
-#: ../data/50-mutter-navigation.xml.in.h:19
+#: ../data/50-ukwm-navigation.xml.in.h:19
 msgid "Switch windows of an application"
 msgstr "Ŝanĝi fenestrojn de aplikaĵo"
 
-#: ../data/50-mutter-navigation.xml.in.h:20
+#: ../data/50-ukwm-navigation.xml.in.h:20
 msgid "Switch to previous window of an application"
 msgstr "Ŝalti al antaŭa fenestro de aplikaĵo"
 
-#: ../data/50-mutter-navigation.xml.in.h:21
+#: ../data/50-ukwm-navigation.xml.in.h:21
 msgid "Switch system controls"
 msgstr "Ŝanĝi sistem-kontrolojn"
 
-#: ../data/50-mutter-navigation.xml.in.h:22
+#: ../data/50-ukwm-navigation.xml.in.h:22
 msgid "Switch to previous system control"
 msgstr "Ŝalti al antaŭa sistem-kontrolo"
 
-#: ../data/50-mutter-navigation.xml.in.h:23
+#: ../data/50-ukwm-navigation.xml.in.h:23
 msgid "Switch windows directly"
 msgstr "Ŝanĝi rekte fenestrojn"
 
-#: ../data/50-mutter-navigation.xml.in.h:24
+#: ../data/50-ukwm-navigation.xml.in.h:24
 msgid "Switch directly to previous window"
 msgstr "Ŝalti rekte al antaŭa fenestro"
 
-#: ../data/50-mutter-navigation.xml.in.h:25
+#: ../data/50-ukwm-navigation.xml.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "Ŝanĝi rekte fenestrojn de aplikaĵo"
 
-#: ../data/50-mutter-navigation.xml.in.h:26
+#: ../data/50-ukwm-navigation.xml.in.h:26
 msgid "Switch directly to previous window of an app"
 msgstr "Ŝalti rekte al antaŭa fenestro de aplikaĵo"
 
-#: ../data/50-mutter-navigation.xml.in.h:27
+#: ../data/50-ukwm-navigation.xml.in.h:27
 msgid "Switch system controls directly"
 msgstr "Ŝalti rekte sistem-kontrolojn"
 
-#: ../data/50-mutter-navigation.xml.in.h:28
+#: ../data/50-ukwm-navigation.xml.in.h:28
 msgid "Switch directly to previous system control"
 msgstr "Ŝalti rekte al antaŭa sistem-kontrolo"
 
-#: ../data/50-mutter-navigation.xml.in.h:29
+#: ../data/50-ukwm-navigation.xml.in.h:29
 msgid "Hide all normal windows"
 msgstr "Kaŝi ĉiujn normalajn fenestrojn"
 
-#: ../data/50-mutter-navigation.xml.in.h:30
+#: ../data/50-ukwm-navigation.xml.in.h:30
 msgid "Switch to workspace 1"
 msgstr "Ŝalti al laborspaco 1"
 
-#: ../data/50-mutter-navigation.xml.in.h:31
+#: ../data/50-ukwm-navigation.xml.in.h:31
 msgid "Switch to workspace 2"
 msgstr "Ŝalti al laborspaco 2"
 
-#: ../data/50-mutter-navigation.xml.in.h:32
+#: ../data/50-ukwm-navigation.xml.in.h:32
 msgid "Switch to workspace 3"
 msgstr "Ŝalti al laborspaco 3"
 
-#: ../data/50-mutter-navigation.xml.in.h:33
+#: ../data/50-ukwm-navigation.xml.in.h:33
 msgid "Switch to workspace 4"
 msgstr "Ŝalti al laborspaco 4"
 
-#: ../data/50-mutter-navigation.xml.in.h:34
+#: ../data/50-ukwm-navigation.xml.in.h:34
 msgid "Switch to last workspace"
 msgstr "Ŝalti al lasta laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:35
+#: ../data/50-ukwm-navigation.xml.in.h:35
 msgid "Move to workspace left"
 msgstr "Movi al la maldekstra laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:36
+#: ../data/50-ukwm-navigation.xml.in.h:36
 msgid "Move to workspace right"
 msgstr "Movi al la dekstra laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:37
+#: ../data/50-ukwm-navigation.xml.in.h:37
 msgid "Move to workspace above"
 msgstr "Movi al la supra laborspaco"
 
-#: ../data/50-mutter-navigation.xml.in.h:38
+#: ../data/50-ukwm-navigation.xml.in.h:38
 msgid "Move to workspace below"
 msgstr "Movi al la malsupra laborspaco"
 
-#: ../data/50-mutter-system.xml.in.h:1
+#: ../data/50-ukwm-system.xml.in.h:1
 msgid "System"
 msgstr "Sistemo"
 
-#: ../data/50-mutter-system.xml.in.h:2
+#: ../data/50-ukwm-system.xml.in.h:2
 msgid "Show the run command prompt"
 msgstr ""
 
-#: ../data/50-mutter-system.xml.in.h:3
+#: ../data/50-ukwm-system.xml.in.h:3
 msgid "Show the activities overview"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:1
+#: ../data/50-ukwm-windows.xml.in.h:1
 msgid "Windows"
 msgstr "Fenestroj"
 
-#: ../data/50-mutter-windows.xml.in.h:2
+#: ../data/50-ukwm-windows.xml.in.h:2
 msgid "Activate the window menu"
 msgstr "Aktivigi la fenestromenuon"
 
-#: ../data/50-mutter-windows.xml.in.h:3
+#: ../data/50-ukwm-windows.xml.in.h:3
 msgid "Toggle fullscreen mode"
 msgstr "Baskuligi tutekranan reĝimon"
 
-#: ../data/50-mutter-windows.xml.in.h:4
+#: ../data/50-ukwm-windows.xml.in.h:4
 msgid "Toggle maximization state"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:5
+#: ../data/50-ukwm-windows.xml.in.h:5
 msgid "Maximize window"
 msgstr "Maksimumigi la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:6
+#: ../data/50-ukwm-windows.xml.in.h:6
 msgid "Restore window"
 msgstr "Restaŭri la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:7
+#: ../data/50-ukwm-windows.xml.in.h:7
 msgid "Toggle shaded state"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:8
+#: ../data/50-ukwm-windows.xml.in.h:8
 msgid "Close window"
 msgstr "Fermi la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:9
+#: ../data/50-ukwm-windows.xml.in.h:9
 msgid "Hide window"
 msgstr "Kaŝi la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:10
+#: ../data/50-ukwm-windows.xml.in.h:10
 msgid "Move window"
 msgstr "Movi la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:11
+#: ../data/50-ukwm-windows.xml.in.h:11
 msgid "Resize window"
 msgstr "Ŝanĝi la fenestrograndon"
 
-#: ../data/50-mutter-windows.xml.in.h:12
+#: ../data/50-ukwm-windows.xml.in.h:12
 msgid "Toggle window on all workspaces or one"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:13
+#: ../data/50-ukwm-windows.xml.in.h:13
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:14
+#: ../data/50-ukwm-windows.xml.in.h:14
 msgid "Raise window above other windows"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:15
+#: ../data/50-ukwm-windows.xml.in.h:15
 msgid "Lower window below other windows"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:16
+#: ../data/50-ukwm-windows.xml.in.h:16
 msgid "Maximize window vertically"
 msgstr "Vertikale maksimumigi la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:17
+#: ../data/50-ukwm-windows.xml.in.h:17
 msgid "Maximize window horizontally"
 msgstr "Horizontale maksimumigi la fenestron"
 
-#: ../data/50-mutter-windows.xml.in.h:18
+#: ../data/50-ukwm-windows.xml.in.h:18
 msgid "View split on left"
 msgstr ""
 
-#: ../data/50-mutter-windows.xml.in.h:19
+#: ../data/50-ukwm-windows.xml.in.h:19
 msgid "View split on right"
 msgstr ""
 
-#: ../data/mutter.desktop.in.h:1
-msgid "Mutter"
+#: ../data/ukwm.desktop.in.h:1
+msgid "Ukwm"
 msgstr "Mutero"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -276,141 +274,141 @@ msgid ""
 "default or set to the empty string."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
 "after the pointer stops moving."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr ""
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
 #, fuzzy
 msgid "Switch to VT 1"
 msgstr "Ŝalti al VT 1"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
 #, fuzzy
 msgid "Switch to VT 2"
 msgstr "Ŝalti al VT 2"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
 #, fuzzy
 msgid "Switch to VT 3"
 msgstr "Ŝalti al VT 3"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
 #, fuzzy
 msgid "Switch to VT 4"
 msgstr "Ŝalti al VT 4"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
 #, fuzzy
 #| msgid "Switch to workspace 5"
 msgid "Switch to VT 5"
 msgstr "Ŝalti al VT 5"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
 #, fuzzy
 #| msgid "Switch to workspace 6"
 msgid "Switch to VT 6"
 msgstr "Ŝalti al VT 6"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
 #, fuzzy
 #| msgid "Switch to workspace 7"
 msgid "Switch to VT 7"
@@ -511,10 +509,10 @@ msgstr ""
 msgid "Run as a full display server, rather than nested"
 msgstr ""
 
-#: ../src/core/mutter.c:39
+#: ../src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
@@ -526,12 +524,12 @@ msgstr ""
 "Ekzistas neniu GARANTIO; nek por NEGOCEBLO nek por ADAPTADO AL IU APARTA "
 "CELO.\n"
 
-#: ../src/core/mutter.c:53
+#: ../src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Motri version"
 
-#: ../src/core/mutter.c:59
-msgid "Mutter plugin to use"
+#: ../src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
 msgstr ""
 
 #: ../src/core/prefs.c:2004
@@ -557,7 +555,7 @@ msgid "Screen %d on display '%s' is invalid\n"
 msgstr "Ekrano %d en vidigilo '%s' estas nevalida\n"
 
 #: ../src/core/util.c:118
-msgid "Mutter was compiled without support for verbose mode\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Mutero estis kompilita sen subteno por eksplicita reĝimo\n"
 
 #: ../src/x11/session.c:1815
@@ -644,9 +642,9 @@ msgstr "%s (ĉe %s)"
 #~ msgid "Failed to parse saved session file: %s\n"
 #~ msgstr "Malsuksesis analizi konservitan seancan dosieron: %s\n"
 
-#~ msgid "<mutter_session> attribute seen but we already have the session ID"
+#~ msgid "<ukwm_session> attribute seen but we already have the session ID"
 #~ msgstr ""
-#~ "Atributo <mutter_session> aperis sed ni jam havas la seancoidentigilon"
+#~ "Atributo <ukwm_session> aperis sed ni jam havas la seancoidentigilon"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Nekonata atributo %s ĉe elemento <%s>"

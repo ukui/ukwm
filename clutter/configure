@@ -774,8 +774,8 @@ CLUTTER_VERSION
 CLUTTER_MICRO_VERSION
 CLUTTER_MINOR_VERSION
 CLUTTER_MAJOR_VERSION
-LIBMUTTER_API_VERSION
-MUTTER_VERSION
+LIBUKWM_API_VERSION
+UKWM_VERSION
 AM_BACKSLASH
 AM_DEFAULT_VERBOSITY
 AM_DEFAULT_V
@@ -873,8 +873,8 @@ enable_examples
       ac_precious_vars='build_alias
 host_alias
 target_alias
-MUTTER_VERSION
-LIBMUTTER_API_VERSION
+UKWM_VERSION
+LIBUKWM_API_VERSION
 CC
 CFLAGS
 LDFLAGS
@@ -1563,9 +1563,9 @@ Optional Packages:
   --with-x                use the X Window System
 
 Some influential environment variables:
-  MUTTER_VERSION
+  UKWM_VERSION
 
-  LIBMUTTER_API_VERSION
+  LIBUKWM_API_VERSION
 
   CC          C compiler command
   CFLAGS      C compiler flags
@@ -3202,8 +3202,8 @@ AM_BACKSLASH='\'
 
 
 
-if test "x$MUTTER_VERSION" = "x"; then :
-  as_fn_error $? "Clutter can only be configured by mutter" "$LINENO" 5
+if test "x$UKWM_VERSION" = "x"; then :
+  as_fn_error $? "Clutter can only be configured by ukwm" "$LINENO" 5
 fi
 
 CLUTTER_MAJOR_VERSION=1
@@ -15072,7 +15072,7 @@ fi
 
 
 
-ac_config_files="$ac_config_files Makefile build/Makefile build/autotools/Makefile clutter/Makefile clutter/clutter-config.h clutter/clutter-version.h clutter/mutter-clutter-$LIBMUTTER_API_VERSION.pc:clutter/mutter-clutter.pc.in tests/Makefile tests/accessibility/Makefile tests/conform/Makefile tests/interactive/Makefile tests/interactive/wrapper.sh tests/micro-bench/Makefile tests/performance/Makefile examples/Makefile"
+ac_config_files="$ac_config_files Makefile build/Makefile build/autotools/Makefile clutter/Makefile clutter/clutter-config.h clutter/clutter-version.h clutter/ukwm-clutter-$LIBUKWM_API_VERSION.pc:clutter/ukwm-clutter.pc.in tests/Makefile tests/accessibility/Makefile tests/conform/Makefile tests/interactive/Makefile tests/interactive/wrapper.sh tests/micro-bench/Makefile tests/performance/Makefile examples/Makefile"
 
 
 cat >confcache <<\_ACEOF
@@ -16129,7 +16129,7 @@ do
     "clutter/Makefile") CONFIG_FILES="$CONFIG_FILES clutter/Makefile" ;;
     "clutter/clutter-config.h") CONFIG_FILES="$CONFIG_FILES clutter/clutter-config.h" ;;
     "clutter/clutter-version.h") CONFIG_FILES="$CONFIG_FILES clutter/clutter-version.h" ;;
-    "clutter/mutter-clutter-$LIBMUTTER_API_VERSION.pc") CONFIG_FILES="$CONFIG_FILES clutter/mutter-clutter-$LIBMUTTER_API_VERSION.pc:clutter/mutter-clutter.pc.in" ;;
+    "clutter/ukwm-clutter-$LIBUKWM_API_VERSION.pc") CONFIG_FILES="$CONFIG_FILES clutter/ukwm-clutter-$LIBUKWM_API_VERSION.pc:clutter/ukwm-clutter.pc.in" ;;
     "tests/Makefile") CONFIG_FILES="$CONFIG_FILES tests/Makefile" ;;
     "tests/accessibility/Makefile") CONFIG_FILES="$CONFIG_FILES tests/accessibility/Makefile" ;;
     "tests/conform/Makefile") CONFIG_FILES="$CONFIG_FILES tests/conform/Makefile" ;;

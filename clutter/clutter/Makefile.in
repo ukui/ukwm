@@ -185,7 +185,7 @@ am__uninstall_files_from_dir = { \
     || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
          $(am__cd) "$$dir" && rm -f $$files; }; \
   }
-am__installdirs = "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" \
+am__installdirs = "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(girdir)" \
 	"$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" \
 	"$(DESTDIR)$(cally_includedir)" \
 	"$(DESTDIR)$(clutter_deprecateddir)" \
@@ -195,15 +195,15 @@ am__installdirs = "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" \
 	"$(DESTDIR)$(clutterx11_includedir)" \
 	"$(DESTDIR)$(clutter_includedir)" \
 	"$(DESTDIR)$(wayland_compositor_includedir)"
-LTLIBRARIES = $(mutterlib_LTLIBRARIES)
+LTLIBRARIES = $(ukwmlib_LTLIBRARIES)
 am__DEPENDENCIES_1 =
-libmutter_clutter_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES =  \
+libukwm_clutter_@LIBUKWM_API_VERSION@_la_DEPENDENCIES =  \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(top_builddir)/../cogl/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
-	$(top_builddir)/../cogl/cogl-pango/libmutter-cogl-pango-$(LIBMUTTER_API_VERSION).la \
-	$(top_builddir)/../cogl/cogl-path/libmutter-cogl-path-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/../cogl/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
+	$(top_builddir)/../cogl/cogl-pango/libukwm-cogl-pango-$(LIBUKWM_API_VERSION).la \
+	$(top_builddir)/../cogl/cogl-path/libukwm-cogl-path-$(LIBUKWM_API_VERSION).la \
 	$(am__DEPENDENCIES_1)
-am__libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST =  \
+am__libukwm_clutter_@LIBUKWM_API_VERSION@_la_SOURCES_DIST =  \
 	x11/clutter-backend-x11.c \
 	x11/clutter-device-manager-core-x11.c x11/clutter-event-x11.c \
 	x11/clutter-input-device-core-x11.c x11/clutter-keymap-x11.c \
@@ -478,7 +478,7 @@ am__objects_22 = cally/cally-actor.lo cally/cally.lo \
 	cally/cally-rectangle.lo cally/cally-root.lo \
 	cally/cally-stage.lo cally/cally-text.lo \
 	cally/cally-texture.lo cally/cally-util.lo $(am__objects_1)
-am_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+am_libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_6) $(am__objects_10) $(am__objects_14) \
 	$(am__objects_17) $(am__objects_18) $(am__objects_7) \
 	$(am__objects_19) $(am__objects_7) $(am__objects_20) \
@@ -487,19 +487,19 @@ am_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_1)
 am__objects_23 = clutter-enum-types.lo clutter-marshal.lo \
 	$(am__objects_1)
-nodist_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+nodist_libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_1) $(am__objects_23) $(am__objects_7)
-libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
-	$(am_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS) \
-	$(nodist_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS)
+libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
+	$(am_libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS) \
+	$(nodist_libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-libmutter_clutter_@LIBMUTTER_API_VERSION@_la_LINK = $(LIBTOOL) \
+libukwm_clutter_@LIBUKWM_API_VERSION@_la_LINK = $(LIBTOOL) \
 	$(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \
 	--mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
-	$(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_LDFLAGS) \
+	$(libukwm_clutter_@LIBUKWM_API_VERSION@_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
@@ -535,9 +535,9 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES) \
-	$(nodist_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES)
-DIST_SOURCES = $(am__libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST)
+SOURCES = $(libukwm_clutter_@LIBUKWM_API_VERSION@_la_SOURCES) \
+	$(nodist_libukwm_clutter_@LIBUKWM_API_VERSION@_la_SOURCES)
+DIST_SOURCES = $(am__libukwm_clutter_@LIBUKWM_API_VERSION@_la_SOURCES_DIST)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -579,7 +579,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.am.enums \
 	$(srcdir)/Makefile.am.marshal $(srcdir)/Makefile.in \
 	$(srcdir)/clutter-build-config.h.in \
 	$(srcdir)/clutter-config.h.in $(srcdir)/clutter-version.h.in \
-	$(srcdir)/mutter-clutter.pc.in $(top_srcdir)/build/depcomp
+	$(srcdir)/ukwm-clutter.pc.in $(top_srcdir)/build/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 ACLOCAL = @ACLOCAL@
 AMTAR = @AMTAR@
@@ -672,7 +672,7 @@ LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBINPUT_REQ_VERSION = @LIBINPUT_REQ_VERSION@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -687,7 +687,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -816,18 +816,18 @@ AM_CPPFLAGS = \
 AM_CFLAGS = $(CLUTTER_CFLAGS) $(MAINTAINER_CFLAGS)
 
 # these are the gir files we generate using g-ir-scanner
-INTROSPECTION_GIRS = Clutter-@LIBMUTTER_API_VERSION@.gir \
-	Cally-@LIBMUTTER_API_VERSION@.gir \
-	ClutterX11-@LIBMUTTER_API_VERSION@.gir
+INTROSPECTION_GIRS = Clutter-@LIBUKWM_API_VERSION@.gir \
+	Cally-@LIBUKWM_API_VERSION@.gir \
+	ClutterX11-@LIBUKWM_API_VERSION@.gir
 
 # the base include path for headers
-clutter_base_includedir = $(includedir)/mutter/clutter-$(LIBMUTTER_API_VERSION)
+clutter_base_includedir = $(includedir)/ukwm/clutter-$(LIBUKWM_API_VERSION)
 clutter_includedir = $(clutter_base_includedir)/clutter
 clutter_deprecateddir = $(clutter_base_includedir)/clutter/deprecated
 
 # pkg-config files
-pc_files = mutter-clutter-$(LIBMUTTER_API_VERSION).pc \
-	mutter-clutter-x11-$(LIBMUTTER_API_VERSION).pc
+pc_files = ukwm-clutter-$(LIBUKWM_API_VERSION).pc \
+	ukwm-clutter-x11-$(LIBUKWM_API_VERSION).pc
 
 # common sources - please, keep these sorted alphabetically
 source_h = \
@@ -1303,20 +1303,20 @@ enum_tmpl_c = $(addprefix $(srcdir)/, $(glib_enum_c:.c=.c.in))
 enum_headers = $(addprefix $(srcdir)/, $(glib_enum_headers))
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(pc_files)
-clutter_include_HEADERS = $(source_h) clutter.h clutter-version.h clutter-autocleanups.h clutter-mutter.h
+clutter_include_HEADERS = $(source_h) clutter.h clutter-version.h clutter-autocleanups.h clutter-ukwm.h
 nodist_clutter_include_HEADERS = clutter-config.h $(built_source_h)
 clutter_deprecated_HEADERS = $(deprecated_h)
-mutterlibdir = $(libdir)/mutter
-mutterlib_LTLIBRARIES = libmutter-clutter-@LIBMUTTER_API_VERSION@.la
-libmutter_clutter_@LIBMUTTER_API_VERSION@_la_LIBADD = \
+ukwmlibdir = $(libdir)/ukwm
+ukwmlib_LTLIBRARIES = libukwm-clutter-@LIBUKWM_API_VERSION@.la
+libukwm_clutter_@LIBUKWM_API_VERSION@_la_LIBADD = \
 	$(LIBM) \
 	$(CLUTTER_LIBS) \
-	$(top_builddir)/../cogl/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
-	$(top_builddir)/../cogl/cogl-pango/libmutter-cogl-pango-$(LIBMUTTER_API_VERSION).la \
-	$(top_builddir)/../cogl/cogl-path/libmutter-cogl-path-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/../cogl/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
+	$(top_builddir)/../cogl/cogl-pango/libukwm-cogl-pango-$(LIBUKWM_API_VERSION).la \
+	$(top_builddir)/../cogl/cogl-path/libukwm-cogl-path-$(LIBUKWM_API_VERSION).la \
 	$(NULL)
 
-libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES = \
+libukwm_clutter_@LIBUKWM_API_VERSION@_la_SOURCES = \
 	$(backend_source_c) \
 	$(backend_source_h) \
 	$(backend_source_c_priv) \
@@ -1334,16 +1334,16 @@ libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES = \
 	$(cally_sources_private) \
 	$(NULL)
 
-nodist_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_SOURCES = \
+nodist_libukwm_clutter_@LIBUKWM_API_VERSION@_la_SOURCES = \
 	$(backend_source_built) \
 	$(built_source_c) \
 	$(built_source_h)
 
-libmutter_clutter_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_clutter_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	$(CLUTTER_LINK_FLAGS) \
 	$(CLUTTER_LT_LDFLAGS) \
 	-export-dynamic \
-	-rpath $(mutterlibdir) \
+	-rpath $(ukwmlibdir) \
 	$(NULL)
 
 INTROSPECTION_SCANNER_ARGS = \
@@ -1357,10 +1357,10 @@ INTROSPECTION_COMPILER_ARGS = \
 INTROSPECTION_SCANNER_ENV = \
 	PKG_CONFIG_PATH=$(top_builddir)/../cogl/cogl/:$(top_builddir)/../cogl/cogl-pango/:$${PKG_CONFIG_PATH}
 
-Clutter_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = Clutter
-Clutter_@LIBMUTTER_API_VERSION@_gir_VERSION = @LIBMUTTER_API_VERSION@
-Clutter_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-clutter-@LIBMUTTER_API_VERSION@.la
-Clutter_@LIBMUTTER_API_VERSION@_gir_FILES = \
+Clutter_@LIBUKWM_API_VERSION@_gir_NAMESPACE = Clutter
+Clutter_@LIBUKWM_API_VERSION@_gir_VERSION = @LIBUKWM_API_VERSION@
+Clutter_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-clutter-@LIBUKWM_API_VERSION@.la
+Clutter_@LIBUKWM_API_VERSION@_gir_FILES = \
 	$(clutter_include_HEADERS) \
 	$(clutter_deprecated_HEADERS) \
 	$(nodist_clutter_include_HEADERS) \
@@ -1368,41 +1368,41 @@ Clutter_@LIBMUTTER_API_VERSION@_gir_FILES = \
 	$(deprecated_c) \
 	$(built_source_c)
 
-Clutter_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(CLUTTER_CFLAGS)
-Clutter_@LIBMUTTER_API_VERSION@_gir_INCLUDES = GL-1.0 GObject-2.0 cairo-1.0 Cogl-@LIBMUTTER_API_VERSION@ CoglPango-@LIBMUTTER_API_VERSION@ Atk-1.0 Json-1.0
-Clutter_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = \
+Clutter_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(CLUTTER_CFLAGS)
+Clutter_@LIBUKWM_API_VERSION@_gir_INCLUDES = GL-1.0 GObject-2.0 cairo-1.0 Cogl-@LIBUKWM_API_VERSION@ CoglPango-@LIBUKWM_API_VERSION@ Atk-1.0 Json-1.0
+Clutter_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = \
 	--warn-all \
 	--c-include='clutter/clutter.h' \
-	--pkg-export=mutter-clutter-@LIBMUTTER_API_VERSION@
+	--pkg-export=ukwm-clutter-@LIBUKWM_API_VERSION@
 
-Cally_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = Cally
-Cally_@LIBMUTTER_API_VERSION@_gir_VERSION = @LIBMUTTER_API_VERSION@
-Cally_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-clutter-@LIBMUTTER_API_VERSION@.la
-Cally_@LIBMUTTER_API_VERSION@_gir_FILES = $(cally_sources_h) $(cally_sources_c)
-Cally_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(CLUTTER_CFLAGS)
-Cally_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = \
+Cally_@LIBUKWM_API_VERSION@_gir_NAMESPACE = Cally
+Cally_@LIBUKWM_API_VERSION@_gir_VERSION = @LIBUKWM_API_VERSION@
+Cally_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-clutter-@LIBUKWM_API_VERSION@.la
+Cally_@LIBUKWM_API_VERSION@_gir_FILES = $(cally_sources_h) $(cally_sources_c)
+Cally_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(CLUTTER_CFLAGS)
+Cally_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = \
 	--warn-all \
 	--c-include='cally/cally.h' \
-	--pkg-export=mutter-cally-@LIBMUTTER_API_VERSION@ \
-	--include-uninstalled=$(top_builddir)/clutter/Clutter-@LIBMUTTER_API_VERSION@.gir
+	--pkg-export=ukwm-cally-@LIBUKWM_API_VERSION@ \
+	--include-uninstalled=$(top_builddir)/clutter/Clutter-@LIBUKWM_API_VERSION@.gir
 
-ClutterX11_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = ClutterX11
-ClutterX11_@LIBMUTTER_API_VERSION@_gir_INCLUDES = xlib-2.0
-ClutterX11_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-clutter-@LIBMUTTER_API_VERSION@.la
-ClutterX11_@LIBMUTTER_API_VERSION@_gir_FILES = $(x11_introspection)
-ClutterX11_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(CLUTTER_CFLAGS)
-ClutterX11_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = \
+ClutterX11_@LIBUKWM_API_VERSION@_gir_NAMESPACE = ClutterX11
+ClutterX11_@LIBUKWM_API_VERSION@_gir_INCLUDES = xlib-2.0
+ClutterX11_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-clutter-@LIBUKWM_API_VERSION@.la
+ClutterX11_@LIBUKWM_API_VERSION@_gir_FILES = $(x11_introspection)
+ClutterX11_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(CLUTTER_CFLAGS)
+ClutterX11_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = \
 	--warn-all \
 	--c-include='clutter/x11/clutter-x11.h' \
-	--pkg-export=mutter-clutter-x11-@LIBMUTTER_API_VERSION@ \
-	--include-uninstalled=$(top_builddir)/clutter/Clutter-@LIBMUTTER_API_VERSION@.gir
+	--pkg-export=ukwm-clutter-x11-@LIBUKWM_API_VERSION@ \
+	--include-uninstalled=$(top_builddir)/clutter/Clutter-@LIBUKWM_API_VERSION@.gir
 
 
 # INTROSPECTION_GIRDIR/INTROSPECTION_TYPELIBDIR aren't the right place to
 # install anything - we need to install inside our prefix.
-girdir = $(mutterlibdir)
+girdir = $(ukwmlibdir)
 gir_DATA = $(INTROSPECTION_GIRS)
-typelibdir = $(mutterlibdir)
+typelibdir = $(ukwmlibdir)
 typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 all: $(BUILT_SOURCES) clutter-build-config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-am
@@ -1459,33 +1459,33 @@ clutter-config.h: $(top_builddir)/config.status $(srcdir)/clutter-config.h.in
 clutter-version.h: $(top_builddir)/config.status $(srcdir)/clutter-version.h.in
 	cd $(top_builddir) && $(SHELL) ./config.status $(subdir)/$@
 
-install-mutterlibLTLIBRARIES: $(mutterlib_LTLIBRARIES)
+install-ukwmlibLTLIBRARIES: $(ukwmlib_LTLIBRARIES)
 	@$(NORMAL_INSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	list2=; for p in $$list; do \
 	  if test -f $$p; then \
 	    list2="$$list2 $$p"; \
 	  else :; fi; \
 	done; \
 	test -z "$$list2" || { \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(mutterlibdir)" || exit 1; \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(mutterlibdir)'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(mutterlibdir)"; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(ukwmlibdir)" || exit 1; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 '$(DESTDIR)$(ukwmlibdir)'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=install $(INSTALL) $(INSTALL_STRIP_FLAG) $$list2 "$(DESTDIR)$(ukwmlibdir)"; \
 	}
 
-uninstall-mutterlibLTLIBRARIES:
+uninstall-ukwmlibLTLIBRARIES:
 	@$(NORMAL_UNINSTALL)
-	@list='$(mutterlib_LTLIBRARIES)'; test -n "$(mutterlibdir)" || list=; \
+	@list='$(ukwmlib_LTLIBRARIES)'; test -n "$(ukwmlibdir)" || list=; \
 	for p in $$list; do \
 	  $(am__strip_dir) \
-	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(mutterlibdir)/$$f'"; \
-	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(mutterlibdir)/$$f"; \
+	  echo " $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f '$(DESTDIR)$(ukwmlibdir)/$$f'"; \
+	  $(LIBTOOL) $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=uninstall rm -f "$(DESTDIR)$(ukwmlibdir)/$$f"; \
 	done
 
-clean-mutterlibLTLIBRARIES:
-	-test -z "$(mutterlib_LTLIBRARIES)" || rm -f $(mutterlib_LTLIBRARIES)
-	@list='$(mutterlib_LTLIBRARIES)'; \
+clean-ukwmlibLTLIBRARIES:
+	-test -z "$(ukwmlib_LTLIBRARIES)" || rm -f $(ukwmlib_LTLIBRARIES)
+	@list='$(ukwmlib_LTLIBRARIES)'; \
 	locs=`for p in $$list; do echo $$p; done | \
 	      sed 's|^[^/]*$$|.|; s|/[^/]*$$||; s|$$|/so_locations|' | \
 	      sort -u`; \
@@ -1665,8 +1665,8 @@ cally/cally-texture.lo: cally/$(am__dirstamp) \
 cally/cally-util.lo: cally/$(am__dirstamp) \
 	cally/$(DEPDIR)/$(am__dirstamp)
 
-libmutter-clutter-@LIBMUTTER_API_VERSION@.la: $(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libmutter_clutter_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) 
-	$(AM_V_CCLD)$(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_LINK) -rpath $(mutterlibdir) $(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_clutter_@LIBMUTTER_API_VERSION@_la_LIBADD) $(LIBS)
+libukwm-clutter-@LIBUKWM_API_VERSION@.la: $(libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_clutter_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libukwm_clutter_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libukwm_clutter_@LIBUKWM_API_VERSION@_la_LINK) -rpath $(ukwmlibdir) $(libukwm_clutter_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_clutter_@LIBUKWM_API_VERSION@_la_LIBADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -2197,7 +2197,7 @@ check: $(BUILT_SOURCES)
 all-am: Makefile $(LTLIBRARIES) $(DATA) $(HEADERS) \
 		clutter-build-config.h
 installdirs:
-	for dir in "$(DESTDIR)$(mutterlibdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cally_includedir)" "$(DESTDIR)$(clutter_deprecateddir)" "$(DESTDIR)$(clutter_includedir)" "$(DESTDIR)$(clutteregl_includedir)" "$(DESTDIR)$(clutterevdev_includedir)" "$(DESTDIR)$(clutterx11_includedir)" "$(DESTDIR)$(clutter_includedir)" "$(DESTDIR)$(wayland_compositor_includedir)"; do \
+	for dir in "$(DESTDIR)$(ukwmlibdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cally_includedir)" "$(DESTDIR)$(clutter_deprecateddir)" "$(DESTDIR)$(clutter_includedir)" "$(DESTDIR)$(clutteregl_includedir)" "$(DESTDIR)$(clutterevdev_includedir)" "$(DESTDIR)$(clutterx11_includedir)" "$(DESTDIR)$(clutter_includedir)" "$(DESTDIR)$(wayland_compositor_includedir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: $(BUILT_SOURCES)
@@ -2252,7 +2252,7 @@ maintainer-clean-generic:
 	-test -z "$(BUILT_SOURCES)" || rm -f $(BUILT_SOURCES)
 clean: clean-am
 
-clean-am: clean-generic clean-libtool clean-mutterlibLTLIBRARIES \
+clean-am: clean-generic clean-libtool clean-ukwmlibLTLIBRARIES \
 	mostlyclean-am
 
 distclean: distclean-am
@@ -2279,7 +2279,7 @@ install-data-am: install-cally_includeHEADERS \
 	install-clutteregl_includeHEADERS \
 	install-clutterevdev_includeHEADERS \
 	install-clutterx11_includeHEADERS install-girDATA \
-	install-mutterlibLTLIBRARIES \
+	install-ukwmlibLTLIBRARIES \
 	install-nodist_clutter_includeHEADERS install-pkgconfigDATA \
 	install-typelibDATA install-wayland_compositor_includeHEADERS
 
@@ -2333,7 +2333,7 @@ uninstall-am: uninstall-cally_includeHEADERS \
 	uninstall-clutteregl_includeHEADERS \
 	uninstall-clutterevdev_includeHEADERS \
 	uninstall-clutterx11_includeHEADERS uninstall-girDATA \
-	uninstall-mutterlibLTLIBRARIES \
+	uninstall-ukwmlibLTLIBRARIES \
 	uninstall-nodist_clutter_includeHEADERS \
 	uninstall-pkgconfigDATA uninstall-typelibDATA \
 	uninstall-wayland_compositor_includeHEADERS
@@ -2341,7 +2341,7 @@ uninstall-am: uninstall-cally_includeHEADERS \
 .MAKE: all check install install-am install-strip
 
 .PHONY: CTAGS GTAGS TAGS all all-am check check-am clean clean-generic \
-	clean-libtool clean-mutterlibLTLIBRARIES cscopelist-am ctags \
+	clean-libtool clean-ukwmlibLTLIBRARIES cscopelist-am ctags \
 	ctags-am distclean distclean-compile distclean-generic \
 	distclean-hdr distclean-libtool distclean-tags distdir dvi \
 	dvi-am html html-am info info-am install install-am \
@@ -2353,7 +2353,7 @@ uninstall-am: uninstall-cally_includeHEADERS \
 	install-dvi install-dvi-am install-exec install-exec-am \
 	install-exec-local install-girDATA install-html \
 	install-html-am install-info install-info-am install-man \
-	install-mutterlibLTLIBRARIES \
+	install-ukwmlibLTLIBRARIES \
 	install-nodist_clutter_includeHEADERS install-pdf \
 	install-pdf-am install-pkgconfigDATA install-ps install-ps-am \
 	install-strip install-typelibDATA \
@@ -2368,7 +2368,7 @@ uninstall-am: uninstall-cally_includeHEADERS \
 	uninstall-clutteregl_includeHEADERS \
 	uninstall-clutterevdev_includeHEADERS \
 	uninstall-clutterx11_includeHEADERS uninstall-girDATA \
-	uninstall-mutterlibLTLIBRARIES \
+	uninstall-ukwmlibLTLIBRARIES \
 	uninstall-nodist_clutter_includeHEADERS \
 	uninstall-pkgconfigDATA uninstall-typelibDATA \
 	uninstall-wayland_compositor_includeHEADERS
@@ -2376,7 +2376,7 @@ uninstall-am: uninstall-cally_includeHEADERS \
 .PRECIOUS: Makefile
 
 
-mutter-clutter-x11-@LIBMUTTER_API_VERSION@.pc: mutter-clutter-$(LIBMUTTER_API_VERSION).pc
+ukwm-clutter-x11-@LIBUKWM_API_VERSION@.pc: ukwm-clutter-$(LIBUKWM_API_VERSION).pc
 	$(QUIET_GEN)cp -f $< $(@F)
 
 # Basic sanity checks
@@ -2437,19 +2437,19 @@ $(glib_enum_c): $(enum_headers) $(enum_tmpl_h) $(enum_tmpl_c)
 	&& rm -f xgen-ec
 
 install-exec-local:
-	test -z "$(mutterlibdir)" || $(MKDIR_P) "$(DESTDIR)$(mutterlibdir)"
+	test -z "$(ukwmlibdir)" || $(MKDIR_P) "$(DESTDIR)$(ukwmlibdir)"
 	for lib in `echo $(compat_libs)`; do \
-	  (cd $(DESTDIR)$(mutterlibdir) && \
+	  (cd $(DESTDIR)$(ukwmlibdir) && \
 	    rm -f $$lib.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION); \
 	  ) ; \
-	  (cd $(DESTDIR)$(mutterlibdir) && \
-	    { ln -s -f libmutter-clutter-$(LIBMUTTER_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib.0 || \
-	      { rm -f $$lib.0 && ln -s libmutter-clutter-$(LIBMUTTER_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib.0; }; \
+	  (cd $(DESTDIR)$(ukwmlibdir) && \
+	    { ln -s -f libukwm-clutter-$(LIBUKWM_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib.0 || \
+	      { rm -f $$lib.0 && ln -s libukwm-clutter-$(LIBUKWM_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib.0; }; \
 	    } \
 	  ) ; \
-	  (cd $(DESTDIR)$(mutterlibdir) && \
-	    { ln -s -f libmutter-clutter-$(LIBMUTTER_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib || \
-	      { rm -f $$lib && ln -s libmutter-clutter-$(LIBMUTTER_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib; }; \
+	  (cd $(DESTDIR)$(ukwmlibdir) && \
+	    { ln -s -f libukwm-clutter-$(LIBUKWM_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib || \
+	      { rm -f $$lib && ln -s libukwm-clutter-$(LIBUKWM_API_VERSION).so.0.$(CLUTTER_LT_CURRENT).$(CLUTTER_LT_REVISION) $$lib; }; \
 	    } \
 	  ) ; \
 	done
@@ -2457,11 +2457,11 @@ install-exec-local:
 # gobject-introspection rules
 -include $(INTROSPECTION_MAKEFILE)
 
-Clutter-@LIBMUTTER_API_VERSION@.gir: libmutter-clutter-@LIBMUTTER_API_VERSION@.la Makefile
+Clutter-@LIBUKWM_API_VERSION@.gir: libukwm-clutter-@LIBUKWM_API_VERSION@.la Makefile
 
-Cally-@LIBMUTTER_API_VERSION@.gir: Makefile Clutter-@LIBMUTTER_API_VERSION@.gir
+Cally-@LIBUKWM_API_VERSION@.gir: Makefile Clutter-@LIBUKWM_API_VERSION@.gir
 
-ClutterX11-@LIBMUTTER_API_VERSION@.gir: Makefile Clutter-@LIBMUTTER_API_VERSION@.gir
+ClutterX11-@LIBUKWM_API_VERSION@.gir: Makefile Clutter-@LIBUKWM_API_VERSION@.gir
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

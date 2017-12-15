@@ -6,6 +6,7 @@
  * Authored By Matthew Allum  <mallum@openedhand.com>
  *
  * Copyright (C) 2006 OpenedHand
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -62,7 +63,7 @@
 #include "clutter-feature.h"
 #include "clutter-main.h"
 #include "clutter-master-clock.h"
-#include "clutter-mutter.h"
+#include "clutter-ukwm.h"
 #include "clutter-private.h"
 #include "clutter-settings-private.h"
 #include "clutter-stage-manager.h"

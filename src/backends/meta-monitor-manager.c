@@ -8,6 +8,7 @@
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
  * Copyright (C) 2013 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -1203,7 +1204,7 @@ request_persistent_confirmation (MetaMonitorManager *manager)
                                                           save_config_timeout,
                                                           manager);
   g_source_set_name_by_id (manager->persistent_timeout_id,
-                           "[mutter] save_config_timeout");
+                           "[ukwm] save_config_timeout");
 
   g_signal_emit (manager, signals[CONFIRM_DISPLAY_CHANGE], 0);
 }
@@ -2216,7 +2217,7 @@ on_bus_acquired (GDBusConnection *connection,
 
   g_dbus_interface_skeleton_export (G_DBUS_INTERFACE_SKELETON (manager),
                                     connection,
-                                    "/org/gnome/Mutter/DisplayConfig",
+                                    "/org/ukui/ukwm/DisplayConfig",
                                     NULL);
 }
 
@@ -2240,7 +2241,7 @@ static void
 initialize_dbus_interface (MetaMonitorManager *manager)
 {
   manager->dbus_name_id = g_bus_own_name (G_BUS_TYPE_SESSION,
-                                          "org.gnome.Mutter.DisplayConfig",
+                                          "org.ukui.ukwm.DisplayConfig",
                                           G_BUS_NAME_OWNER_FLAGS_ALLOW_REPLACEMENT |
                                           (meta_get_replace_current_wm () ?
                                            G_BUS_NAME_OWNER_FLAGS_REPLACE : 0),

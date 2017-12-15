@@ -352,7 +352,7 @@ LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBINPUT_REQ_VERSION = @LIBINPUT_REQ_VERSION@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -367,7 +367,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -475,8 +475,8 @@ GIT_IGNORE_EXTRA = \
 	$(UNIT_TESTS:.c=$(SHEXT))
 
 common_ldadd = \
-  $(top_builddir)/clutter/libmutter-clutter-@LIBMUTTER_API_VERSION@.la \
-  $(top_builddir)/../cogl/cogl/libmutter-cogl-@LIBMUTTER_API_VERSION@.la
+  $(top_builddir)/clutter/libukwm-clutter-@LIBUKWM_API_VERSION@.la \
+  $(top_builddir)/../cogl/cogl/libukwm-cogl-@LIBUKWM_API_VERSION@.la
 
 check_SCRIPTS = wrappers
 test_interactive_SOURCES = test-main.c $(UNIT_TESTS)

@@ -3,6 +3,7 @@
 /*
  * Copyright (C) 2002 Red Hat Inc.
  * Copyright (C) 2003 Rob Adams
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -21,7 +22,7 @@
 /**
  * SECTION:group
  * @title: MetaGroup
- * @short_description: Mutter window groups
+ * @short_description: Ukwm window groups
  *
  */
 

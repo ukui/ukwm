@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2015-2017 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -29,7 +30,7 @@
 #include "backends/meta-screen-cast-monitor-stream.h"
 #include "backends/meta-screen-cast-stream.h"
 
-#define META_SCREEN_CAST_SESSION_DBUS_PATH "/org/gnome/Mutter/ScreenCast/Session"
+#define META_SCREEN_CAST_SESSION_DBUS_PATH "/org/ukui/ukwm/ScreenCast/Session"
 
 struct _MetaScreenCastSession
 {

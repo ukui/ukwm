@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Red Hat, Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -21,7 +22,7 @@
  * SECTION:restart
  * @short_description: Smoothly restart the compositor
  *
- * There are some cases where we need to restart Mutter in order
+ * There are some cases where we need to restart Ukwm in order
  * to deal with changes in state - the particular case inspiring
  * this is enabling or disabling stereo output. To make this
  * fairly smooth for the user, we need to do two things:
@@ -52,7 +53,7 @@ void
 meta_restart_init (void)
 {
   Display *xdisplay = meta_ui_get_display ();
-  Atom atom_restart_helper = XInternAtom (xdisplay, "_MUTTER_RESTART_HELPER", False);
+  Atom atom_restart_helper = XInternAtom (xdisplay, "_UKWM_RESTART_HELPER", False);
   Window restart_helper_window = None;
 
   restart_helper_window = XGetSelectionOwner (xdisplay, atom_restart_helper);
@@ -105,7 +106,7 @@ restart_message_painted (gpointer data)
  * meta_restart:
  * @message: (allow-none): message to display to the user, or %NULL
  *
- * Starts the process of restarting the compositor. Note that Mutter's
+ * Starts the process of restarting the compositor. Note that Ukwm's
  * involvement here is to make the restart visually smooth for the
  * user - it cannot itself safely reexec a program that embeds libmuttter.
  * So in order for this to work, the compositor must handle two
@@ -123,7 +124,7 @@ meta_restart (const char *message)
   int helper_out_fd;
 
   static const char * const helper_argv[] = {
-    MUTTER_LIBEXECDIR "/mutter-restart-helper", NULL
+    UKWM_LIBEXECDIR "/ukwm-restart-helper", NULL
   };
 
   if (message && meta_display_show_restart_message (display, message))
@@ -192,7 +193,7 @@ meta_restart_finish (void)
   if (is_restart)
     {
       Display *xdisplay = meta_display_get_xdisplay (meta_get_display ());
-      Atom atom_restart_helper = XInternAtom (xdisplay, "_MUTTER_RESTART_HELPER", False);
+      Atom atom_restart_helper = XInternAtom (xdisplay, "_UKWM_RESTART_HELPER", False);
       XSetSelectionOwner (xdisplay, atom_restart_helper, None, CurrentTime);
     }
 }
@@ -200,7 +201,7 @@ meta_restart_finish (void)
 /**
  * meta_is_restart:
  *
- * Returns %TRUE if this instance of Mutter comes from Mutter
+ * Returns %TRUE if this instance of Ukwm comes from Ukwm
  * restarting itself (for example to enable/disable stereo.)
  * See meta_restart(). If this is the case, any startup visuals
  * or animations should be suppressed.

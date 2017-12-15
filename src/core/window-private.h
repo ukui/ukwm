@@ -1,7 +1,7 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
 /**
- * \file window-private.h  Windows which Mutter manages
+ * \file window-private.h  Windows which Ukwm manages
  *
  * Managing X windows.
  * This file contains methods on this class which are available to
@@ -14,6 +14,7 @@
  * Copyright (C) 2002 Red Hat, Inc.
  * Copyright (C) 2003, 2004 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -170,7 +171,7 @@ struct _MetaWindow
   char *wm_client_machine;
 
   char *startup_id;
-  char *mutter_hints;
+  char *ukwm_hints;
   char *sandboxed_app_id;
   char *gtk_theme_variant;
   char *gtk_application_id;

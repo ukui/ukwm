@@ -1,6 +1,6 @@
-# Slovak translation for mutter.
+# Slovak translation for ukwm.
 # Copyright (C) 2001-2003, 2005, 2007-2010, 2013 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mutter package.
+# This file is distributed under the same license as the ukwm package.
 # Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2001-2003.
 # Stanislav Visnovsky <visnovsky@kde.org>, 2003.
 # Marcel Telka <marcel@telka.sk>, 2005.
@@ -11,9 +11,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter\n"
+"Project-Id-Version: ukwm\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mutter&keywords=I18N+L10N&component=general\n"
+"product=ukwm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-21 04:46+0000\n"
 "PO-Revision-Date: 2017-08-23 19:50+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
@@ -25,316 +25,316 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
 "X-Generator: Poedit 2.0.3\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-ukwm-navigation.xml:6
 msgid "Navigation"
 msgstr "Navigácia"
 
 # description
-#: data/50-mutter-navigation.xml:9
+#: data/50-ukwm-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Presunúť okno na pracovný priestor č. 1"
 
 # description
-#: data/50-mutter-navigation.xml:12
+#: data/50-ukwm-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Presunúť okno na pracovný priestor č. 2"
 
 # description
-#: data/50-mutter-navigation.xml:15
+#: data/50-ukwm-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Presunúť okno na pracovný priestor č. 3"
 
 # description
-#: data/50-mutter-navigation.xml:18
+#: data/50-ukwm-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Presunúť okno na pracovný priestor č. 4"
 
 # description
-#: data/50-mutter-navigation.xml:21
+#: data/50-ukwm-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Presunúť okno na posledný pracovný priestor"
 
 # description
-#: data/50-mutter-navigation.xml:24
+#: data/50-ukwm-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "Presunúť okno o jeden pracovný priestor vľavo"
 
 # description
-#: data/50-mutter-navigation.xml:27
+#: data/50-ukwm-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "Presunúť okno o jeden pracovný priestor vpravo"
 
 # description
-#: data/50-mutter-navigation.xml:30
+#: data/50-ukwm-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "Presunúť okno o jeden pracovný priestor hore"
 
 # description
-#: data/50-mutter-navigation.xml:33
+#: data/50-ukwm-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "Presunúť okno o jeden pracovný priestor dolu"
 
 # description
-#: data/50-mutter-navigation.xml:36
+#: data/50-ukwm-navigation.xml:36
 msgid "Move window one monitor to the left"
 msgstr "Presunúť okno o jeden monitor vľavo"
 
 # description
-#: data/50-mutter-navigation.xml:39
+#: data/50-ukwm-navigation.xml:39
 msgid "Move window one monitor to the right"
 msgstr "Presunúť okno o jeden monitor vpravo"
 
 # description
-#: data/50-mutter-navigation.xml:42
+#: data/50-ukwm-navigation.xml:42
 msgid "Move window one monitor up"
 msgstr "Presunúť okno o jeden monitor hore"
 
 # description
-#: data/50-mutter-navigation.xml:45
+#: data/50-ukwm-navigation.xml:45
 msgid "Move window one monitor down"
 msgstr "Presunúť okno o jeden monitor dolu"
 
 # description
-#: data/50-mutter-navigation.xml:49
+#: data/50-ukwm-navigation.xml:49
 msgid "Switch applications"
 msgstr "Prepnúť aplikácie"
 
 # description
-#: data/50-mutter-navigation.xml:54
+#: data/50-ukwm-navigation.xml:54
 msgid "Switch to previous application"
 msgstr "Prepnúť na predchádzajúcu aplikáciu"
 
 # description
-#: data/50-mutter-navigation.xml:58
+#: data/50-ukwm-navigation.xml:58
 msgid "Switch windows"
 msgstr "Prepnúť okná"
 
 # description
-#: data/50-mutter-navigation.xml:63
+#: data/50-ukwm-navigation.xml:63
 msgid "Switch to previous window"
 msgstr "Prepnúť na predchádzajúce okno"
 
 # description
-#: data/50-mutter-navigation.xml:67
+#: data/50-ukwm-navigation.xml:67
 msgid "Switch windows of an application"
 msgstr "Prepnúť okná aplikácie"
 
 # description
-#: data/50-mutter-navigation.xml:72
+#: data/50-ukwm-navigation.xml:72
 msgid "Switch to previous window of an application"
 msgstr "Prepnúť na predchádzajúce okno aplikácie"
 
 # PK: predpokladam ze to prepisane medzi tlacidlami
 # description
-#: data/50-mutter-navigation.xml:76
+#: data/50-ukwm-navigation.xml:76
 msgid "Switch system controls"
 msgstr "Prepnúť medzi ovládacími prvkami systému"
 
 # PK: predpokladam ze to prepisane medzi tlacidlami
 # description
-#: data/50-mutter-navigation.xml:81
+#: data/50-ukwm-navigation.xml:81
 msgid "Switch to previous system control"
 msgstr "Prepnúť na predchádzajúci ovládací prvok systému"
 
 # description
-#: data/50-mutter-navigation.xml:85
+#: data/50-ukwm-navigation.xml:85
 msgid "Switch windows directly"
 msgstr "Prepnúť okná priamo"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-ukwm-navigation.xml:90
 msgid "Switch directly to previous window"
 msgstr "Priamo prepnúť na predchádzajúce okno"
 
 # description
-#: data/50-mutter-navigation.xml:94
+#: data/50-ukwm-navigation.xml:94
 msgid "Switch windows of an app directly"
 msgstr "Prepnúť okná aplikácie priamo"
 
 # description
-#: data/50-mutter-navigation.xml:99
+#: data/50-ukwm-navigation.xml:99
 msgid "Switch directly to previous window of an app"
 msgstr "Priamo prepnúť na predchádzajúce okno aplikácie"
 
 # description
-#: data/50-mutter-navigation.xml:103
+#: data/50-ukwm-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr "Prepnúť medzi ovládacími prvkami systému priamo"
 
 # PK: predpokladam ze to prepisane medzi tlacidlami
 # description
-#: data/50-mutter-navigation.xml:108
+#: data/50-ukwm-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr "Priamo prepnúť na predchádzajúci ovládací prvok systému"
 
 # description
-#: data/50-mutter-navigation.xml:111
+#: data/50-ukwm-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "Skryť všetky normálne okná"
 
 # description
-#: data/50-mutter-navigation.xml:114
+#: data/50-ukwm-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "Prepnúť na pracovný priestor č. 1"
 
 # description
-#: data/50-mutter-navigation.xml:117
+#: data/50-ukwm-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "Prepnúť na pracovný priestor č. 2"
 
 # description
-#: data/50-mutter-navigation.xml:120
+#: data/50-ukwm-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "Prepnúť na pracovný priestor č. 3"
 
 # description
-#: data/50-mutter-navigation.xml:123
+#: data/50-ukwm-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "Prepnúť na pracovný priestor č. 4"
 
 # description
-#: data/50-mutter-navigation.xml:126
+#: data/50-ukwm-navigation.xml:126
 msgid "Switch to last workspace"
 msgstr "Prepnúť na posledný pracovný priestor"
 
 # description
-#: data/50-mutter-navigation.xml:129
+#: data/50-ukwm-navigation.xml:129
 msgid "Move to workspace left"
 msgstr "Presunúť na pracovný priestor vľavo"
 
 # description
-#: data/50-mutter-navigation.xml:132
+#: data/50-ukwm-navigation.xml:132
 msgid "Move to workspace right"
 msgstr "Presunúť na pracovný priestor vpravo"
 
 # description
-#: data/50-mutter-navigation.xml:135
+#: data/50-ukwm-navigation.xml:135
 msgid "Move to workspace above"
 msgstr "Presunúť na pracovný priestor hore"
 
 # description
-#: data/50-mutter-navigation.xml:138
+#: data/50-ukwm-navigation.xml:138
 msgid "Move to workspace below"
 msgstr "Presunúť na pracovný priestor dole"
 
-#: data/50-mutter-system.xml:6
+#: data/50-ukwm-system.xml:6
 msgid "System"
 msgstr "Systém"
 
 # description
-#: data/50-mutter-system.xml:8
+#: data/50-ukwm-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Zobraziť riadok pre spustenie príkazu"
 
 # description
-#: data/50-mutter-system.xml:10
+#: data/50-ukwm-system.xml:10
 msgid "Show the activities overview"
 msgstr "Zobraziť prehľad aktivít"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-ukwm-windows.xml:6
 msgid "Windows"
 msgstr "Okná"
 
 # description
-#: data/50-mutter-windows.xml:8
+#: data/50-ukwm-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Aktivovať ponuku okna"
 
 # description
-#: data/50-mutter-windows.xml:10
+#: data/50-ukwm-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Prepnúť režim na celú obrazovku"
 
 # description
-#: data/50-mutter-windows.xml:12
+#: data/50-ukwm-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Prepnúť stav maximalizácie"
 
 # description
-#: data/50-mutter-windows.xml:14
+#: data/50-ukwm-windows.xml:14
 msgid "Maximize window"
 msgstr "Maximalizovať okno"
 
 # description
-#: data/50-mutter-windows.xml:16
+#: data/50-ukwm-windows.xml:16
 msgid "Restore window"
 msgstr "Obnoviť okno"
 
 # description
-#: data/50-mutter-windows.xml:18
+#: data/50-ukwm-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "Prepnúť stav zatienenia"
 
 # description
-#: data/50-mutter-windows.xml:20
+#: data/50-ukwm-windows.xml:20
 msgid "Close window"
 msgstr "Zatvoriť okno"
 
 # description
-#: data/50-mutter-windows.xml:22
+#: data/50-ukwm-windows.xml:22
 msgid "Hide window"
 msgstr "Skryť okno"
 
 # description
-#: data/50-mutter-windows.xml:24
+#: data/50-ukwm-windows.xml:24
 msgid "Move window"
 msgstr "Presunúť okno"
 
 # description
-#: data/50-mutter-windows.xml:26
+#: data/50-ukwm-windows.xml:26
 msgid "Resize window"
 msgstr "Zmeniť veľkosť okna"
 
 # description
-#: data/50-mutter-windows.xml:29
+#: data/50-ukwm-windows.xml:29
 msgid "Toggle window on all workspaces or one"
 msgstr "Prepnúť okno na všetky pracovné priestory alebo len na jeden"
 
 # description
-#: data/50-mutter-windows.xml:31
+#: data/50-ukwm-windows.xml:31
 msgid "Raise window if covered, otherwise lower it"
 msgstr "Presunúť okno dopredu ak je zakryté, inak presunúť dozadu"
 
 # description
-#: data/50-mutter-windows.xml:33
+#: data/50-ukwm-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "Presunúť okno nad ostatné okná"
 
 # description
-#: data/50-mutter-windows.xml:35
+#: data/50-ukwm-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "Presunúť okno pod ostatné okná"
 
 # description
-#: data/50-mutter-windows.xml:37
+#: data/50-ukwm-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "Maximalizovať okno zvisle"
 
 # description
-#: data/50-mutter-windows.xml:39
+#: data/50-ukwm-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "Maximalizovať okno vodorovne"
 
 # Description
-#: data/50-mutter-windows.xml:43
+#: data/50-ukwm-windows.xml:43
 msgid "View split on left"
 msgstr "Zobraziť rozdelenie naľavo"
 
 # Description
-#: data/50-mutter-windows.xml:47
+#: data/50-ukwm-windows.xml:47
 msgid "View split on right"
 msgstr "Zobraziť rozdelenie napravo"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/ukwm.desktop.in:4
+msgid "Ukwm"
+msgstr "Ukwm"
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Modifikátor pre rozšírené operácie správcu okien"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -347,12 +347,12 @@ msgstr ""
 "nastavenie na prázdny reťazec."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Pripojiť modálne dialógové okná"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -363,12 +363,12 @@ msgstr ""
 "spolu s oknom rodiča."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Povoliť natiahnutie k okraju pri pustení okien na okrajoch obrazovky"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -379,12 +379,12 @@ msgstr ""
 "Upustenie okien pri vrchnom okraji obrazovky ich maximalizuje úplne."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Pracovné priestory sú spravované dynamicky"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -394,12 +394,12 @@ msgstr ""
 "pevný (určený kľúčom num-workspaces v org.gnome.desktop.wm.preferences)."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Pracovné priestory len na hlavnom monitore"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -408,12 +408,12 @@ msgstr ""
 "monitoroch alebo iba medzi oknami na hlavnom monitore."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Bez vyvolávania tabulátorom"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -422,12 +422,12 @@ msgstr ""
 "vypnúť pri prepínaní okien."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Odložiť zmeny zamerania až po zastavení pohybu ukazovateľa"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -438,12 +438,12 @@ msgstr ""
 "okna a zastavení ukazovateľa."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Šírka posúvateľného okraja"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -452,12 +452,12 @@ msgstr ""
 "nastavené témou, budú pridané neviditeľné okraje až do požadovanej hodnoty."
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Automaticky maximalizovať okná podobnej veľkosti ako je monitor"
 
 # description
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -465,11 +465,11 @@ msgstr ""
 "Ak je povolené, nové okná inicializované na veľkosť monitora budú "
 "automaticky maximalizované."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Umiestniť nové okná do stredu"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -477,98 +477,98 @@ msgstr ""
 "Ak je nastavené na true, budú nové okná vždy umiestnené v strede aktívnej "
 "obrazovky monitoru."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/org.ukui.ukwm.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Povoliť experimentálne funkcie"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/org.ukui.ukwm.gschema.xml.in:108
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"ukwm default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart."
 msgstr ""
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:141
+#: data/org.ukui.ukwm.gschema.xml.in:141
 msgid "Select window from tab popup"
 msgstr "Vybrať okno z rozbaľovacej ponuky tabulátora"
 
 # summary
-#: data/org.gnome.mutter.gschema.xml.in:146
+#: data/org.ukui.ukwm.gschema.xml.in:146
 msgid "Cancel tab popup"
 msgstr "Zrušit rozbaľovaciu ponuku tabulátora"
 
 # PK: predpokladam ze to prepisane medzi tlacidlami
 # description
-#: data/org.gnome.mutter.gschema.xml.in:151
+#: data/org.ukui.ukwm.gschema.xml.in:151
 msgid "Switch monitor configurations"
 msgstr "Prepnúť nastavenia monitorov"
 
-#: data/org.gnome.mutter.gschema.xml.in:156
+#: data/org.ukui.ukwm.gschema.xml.in:156
 msgid "Rotates the built-in monitor configuration"
 msgstr "Otočí nastavenie vstavaného monitora"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Prepnúť na VT č. 1"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Prepnúť na VT č. 2"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Prepnúť na VT č. 3"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Prepnúť na VT č. 4"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Prepnúť na VT č. 5"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Prepnúť na VT č. 6"
 
 # description
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Prepnúť na VT č. 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Prepnúť na VT č. 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Prepnúť na VT č. 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Prepnúť na VT č. 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Prepnúť na VT č. 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Prepnúť na VT č. 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "Znovu povoliť klávesové skratky"
 
@@ -701,30 +701,30 @@ msgstr "_Vynútiť ukončenie"
 msgid "_Wait"
 msgstr "_Počkať"
 
-#: src/core/mutter.c:39
+#: src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Autorské práva © 2001-%d Havoc Pennington, Red Hat, Inc., a ostatní\n"
 "Toto je slobodný softvér; pozrite podmienky kopírovania v zdrojových "
 "kódoch.\n"
 "Záruka sa NEPOSKYTUJE; ani na PREDAJNOSŤ alebo VHODNOSŤ PRE URČITÝ ÚČEL.\n"
 
 # cmd desc
-#: src/core/mutter.c:53
+#: src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Zobrazí verziu"
 
 # cmd desc
-#: src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "Použije zásuvný modul Mutter"
+#: src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "Použije zásuvný modul Ukwm"
 
 #: src/core/prefs.c:1997
 #, c-format
@@ -746,8 +746,8 @@ msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Obrazovka č. %d na displeji „%s“ nie je platná\n"
 
 #: src/core/util.c:120
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter bol skompilovaný bez výpisu podrobností pri behu\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Ukwm bol skompilovaný bez výpisu podrobností pri behu\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563
 #, c-format
@@ -847,9 +847,9 @@ msgstr "%s (na %s)"
 #~ msgid "Failed to parse saved session file: %s\n"
 #~ msgstr "Zlyhalo spracovanie uloženého súboru relácie: %s\n"
 
-#~ msgid "<mutter_session> attribute seen but we already have the session ID"
+#~ msgid "<ukwm_session> attribute seen but we already have the session ID"
 #~ msgstr ""
-#~ "Našiel sa atribút <mutter_session>, ale identifikátor relácie už je "
+#~ "Našiel sa atribút <ukwm_session>, ale identifikátor relácie už je "
 #~ "nastavený"
 
 #~ msgid "Unknown attribute %s on <%s> element"

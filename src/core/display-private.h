@@ -1,12 +1,13 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter X display handler */
+/* Ukwm X display handler */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
  * Copyright (C) 2002 Red Hat, Inc.
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -184,7 +185,7 @@ struct _MetaDisplay
 
   /* We maintain a sequence counter, incremented for each #MetaWindow
    * created.  This is exposed by meta_window_get_stable_sequence()
-   * but is otherwise not used inside mutter.
+   * but is otherwise not used inside ukwm.
    *
    * It can be useful to plugins which want to sort windows in a
    * stable fashion.

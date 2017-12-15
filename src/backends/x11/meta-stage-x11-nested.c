@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2016 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -31,7 +32,7 @@
 #include "backends/meta-monitor.h"
 #include "backends/meta-renderer.h"
 #include "backends/x11/nested/meta-renderer-x11-nested.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 static ClutterStageWindowIface *clutter_stage_window_parent_iface = NULL;
 

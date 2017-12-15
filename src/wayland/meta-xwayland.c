@@ -4,6 +4,7 @@
  * X Wayland Support
  *
  * Copyright (C) 2013 Intel Corporation
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -484,7 +485,7 @@ xserver_finished_init (MetaXWaylandManager *manager)
 {
   /* At this point xwayland is all setup to start accepting
    * connections so we can quit the transient initialization mainloop
-   * and unblock meta_wayland_init() to continue initializing mutter.
+   * and unblock meta_wayland_init() to continue initializing ukwm.
    * */
   g_main_loop_quit (manager->init_loop);
   g_clear_pointer (&manager->init_loop, g_main_loop_unref);

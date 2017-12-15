@@ -2,6 +2,7 @@
 
 /*
  * Copyright (c) 2008 Intel Corp.
+ * Copyright (c) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Author: Tomas Frydrych <tf@linux.intel.com>
  *
@@ -24,7 +25,7 @@
 
 #include <meta/types.h>
 #include <meta/compositor.h>
-#include <meta/compositor-mutter.h>
+#include <meta/compositor-ukwm.h>
 #include <meta/meta-version.h>
 #include <meta/meta-close-dialog.h>
 #include <meta/meta-inhibit-shortcuts-dialog.h>

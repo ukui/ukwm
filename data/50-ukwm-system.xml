@@ -2,8 +2,8 @@
 <KeyListEntries schema="org.gnome.desktop.wm.keybindings"
                 group="system"
                 name="System"
-                wm_name="Mutter"
-                package="mutter">
+                wm_name="Ukwm"
+                package="ukwm">
 
 	<KeyListEntry name="panel-run-dialog" description="Show the run command prompt"/>
 

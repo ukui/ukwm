@@ -4,10 +4,10 @@
 <node>
 
   <!--
-      org.gnome.Mutter.ScreenCast:
+      org.ukui.ukwm.ScreenCast:
       @short_description: Screen cast interface
   -->
-  <interface name="org.gnome.Mutter.ScreenCast">
+  <interface name="org.ukui.ukwm.ScreenCast">
 
     <!--
 	CreateSession:
@@ -27,10 +27,10 @@
   </interface>
 
   <!--
-       org.gnome.Mutter.ScreenCast.Session:
+       org.ukui.ukwm.ScreenCast.Session:
        @short_description: Screen cast session
   -->
-  <interface name="org.gnome.Mutter.ScreenCast.Session">
+  <interface name="org.ukui.ukwm.ScreenCast.Session">
 
     <!--
 	Start:
@@ -85,10 +85,10 @@
   </interface>
 
   <!--
-       org.gnome.Mutter.ScreenCast.Stream:
+       org.ukui.ukwm.ScreenCast.Stream:
        @short_description: Screen cast stream
   -->
-  <interface name="org.gnome.Mutter.ScreenCast.Stream">
+  <interface name="org.ukui.ukwm.ScreenCast.Stream">
 
     <!--
 	PipeWireStreamAdded:

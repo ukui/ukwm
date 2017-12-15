@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -28,7 +29,7 @@
 #include <meta/meta-monitor-manager.h>
 #include <meta/util.h>
 #include "backends/meta-backend-private.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 struct _MetaOverlay {
   gboolean enabled;

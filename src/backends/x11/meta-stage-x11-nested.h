@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2016 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -25,7 +26,7 @@
 #ifndef META_STAGE_X11_NESTED_H
 #define META_STAGE_X11_NESTED_H
 
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 #define META_TYPE_STAGE_X11_NESTED (meta_stage_x11_nested_get_type ())
 G_DECLARE_FINAL_TYPE (MetaStageX11Nested, meta_stage_x11_nested,

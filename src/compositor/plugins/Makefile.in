@@ -208,7 +208,7 @@ CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/build-aux/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-pkglibdir = $(MUTTER_PLUGIN_DIR)
+pkglibdir = $(UKWM_PLUGIN_DIR)
 ACLOCAL = @ACLOCAL@
 ACLOCAL_AMFLAGS = @ACLOCAL_AMFLAGS@
 AMTAR = @AMTAR@
@@ -269,7 +269,7 @@ LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBICONV = @LIBICONV@
 LIBINTL = @LIBINTL@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -286,18 +286,18 @@ MKDIR_P = @MKDIR_P@
 MSGFMT = @MSGFMT@
 MSGFMT_015 = @MSGFMT_015@
 MSGMERGE = @MSGMERGE@
-MUTTER_CFLAGS = @MUTTER_CFLAGS@
-MUTTER_LIBS = @MUTTER_LIBS@
-MUTTER_MAJOR_VERSION = @MUTTER_MAJOR_VERSION@
-MUTTER_MICRO_VERSION = @MUTTER_MICRO_VERSION@
-MUTTER_MINOR_VERSION = @MUTTER_MINOR_VERSION@
-MUTTER_NATIVE_BACKEND_CFLAGS = @MUTTER_NATIVE_BACKEND_CFLAGS@
-MUTTER_NATIVE_BACKEND_LIBS = @MUTTER_NATIVE_BACKEND_LIBS@
-MUTTER_PLUGIN_API_VERSION = @MUTTER_PLUGIN_API_VERSION@
-MUTTER_PLUGIN_DIR = @MUTTER_PLUGIN_DIR@
-MUTTER_VERSION = @MUTTER_VERSION@
-MUTTER_WAYLAND_CFLAGS = @MUTTER_WAYLAND_CFLAGS@
-MUTTER_WAYLAND_LIBS = @MUTTER_WAYLAND_LIBS@
+UKWM_CFLAGS = @UKWM_CFLAGS@
+UKWM_LIBS = @UKWM_LIBS@
+UKWM_MAJOR_VERSION = @UKWM_MAJOR_VERSION@
+UKWM_MICRO_VERSION = @UKWM_MICRO_VERSION@
+UKWM_MINOR_VERSION = @UKWM_MINOR_VERSION@
+UKWM_NATIVE_BACKEND_CFLAGS = @UKWM_NATIVE_BACKEND_CFLAGS@
+UKWM_NATIVE_BACKEND_LIBS = @UKWM_NATIVE_BACKEND_LIBS@
+UKWM_PLUGIN_API_VERSION = @UKWM_PLUGIN_API_VERSION@
+UKWM_PLUGIN_DIR = @UKWM_PLUGIN_DIR@
+UKWM_VERSION = @UKWM_VERSION@
+UKWM_WAYLAND_CFLAGS = @UKWM_WAYLAND_CFLAGS@
+UKWM_WAYLAND_LIBS = @UKWM_WAYLAND_LIBS@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -392,7 +392,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 AM_CPPFLAGS = \
-	$(MUTTER_CFLAGS)						\
+	$(UKWM_CFLAGS)						\
 	-I$(top_builddir)/src						\
 	-I$(top_srcdir)/src						\
 	-I$(top_srcdir)/cogl						\
@@ -401,13 +401,13 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)/clutter						\
 	-I$(top_builddir)/clutter					\
 	-I$(top_builddir)/clutter/clutter				\
-	-DMUTTER_LIBEXECDIR=\"$(libexecdir)\"				\
-	-DMUTTER_LOCALEDIR=\"$(localedir)\"				\
-	-DMUTTER_PKGDATADIR=\"$(pkgdatadir)\"				\
-	-DMUTTER_DATADIR=\"$(datadir)\"					\
-	-DG_LOG_DOMAIN=\"mutter\"					\
+	-DUKWM_LIBEXECDIR=\"$(libexecdir)\"				\
+	-DUKWM_LOCALEDIR=\"$(localedir)\"				\
+	-DUKWM_PKGDATADIR=\"$(pkgdatadir)\"				\
+	-DUKWM_DATADIR=\"$(datadir)\"					\
+	-DG_LOG_DOMAIN=\"ukwm\"					\
 	-DSN_API_NOT_YET_FROZEN=1					\
-	-DMUTTER_PLUGIN_DIR=\"$(MUTTER_PLUGIN_DIR)\"
+	-DUKWM_PLUGIN_DIR=\"$(UKWM_PLUGIN_DIR)\"
 
 default_la_CFLAGS = -fPIC
 default_la_SOURCES = default.c
@@ -744,7 +744,7 @@ uninstall-am: uninstall-local uninstall-pkglibLTLIBRARIES
 
 # post-install hook to remove the .la and .a files we are not interested in
 # (There is no way to stop libtool generating static libs locally, and we
-# cannot do this globally because of libmutter-private.so).
+# cannot do this globally because of libukwm-private.so).
 install-exec-hook:
 	-rm -f $(DESTDIR)$(pkglibdir)/*.a
 	-rm -f $(DESTDIR)$(pkglibdir)/*.la

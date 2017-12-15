@@ -5,6 +5,7 @@
  *
  * Copyright (C) 2011 Collabora Ltd.
  * Copyright (C) 2012 Intel Corporation.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -65,7 +66,7 @@
  * conflicts we only expose the minimal set of GLES 2.0 types and enums
  * publicly.
  */
-#if defined(COGL_COMPILATION) || defined(COGL_ENABLE_MUTTER_API)
+#if defined(COGL_COMPILATION) || defined(COGL_ENABLE_UKWM_API)
 #include "cogl-gl-header.h"
 #else
 #include <cogl/cogl-gles2-types.h>

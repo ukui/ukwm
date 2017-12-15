@@ -1,4 +1,4 @@
-# mutter ja.po.
+# ukwm ja.po.
 # Copyright (C) 2002-2012 Free Software Foundation, Inc.
 # Akira TAGOH <tagoh@gnome.gr.jp>, 2002.
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
@@ -10,9 +10,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter master\n"
+"Project-Id-Version: ukwm master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mutter&keywords=I18N+L10N&component=general\n"
+"product=ukwm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-04-15 13:06+0000\n"
 "PO-Revision-Date: 2016-04-16 07:37+0900\n"
 "Last-Translator: sujiniku <sujinikusityuu@gmail.com>\n"
@@ -24,281 +24,281 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
-#: ../data/50-mutter-navigation.xml.in.h:1
+#: ../data/50-ukwm-navigation.xml.in.h:1
 msgid "Navigation"
 msgstr "ナビゲーション"
 
-#: ../data/50-mutter-navigation.xml.in.h:2
+#: ../data/50-ukwm-navigation.xml.in.h:2
 msgid "Move window to workspace 1"
 msgstr "ウィンドウをワークスペース 1 へ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:3
+#: ../data/50-ukwm-navigation.xml.in.h:3
 msgid "Move window to workspace 2"
 msgstr "ウィンドウをワークスペース 2 へ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:4
+#: ../data/50-ukwm-navigation.xml.in.h:4
 msgid "Move window to workspace 3"
 msgstr "ウィンドウをワークスペース 3 へ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:5
+#: ../data/50-ukwm-navigation.xml.in.h:5
 msgid "Move window to workspace 4"
 msgstr "ウィンドウをワークスペース 4 へ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:6
+#: ../data/50-ukwm-navigation.xml.in.h:6
 #, fuzzy
 #| msgid "Move window to workspace 1"
 msgid "Move window to last workspace"
 msgstr "ウィンドウをワークスペース 1 へ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:7
+#: ../data/50-ukwm-navigation.xml.in.h:7
 msgid "Move window one workspace to the left"
 msgstr "ウィンドウを左側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:8
+#: ../data/50-ukwm-navigation.xml.in.h:8
 msgid "Move window one workspace to the right"
 msgstr "ウィンドウを右側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:9
+#: ../data/50-ukwm-navigation.xml.in.h:9
 msgid "Move window one workspace up"
 msgstr "ウィンドウを上側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:10
+#: ../data/50-ukwm-navigation.xml.in.h:10
 msgid "Move window one workspace down"
 msgstr "ウィンドウを下側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:11
+#: ../data/50-ukwm-navigation.xml.in.h:11
 #, fuzzy
 #| msgid "Move window one workspace to the left"
 msgid "Move window one monitor to the left"
 msgstr "ウィンドウを左側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:12
+#: ../data/50-ukwm-navigation.xml.in.h:12
 #, fuzzy
 #| msgid "Move window one workspace to the right"
 msgid "Move window one monitor to the right"
 msgstr "ウィンドウを右側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:13
+#: ../data/50-ukwm-navigation.xml.in.h:13
 #, fuzzy
 #| msgid "Move window one workspace up"
 msgid "Move window one monitor up"
 msgstr "ウィンドウを上側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:14
+#: ../data/50-ukwm-navigation.xml.in.h:14
 #, fuzzy
 #| msgid "Move window one workspace down"
 msgid "Move window one monitor down"
 msgstr "ウィンドウを下側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:15
+#: ../data/50-ukwm-navigation.xml.in.h:15
 msgid "Switch applications"
 msgstr "アプリケーションを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:16
+#: ../data/50-ukwm-navigation.xml.in.h:16
 #, fuzzy
 #| msgid "Switch applications"
 msgid "Switch to previous application"
 msgstr "アプリケーションを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:17
+#: ../data/50-ukwm-navigation.xml.in.h:17
 msgid "Switch windows"
 msgstr "ウィンドウを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:18
+#: ../data/50-ukwm-navigation.xml.in.h:18
 #, fuzzy
 #| msgid "Switch windows"
 msgid "Switch to previous window"
 msgstr "ウィンドウを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:19
+#: ../data/50-ukwm-navigation.xml.in.h:19
 msgid "Switch windows of an application"
 msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:20
+#: ../data/50-ukwm-navigation.xml.in.h:20
 #, fuzzy
 #| msgid "Switch windows of an application"
 msgid "Switch to previous window of an application"
 msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:21
+#: ../data/50-ukwm-navigation.xml.in.h:21
 msgid "Switch system controls"
 msgstr "システムのコントロールを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:22
+#: ../data/50-ukwm-navigation.xml.in.h:22
 #, fuzzy
 #| msgid "Switch system controls"
 msgid "Switch to previous system control"
 msgstr "システムのコントロールを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:23
+#: ../data/50-ukwm-navigation.xml.in.h:23
 msgid "Switch windows directly"
 msgstr "ウィンドウを直接切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:24
+#: ../data/50-ukwm-navigation.xml.in.h:24
 msgid "Switch directly to previous window"
 msgstr ""
 
-#: ../data/50-mutter-navigation.xml.in.h:25
+#: ../data/50-ukwm-navigation.xml.in.h:25
 msgid "Switch windows of an app directly"
 msgstr "ひとつのアプリケーション内のウィンドウを直接切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:26
+#: ../data/50-ukwm-navigation.xml.in.h:26
 #, fuzzy
 #| msgid "Switch windows of an application"
 msgid "Switch directly to previous window of an app"
 msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:27
+#: ../data/50-ukwm-navigation.xml.in.h:27
 msgid "Switch system controls directly"
 msgstr "システムのコントロールを直接切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:28
+#: ../data/50-ukwm-navigation.xml.in.h:28
 #, fuzzy
 #| msgid "Switch system controls"
 msgid "Switch directly to previous system control"
 msgstr "システムのコントロールを切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:29
+#: ../data/50-ukwm-navigation.xml.in.h:29
 msgid "Hide all normal windows"
 msgstr "すべての通常のウィンドウを隠す"
 
 # ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
-#: ../data/50-mutter-navigation.xml.in.h:30
+#: ../data/50-ukwm-navigation.xml.in.h:30
 msgid "Switch to workspace 1"
 msgstr "ワークスペース 1 へ切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:31
+#: ../data/50-ukwm-navigation.xml.in.h:31
 msgid "Switch to workspace 2"
 msgstr "ワークスペース 2 へ切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:32
+#: ../data/50-ukwm-navigation.xml.in.h:32
 msgid "Switch to workspace 3"
 msgstr "ワークスペース 3 へ切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:33
+#: ../data/50-ukwm-navigation.xml.in.h:33
 msgid "Switch to workspace 4"
 msgstr "ワークスペース 4 へ切り替える"
 
 # ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
-#: ../data/50-mutter-navigation.xml.in.h:34
+#: ../data/50-ukwm-navigation.xml.in.h:34
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to last workspace"
 msgstr "ワークスペース 1 へ切り替える"
 
-#: ../data/50-mutter-navigation.xml.in.h:35
+#: ../data/50-ukwm-navigation.xml.in.h:35
 msgid "Move to workspace left"
 msgstr "左側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:36
+#: ../data/50-ukwm-navigation.xml.in.h:36
 msgid "Move to workspace right"
 msgstr "右側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:37
+#: ../data/50-ukwm-navigation.xml.in.h:37
 msgid "Move to workspace above"
 msgstr "上側のワークスペースへ移動する"
 
-#: ../data/50-mutter-navigation.xml.in.h:38
+#: ../data/50-ukwm-navigation.xml.in.h:38
 msgid "Move to workspace below"
 msgstr "下側のワークスペースへ移動する"
 
-#: ../data/50-mutter-system.xml.in.h:1
+#: ../data/50-ukwm-system.xml.in.h:1
 msgid "System"
 msgstr "システム"
 
-#: ../data/50-mutter-system.xml.in.h:2
+#: ../data/50-ukwm-system.xml.in.h:2
 msgid "Show the run command prompt"
 msgstr "コマンド実行プロンプトを表示する"
 
-#: ../data/50-mutter-system.xml.in.h:3
+#: ../data/50-ukwm-system.xml.in.h:3
 msgid "Show the activities overview"
 msgstr "アクティビティ画面を表示する"
 
-#: ../data/50-mutter-windows.xml.in.h:1
+#: ../data/50-ukwm-windows.xml.in.h:1
 msgid "Windows"
 msgstr "ウィンドウ"
 
-#: ../data/50-mutter-windows.xml.in.h:2
+#: ../data/50-ukwm-windows.xml.in.h:2
 msgid "Activate the window menu"
 msgstr "ウィンドウメニューを開く"
 
-#: ../data/50-mutter-windows.xml.in.h:3
+#: ../data/50-ukwm-windows.xml.in.h:3
 msgid "Toggle fullscreen mode"
 msgstr "フルスクリーンモードを切り替える"
 
-#: ../data/50-mutter-windows.xml.in.h:4
+#: ../data/50-ukwm-windows.xml.in.h:4
 msgid "Toggle maximization state"
 msgstr "最大化/最小化の状態を切り替える"
 
-#: ../data/50-mutter-windows.xml.in.h:5
+#: ../data/50-ukwm-windows.xml.in.h:5
 msgid "Maximize window"
 msgstr "ウィンドウを最大化する"
 
-#: ../data/50-mutter-windows.xml.in.h:6
+#: ../data/50-ukwm-windows.xml.in.h:6
 msgid "Restore window"
 msgstr "ウィンドウを戻す"
 
-#: ../data/50-mutter-windows.xml.in.h:7
+#: ../data/50-ukwm-windows.xml.in.h:7
 msgid "Toggle shaded state"
 msgstr "シェードの状態を切り替える"
 
-#: ../data/50-mutter-windows.xml.in.h:8
+#: ../data/50-ukwm-windows.xml.in.h:8
 msgid "Close window"
 msgstr "ウィンドウを閉じる"
 
-#: ../data/50-mutter-windows.xml.in.h:9
+#: ../data/50-ukwm-windows.xml.in.h:9
 msgid "Hide window"
 msgstr "ウィンドウを非表示にする"
 
-#: ../data/50-mutter-windows.xml.in.h:10
+#: ../data/50-ukwm-windows.xml.in.h:10
 msgid "Move window"
 msgstr "ウィンドウを移動する"
 
-#: ../data/50-mutter-windows.xml.in.h:11
+#: ../data/50-ukwm-windows.xml.in.h:11
 msgid "Resize window"
 msgstr "ウィンドウサイズを変更する"
 
-#: ../data/50-mutter-windows.xml.in.h:12
+#: ../data/50-ukwm-windows.xml.in.h:12
 msgid "Toggle window on all workspaces or one"
 msgstr "ウィンドウをすべてのワークスペースに固定するかどうかを切り替える"
 
-#: ../data/50-mutter-windows.xml.in.h:13
+#: ../data/50-ukwm-windows.xml.in.h:13
 msgid "Raise window if covered, otherwise lower it"
 msgstr "ウィンドウが覆われていれば最前面に、そうでなければ最背面に移動する"
 
-#: ../data/50-mutter-windows.xml.in.h:14
+#: ../data/50-ukwm-windows.xml.in.h:14
 msgid "Raise window above other windows"
 msgstr "ウィンドウを最前面に移動する"
 
-#: ../data/50-mutter-windows.xml.in.h:15
+#: ../data/50-ukwm-windows.xml.in.h:15
 msgid "Lower window below other windows"
 msgstr "ウィンドウを最背面に移動する"
 
-#: ../data/50-mutter-windows.xml.in.h:16
+#: ../data/50-ukwm-windows.xml.in.h:16
 msgid "Maximize window vertically"
 msgstr "ウィンドウを垂直方向に最大化する"
 
-#: ../data/50-mutter-windows.xml.in.h:17
+#: ../data/50-ukwm-windows.xml.in.h:17
 msgid "Maximize window horizontally"
 msgstr "ウィンドウを水平方向に最大化する"
 
-#: ../data/50-mutter-windows.xml.in.h:18
+#: ../data/50-ukwm-windows.xml.in.h:18
 msgid "View split on left"
 msgstr "画面左半分に表示する"
 
-#: ../data/50-mutter-windows.xml.in.h:19
+#: ../data/50-ukwm-windows.xml.in.h:19
 msgid "View split on right"
 msgstr "画面右半分に表示する"
 
-#: ../data/mutter.desktop.in.h:1
-msgid "Mutter"
-msgstr "Mutter"
+#: ../data/ukwm.desktop.in.h:1
+msgid "Ukwm"
+msgstr "Ukwm"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:1
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
 msgid "Modifier to use for extended window management operations"
 msgstr "ウィンドウの拡張管理の操作で使用する修飾キー"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:2
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
 msgid ""
 "This key will initiate the \"overlay\", which is a combination window "
 "overview and application launching system. The default is intended to be the "
@@ -310,11 +310,11 @@ msgstr ""
 "デフォルトのキーは PC のキーボードにある [Windows キー] です。指定可能な値: "
 "デフォルトのキー、または空の文字列"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:3
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
 msgid "Attach modal dialogs"
 msgstr "モーダルなダイアログを統合するかどうか"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:4
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -324,33 +324,33 @@ msgstr ""
 "に、親ウィンドウのタイトルバーに統合したダイアログを表示します (親ウィンドウ"
 "を移動すると一緒にモーダルなダイアログも移動します)。"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:5
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:6
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:7
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
 msgid "Workspaces are managed dynamically"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:8
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there's a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:9
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
 msgid "Workspaces only on primary"
 msgstr "プライマリモニターのみワークスペースを切り替えるかどうか"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:10
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -359,32 +359,32 @@ msgstr ""
 "か、またはプライマリモニターにあるウィンドウに対してのみワークスペースの切り"
 "替えを提供するかどうかです。"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:11
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
 msgid "No tab popup"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:12
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:13
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:14
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
 msgid ""
 "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
 "the focus will not be changed immediately when entering a window, but only "
 "after the pointer stops moving."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:15
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
 msgid "Draggable border width"
 msgstr "ドラッグが可能になる境界線の幅"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:16
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
 msgid ""
 "The amount of total draggable borders. If the theme's visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -392,102 +392,102 @@ msgstr ""
 "ドラッグができるようになる境界線の幅です。テーマで表示している境界線がこの値"
 "よりも小さい場合は、表示できない境界線がこの値になるように追加されます。"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:17
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:18
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:19
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
 msgid "Place new windows in the center"
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:20
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr ""
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:21
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
 msgid "Select window from tab popup"
 msgstr "タブのポップアップでウィンドウを選択します"
 
-#: ../data/org.gnome.mutter.gschema.xml.in.h:22
+#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
 msgid "Cancel tab popup"
 msgstr ""
 
 # ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:1
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
 #, fuzzy
 #| msgid "Switch to workspace 1"
 msgid "Switch to VT 1"
 msgstr "ワークスペース 1 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:2
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
 #, fuzzy
 #| msgid "Switch to workspace 2"
 msgid "Switch to VT 2"
 msgstr "ワークスペース 2 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:3
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
 #, fuzzy
 #| msgid "Switch to workspace 3"
 msgid "Switch to VT 3"
 msgstr "ワークスペース 3 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:4
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
 #, fuzzy
 #| msgid "Switch to workspace 4"
 msgid "Switch to VT 4"
 msgstr "ワークスペース 4 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:5
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
 #, fuzzy
 #| msgid "Switch to workspace 5"
 msgid "Switch to VT 5"
 msgstr "ワークスペース 5 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:6
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
 #, fuzzy
 #| msgid "Switch to workspace 6"
 msgid "Switch to VT 6"
 msgstr "ワークスペース 6 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:7
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
 #, fuzzy
 #| msgid "Switch to workspace 7"
 msgid "Switch to VT 7"
 msgstr "ワークスペース 7 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:8
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:8
 #, fuzzy
 #| msgid "Switch to workspace 8"
 msgid "Switch to VT 8"
 msgstr "ワークスペース 8 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:9
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:9
 #, fuzzy
 #| msgid "Switch to workspace 9"
 msgid "Switch to VT 9"
 msgstr "ワークスペース 9 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:10
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:10
 #, fuzzy
 #| msgid "Switch to workspace 10"
 msgid "Switch to VT 10"
 msgstr "ワークスペース 10 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:11
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:11
 #, fuzzy
 #| msgid "Switch to workspace 11"
 msgid "Switch to VT 11"
 msgstr "ワークスペース 11 へ切り替える"
 
-#: ../data/org.gnome.mutter.wayland.gschema.xml.in.h:12
+#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:12
 #, fuzzy
 #| msgid "Switch to workspace 12"
 msgid "Switch to VT 12"
@@ -595,28 +595,28 @@ msgstr ""
 msgid "Run as a full display server, rather than nested"
 msgstr ""
 
-#: ../src/core/mutter.c:39
+#: ../src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 
-#: ../src/core/mutter.c:53
+#: ../src/core/ukwm.c:53
 msgid "Print version"
 msgstr "バージョンを表示する"
 
-#: ../src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "使用する Mutter のプラグイン"
+#: ../src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "使用する Ukwm のプラグイン"
 
 #: ../src/core/prefs.c:1997
 #, c-format
@@ -642,8 +642,8 @@ msgid "Screen %d on display '%s' is invalid\n"
 msgstr "ディスプレイ '%2$s' 上のスクリーン %1$d は無効です\n"
 
 #: ../src/core/util.c:121
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "この mutter は詳細ログモードをサポートしていません\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "この ukwm は詳細ログモードをサポートしていません\n"
 
 #: ../src/x11/session.c:1815
 msgid ""
@@ -739,9 +739,9 @@ msgstr "%s (%s)"
 #~ msgid "Failed to parse saved session file: %s\n"
 #~ msgstr "保存されたセッションファイルの解析に失敗しました: %s\n"
 
-#~ msgid "<mutter_session> attribute seen but we already have the session ID"
+#~ msgid "<ukwm_session> attribute seen but we already have the session ID"
 #~ msgstr ""
-#~ "<mutter_session> 属性はありますが、既にセッション ID を所有しています"
+#~ "<ukwm_session> 属性はありますが、既にセッション ID を所有しています"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "<%2$s> エレメントに不明な属性 %1$s があります"

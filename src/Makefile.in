@@ -257,12 +257,12 @@ host_triplet = @host@
 @HAVE_NATIVE_BACKEND_TRUE@	backends/native/dbus-utils.h			\
 @HAVE_NATIVE_BACKEND_TRUE@	$(NULL)
 
-bin_PROGRAMS = mutter$(EXEEXT)
+bin_PROGRAMS = ukwm$(EXEEXT)
 noinst_PROGRAMS = $(am__EXEEXT_3) testboxes$(EXEEXT)
-libexec_PROGRAMS = mutter-restart-helper$(EXEEXT)
+libexec_PROGRAMS = ukwm-restart-helper$(EXEEXT)
 @BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtestsbin_PROGRAMS = $(am__EXEEXT_2)
 @BUILDOPT_INSTALL_TESTS_FALSE@@HAVE_WAYLAND_TRUE@am__append_6 = $(test_programs)
-@HAVE_WAYLAND_TRUE@am__append_7 = tests/mutter-all.test.in
+@HAVE_WAYLAND_TRUE@am__append_7 = tests/ukwm-all.test.in
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
@@ -278,7 +278,7 @@ am__aclocal_m4_deps = $(top_srcdir)/m4/gettext.m4 \
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(am__dist_stacking_DATA_DIST) \
-	$(libmutterinclude_HEADERS) $(am__DIST_COMMON)
+	$(libukwminclude_HEADERS) $(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/config.h
 CONFIG_CLEAN_FILES =
@@ -314,15 +314,15 @@ am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(bindir)" \
 	"$(DESTDIR)$(installedtestsbindir)" "$(DESTDIR)$(libexecdir)" \
 	"$(DESTDIR)$(stackingdir)" "$(DESTDIR)$(girdir)" \
 	"$(DESTDIR)$(installedtestsdir)" "$(DESTDIR)$(pkgconfigdir)" \
-	"$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(libmutterincludedir)" \
-	"$(DESTDIR)$(libmutterincludedir)"
+	"$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(libukwmincludedir)" \
+	"$(DESTDIR)$(libukwmincludedir)"
 LTLIBRARIES = $(lib_LTLIBRARIES)
 am__DEPENDENCIES_1 =
-libmutter_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES =  \
+libukwm_@LIBUKWM_API_VERSION@_la_DEPENDENCIES =  \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
-	$(top_builddir)/clutter/clutter/libmutter-clutter-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/clutter/clutter/libukwm-clutter-$(LIBUKWM_API_VERSION).la \
 	$(am__DEPENDENCIES_1)
-am__libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST =  \
+am__libukwm_@LIBUKWM_API_VERSION@_la_SOURCES_DIST =  \
 	backends/meta-backend.c meta/meta-backend.h \
 	meta/meta-settings.h backends/meta-backend-private.h \
 	backends/meta-barrier.c backends/meta-barrier-private.h \
@@ -428,7 +428,7 @@ am__libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST =  \
 	meta/meta-background-image.h meta/meta-background-group.h \
 	meta/meta-plugin.h meta/meta-shadow-factory.h \
 	meta/meta-window-actor.h meta/meta-window-shape.h \
-	meta/compositor-mutter.h core/constraints.c core/constraints.h \
+	meta/compositor-ukwm.h core/constraints.c core/constraints.h \
 	core/core.c core/meta-close-dialog.c meta/meta-close-dialog.h \
 	core/meta-close-dialog-default.c \
 	core/meta-close-dialog-default-private.h \
@@ -457,7 +457,7 @@ am__libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST =  \
 	x11/iconcache.c x11/iconcache.h x11/session.c x11/session.h \
 	x11/window-props.c x11/window-props.h x11/window-x11.c \
 	x11/window-x11.h x11/window-x11-private.h x11/xprops.c \
-	x11/xprops.h x11/mutter-Xatomtype.h \
+	x11/xprops.h x11/ukwm-Xatomtype.h \
 	backends/meta-dbus-session-watcher.c \
 	backends/meta-dbus-session-watcher.h \
 	backends/meta-remote-desktop.c backends/meta-remote-desktop.h \
@@ -633,7 +633,7 @@ am__objects_1 =
 @HAVE_NATIVE_BACKEND_TRUE@	backends/native/meta-stage-native.lo \
 @HAVE_NATIVE_BACKEND_TRUE@	backends/native/dbus-utils.lo \
 @HAVE_NATIVE_BACKEND_TRUE@	$(am__objects_1)
-am_libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+am_libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	backends/meta-backend.lo backends/meta-barrier.lo \
 	backends/meta-cursor.lo backends/meta-cursor-tracker.lo \
 	backends/meta-cursor-renderer.lo backends/meta-egl.lo \
@@ -721,67 +721,67 @@ am__objects_7 = meta-dbus-login1.lo
 am__objects_12 = $(am__objects_5) $(am__objects_6) $(am__objects_7) \
 	meta-enum-types.lo $(am__objects_1) $(am__objects_10) \
 	$(am__objects_11)
-nodist_libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
+nodist_libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
 	$(am__objects_12)
-libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS =  \
-	$(am_libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS) \
-	$(nodist_libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS)
+libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS =  \
+	$(am_libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS) \
+	$(nodist_libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
 am__v_lt_0 = --silent
 am__v_lt_1 = 
-libmutter_@LIBMUTTER_API_VERSION@_la_LINK = $(LIBTOOL) $(AM_V_lt) \
+libukwm_@LIBUKWM_API_VERSION@_la_LINK = $(LIBTOOL) $(AM_V_lt) \
 	--tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link \
 	$(CCLD) $(AM_CFLAGS) $(CFLAGS) \
-	$(libmutter_@LIBMUTTER_API_VERSION@_la_LDFLAGS) $(LDFLAGS) -o \
+	$(libukwm_@LIBUKWM_API_VERSION@_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
 am__EXEEXT_1 =
-@HAVE_WAYLAND_TRUE@am__EXEEXT_2 = mutter-test-client$(EXEEXT) \
-@HAVE_WAYLAND_TRUE@	mutter-test-runner$(EXEEXT) \
-@HAVE_WAYLAND_TRUE@	mutter-test-unit-tests$(EXEEXT) \
-@HAVE_WAYLAND_TRUE@	mutter-test-headless-start-test$(EXEEXT) \
+@HAVE_WAYLAND_TRUE@am__EXEEXT_2 = ukwm-test-client$(EXEEXT) \
+@HAVE_WAYLAND_TRUE@	ukwm-test-runner$(EXEEXT) \
+@HAVE_WAYLAND_TRUE@	ukwm-test-unit-tests$(EXEEXT) \
+@HAVE_WAYLAND_TRUE@	ukwm-test-headless-start-test$(EXEEXT) \
 @HAVE_WAYLAND_TRUE@	$(am__EXEEXT_1)
 @BUILDOPT_INSTALL_TESTS_FALSE@@HAVE_WAYLAND_TRUE@am__EXEEXT_3 = $(am__EXEEXT_2)
 PROGRAMS = $(bin_PROGRAMS) $(installedtestsbin_PROGRAMS) \
 	$(libexec_PROGRAMS) $(noinst_PROGRAMS)
-am_mutter_OBJECTS = core/mutter.$(OBJEXT)
-mutter_OBJECTS = $(am_mutter_OBJECTS)
-mutter_DEPENDENCIES = $(am__DEPENDENCIES_1) \
-	libmutter-@LIBMUTTER_API_VERSION@.la
-am_mutter_restart_helper_OBJECTS = core/restart-helper.$(OBJEXT)
-mutter_restart_helper_OBJECTS = $(am_mutter_restart_helper_OBJECTS)
-mutter_restart_helper_DEPENDENCIES = $(am__DEPENDENCIES_1)
-am__mutter_test_client_SOURCES_DIST = tests/test-client.c
-@HAVE_WAYLAND_TRUE@am_mutter_test_client_OBJECTS =  \
+am_ukwm_OBJECTS = core/ukwm.$(OBJEXT)
+ukwm_OBJECTS = $(am_ukwm_OBJECTS)
+ukwm_DEPENDENCIES = $(am__DEPENDENCIES_1) \
+	libukwm-@LIBUKWM_API_VERSION@.la
+am_ukwm_restart_helper_OBJECTS = core/restart-helper.$(OBJEXT)
+ukwm_restart_helper_OBJECTS = $(am_ukwm_restart_helper_OBJECTS)
+ukwm_restart_helper_DEPENDENCIES = $(am__DEPENDENCIES_1)
+am__ukwm_test_client_SOURCES_DIST = tests/test-client.c
+@HAVE_WAYLAND_TRUE@am_ukwm_test_client_OBJECTS =  \
 @HAVE_WAYLAND_TRUE@	tests/test-client.$(OBJEXT)
-mutter_test_client_OBJECTS = $(am_mutter_test_client_OBJECTS)
-@HAVE_WAYLAND_TRUE@mutter_test_client_DEPENDENCIES =  \
+ukwm_test_client_OBJECTS = $(am_ukwm_test_client_OBJECTS)
+@HAVE_WAYLAND_TRUE@ukwm_test_client_DEPENDENCIES =  \
 @HAVE_WAYLAND_TRUE@	$(am__DEPENDENCIES_1) \
-@HAVE_WAYLAND_TRUE@	libmutter-$(LIBMUTTER_API_VERSION).la
-am__mutter_test_headless_start_test_SOURCES_DIST =  \
+@HAVE_WAYLAND_TRUE@	libukwm-$(LIBUKWM_API_VERSION).la
+am__ukwm_test_headless_start_test_SOURCES_DIST =  \
 	tests/headless-start-test.c tests/meta-backend-test.c \
 	tests/meta-backend-test.h tests/meta-monitor-manager-test.c \
 	tests/meta-monitor-manager-test.h
-@HAVE_WAYLAND_TRUE@am_mutter_test_headless_start_test_OBJECTS =  \
+@HAVE_WAYLAND_TRUE@am_ukwm_test_headless_start_test_OBJECTS =  \
 @HAVE_WAYLAND_TRUE@	tests/headless-start-test.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	tests/meta-backend-test.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	tests/meta-monitor-manager-test.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	$(am__objects_1)
-mutter_test_headless_start_test_OBJECTS =  \
-	$(am_mutter_test_headless_start_test_OBJECTS)
-@HAVE_WAYLAND_TRUE@mutter_test_headless_start_test_DEPENDENCIES =  \
+ukwm_test_headless_start_test_OBJECTS =  \
+	$(am_ukwm_test_headless_start_test_OBJECTS)
+@HAVE_WAYLAND_TRUE@ukwm_test_headless_start_test_DEPENDENCIES =  \
 @HAVE_WAYLAND_TRUE@	$(am__DEPENDENCIES_1) \
-@HAVE_WAYLAND_TRUE@	libmutter-$(LIBMUTTER_API_VERSION).la
-am__mutter_test_runner_SOURCES_DIST = tests/test-utils.c \
+@HAVE_WAYLAND_TRUE@	libukwm-$(LIBUKWM_API_VERSION).la
+am__ukwm_test_runner_SOURCES_DIST = tests/test-utils.c \
 	tests/test-utils.h tests/test-runner.c
-@HAVE_WAYLAND_TRUE@am_mutter_test_runner_OBJECTS =  \
+@HAVE_WAYLAND_TRUE@am_ukwm_test_runner_OBJECTS =  \
 @HAVE_WAYLAND_TRUE@	tests/test-utils.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	tests/test-runner.$(OBJEXT)
-mutter_test_runner_OBJECTS = $(am_mutter_test_runner_OBJECTS)
-@HAVE_WAYLAND_TRUE@mutter_test_runner_DEPENDENCIES =  \
+ukwm_test_runner_OBJECTS = $(am_ukwm_test_runner_OBJECTS)
+@HAVE_WAYLAND_TRUE@ukwm_test_runner_DEPENDENCIES =  \
 @HAVE_WAYLAND_TRUE@	$(am__DEPENDENCIES_1) \
-@HAVE_WAYLAND_TRUE@	libmutter-$(LIBMUTTER_API_VERSION).la
-am__mutter_test_unit_tests_SOURCES_DIST = tests/test-utils.c \
+@HAVE_WAYLAND_TRUE@	libukwm-$(LIBUKWM_API_VERSION).la
+am__ukwm_test_unit_tests_SOURCES_DIST = tests/test-utils.c \
 	tests/test-utils.h tests/unit-tests.c \
 	tests/meta-backend-test.c tests/meta-backend-test.h \
 	tests/meta-monitor-manager-test.c \
@@ -792,7 +792,7 @@ am__mutter_test_unit_tests_SOURCES_DIST = tests/test-utils.c \
 	tests/monitor-store-unit-tests.h tests/monitor-test-utils.c \
 	tests/monitor-test-utils.h tests/monitor-unit-tests.c \
 	tests/monitor-unit-tests.h
-@HAVE_WAYLAND_TRUE@am_mutter_test_unit_tests_OBJECTS =  \
+@HAVE_WAYLAND_TRUE@am_ukwm_test_unit_tests_OBJECTS =  \
 @HAVE_WAYLAND_TRUE@	tests/test-utils.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	tests/unit-tests.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	tests/meta-backend-test.$(OBJEXT) \
@@ -802,14 +802,14 @@ am__mutter_test_unit_tests_SOURCES_DIST = tests/test-utils.c \
 @HAVE_WAYLAND_TRUE@	tests/monitor-test-utils.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	tests/monitor-unit-tests.$(OBJEXT) \
 @HAVE_WAYLAND_TRUE@	$(am__objects_1)
-mutter_test_unit_tests_OBJECTS = $(am_mutter_test_unit_tests_OBJECTS)
-@HAVE_WAYLAND_TRUE@mutter_test_unit_tests_DEPENDENCIES =  \
+ukwm_test_unit_tests_OBJECTS = $(am_ukwm_test_unit_tests_OBJECTS)
+@HAVE_WAYLAND_TRUE@ukwm_test_unit_tests_DEPENDENCIES =  \
 @HAVE_WAYLAND_TRUE@	$(am__DEPENDENCIES_1) \
-@HAVE_WAYLAND_TRUE@	libmutter-$(LIBMUTTER_API_VERSION).la
+@HAVE_WAYLAND_TRUE@	libukwm-$(LIBUKWM_API_VERSION).la
 am_testboxes_OBJECTS = core/testboxes.$(OBJEXT)
 testboxes_OBJECTS = $(am_testboxes_OBJECTS)
 testboxes_DEPENDENCIES = $(am__DEPENDENCIES_1) \
-	libmutter-$(LIBMUTTER_API_VERSION).la
+	libukwm-$(LIBUKWM_API_VERSION).la
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -844,20 +844,20 @@ AM_V_CCLD = $(am__v_CCLD_@AM_V@)
 am__v_CCLD_ = $(am__v_CCLD_@AM_DEFAULT_V@)
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES) \
-	$(nodist_libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES) \
-	$(mutter_SOURCES) $(mutter_restart_helper_SOURCES) \
-	$(mutter_test_client_SOURCES) \
-	$(mutter_test_headless_start_test_SOURCES) \
-	$(mutter_test_runner_SOURCES) \
-	$(mutter_test_unit_tests_SOURCES) $(testboxes_SOURCES)
+SOURCES = $(libukwm_@LIBUKWM_API_VERSION@_la_SOURCES) \
+	$(nodist_libukwm_@LIBUKWM_API_VERSION@_la_SOURCES) \
+	$(ukwm_SOURCES) $(ukwm_restart_helper_SOURCES) \
+	$(ukwm_test_client_SOURCES) \
+	$(ukwm_test_headless_start_test_SOURCES) \
+	$(ukwm_test_runner_SOURCES) \
+	$(ukwm_test_unit_tests_SOURCES) $(testboxes_SOURCES)
 DIST_SOURCES =  \
-	$(am__libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES_DIST) \
-	$(mutter_SOURCES) $(mutter_restart_helper_SOURCES) \
-	$(am__mutter_test_client_SOURCES_DIST) \
-	$(am__mutter_test_headless_start_test_SOURCES_DIST) \
-	$(am__mutter_test_runner_SOURCES_DIST) \
-	$(am__mutter_test_unit_tests_SOURCES_DIST) \
+	$(am__libukwm_@LIBUKWM_API_VERSION@_la_SOURCES_DIST) \
+	$(ukwm_SOURCES) $(ukwm_restart_helper_SOURCES) \
+	$(am__ukwm_test_client_SOURCES_DIST) \
+	$(am__ukwm_test_headless_start_test_SOURCES_DIST) \
+	$(am__ukwm_test_runner_SOURCES_DIST) \
+	$(am__ukwm_test_unit_tests_SOURCES_DIST) \
 	$(testboxes_SOURCES)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
@@ -880,8 +880,8 @@ am__dist_stacking_DATA_DIST = tests/stacking/basic-x11.metatest \
 	tests/stacking/override-redirect.metatest
 DATA = $(dist_stacking_DATA) $(gir_DATA) $(installedtests_DATA) \
 	$(pkgconfig_DATA) $(typelib_DATA)
-HEADERS = $(libmutterinclude_HEADERS) \
-	$(nodist_libmutterinclude_HEADERS)
+HEADERS = $(libukwminclude_HEADERS) \
+	$(nodist_libukwminclude_HEADERS)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 am__recursive_targets = \
@@ -911,7 +911,7 @@ ETAGS = etags
 CTAGS = ctags
 DIST_SUBDIRS = $(SUBDIRS)
 am__DIST_COMMON = $(srcdir)/Makefile-tests.am $(srcdir)/Makefile.in \
-	$(srcdir)/libmutter.pc.in $(top_srcdir)/build-aux/depcomp
+	$(srcdir)/libukwm.pc.in $(top_srcdir)/build-aux/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 am__relativize = \
   dir0=`pwd`; \
@@ -998,7 +998,7 @@ LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBICONV = @LIBICONV@
 LIBINTL = @LIBINTL@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -1015,18 +1015,18 @@ MKDIR_P = @MKDIR_P@
 MSGFMT = @MSGFMT@
 MSGFMT_015 = @MSGFMT_015@
 MSGMERGE = @MSGMERGE@
-MUTTER_CFLAGS = @MUTTER_CFLAGS@
-MUTTER_LIBS = @MUTTER_LIBS@
-MUTTER_MAJOR_VERSION = @MUTTER_MAJOR_VERSION@
-MUTTER_MICRO_VERSION = @MUTTER_MICRO_VERSION@
-MUTTER_MINOR_VERSION = @MUTTER_MINOR_VERSION@
-MUTTER_NATIVE_BACKEND_CFLAGS = @MUTTER_NATIVE_BACKEND_CFLAGS@
-MUTTER_NATIVE_BACKEND_LIBS = @MUTTER_NATIVE_BACKEND_LIBS@
-MUTTER_PLUGIN_API_VERSION = @MUTTER_PLUGIN_API_VERSION@
-MUTTER_PLUGIN_DIR = @MUTTER_PLUGIN_DIR@
-MUTTER_VERSION = @MUTTER_VERSION@
-MUTTER_WAYLAND_CFLAGS = @MUTTER_WAYLAND_CFLAGS@
-MUTTER_WAYLAND_LIBS = @MUTTER_WAYLAND_LIBS@
+UKWM_CFLAGS = @UKWM_CFLAGS@
+UKWM_LIBS = @UKWM_LIBS@
+UKWM_MAJOR_VERSION = @UKWM_MAJOR_VERSION@
+UKWM_MICRO_VERSION = @UKWM_MICRO_VERSION@
+UKWM_MINOR_VERSION = @UKWM_MINOR_VERSION@
+UKWM_NATIVE_BACKEND_CFLAGS = @UKWM_NATIVE_BACKEND_CFLAGS@
+UKWM_NATIVE_BACKEND_LIBS = @UKWM_NATIVE_BACKEND_LIBS@
+UKWM_PLUGIN_API_VERSION = @UKWM_PLUGIN_API_VERSION@
+UKWM_PLUGIN_DIR = @UKWM_PLUGIN_DIR@
+UKWM_VERSION = @UKWM_VERSION@
+UKWM_WAYLAND_CFLAGS = @UKWM_WAYLAND_CFLAGS@
+UKWM_WAYLAND_LIBS = @UKWM_WAYLAND_LIBS@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -1120,14 +1120,14 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-lib_LTLIBRARIES = libmutter-@LIBMUTTER_API_VERSION@.la
+lib_LTLIBRARIES = libukwm-@LIBUKWM_API_VERSION@.la
 SUBDIRS = compositor/plugins
-EXTRA_DIST = $(am__append_7) $(wayland_protocols) libmutter.pc.in \
+EXTRA_DIST = $(am__append_7) $(wayland_protocols) libukwm.pc.in \
 	meta-enum-types.h.in meta-enum-types.c.in \
-	org.freedesktop.login1.xml org.gnome.Mutter.DisplayConfig.xml \
-	org.gnome.Mutter.IdleMonitor.xml \
-	org.gnome.Mutter.RemoteDesktop.xml \
-	org.gnome.Mutter.ScreenCast.xml \
+	org.freedesktop.login1.xml org.ukui.ukwm.DisplayConfig.xml \
+	org.ukui.ukwm.IdleMonitor.xml \
+	org.ukui.ukwm.RemoteDesktop.xml \
+	org.ukui.ukwm.ScreenCast.xml \
 	backends/native/gen-default-modes.py $(NULL)
 NULL = 
 AM_CPPFLAGS = \
@@ -1135,11 +1135,11 @@ AM_CPPFLAGS = \
 	-DCLUTTER_ENABLE_EXPERIMENTAL_API				\
 	-DCOGL_ENABLE_EXPERIMENTAL_API					\
 	-DCOGL_ENABLE_EXPERIMENTAL_2_0_API                              \
-	-DCOGL_ENABLE_MUTTER_API					\
+	-DCOGL_ENABLE_UKWM_API					\
 	-DCLUTTER_DISABLE_DEPRECATION_WARNINGS				\
 	-DCOGL_DISABLE_DEPRECATION_WARNINGS				\
-	$(MUTTER_CFLAGS)						\
-	$(MUTTER_NATIVE_BACKEND_CFLAGS)					\
+	$(UKWM_CFLAGS)						\
+	$(UKWM_NATIVE_BACKEND_CFLAGS)					\
 	-I$(builddir)							\
 	-I$(srcdir)							\
 	-I$(srcdir)/backends						\
@@ -1155,19 +1155,19 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)/clutter/clutter					\
 	-I$(top_builddir)/clutter					\
 	-I$(top_builddir)/clutter/clutter				\
-	-DMUTTER_LIBEXECDIR=\"$(libexecdir)\"				\
-	-DMUTTER_LOCALEDIR=\"$(localedir)\"				\
-	-DMUTTER_PKGDATADIR=\"$(pkgdatadir)\"				\
-	-DMUTTER_DATADIR=\"$(datadir)\"					\
-	-DG_LOG_DOMAIN=\"mutter\"					\
+	-DUKWM_LIBEXECDIR=\"$(libexecdir)\"				\
+	-DUKWM_LOCALEDIR=\"$(localedir)\"				\
+	-DUKWM_PKGDATADIR=\"$(pkgdatadir)\"				\
+	-DUKWM_DATADIR=\"$(datadir)\"					\
+	-DG_LOG_DOMAIN=\"ukwm\"					\
 	-DSN_API_NOT_YET_FROZEN=1					\
-	-DMUTTER_PKGLIBDIR=\"$(pkglibdir)\"				\
-	-DMUTTER_PLUGIN_DIR=\"$(MUTTER_PLUGIN_DIR)\"			\
+	-DUKWM_PKGLIBDIR=\"$(pkglibdir)\"				\
+	-DUKWM_PLUGIN_DIR=\"$(UKWM_PLUGIN_DIR)\"			\
 	-DGETTEXT_PACKAGE=\"$(GETTEXT_PACKAGE)\"			\
 	-DXWAYLAND_PATH=\"$(XWAYLAND_PATH)\"				\
 	$(NULL)
 
-mutter_built_sources = $(dbus_idle_built_sources) \
+ukwm_built_sources = $(dbus_idle_built_sources) \
 	$(dbus_display_config_built_sources) \
 	$(dbus_login1_built_sources) meta/meta-enum-types.h \
 	meta-enum-types.c $(NULL) $(am__append_1) $(am__append_2)
@@ -1176,7 +1176,7 @@ wayland_protocols = \
 	wayland/protocol/gtk-primary-selection.xml	\
 	$(NULL)
 
-libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES =  \
+libukwm_@LIBUKWM_API_VERSION@_la_SOURCES =  \
 	backends/meta-backend.c meta/meta-backend.h \
 	meta/meta-settings.h backends/meta-backend-private.h \
 	backends/meta-barrier.c backends/meta-barrier-private.h \
@@ -1282,7 +1282,7 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES =  \
 	meta/meta-background-image.h meta/meta-background-group.h \
 	meta/meta-plugin.h meta/meta-shadow-factory.h \
 	meta/meta-window-actor.h meta/meta-window-shape.h \
-	meta/compositor-mutter.h core/constraints.c core/constraints.h \
+	meta/compositor-ukwm.h core/constraints.c core/constraints.h \
 	core/core.c core/meta-close-dialog.c meta/meta-close-dialog.h \
 	core/meta-close-dialog-default.c \
 	core/meta-close-dialog-default-private.h \
@@ -1311,26 +1311,26 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES =  \
 	x11/iconcache.c x11/iconcache.h x11/session.c x11/session.h \
 	x11/window-props.c x11/window-props.h x11/window-x11.c \
 	x11/window-x11.h x11/window-x11-private.h x11/xprops.c \
-	x11/xprops.h x11/mutter-Xatomtype.h $(NULL) $(am__append_3) \
+	x11/xprops.h x11/ukwm-Xatomtype.h $(NULL) $(am__append_3) \
 	$(am__append_4) $(am__append_5)
-nodist_libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES = $(mutter_built_sources)
-libmutter_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+nodist_libukwm_@LIBUKWM_API_VERSION@_la_SOURCES = $(ukwm_built_sources)
+libukwm_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-no-undefined -export-symbols-regex "^(meta|ag)_.*"
 
-libmutter_@LIBMUTTER_API_VERSION@_la_LIBADD = \
-	$(MUTTER_LIBS) \
-	$(MUTTER_NATIVE_BACKEND_LIBS)	\
-	$(top_builddir)/clutter/clutter/libmutter-clutter-$(LIBMUTTER_API_VERSION).la \
+libukwm_@LIBUKWM_API_VERSION@_la_LIBADD = \
+	$(UKWM_LIBS) \
+	$(UKWM_NATIVE_BACKEND_LIBS)	\
+	$(top_builddir)/clutter/clutter/libukwm-clutter-$(LIBUKWM_API_VERSION).la \
 	$(NULL)
 
 
 # Headers installed for plugins; introspected information will
-# be extracted into Mutter-<version>.gir
-libmutterinclude_headers = \
+# be extracted into ukwm-<version>.gir
+libukwminclude_headers = \
 	meta/barrier.h				\
 	meta/boxes.h				\
 	meta/common.h				\
-	meta/compositor-mutter.h		\
+	meta/compositor-ukwm.h		\
 	meta/compositor.h			\
 	meta/display.h				\
 	meta/errors.h				\
@@ -1363,31 +1363,31 @@ libmutterinclude_headers = \
 	meta/workspace.h			\
 	$(NULL)
 
-libmutterinclude_built_headers = \
+libukwminclude_built_headers = \
 	meta/meta-version.h			\
 	meta/meta-enum-types.h			\
 	$(NULL)
 
-libmutterinclude_base_headers = \
-	$(libmutterinclude_headers)		\
-	$(libmutterinclude_built_headers)
+libukwminclude_base_headers = \
+	$(libukwminclude_headers)		\
+	$(libukwminclude_built_headers)
 
-libmutterincludedir = $(includedir)/mutter/meta
-libmutterinclude_HEADERS = \
-	$(libmutterinclude_headers)
+libukwmincludedir = $(includedir)/ukwm/meta
+libukwminclude_HEADERS = \
+	$(libukwminclude_headers)
 
-nodist_libmutterinclude_HEADERS = \
-	$(libmutterinclude_built_headers)
+nodist_libukwminclude_HEADERS = \
+	$(libukwminclude_built_headers)
 
-mutter_SOURCES = core/mutter.c
-mutter_LDADD = $(MUTTER_LIBS) libmutter-@LIBMUTTER_API_VERSION@.la
-mutter_restart_helper_SOURCES = core/restart-helper.c
-mutter_restart_helper_LDADD = $(MUTTER_LIBS)
+ukwm_SOURCES = core/ukwm.c
+ukwm_LDADD = $(UKWM_LIBS) libukwm-@LIBUKWM_API_VERSION@.la
+ukwm_restart_helper_SOURCES = core/restart-helper.c
+ukwm_restart_helper_LDADD = $(UKWM_LIBS)
 @HAVE_WAYLAND_TRUE@test_programs = \
-@HAVE_WAYLAND_TRUE@	mutter-test-client \
-@HAVE_WAYLAND_TRUE@	mutter-test-runner \
-@HAVE_WAYLAND_TRUE@	mutter-test-unit-tests \
-@HAVE_WAYLAND_TRUE@	mutter-test-headless-start-test \
+@HAVE_WAYLAND_TRUE@	ukwm-test-client \
+@HAVE_WAYLAND_TRUE@	ukwm-test-runner \
+@HAVE_WAYLAND_TRUE@	ukwm-test-unit-tests \
+@HAVE_WAYLAND_TRUE@	ukwm-test-headless-start-test \
 @HAVE_WAYLAND_TRUE@	$(NULL)
 
 @BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@stackingdir = $(pkgdatadir)/tests/stacking
@@ -1399,18 +1399,18 @@ mutter_restart_helper_LDADD = $(MUTTER_LIBS)
 @BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@	tests/stacking/set-parent.metatest	\
 @BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@	tests/stacking/override-redirect.metatest
 
-@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtestsdir = $(datadir)/installed-tests/mutter
-@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtests_DATA = mutter-all.test
-@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtestsbindir = $(libexecdir)/installed-tests/mutter
-@HAVE_WAYLAND_TRUE@mutter_test_client_SOURCES = tests/test-client.c
-@HAVE_WAYLAND_TRUE@mutter_test_client_LDADD = $(MUTTER_LIBS) libmutter-$(LIBMUTTER_API_VERSION).la
-@HAVE_WAYLAND_TRUE@mutter_test_runner_SOURCES = \
+@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtestsdir = $(datadir)/installed-tests/ukwm
+@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtests_DATA = ukwm-all.test
+@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@installedtestsbindir = $(libexecdir)/installed-tests/ukwm
+@HAVE_WAYLAND_TRUE@ukwm_test_client_SOURCES = tests/test-client.c
+@HAVE_WAYLAND_TRUE@ukwm_test_client_LDADD = $(UKWM_LIBS) libukwm-$(LIBUKWM_API_VERSION).la
+@HAVE_WAYLAND_TRUE@ukwm_test_runner_SOURCES = \
 @HAVE_WAYLAND_TRUE@	tests/test-utils.c \
 @HAVE_WAYLAND_TRUE@	tests/test-utils.h \
 @HAVE_WAYLAND_TRUE@	tests/test-runner.c
 
-@HAVE_WAYLAND_TRUE@mutter_test_runner_LDADD = $(MUTTER_LIBS) libmutter-$(LIBMUTTER_API_VERSION).la
-@HAVE_WAYLAND_TRUE@mutter_test_unit_tests_SOURCES = \
+@HAVE_WAYLAND_TRUE@ukwm_test_runner_LDADD = $(UKWM_LIBS) libukwm-$(LIBUKWM_API_VERSION).la
+@HAVE_WAYLAND_TRUE@ukwm_test_unit_tests_SOURCES = \
 @HAVE_WAYLAND_TRUE@	tests/test-utils.c \
 @HAVE_WAYLAND_TRUE@	tests/test-utils.h \
 @HAVE_WAYLAND_TRUE@	tests/unit-tests.c \
@@ -1428,8 +1428,8 @@ mutter_restart_helper_LDADD = $(MUTTER_LIBS)
 @HAVE_WAYLAND_TRUE@	tests/monitor-unit-tests.h \
 @HAVE_WAYLAND_TRUE@	$(NULL)
 
-@HAVE_WAYLAND_TRUE@mutter_test_unit_tests_LDADD = $(MUTTER_LIBS) libmutter-$(LIBMUTTER_API_VERSION).la
-@HAVE_WAYLAND_TRUE@mutter_test_headless_start_test_SOURCES = \
+@HAVE_WAYLAND_TRUE@ukwm_test_unit_tests_LDADD = $(UKWM_LIBS) libukwm-$(LIBUKWM_API_VERSION).la
+@HAVE_WAYLAND_TRUE@ukwm_test_headless_start_test_SOURCES = \
 @HAVE_WAYLAND_TRUE@	tests/headless-start-test.c \
 @HAVE_WAYLAND_TRUE@	tests/meta-backend-test.c \
 @HAVE_WAYLAND_TRUE@	tests/meta-backend-test.h \
@@ -1437,20 +1437,20 @@ mutter_restart_helper_LDADD = $(MUTTER_LIBS)
 @HAVE_WAYLAND_TRUE@	tests/meta-monitor-manager-test.h \
 @HAVE_WAYLAND_TRUE@	$(NULL)
 
-@HAVE_WAYLAND_TRUE@mutter_test_headless_start_test_LDADD = $(MUTTER_LIBS) libmutter-$(LIBMUTTER_API_VERSION).la
+@HAVE_WAYLAND_TRUE@ukwm_test_headless_start_test_LDADD = $(UKWM_LIBS) libukwm-$(LIBUKWM_API_VERSION).la
 
 # Some random test programs for bits of the code
 testboxes_SOURCES = core/testboxes.c
-testboxes_LDADD = $(MUTTER_LIBS) libmutter-$(LIBMUTTER_API_VERSION).la
+testboxes_LDADD = $(UKWM_LIBS) libukwm-$(LIBUKWM_API_VERSION).la
 
 # These files are in package-private directories, even though they may be used
 # by plugins.  If you're writing a plugin, use g-ir-compiler --add-include-path
 # and g-ir-compiler --includedir.
 @HAVE_INTROSPECTION_TRUE@girdir = $(pkglibdir)
-@HAVE_INTROSPECTION_TRUE@gir_DATA = Meta-$(LIBMUTTER_API_VERSION).gir
+@HAVE_INTROSPECTION_TRUE@gir_DATA = Meta-$(LIBUKWM_API_VERSION).gir
 @HAVE_INTROSPECTION_TRUE@typelibdir = $(pkglibdir)
-@HAVE_INTROSPECTION_TRUE@typelib_DATA = Meta-$(LIBMUTTER_API_VERSION).typelib
-@HAVE_INTROSPECTION_TRUE@INTROSPECTION_GIRS = Meta-$(LIBMUTTER_API_VERSION).gir
+@HAVE_INTROSPECTION_TRUE@typelib_DATA = Meta-$(LIBUKWM_API_VERSION).typelib
+@HAVE_INTROSPECTION_TRUE@INTROSPECTION_GIRS = Meta-$(LIBUKWM_API_VERSION).gir
 @HAVE_INTROSPECTION_TRUE@INTROSPECTION_SCANNER_ARGS = \
 @HAVE_INTROSPECTION_TRUE@	--add-include-path=$(top_builddir)/clutter/clutter	\
 @HAVE_INTROSPECTION_TRUE@	--add-include-path=$(top_builddir)/cogl/cogl		\
@@ -1466,40 +1466,40 @@ testboxes_LDADD = $(MUTTER_LIBS) libmutter-$(LIBMUTTER_API_VERSION).la
 @HAVE_INTROSPECTION_TRUE@INTROSPECTION_SCANNER_ENV = \
 @HAVE_INTROSPECTION_TRUE@	PKG_CONFIG_PATH=$(top_builddir)/clutter/clutter/:$(top_builddir)/cogl/cogl/:$(top_builddir)/cogl/cogl-pango/:$${PKG_CONFIG_PATH}
 
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_gir_VERSION = $(LIBMUTTER_API_VERSION)
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_gir_INCLUDES = \
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_gir_VERSION = $(LIBUKWM_API_VERSION)
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_gir_INCLUDES = \
 @HAVE_INTROSPECTION_TRUE@	GObject-2.0				\
 @HAVE_INTROSPECTION_TRUE@	GDesktopEnums-3.0			\
 @HAVE_INTROSPECTION_TRUE@	Gdk-3.0					\
 @HAVE_INTROSPECTION_TRUE@	Gtk-3.0					\
-@HAVE_INTROSPECTION_TRUE@	Cogl-$(LIBMUTTER_API_VERSION)		\
-@HAVE_INTROSPECTION_TRUE@	Clutter-$(LIBMUTTER_API_VERSION)	\
+@HAVE_INTROSPECTION_TRUE@	Cogl-$(LIBUKWM_API_VERSION)		\
+@HAVE_INTROSPECTION_TRUE@	Clutter-$(LIBUKWM_API_VERSION)	\
 @HAVE_INTROSPECTION_TRUE@	xlib-2.0				\
 @HAVE_INTROSPECTION_TRUE@	xfixes-4.0				\
 @HAVE_INTROSPECTION_TRUE@	$(NULL)
 
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_gir_EXPORT_PACKAGES = libmutter-$(LIBMUTTER_API_VERSION)
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS)
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-$(LIBMUTTER_API_VERSION).la
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_gir_FILES = \
-@HAVE_INTROSPECTION_TRUE@	$(libmutterinclude_base_headers)			\
-@HAVE_INTROSPECTION_TRUE@	$(filter %.c,$(libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES) $(nodist_libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES))
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_gir_EXPORT_PACKAGES = libukwm-$(LIBUKWM_API_VERSION)
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS)
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-$(LIBUKWM_API_VERSION).la
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_gir_FILES = \
+@HAVE_INTROSPECTION_TRUE@	$(libukwminclude_base_headers)			\
+@HAVE_INTROSPECTION_TRUE@	$(filter %.c,$(libukwm_@LIBUKWM_API_VERSION@_la_SOURCES) $(nodist_libukwm_@LIBUKWM_API_VERSION@_la_SOURCES))
 
-@HAVE_INTROSPECTION_TRUE@Meta_@LIBMUTTER_API_VERSION@_SCANNERFLAGS = --warn-all --warn-error
+@HAVE_INTROSPECTION_TRUE@Meta_@LIBUKWM_API_VERSION@_SCANNERFLAGS = --warn-all --warn-error
 dbus_idle_built_sources = meta-dbus-idle-monitor.c meta-dbus-idle-monitor.h
-CLEANFILES = $(mutter_built_sources) $(typelib_DATA) $(gir_DATA) \
-	$(MUTTER_STAMP_FILES)
+CLEANFILES = $(ukwm_built_sources) $(typelib_DATA) $(gir_DATA) \
+	$(UKWM_STAMP_FILES)
 DISTCLEANFILES = \
-	$(libmutterinclude_built_headers)	\
+	$(libukwminclude_built_headers)	\
 	$(pkgconfig_DATA)
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = libmutter-$(LIBMUTTER_API_VERSION).pc
+pkgconfig_DATA = libukwm-$(LIBUKWM_API_VERSION).pc
 BUILT_SOURCES = \
-	$(mutter_built_sources)			\
-	$(libmutterinclude_built_headers)
+	$(ukwm_built_sources)			\
+	$(libukwminclude_built_headers)
 
-MUTTER_STAMP_FILES = stamp-meta-enum-types.h
+UKWM_STAMP_FILES = stamp-meta-enum-types.h
 dbus_display_config_built_sources = meta-dbus-display-config.c meta-dbus-display-config.h
 @HAVE_REMOTE_DESKTOP_TRUE@dbus_remote_desktop_built_sources = meta-dbus-remote-desktop.c meta-dbus-remote-desktop.h
 @HAVE_REMOTE_DESKTOP_TRUE@dbus_screen_cast_built_sources = meta-dbus-screen-cast.c meta-dbus-screen-cast.h
@@ -1949,8 +1949,8 @@ backends/native/meta-stage-native.lo: backends/native/$(am__dirstamp) \
 backends/native/dbus-utils.lo: backends/native/$(am__dirstamp) \
 	backends/native/$(DEPDIR)/$(am__dirstamp)
 
-libmutter-@LIBMUTTER_API_VERSION@.la: $(libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libmutter_@LIBMUTTER_API_VERSION@_la_DEPENDENCIES) 
-	$(AM_V_CCLD)$(libmutter_@LIBMUTTER_API_VERSION@_la_LINK) -rpath $(libdir) $(libmutter_@LIBMUTTER_API_VERSION@_la_OBJECTS) $(libmutter_@LIBMUTTER_API_VERSION@_la_LIBADD) $(LIBS)
+libukwm-@LIBUKWM_API_VERSION@.la: $(libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) $(EXTRA_libukwm_@LIBUKWM_API_VERSION@_la_DEPENDENCIES) 
+	$(AM_V_CCLD)$(libukwm_@LIBUKWM_API_VERSION@_la_LINK) -rpath $(libdir) $(libukwm_@LIBUKWM_API_VERSION@_la_OBJECTS) $(libukwm_@LIBUKWM_API_VERSION@_la_LIBADD) $(LIBS)
 install-binPROGRAMS: $(bin_PROGRAMS)
 	@$(NORMAL_INSTALL)
 	@list='$(bin_PROGRAMS)'; test -n "$(bindir)" || list=; \
@@ -2107,18 +2107,18 @@ clean-noinstPROGRAMS:
 	list=`for p in $$list; do echo "$$p"; done | sed 's/$(EXEEXT)$$//'`; \
 	echo " rm -f" $$list; \
 	rm -f $$list
-core/mutter.$(OBJEXT): core/$(am__dirstamp) \
+core/ukwm.$(OBJEXT): core/$(am__dirstamp) \
 	core/$(DEPDIR)/$(am__dirstamp)
 
-mutter$(EXEEXT): $(mutter_OBJECTS) $(mutter_DEPENDENCIES) $(EXTRA_mutter_DEPENDENCIES) 
-	@rm -f mutter$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(mutter_OBJECTS) $(mutter_LDADD) $(LIBS)
+ukwm$(EXEEXT): $(ukwm_OBJECTS) $(ukwm_DEPENDENCIES) $(EXTRA_ukwm_DEPENDENCIES) 
+	@rm -f ukwm$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(ukwm_OBJECTS) $(ukwm_LDADD) $(LIBS)
 core/restart-helper.$(OBJEXT): core/$(am__dirstamp) \
 	core/$(DEPDIR)/$(am__dirstamp)
 
-mutter-restart-helper$(EXEEXT): $(mutter_restart_helper_OBJECTS) $(mutter_restart_helper_DEPENDENCIES) $(EXTRA_mutter_restart_helper_DEPENDENCIES) 
-	@rm -f mutter-restart-helper$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(mutter_restart_helper_OBJECTS) $(mutter_restart_helper_LDADD) $(LIBS)
+ukwm-restart-helper$(EXEEXT): $(ukwm_restart_helper_OBJECTS) $(ukwm_restart_helper_DEPENDENCIES) $(EXTRA_ukwm_restart_helper_DEPENDENCIES) 
+	@rm -f ukwm-restart-helper$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(ukwm_restart_helper_OBJECTS) $(ukwm_restart_helper_LDADD) $(LIBS)
 tests/$(am__dirstamp):
 	@$(MKDIR_P) tests
 	@: > tests/$(am__dirstamp)
@@ -2128,9 +2128,9 @@ tests/$(DEPDIR)/$(am__dirstamp):
 tests/test-client.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 
-mutter-test-client$(EXEEXT): $(mutter_test_client_OBJECTS) $(mutter_test_client_DEPENDENCIES) $(EXTRA_mutter_test_client_DEPENDENCIES) 
-	@rm -f mutter-test-client$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(mutter_test_client_OBJECTS) $(mutter_test_client_LDADD) $(LIBS)
+ukwm-test-client$(EXEEXT): $(ukwm_test_client_OBJECTS) $(ukwm_test_client_DEPENDENCIES) $(EXTRA_ukwm_test_client_DEPENDENCIES) 
+	@rm -f ukwm-test-client$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(ukwm_test_client_OBJECTS) $(ukwm_test_client_LDADD) $(LIBS)
 tests/headless-start-test.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 tests/meta-backend-test.$(OBJEXT): tests/$(am__dirstamp) \
@@ -2138,17 +2138,17 @@ tests/meta-backend-test.$(OBJEXT): tests/$(am__dirstamp) \
 tests/meta-monitor-manager-test.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 
-mutter-test-headless-start-test$(EXEEXT): $(mutter_test_headless_start_test_OBJECTS) $(mutter_test_headless_start_test_DEPENDENCIES) $(EXTRA_mutter_test_headless_start_test_DEPENDENCIES) 
-	@rm -f mutter-test-headless-start-test$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(mutter_test_headless_start_test_OBJECTS) $(mutter_test_headless_start_test_LDADD) $(LIBS)
+ukwm-test-headless-start-test$(EXEEXT): $(ukwm_test_headless_start_test_OBJECTS) $(ukwm_test_headless_start_test_DEPENDENCIES) $(EXTRA_ukwm_test_headless_start_test_DEPENDENCIES) 
+	@rm -f ukwm-test-headless-start-test$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(ukwm_test_headless_start_test_OBJECTS) $(ukwm_test_headless_start_test_LDADD) $(LIBS)
 tests/test-utils.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 tests/test-runner.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 
-mutter-test-runner$(EXEEXT): $(mutter_test_runner_OBJECTS) $(mutter_test_runner_DEPENDENCIES) $(EXTRA_mutter_test_runner_DEPENDENCIES) 
-	@rm -f mutter-test-runner$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(mutter_test_runner_OBJECTS) $(mutter_test_runner_LDADD) $(LIBS)
+ukwm-test-runner$(EXEEXT): $(ukwm_test_runner_OBJECTS) $(ukwm_test_runner_DEPENDENCIES) $(EXTRA_ukwm_test_runner_DEPENDENCIES) 
+	@rm -f ukwm-test-runner$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(ukwm_test_runner_OBJECTS) $(ukwm_test_runner_LDADD) $(LIBS)
 tests/unit-tests.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 tests/monitor-config-migration-unit-tests.$(OBJEXT):  \
@@ -2160,9 +2160,9 @@ tests/monitor-test-utils.$(OBJEXT): tests/$(am__dirstamp) \
 tests/monitor-unit-tests.$(OBJEXT): tests/$(am__dirstamp) \
 	tests/$(DEPDIR)/$(am__dirstamp)
 
-mutter-test-unit-tests$(EXEEXT): $(mutter_test_unit_tests_OBJECTS) $(mutter_test_unit_tests_DEPENDENCIES) $(EXTRA_mutter_test_unit_tests_DEPENDENCIES) 
-	@rm -f mutter-test-unit-tests$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(mutter_test_unit_tests_OBJECTS) $(mutter_test_unit_tests_LDADD) $(LIBS)
+ukwm-test-unit-tests$(EXEEXT): $(ukwm_test_unit_tests_OBJECTS) $(ukwm_test_unit_tests_DEPENDENCIES) $(EXTRA_ukwm_test_unit_tests_DEPENDENCIES) 
+	@rm -f ukwm-test-unit-tests$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(ukwm_test_unit_tests_OBJECTS) $(ukwm_test_unit_tests_LDADD) $(LIBS)
 core/testboxes.$(OBJEXT): core/$(am__dirstamp) \
 	core/$(DEPDIR)/$(am__dirstamp)
 
@@ -2316,7 +2316,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/meta-gesture-tracker.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/meta-inhibit-shortcuts-dialog-default.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/meta-inhibit-shortcuts-dialog.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/mutter.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/ukwm.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/place.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/prefs.Plo@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@core/$(DEPDIR)/restart-helper.Po@am__quote@
@@ -2535,48 +2535,48 @@ uninstall-typelibDATA:
 	@list='$(typelib_DATA)'; test -n "$(typelibdir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
 	dir='$(DESTDIR)$(typelibdir)'; $(am__uninstall_files_from_dir)
-install-libmutterincludeHEADERS: $(libmutterinclude_HEADERS)
+install-libukwmincludeHEADERS: $(libukwminclude_HEADERS)
 	@$(NORMAL_INSTALL)
-	@list='$(libmutterinclude_HEADERS)'; test -n "$(libmutterincludedir)" || list=; \
+	@list='$(libukwminclude_HEADERS)'; test -n "$(libukwmincludedir)" || list=; \
 	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(libmutterincludedir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(libmutterincludedir)" || exit 1; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(libukwmincludedir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(libukwmincludedir)" || exit 1; \
 	fi; \
 	for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  echo "$$d$$p"; \
 	done | $(am__base_list) | \
 	while read files; do \
-	  echo " $(INSTALL_HEADER) $$files '$(DESTDIR)$(libmutterincludedir)'"; \
-	  $(INSTALL_HEADER) $$files "$(DESTDIR)$(libmutterincludedir)" || exit $$?; \
+	  echo " $(INSTALL_HEADER) $$files '$(DESTDIR)$(libukwmincludedir)'"; \
+	  $(INSTALL_HEADER) $$files "$(DESTDIR)$(libukwmincludedir)" || exit $$?; \
 	done
 
-uninstall-libmutterincludeHEADERS:
+uninstall-libukwmincludeHEADERS:
 	@$(NORMAL_UNINSTALL)
-	@list='$(libmutterinclude_HEADERS)'; test -n "$(libmutterincludedir)" || list=; \
+	@list='$(libukwminclude_HEADERS)'; test -n "$(libukwmincludedir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(libmutterincludedir)'; $(am__uninstall_files_from_dir)
-install-nodist_libmutterincludeHEADERS: $(nodist_libmutterinclude_HEADERS)
+	dir='$(DESTDIR)$(libukwmincludedir)'; $(am__uninstall_files_from_dir)
+install-nodist_libukwmincludeHEADERS: $(nodist_libukwminclude_HEADERS)
 	@$(NORMAL_INSTALL)
-	@list='$(nodist_libmutterinclude_HEADERS)'; test -n "$(libmutterincludedir)" || list=; \
+	@list='$(nodist_libukwminclude_HEADERS)'; test -n "$(libukwmincludedir)" || list=; \
 	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(libmutterincludedir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(libmutterincludedir)" || exit 1; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(libukwmincludedir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(libukwmincludedir)" || exit 1; \
 	fi; \
 	for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  echo "$$d$$p"; \
 	done | $(am__base_list) | \
 	while read files; do \
-	  echo " $(INSTALL_HEADER) $$files '$(DESTDIR)$(libmutterincludedir)'"; \
-	  $(INSTALL_HEADER) $$files "$(DESTDIR)$(libmutterincludedir)" || exit $$?; \
+	  echo " $(INSTALL_HEADER) $$files '$(DESTDIR)$(libukwmincludedir)'"; \
+	  $(INSTALL_HEADER) $$files "$(DESTDIR)$(libukwmincludedir)" || exit $$?; \
 	done
 
-uninstall-nodist_libmutterincludeHEADERS:
+uninstall-nodist_libukwmincludeHEADERS:
 	@$(NORMAL_UNINSTALL)
-	@list='$(nodist_libmutterinclude_HEADERS)'; test -n "$(libmutterincludedir)" || list=; \
+	@list='$(nodist_libukwminclude_HEADERS)'; test -n "$(libukwmincludedir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(libmutterincludedir)'; $(am__uninstall_files_from_dir)
+	dir='$(DESTDIR)$(libukwmincludedir)'; $(am__uninstall_files_from_dir)
 
 # This directory's subdirectories are mostly independent; you can cd
 # into them and run 'make' without going through this Makefile.
@@ -2740,7 +2740,7 @@ install-binPROGRAMS: install-libLTLIBRARIES
 
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(libdir)" "$(DESTDIR)$(bindir)" "$(DESTDIR)$(installedtestsbindir)" "$(DESTDIR)$(libexecdir)" "$(DESTDIR)$(stackingdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(installedtestsdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(libmutterincludedir)" "$(DESTDIR)$(libmutterincludedir)"; do \
+	for dir in "$(DESTDIR)$(libdir)" "$(DESTDIR)$(bindir)" "$(DESTDIR)$(installedtestsbindir)" "$(DESTDIR)$(libexecdir)" "$(DESTDIR)$(stackingdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(installedtestsdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(libukwmincludedir)" "$(DESTDIR)$(libukwmincludedir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: $(BUILT_SOURCES)
@@ -2826,8 +2826,8 @@ info-am:
 
 install-data-am: install-dist_stackingDATA install-girDATA \
 	install-installedtestsDATA install-installedtestsbinPROGRAMS \
-	install-libmutterincludeHEADERS \
-	install-nodist_libmutterincludeHEADERS install-pkgconfigDATA \
+	install-libukwmincludeHEADERS \
+	install-nodist_libukwmincludeHEADERS install-pkgconfigDATA \
 	install-typelibDATA
 
 install-dvi: install-dvi-recursive
@@ -2878,8 +2878,8 @@ ps-am:
 uninstall-am: uninstall-binPROGRAMS uninstall-dist_stackingDATA \
 	uninstall-girDATA uninstall-installedtestsDATA \
 	uninstall-installedtestsbinPROGRAMS uninstall-libLTLIBRARIES \
-	uninstall-libexecPROGRAMS uninstall-libmutterincludeHEADERS \
-	uninstall-nodist_libmutterincludeHEADERS \
+	uninstall-libexecPROGRAMS uninstall-libukwmincludeHEADERS \
+	uninstall-nodist_libukwmincludeHEADERS \
 	uninstall-pkgconfigDATA uninstall-typelibDATA
 
 .MAKE: $(am__recursive_targets) all check install install-am \
@@ -2898,8 +2898,8 @@ uninstall-am: uninstall-binPROGRAMS uninstall-dist_stackingDATA \
 	install-html-am install-info install-info-am \
 	install-installedtestsDATA install-installedtestsbinPROGRAMS \
 	install-libLTLIBRARIES install-libexecPROGRAMS \
-	install-libmutterincludeHEADERS install-man \
-	install-nodist_libmutterincludeHEADERS install-pdf \
+	install-libukwmincludeHEADERS install-man \
+	install-nodist_libukwmincludeHEADERS install-pdf \
 	install-pdf-am install-pkgconfigDATA install-ps install-ps-am \
 	install-strip install-typelibDATA installcheck installcheck-am \
 	installdirs installdirs-am maintainer-clean \
@@ -2909,8 +2909,8 @@ uninstall-am: uninstall-binPROGRAMS uninstall-dist_stackingDATA \
 	uninstall-dist_stackingDATA uninstall-girDATA \
 	uninstall-installedtestsDATA \
 	uninstall-installedtestsbinPROGRAMS uninstall-libLTLIBRARIES \
-	uninstall-libexecPROGRAMS uninstall-libmutterincludeHEADERS \
-	uninstall-nodist_libmutterincludeHEADERS \
+	uninstall-libexecPROGRAMS uninstall-libukwmincludeHEADERS \
+	uninstall-nodist_libukwmincludeHEADERS \
 	uninstall-pkgconfigDATA uninstall-typelibDATA
 
 .PRECIOUS: Makefile
@@ -2919,33 +2919,33 @@ uninstall-am: uninstall-binPROGRAMS uninstall-dist_stackingDATA \
 # Flag build for parallelism; see https://savannah.gnu.org/patch/?6905
 .AUTOPARALLEL:
 
-@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@mutter-all.test: tests/mutter-all.test.in
+@BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@ukwm-all.test: tests/ukwm-all.test.in
 @BUILDOPT_INSTALL_TESTS_TRUE@@HAVE_WAYLAND_TRUE@	$(AM_V_GEN) sed  -e "s|@libexecdir[@]|$(libexecdir)|g"  $< > $@.tmp && mv $@.tmp $@
 
 @HAVE_WAYLAND_TRUE@.PHONY: run-tests run-test-runner-tests run-unit-tests run-headless-start-test
 
-@HAVE_WAYLAND_TRUE@run-test-runner-tests: mutter-test-client mutter-test-runner
-@HAVE_WAYLAND_TRUE@	./mutter-test-runner $(dist_stacking_DATA)
+@HAVE_WAYLAND_TRUE@run-test-runner-tests: ukwm-test-client ukwm-test-runner
+@HAVE_WAYLAND_TRUE@	./ukwm-test-runner $(dist_stacking_DATA)
 
-@HAVE_WAYLAND_TRUE@run-unit-tests: mutter-test-unit-tests
-@HAVE_WAYLAND_TRUE@	./mutter-test-unit-tests
+@HAVE_WAYLAND_TRUE@run-unit-tests: ukwm-test-unit-tests
+@HAVE_WAYLAND_TRUE@	./ukwm-test-unit-tests
 
-@HAVE_WAYLAND_TRUE@run-headless-start-test: mutter-test-headless-start-test
-@HAVE_WAYLAND_TRUE@	./mutter-test-headless-start-test
+@HAVE_WAYLAND_TRUE@run-headless-start-test: ukwm-test-headless-start-test
+@HAVE_WAYLAND_TRUE@	./ukwm-test-headless-start-test
 
 @HAVE_WAYLAND_TRUE@run-tests: run-test-runner-tests run-unit-tests run-headless-start-test
 
 @HAVE_INTROSPECTION_TRUE@include $(INTROSPECTION_MAKEFILE)
 
-@HAVE_INTROSPECTION_TRUE@Meta-@LIBMUTTER_API_VERSION@.gir: libmutter-$(LIBMUTTER_API_VERSION).la
+@HAVE_INTROSPECTION_TRUE@Meta-@LIBUKWM_API_VERSION@.gir: libukwm-$(LIBUKWM_API_VERSION).la
 
 meta/meta-enum-types.h: stamp-meta-enum-types.h Makefile
 	@true
-stamp-meta-enum-types.h: $(libmutterinclude_headers) meta-enum-types.h.in
+stamp-meta-enum-types.h: $(libukwminclude_headers) meta-enum-types.h.in
 	$(AM_V_GEN) ( cd $(srcdir) && \
 	  $(GLIB_MKENUMS) \
 	    --template meta-enum-types.h.in \
-	  $(libmutterinclude_headers) ) > xgen-teth && \
+	  $(libukwminclude_headers) ) > xgen-teth && \
 	(cmp -s xgen-teth meta/meta-enum-types.h || cp xgen-teth meta/meta-enum-types.h) && \
 	rm -f xgen-teth && \
 	echo timestamp > $(@F)
@@ -2954,40 +2954,40 @@ meta-enum-types.c: stamp-meta-enum-types.h meta-enum-types.c.in
 	  $(AM_V_GEN) ( cd $(srcdir) && \
 	  $(GLIB_MKENUMS) \
 	    --template meta-enum-types.c.in \
-	  $(libmutterinclude_headers) ) > xgen-tetc && \
+	  $(libukwminclude_headers) ) > xgen-tetc && \
 	cp xgen-tetc meta-enum-types.c && \
 	rm -f xgen-tetc
 
-$(dbus_display_config_built_sources) : Makefile.am org.gnome.Mutter.DisplayConfig.xml
+$(dbus_display_config_built_sources) : Makefile.am org.ukui.ukwm.DisplayConfig.xml
 	$(AM_V_GEN)gdbus-codegen							\
-		--interface-prefix org.gnome.Mutter					\
+		--interface-prefix org.ukui.ukwm					\
 		--c-namespace MetaDBus							\
 		--generate-c-code meta-dbus-display-config				\
 		--c-generate-autocleanup all						\
-		$(srcdir)/org.gnome.Mutter.DisplayConfig.xml
+		$(srcdir)/org.ukui.ukwm.DisplayConfig.xml
 
-$(dbus_idle_built_sources) : Makefile.am org.gnome.Mutter.IdleMonitor.xml
+$(dbus_idle_built_sources) : Makefile.am org.ukui.ukwm.IdleMonitor.xml
 	$(AM_V_GEN)gdbus-codegen							\
-		--interface-prefix org.gnome.Mutter					\
+		--interface-prefix org.ukui.ukwm					\
 		--c-namespace MetaDBus							\
 		--generate-c-code meta-dbus-idle-monitor				\
 		--c-generate-object-manager						\
 		--c-generate-autocleanup all						\
-		$(srcdir)/org.gnome.Mutter.IdleMonitor.xml
+		$(srcdir)/org.ukui.ukwm.IdleMonitor.xml
 
-@HAVE_REMOTE_DESKTOP_TRUE@$(dbus_remote_desktop_built_sources) : Makefile.am org.gnome.Mutter.RemoteDesktop.xml
+@HAVE_REMOTE_DESKTOP_TRUE@$(dbus_remote_desktop_built_sources) : Makefile.am org.ukui.ukwm.RemoteDesktop.xml
 @HAVE_REMOTE_DESKTOP_TRUE@	$(AM_V_GEN)gdbus-codegen							\
-@HAVE_REMOTE_DESKTOP_TRUE@		--interface-prefix org.gnome.Mutter					\
+@HAVE_REMOTE_DESKTOP_TRUE@		--interface-prefix org.ukui.ukwm					\
 @HAVE_REMOTE_DESKTOP_TRUE@		--c-namespace MetaDBus							\
 @HAVE_REMOTE_DESKTOP_TRUE@		--generate-c-code meta-dbus-remote-desktop				\
-@HAVE_REMOTE_DESKTOP_TRUE@		$(srcdir)/org.gnome.Mutter.RemoteDesktop.xml
+@HAVE_REMOTE_DESKTOP_TRUE@		$(srcdir)/org.ukui.ukwm.RemoteDesktop.xml
 
-@HAVE_REMOTE_DESKTOP_TRUE@$(dbus_screen_cast_built_sources) : Makefile.am org.gnome.Mutter.ScreenCast.xml
+@HAVE_REMOTE_DESKTOP_TRUE@$(dbus_screen_cast_built_sources) : Makefile.am org.ukui.ukwm.ScreenCast.xml
 @HAVE_REMOTE_DESKTOP_TRUE@	$(AM_V_GEN)gdbus-codegen							\
-@HAVE_REMOTE_DESKTOP_TRUE@		--interface-prefix org.gnome.Mutter					\
+@HAVE_REMOTE_DESKTOP_TRUE@		--interface-prefix org.ukui.ukwm					\
 @HAVE_REMOTE_DESKTOP_TRUE@		--c-namespace MetaDBus							\
 @HAVE_REMOTE_DESKTOP_TRUE@		--generate-c-code meta-dbus-screen-cast					\
-@HAVE_REMOTE_DESKTOP_TRUE@		$(srcdir)/org.gnome.Mutter.ScreenCast.xml
+@HAVE_REMOTE_DESKTOP_TRUE@		$(srcdir)/org.ukui.ukwm.ScreenCast.xml
 
 $(dbus_login1_built_sources) : Makefile.am org.freedesktop.login1.xml
 	$(AM_V_GEN)gdbus-codegen							\

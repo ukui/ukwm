@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2015-2017 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -36,7 +37,7 @@
 #include "meta/errors.h"
 #include "meta-dbus-remote-desktop.h"
 
-#define META_REMOTE_DESKTOP_SESSION_DBUS_PATH "/org/gnome/Mutter/RemoteDesktop/Session"
+#define META_REMOTE_DESKTOP_SESSION_DBUS_PATH "/org/ukui/ukwm/RemoteDesktop/Session"
 
 struct _MetaRemoteDesktopSession
 {

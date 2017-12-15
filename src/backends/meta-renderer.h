@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2016 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -28,7 +29,7 @@
 #include <glib-object.h>
 
 #include "cogl/cogl.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 #include "backends/meta-monitor-manager-private.h"
 #include "backends/meta-renderer-view.h"
 

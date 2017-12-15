@@ -1,10 +1,11 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter main() */
+/* Ukwm main() */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
  * Copyright (C) 2006 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -26,13 +27,13 @@
  * @short_description: Program startup.
  *
  * Functions which parse the command-line arguments, create the display,
- * kick everything off and then close down Mutter when it's time to go.
+ * kick everything off and then close down Ukwm when it's time to go.
  *
  *
  *
- * Mutter - a boring window manager for the adult in you
+ * Ukwm - a boring window manager for the adult in you
  *
- * Many window managers are like Marshmallow Froot Loops; Mutter
+ * Many window managers are like Marshmallow Froot Loops; Ukwm
  * is like Frosted Flakes: it's still plain old corn, but dusted
  * with some sugar.
  *
@@ -100,7 +101,7 @@
 static MetaExitCode meta_exit_code = META_EXIT_SUCCESS;
 
 /*
- * Handle on the main loop, so that we have an easy way of shutting Mutter
+ * Handle on the main loop, so that we have an easy way of shutting Ukwm
  * down.
  */
 static GMainLoop *meta_main_loop = NULL;
@@ -112,7 +113,7 @@ static void prefs_changed_callback (MetaPreference pref,
  * meta_print_compilation_info:
  *
  * Prints a list of which configure script options were used to
- * build this copy of Mutter. This is actually always called
+ * build this copy of Ukwm. This is actually always called
  * on startup, but it's all no-op unless we're in verbose mode
  * (see meta_set_verbose()).
  */
@@ -137,7 +138,7 @@ meta_print_compilation_info (void)
  * Prints the version number, the current timestamp (not the
  * build date), the locale, the character encoding, and a list
  * of configure script options that were used to build this
- * copy of Mutter. This is actually always called
+ * copy of Ukwm. This is actually always called
  * on startup, but it's all no-op unless we're in verbose mode
  * (see meta_set_verbose()).
  */
@@ -152,7 +153,7 @@ meta_print_self_identity (void)
   g_date_clear (&d, 1);
   g_date_set_time_t (&d, time (NULL));
   g_date_strftime (buf, sizeof (buf), "%x", &d);
-  meta_verbose ("Mutter version %s running on %s\n",
+  meta_verbose ("Ukwm version %s running on %s\n",
     VERSION, buf);
 
   /* Locale and encoding. */
@@ -165,7 +166,7 @@ meta_print_self_identity (void)
 }
 
 /*
- * The set of possible options that can be set on Mutter's
+ * The set of possible options that can be set on Ukwm's
  * command line.
  */
 static gchar    *opt_save_file;
@@ -245,7 +246,7 @@ static GOptionEntry meta_options[] = {
 /**
  * meta_get_option_context: (skip)
  *
- * Returns a #GOptionContext initialized with mutter-related options.
+ * Returns a #GOptionContext initialized with ukwm-related options.
  * Parse the command-line args with this before calling meta_init().
  *
  * Return value: the #GOptionContext
@@ -257,7 +258,7 @@ meta_get_option_context (void)
 
   if (setlocale (LC_ALL, "") == NULL)
     meta_warning ("Locale not understood by C library, internationalization will not work\n");
-  bindtextdomain (GETTEXT_PACKAGE, MUTTER_LOCALEDIR);
+  bindtextdomain (GETTEXT_PACKAGE, UKWM_LOCALEDIR);
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 
   ctx = g_option_context_new (NULL);
@@ -268,9 +269,9 @@ meta_get_option_context (void)
 /**
  * meta_select_display:
  *
- * Selects which display Mutter should use. It first tries to use
+ * Selects which display Ukwm should use. It first tries to use
  * @display_name as the display. If @display_name is %NULL then
- * try to use the environment variable MUTTER_DISPLAY. If that
+ * try to use the environment variable UKWM_DISPLAY. If that
  * also is %NULL, use the default - :0.0
  */
 static void
@@ -281,7 +282,7 @@ meta_select_display (char *display_arg)
   if (display_arg)
     display_name = (const char *) display_arg;
   else
-    display_name = g_getenv ("MUTTER_DISPLAY");
+    display_name = g_getenv ("UKWM_DISPLAY");
 
   if (display_name)
     g_setenv ("DISPLAY", display_name, TRUE);
@@ -372,7 +373,7 @@ find_session_type (void)
     }
 
   /* Legacy support for starting through xinit */
-  if (is_tty && (g_getenv ("MUTTER_DISPLAY") || g_getenv ("DISPLAY")))
+  if (is_tty && (g_getenv ("UKWM_DISPLAY") || g_getenv ("DISPLAY")))
     {
       session_type = strdup ("x11");
       goto out;
@@ -497,7 +498,7 @@ meta_override_compositor_configuration (MetaCompositorType compositor_type,
 /**
  * meta_init: (skip)
  *
- * Initialize mutter. Call this after meta_get_option_context() and
+ * Initialize ukwm. Call this after meta_get_option_context() and
  * meta_plugin_manager_set_plugin_type(), and before meta_run().
  */
 void
@@ -523,9 +524,9 @@ meta_init (void)
 
   g_unix_signal_add (SIGTERM, on_sigterm, NULL);
 
-  if (g_getenv ("MUTTER_VERBOSE"))
+  if (g_getenv ("UKWM_VERBOSE"))
     meta_set_verbose (TRUE);
-  if (g_getenv ("MUTTER_DEBUG"))
+  if (g_getenv ("UKWM_DEBUG"))
     meta_set_debugging (TRUE);
 
   if (_compositor_configuration_overridden)
@@ -551,7 +552,7 @@ meta_init (void)
   meta_print_self_identity ();
 
 #ifdef HAVE_INTROSPECTION
-  g_irepository_prepend_search_path (MUTTER_PKGLIBDIR);
+  g_irepository_prepend_search_path (UKWM_PKGLIBDIR);
 #endif
 
 #ifdef HAVE_WAYLAND
@@ -574,7 +575,7 @@ meta_init (void)
     meta_wayland_init ();
 #endif
 
-  meta_set_syncing (opt_sync || (g_getenv ("MUTTER_SYNC") != NULL));
+  meta_set_syncing (opt_sync || (g_getenv ("UKWM_SYNC") != NULL));
 
   if (opt_replace_wm)
     meta_set_replace_current_wm (TRUE);
@@ -592,7 +593,7 @@ meta_init (void)
 /**
  * meta_register_with_session:
  *
- * Registers mutter with the session manager.  Call this after completing your own
+ * Registers ukwm with the session manager.  Call this after completing your own
  * initialization.
  *
  * This should be called when the session manager can safely continue to the
@@ -630,10 +631,10 @@ meta_register_with_session (void)
 /**
  * meta_run: (skip)
  *
- * Runs mutter. Call this after completing initialization that doesn't require
+ * Runs ukwm. Call this after completing initialization that doesn't require
  * an event loop.
  *
- * Return value: mutter's exit status
+ * Return value: ukwm's exit status
  */
 int
 meta_run (void)
@@ -656,7 +657,7 @@ meta_run (void)
  * meta_quit:
  * @code: The success or failure code to return to the calling process.
  *
- * Stops Mutter. This tells the event loop to stop processing; it is
+ * Stops Ukwm. This tells the event loop to stop processing; it is
  * rather dangerous to use this because this will leave the user with
  * no window manager. We generally do this only if, for example, the
  * session manager asks us to; we assume the session manager knows

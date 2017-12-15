@@ -8,6 +8,7 @@
  * Copyright (C) 2003 Rob Adams
  * Copyright (C) 2004-2006 Elijah Newren
  * Copyright (C) 2013 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -242,7 +243,7 @@ static gboolean
 output_get_presentation_xrandr (MetaMonitorManagerXrandr *manager_xrandr,
                                 MetaOutput *output)
 {
-  return output_get_boolean_property (manager_xrandr, output, "_MUTTER_PRESENTATION_OUTPUT");
+  return output_get_boolean_property (manager_xrandr, output, "_UKWM_PRESENTATION_OUTPUT");
 }
 
 static gboolean
@@ -1020,7 +1021,7 @@ output_set_presentation_xrandr (MetaMonitorManagerXrandr *manager_xrandr,
   Atom atom;
   int value = presentation;
 
-  atom = XInternAtom (manager_xrandr->xdisplay, "_MUTTER_PRESENTATION_OUTPUT", False);
+  atom = XInternAtom (manager_xrandr->xdisplay, "_UKWM_PRESENTATION_OUTPUT", False);
 
   xcb_randr_change_output_property (XGetXCBConnection (manager_xrandr->xdisplay),
                                     (XID)output->winsys_id,
@@ -1759,7 +1760,7 @@ meta_monitor_manager_xrandr_init_monitors (MetaMonitorManagerXrandr *manager_xra
   if (manager_xrandr->has_randr15 == FALSE)
     return;
 
-  /* delete any tiled monitors setup, as mutter will want to recreate
+  /* delete any tiled monitors setup, as ukwm will want to recreate
      things in its image */
   m = XRRGetMonitors (manager_xrandr->xdisplay,
                       DefaultRootWindow (manager_xrandr->xdisplay),

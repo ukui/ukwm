@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 Red Hat Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -20,7 +21,7 @@
 #include "backends/meta-renderer-view.h"
 
 #include "backends/meta-renderer.h"
-#include "clutter/clutter-mutter.h"
+#include "clutter/clutter-ukwm.h"
 
 enum
 {

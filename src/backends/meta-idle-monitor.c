@@ -2,6 +2,7 @@
 
 /*
  * Copyright 2013 Red Hat, Inc.
+ * Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -23,7 +24,7 @@
 /**
  * SECTION:idle-monitor
  * @title: MetaIdleMonitor
- * @short_description: Mutter idle counter (similar to X's IDLETIME)
+ * @short_description: Ukwm idle counter (similar to X's IDLETIME)
  */
 
 #include "config.h"

@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2016 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -77,7 +78,7 @@ meta_renderer_x11_create_cogl_renderer (MetaRenderer *renderer)
   /* Set up things so that if the INTEL_swap_event extension is not present,
    * but the driver is known to have good thread support, we use an extra
    * thread and call glXWaitVideoSync() in the thread. This allows idles
-   * to work properly, even when Mutter is constantly redrawing new frames;
+   * to work properly, even when Ukwm is constantly redrawing new frames;
    * otherwise, without INTEL_swap_event, we'll just block in glXSwapBuffers().
    */
   cogl_xlib_renderer_set_threaded_swap_wait_enabled (cogl_renderer, TRUE);

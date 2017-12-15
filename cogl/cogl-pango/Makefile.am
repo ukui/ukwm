@@ -22,16 +22,16 @@ source_h_priv = \
 	cogl-pango-pipeline-cache.h \
 	$(NULL)
 
-mutterlibdir = $(libdir)/mutter
-mutterlib_LTLIBRARIES = libmutter-cogl-pango-@LIBMUTTER_API_VERSION@.la
+ukwmlibdir = $(libdir)/ukwm
+ukwmlib_LTLIBRARIES = libukwm-cogl-pango-@LIBUKWM_API_VERSION@.la
 
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_SOURCES = $(source_c) $(source_h) $(source_h_priv)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LIBADD = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LIBADD += $(COGL_DEP_LIBS) $(COGL_PANGO_DEP_LIBS) $(COGL_EXTRA_LDFLAGS)
-libmutter_cogl_pango_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_SOURCES = $(source_c) $(source_h) $(source_h_priv)
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) $(MAINTAINER_CFLAGS)
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LIBADD = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LIBADD += $(COGL_DEP_LIBS) $(COGL_PANGO_DEP_LIBS) $(COGL_EXTRA_LDFLAGS)
+libukwm_cogl_pango_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-export-dynamic \
-	-rpath $(mutterlibdir) \
+	-rpath $(ukwmlibdir) \
 	-export-symbols-regex "^cogl_pango_.*" \
 	-no-undefined \
 	-avoid-version
@@ -45,11 +45,11 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)			\
 	-I$(top_builddir)
 
-cogl_base_includedir = $(includedir)/mutter
+cogl_base_includedir = $(includedir)/ukwm
 cogl_pangoheadersdir = $(cogl_base_includedir)/cogl/cogl-pango
 cogl_pangoheaders_HEADERS = $(source_h)
 
-pc_files = mutter-cogl-pango-$(LIBMUTTER_API_VERSION).pc
+pc_files = ukwm-cogl-pango-$(LIBUKWM_API_VERSION).pc
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(pc_files)
@@ -65,28 +65,28 @@ INTROSPECTION_GIRS =
 if HAVE_INTROSPECTION
 INTROSPECTION_COMPILER_ARGS=--includedir=$(top_builddir)/cogl
 
-CoglPango-@LIBMUTTER_API_VERSION@.gir: libmutter-cogl-pango-$(LIBMUTTER_API_VERSION).la Makefile
+CoglPango-@LIBUKWM_API_VERSION@.gir: libukwm-cogl-pango-$(LIBUKWM_API_VERSION).la Makefile
 
-CoglPango_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = CoglPango
-CoglPango_@LIBMUTTER_API_VERSION@_gir_VERSION = @LIBMUTTER_API_VERSION@
-CoglPango_@LIBMUTTER_API_VERSION@_gir_LIBS = $(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la libmutter-cogl-pango-$(LIBMUTTER_API_VERSION).la
-CoglPango_@LIBMUTTER_API_VERSION@_gir_FILES = $(source_h) $(source_c)
-CoglPango_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS)
-CoglPango_@LIBMUTTER_API_VERSION@_gir_INCLUDES = Pango-1.0 PangoCairo-1.0
-CoglPango_@LIBMUTTER_API_VERSION@_gir_EXPORT_PACKAGES = mutter-cogl-pango-@LIBMUTTER_API_VERSION@
-CoglPango_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = \
+CoglPango_@LIBUKWM_API_VERSION@_gir_NAMESPACE = CoglPango
+CoglPango_@LIBUKWM_API_VERSION@_gir_VERSION = @LIBUKWM_API_VERSION@
+CoglPango_@LIBUKWM_API_VERSION@_gir_LIBS = $(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la libukwm-cogl-pango-$(LIBUKWM_API_VERSION).la
+CoglPango_@LIBUKWM_API_VERSION@_gir_FILES = $(source_h) $(source_c)
+CoglPango_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) $(COGL_PANGO_DEP_CFLAGS)
+CoglPango_@LIBUKWM_API_VERSION@_gir_INCLUDES = Pango-1.0 PangoCairo-1.0
+CoglPango_@LIBUKWM_API_VERSION@_gir_EXPORT_PACKAGES = ukwm-cogl-pango-@LIBUKWM_API_VERSION@
+CoglPango_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = \
 	--warn-all \
 	--identifier-prefix=CoglPango \
 	--symbol-prefix=cogl_pango \
 	--c-include='cogl-pango/cogl-pango.h' \
-	--include-uninstalled=$(top_builddir)/cogl/Cogl-@LIBMUTTER_API_VERSION@.gir
+	--include-uninstalled=$(top_builddir)/cogl/Cogl-@LIBUKWM_API_VERSION@.gir
 
-INTROSPECTION_GIRS += CoglPango-@LIBMUTTER_API_VERSION@.gir
+INTROSPECTION_GIRS += CoglPango-@LIBUKWM_API_VERSION@.gir
 
-girdir = $(mutterlibdir)
+girdir = $(ukwmlibdir)
 gir_DATA = $(INTROSPECTION_GIRS)
 
-typelibdir = $(mutterlibdir)
+typelibdir = $(ukwmlibdir)
 typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 
 CLEANFILES += $(gir_DATA) $(typelib_DATA)

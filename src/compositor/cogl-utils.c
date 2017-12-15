@@ -4,6 +4,7 @@
  *
  * Copyright 2010 Red Hat, Inc.
  * Copyright 2010 Intel Corporation
+ * Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -30,7 +31,7 @@
  *
  * Creates a pipeline with a single layer. Using a common template
  * makes it easier for Cogl to share a shader for different uses in
- * Mutter.
+ * Ukwm.
  *
  * Return value: (transfer full): a newly created #CoglPipeline
  */

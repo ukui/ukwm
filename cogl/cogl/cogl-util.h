@@ -4,6 +4,7 @@
  * A Low Level GPU Graphics and Utilities API
  *
  * Copyright (C) 2007,2008,2009,2010 Intel Corporation.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -42,7 +43,7 @@
 /* Double check that config.h has been included */
 #if (!defined (PACKAGE_NAME) && \
      !defined (_COGL_IN_TEST_BITMASK) && \
-     !defined(COGL_ENABLE_MUTTER_API))
+     !defined(COGL_ENABLE_UKWM_API))
 #error "cogl-config.h must be included before including cogl-util.h"
 #endif
 

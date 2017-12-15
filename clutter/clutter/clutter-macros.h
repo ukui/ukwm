@@ -4,6 +4,7 @@
  * An OpenGL based 'interactive canvas' library.
  *
  * Copyright (C) 2012 Intel Corporation
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -128,7 +129,7 @@
 
 #define CLUTTER_AVAILABLE_IN_ALL _CLUTTER_EXTERN
 
-#define CLUTTER_AVAILABLE_IN_MUTTER _CLUTTER_EXTERN
+#define CLUTTER_AVAILABLE_IN_UKWM _CLUTTER_EXTERN
 
 /**
  * CLUTTER_VERSION_MIN_REQUIRED:
@@ -278,7 +279,7 @@
 # define CLUTTER_DEPRECATED_IN_1_12_FOR(f)      _CLUTTER_EXTERN
 #endif
 
-#define CLUTTER_DEPRECATED_IN_MUTTER            CLUTTER_DEPRECATED
+#define CLUTTER_DEPRECATED_IN_UKWM            CLUTTER_DEPRECATED
 
 #if CLUTTER_VERSION_MAX_ALLOWED < CLUTTER_VERSION_1_12
 # define CLUTTER_AVAILABLE_IN_1_12              CLUTTER_UNAVAILABLE(1, 12)

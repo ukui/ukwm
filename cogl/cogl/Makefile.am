@@ -41,7 +41,7 @@ BUILT_SOURCES += cogl-defines.h cogl-egl-defines.h cogl-gl-header.h
 DISTCLEANFILES += cogl-defines.h cogl-egl-defines.h cogl-gl-header.h
 EXTRA_DIST += cogl-defines.h.in cogl-egl-defines.h.in cogl-gl-header.h.in
 
-pc_files = mutter-cogl-$(LIBMUTTER_API_VERSION).pc
+pc_files = ukwm-cogl-$(LIBUKWM_API_VERSION).pc
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(pc_files)
@@ -124,7 +124,7 @@ cogl_nonintrospected_h = \
 	cogl-texture.h		\
 	cogl-types.h			\
 	cogl-gtype-private.h		\
-	cogl-mutter.h			\
+	cogl-ukwm.h			\
 	$(NULL)
 
 cogl_nodist_h = \
@@ -438,24 +438,24 @@ cogl_sources_c += \
 	winsys/cogl-winsys-egl-private.h
 endif
 
-mutterlibdir = $(libdir)/mutter
-mutterlib_LTLIBRARIES = libmutter-cogl-@LIBMUTTER_API_VERSION@.la
+ukwmlibdir = $(libdir)/ukwm
+ukwmlib_LTLIBRARIES = libukwm-cogl-@LIBUKWM_API_VERSION@.la
 
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LIBADD = $(LIBM) $(COGL_DEP_LIBS) $(COGL_EXTRA_LDFLAGS)
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_LIBADD = $(LIBM) $(COGL_DEP_LIBS) $(COGL_EXTRA_LDFLAGS)
 if UNIT_TESTS
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LIBADD += $(top_builddir)/test-fixtures/libtest-fixtures.la
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_LIBADD += $(top_builddir)/test-fixtures/libtest-fixtures.la
 endif
 # XXX: The aim is to eventually get rid of all private API exports
 # for cogl-pango.
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-no-undefined \
 	-avoid-version \
 	-export-dynamic \
-	-rpath $(mutterlibdir) \
+	-rpath $(ukwmlibdir) \
 	-export-symbols-regex "^(cogl|_cogl_debug_flags|_cogl_atlas_new|_cogl_atlas_add_reorganize_callback|_cogl_atlas_reserve_space|_cogl_callback|_cogl_util_get_eye_planes_for_screen_poly|_cogl_atlas_texture_remove_reorganize_callback|_cogl_atlas_texture_add_reorganize_callback|_cogl_texture_get_format|_cogl_texture_foreach_sub_texture_in_region|_cogl_texture_set_region|_cogl_profile_trace_message|_cogl_context_get_default|_cogl_framebuffer_get_stencil_bits|_cogl_clip_stack_push_rectangle|_cogl_framebuffer_get_modelview_stack|_cogl_object_default_unref|_cogl_pipeline_foreach_layer_internal|_cogl_clip_stack_push_primitive|_cogl_buffer_unmap_for_fill_or_fallback|_cogl_framebuffer_draw_primitive|_cogl_debug_instances|_cogl_framebuffer_get_projection_stack|_cogl_pipeline_layer_get_texture|_cogl_buffer_map_for_fill_or_fallback|_cogl_texture_can_hardware_repeat|_cogl_pipeline_prune_to_n_layers|_cogl_primitive_draw|test_|unit_test_|_cogl_winsys_glx_get_vtable|_cogl_winsys_egl_xlib_get_vtable|_cogl_winsys_egl_get_vtable|_cogl_closure_disconnect|_cogl_onscreen_notify_complete|_cogl_onscreen_notify_frame_sync|_cogl_winsys_egl_renderer_connect_common|_cogl_winsys_error_quark|_cogl_set_error|_cogl_poll_renderer_add_fd|_cogl_poll_renderer_add_idle|_cogl_framebuffer_winsys_update_size|_cogl_winsys_egl_make_current|_cogl_pixel_format_get_bytes_per_pixel).*"
 
-libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES = $(cogl_sources_c)
-nodist_libmutter_cogl_@LIBMUTTER_API_VERSION@_la_SOURCES = $(BUILT_SOURCES)
+libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES = $(cogl_sources_c)
+nodist_libukwm_cogl_@LIBUKWM_API_VERSION@_la_SOURCES = $(BUILT_SOURCES)
 
 # Cogl installed headers
 cogl_headers = \
@@ -464,7 +464,7 @@ cogl_headers = \
 	cogl-pango.h \
 	$(NULL)
 
-cogl_base_includedir = $(includedir)/mutter
+cogl_base_includedir = $(includedir)/ukwm
 cogldeprecatedincludedir = $(cogl_base_includedir)/cogl/cogl/deprecated
 cogldeprecatedinclude_HEADERS = $(cogl_deprecated_h) $(cogl_deprecated_nonintrospected_h)
 
@@ -483,27 +483,27 @@ EXTRA_DIST += \
 INTROSPECTION_GIRS =
 
 if HAVE_INTROSPECTION
-Cogl-@LIBMUTTER_API_VERSION@.gir: libmutter-cogl-$(LIBMUTTER_API_VERSION).la Makefile
+Cogl-@LIBUKWM_API_VERSION@.gir: libukwm-cogl-$(LIBUKWM_API_VERSION).la Makefile
 
-Cogl_@LIBMUTTER_API_VERSION@_gir_NAMESPACE = Cogl
-Cogl_@LIBMUTTER_API_VERSION@_gir_VERSION = $(LIBMUTTER_API_VERSION)
-Cogl_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-cogl-$(LIBMUTTER_API_VERSION).la
+Cogl_@LIBUKWM_API_VERSION@_gir_NAMESPACE = Cogl
+Cogl_@LIBUKWM_API_VERSION@_gir_VERSION = $(LIBUKWM_API_VERSION)
+Cogl_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-cogl-$(LIBUKWM_API_VERSION).la
 if UNIT_TESTS
-Cogl_@LIBMUTTER_API_VERSION@_gir_LIBS += $(top_builddir)/test-fixtures/libtest-fixtures.la
+Cogl_@LIBUKWM_API_VERSION@_gir_LIBS += $(top_builddir)/test-fixtures/libtest-fixtures.la
 endif
-Cogl_@LIBMUTTER_API_VERSION@_gir_FILES = $(cogl_1_public_h)
+Cogl_@LIBUKWM_API_VERSION@_gir_FILES = $(cogl_1_public_h)
 
-Cogl_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) -UCOGL_COMPILATION -D__COGL_H_INSIDE__ -D__COGL_XLIB_H_INSIDE__ -D__COGL_EGL_H_INSIDE__ -D__COGL_GLX_H_INSIDE__ -DCOGL_GIR_SCANNING
-Cogl_@LIBMUTTER_API_VERSION@_gir_INCLUDES = GL-1.0 GObject-2.0
-Cogl_@LIBMUTTER_API_VERSION@_gir_EXPORT_PACKAGES = mutter-cogl-@LIBMUTTER_API_VERSION@
-Cogl_@LIBMUTTER_API_VERSION@_gir_SCANNERFLAGS = --warn-all --c-include='cogl/cogl.h'
+Cogl_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS) $(COGL_DEP_CFLAGS) -UCOGL_COMPILATION -D__COGL_H_INSIDE__ -D__COGL_XLIB_H_INSIDE__ -D__COGL_EGL_H_INSIDE__ -D__COGL_GLX_H_INSIDE__ -DCOGL_GIR_SCANNING
+Cogl_@LIBUKWM_API_VERSION@_gir_INCLUDES = GL-1.0 GObject-2.0
+Cogl_@LIBUKWM_API_VERSION@_gir_EXPORT_PACKAGES = ukwm-cogl-@LIBUKWM_API_VERSION@
+Cogl_@LIBUKWM_API_VERSION@_gir_SCANNERFLAGS = --warn-all --c-include='cogl/cogl.h'
 
-INTROSPECTION_GIRS += Cogl-@LIBMUTTER_API_VERSION@.gir
+INTROSPECTION_GIRS += Cogl-@LIBUKWM_API_VERSION@.gir
 
-girdir = $(mutterlibdir)
+girdir = $(ukwmlibdir)
 gir_DATA = $(INTROSPECTION_GIRS)
 
-typelibdir = $(mutterlibdir)
+typelibdir = $(ukwmlibdir)
 typelib_DATA = $(INTROSPECTION_GIRS:.gir=.typelib)
 
 CLEANFILES += $(gir_DATA) $(typelib_DATA)

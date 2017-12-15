@@ -4,6 +4,7 @@
  * Copyright (C) 2001, 2002 Havoc Pennington
  * Copyright (C) 2004 Elijah Newren
  * Copyright (C) 2016 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -89,7 +90,7 @@ present_existing_delete_dialog (MetaCloseDialogDefault *dialog)
               window->desc);
 
   /* Activate transient for window that belongs to
-   * mutter-dialog
+   * ukwm-dialog
    */
   windows = meta_display_list_windows (window->display, META_LIST_DEFAULT);
   tmp = windows;
@@ -99,7 +100,7 @@ present_existing_delete_dialog (MetaCloseDialogDefault *dialog)
       MetaWindow *w = tmp->data;
 
       if (w->transient_for == window && w->res_class &&
-          g_ascii_strcasecmp (w->res_class, "mutter-dialog") == 0)
+          g_ascii_strcasecmp (w->res_class, "ukwm-dialog") == 0)
         {
           meta_window_activate (w, CLUTTER_CURRENT_TIME);
           break;

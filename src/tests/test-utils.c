@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014-2017 Red Hat, Inc.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -65,10 +66,10 @@ test_init (int    argc,
 
   if (g_str_has_prefix (basename, "lt-"))
     test_client_path = g_build_filename (dirname,
-                                         "../mutter-test-client", NULL);
+                                         "../ukwm-test-client", NULL);
   else
     test_client_path = g_build_filename (dirname,
-                                         "mutter-test-client", NULL);
+                                         "ukwm-test-client", NULL);
   g_free (basename);
   g_free (dirname);
 }
@@ -324,7 +325,7 @@ test_client_find_window (TestClient *client,
 
   if (result == NULL)
     g_set_error (error, TEST_RUNNER_ERROR, TEST_RUNNER_ERROR_RUNTIME_ERROR,
-                 "window %s/%s isn't known to Mutter", client->id, window_id);
+                 "window %s/%s isn't known to Ukwm", client->id, window_id);
 
   return result;
 }

@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2014 Rico Tzschichholz
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -20,9 +21,9 @@
 #ifndef META_VERSION_H
 #define META_VERSION_H
 
-#define META_MAJOR_VERSION @MUTTER_MAJOR_VERSION@
-#define META_MINOR_VERSION @MUTTER_MINOR_VERSION@
-#define META_MICRO_VERSION @MUTTER_MICRO_VERSION@
-#define META_PLUGIN_API_VERSION @MUTTER_PLUGIN_API_VERSION@
+#define META_MAJOR_VERSION @UKWM_MAJOR_VERSION@
+#define META_MINOR_VERSION @UKWM_MINOR_VERSION@
+#define META_MICRO_VERSION @UKWM_MICRO_VERSION@
+#define META_PLUGIN_API_VERSION @UKWM_PLUGIN_API_VERSION@
 
 #endif

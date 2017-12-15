@@ -1,10 +1,11 @@
 /* -*- mode: C; c-file-style: "gnu"; indent-tabs-mode: nil; -*- */
 
-/* Mutter utilities */
+/* Ukwm utilities */
 
 /*
  * Copyright (C) 2001 Havoc Pennington
  * Copyright (C) 2005 Elijah Newren
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -159,9 +160,9 @@ GPid meta_show_dialog (const char *type,
  * MetaLaterType:
  * @META_LATER_RESIZE: call in a resize processing phase that is done
  *   before GTK+ repainting (including window borders) is done.
- * @META_LATER_CALC_SHOWING: used by Mutter to compute which windows should be mapped
- * @META_LATER_CHECK_FULLSCREEN: used by Mutter to see if there's a fullscreen window
- * @META_LATER_SYNC_STACK: used by Mutter to send it's idea of the stacking order to the server
+ * @META_LATER_CALC_SHOWING: used by Ukwm to compute which windows should be mapped
+ * @META_LATER_CHECK_FULLSCREEN: used by Ukwm to see if there's a fullscreen window
+ * @META_LATER_SYNC_STACK: used by Ukwm to send it's idea of the stacking order to the server
  * @META_LATER_BEFORE_REDRAW: call before the stage is redrawn
  * @META_LATER_IDLE: call at a very low priority (can be blocked
  *    by running animations or redrawing applications)

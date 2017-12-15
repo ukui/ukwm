@@ -2,6 +2,7 @@
 
 /*
  * Copyright (C) 2017 Red Hat
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -49,7 +50,7 @@ struct _MetaSettings
   MetaBackend *backend;
 
   GSettings *interface_settings;
-  GSettings *mutter_settings;
+  GSettings *ukwm_settings;
 
   int ui_scaling_factor;
   int global_scaling_factor;
@@ -277,14 +278,14 @@ experimental_features_handler (GVariant *features_variant,
 static gboolean
 update_experimental_features (MetaSettings *settings)
 {
-  return GPOINTER_TO_INT (g_settings_get_mapped (settings->mutter_settings,
+  return GPOINTER_TO_INT (g_settings_get_mapped (settings->ukwm_settings,
                                                  "experimental-features",
                                                  experimental_features_handler,
                                                  settings));
 }
 
 static void
-mutter_settings_changed (GSettings    *mutter_settings,
+ukwm_settings_changed (GSettings    *ukwm_settings,
                          gchar        *key,
                          MetaSettings *settings)
 {
@@ -315,7 +316,7 @@ meta_settings_dispose (GObject *object)
 {
   MetaSettings *settings = META_SETTINGS (object);
 
-  g_clear_object (&settings->mutter_settings);
+  g_clear_object (&settings->ukwm_settings);
   g_clear_object (&settings->interface_settings);
 
   G_OBJECT_CLASS (meta_settings_parent_class)->dispose (object);
@@ -328,9 +329,9 @@ meta_settings_init (MetaSettings *settings)
   g_signal_connect (settings->interface_settings, "changed",
                     G_CALLBACK (interface_settings_changed),
                     settings);
-  settings->mutter_settings = g_settings_new ("org.gnome.mutter");
-  g_signal_connect (settings->mutter_settings, "changed",
-                    G_CALLBACK (mutter_settings_changed),
+  settings->ukwm_settings = g_settings_new ("org.ukui.ukwm");
+  g_signal_connect (settings->ukwm_settings, "changed",
+                    G_CALLBACK (ukwm_settings_changed),
                     settings);
 
   /* Chain up inter-dependent settings. */

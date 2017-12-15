@@ -1,13 +1,12 @@
-# Breton translation for Mutter
+# Breton translation for Ukwm
 # Copyright (c) Free Software Foundation, Inc. 2009
-# This file is distributed under the same license as the mutter package.
+# This file is distributed under the same license as the ukwm package.
 #
 # Denis <denisarnuad@yahoo.fr>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mutter&component=general\n"
+"Project-Id-Version: ukwm\n"
 "POT-Creation-Date: 2009-09-07 18:37+0000\n"
 "PO-Revision-Date: 2009-09-14 04:51+0100\n"
 "Last-Translator: Denis\n"
@@ -101,12 +100,12 @@ msgstr "N'eus bet despizet arc'had termenell ebet.\n"
 #: ../src/core/main.c:127
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-2008 Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-2008 Havoc Pennington, Red Hat, Inc., hag all\n"
 "Digor eo ar meziant-mañ; gwelit tarzh evit an amplegadoù eilañ.\n"
 "N'eus gwarant EBET; na talvoud kenwerzhpe .na implij prevez ispisial.\n"
@@ -116,8 +115,8 @@ msgid "Disable connection to session manager"
 msgstr "Diweredekaat kennask ouzh ardoer an estezioù"
 
 #: ../src/core/main.c:263
-msgid "Replace the running window manager with Mutter"
-msgstr "Arverañ Mutter e lec'h an ardoer prenestroù en implij"
+msgid "Replace the running window manager with Ukwm"
+msgstr "Arverañ Ukwm e lec'h an ardoer prenestroù en implij"
 
 #: ../src/core/main.c:269
 msgid "Specify session management ID"
@@ -324,7 +323,7 @@ msgstr ""
 
 #: ../src/core/session.c:1195
 #, c-format
-msgid "<mutter_session> attribute seen but we already have the session ID"
+msgid "<ukwm_session> attribute seen but we already have the session ID"
 msgstr ""
 
 #: ../src/core/session.c:1208
@@ -367,10 +366,10 @@ msgid "Opened log file %s\n"
 msgstr ""
 
 #: ../src/core/util.c:138
-#: ../src/tools/mutter-message.c:176
+#: ../src/tools/ukwm-message.c:176
 #, c-format
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Savet eo bet Mutter hep ar mod displegus (verbose mode)\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Savet eo bet Ukwm hep ar mod displegus (verbose mode)\n"
 
 #: ../src/core/util.c:238
 msgid "Window manager: "
@@ -391,10 +390,10 @@ msgstr "Fazi ardoer prenestroù : "
 #. Translators: This is the title used on dialog boxes
 #. eof all-keybindings.h
 #: ../src/core/util.c:570
-#: ../src/mutter.desktop.in.h:1
-#: ../src/mutter-wm.desktop.in.h:1
-msgid "Mutter"
-msgstr "Mutter"
+#: ../src/ukwm.desktop.in.h:1
+#: ../src/ukwm-wm.desktop.in.h:1
+msgid "Ukwm"
+msgstr "Ukwm"
 
 #. first time through
 #: ../src/core/window.c:6086
@@ -757,31 +756,31 @@ msgstr ""
 msgid "Move window to center of screen"
 msgstr "Dilec'hiañ ar prenestr betek kreiz ar skramm"
 
-#: ../src/mutter.schemas.in.h:1
+#: ../src/ukwm.schemas.in.h:1
 msgid "Clutter Plugins"
 msgstr "Enlugelladoù Clutter"
 
-#: ../src/mutter.schemas.in.h:2
+#: ../src/ukwm.schemas.in.h:2
 msgid "Determines whether hidden windows (i.e., minimized windows and windows on other workspaces than the current one) should be kept alive."
 msgstr ""
 
-#: ../src/mutter.schemas.in.h:3
+#: ../src/ukwm.schemas.in.h:3
 msgid "Live Hidden Windows"
 msgstr ""
 
-#: ../src/mutter.schemas.in.h:4
+#: ../src/ukwm.schemas.in.h:4
 msgid "Modifier to use for extended window management operations"
 msgstr "Kemmer da implijout evit gwezhadurioù ardeiñ ar prenestroù astennet"
 
-#: ../src/mutter.schemas.in.h:5
+#: ../src/ukwm.schemas.in.h:5
 msgid "Plugins to load for the Clutter-based compositing manager."
 msgstr ""
 
-#: ../src/mutter.schemas.in.h:6
+#: ../src/ukwm.schemas.in.h:6
 msgid "This key will initiate the \"overlay\", which is a combination window overview and application launching system. The default is intended to be the \"Windows key\" on PC hardware. It's expected that this binding either the default or set to the empty string."
 msgstr ""
 
-#: ../src/tools/mutter-message.c:150
+#: ../src/tools/ukwm-message.c:150
 #, c-format
 msgid "Usage: %s\n"
 msgstr "Arver : %s\n"

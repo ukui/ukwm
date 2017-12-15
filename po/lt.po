@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mutter&keywords=I18N+L10N&component=general\n"
+"product=ukwm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-29 06:41+0000\n"
 "PO-Revision-Date: 2017-08-29 15:57+0300\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
@@ -25,256 +25,256 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
-#: data/50-mutter-navigation.xml:6
+#: data/50-ukwm-navigation.xml:6
 msgid "Navigation"
 msgstr "Navigacija"
 
-#: data/50-mutter-navigation.xml:9
+#: data/50-ukwm-navigation.xml:9
 msgid "Move window to workspace 1"
 msgstr "Perkelti langą į darbo sritį Nr.1"
 
-#: data/50-mutter-navigation.xml:12
+#: data/50-ukwm-navigation.xml:12
 msgid "Move window to workspace 2"
 msgstr "Perkelti langą į darbo sritį Nr.2"
 
-#: data/50-mutter-navigation.xml:15
+#: data/50-ukwm-navigation.xml:15
 msgid "Move window to workspace 3"
 msgstr "Perkelti langą į darbo sritį Nr.3"
 
-#: data/50-mutter-navigation.xml:18
+#: data/50-ukwm-navigation.xml:18
 msgid "Move window to workspace 4"
 msgstr "Perkelti langą į darbo sritį Nr.4"
 
-#: data/50-mutter-navigation.xml:21
+#: data/50-ukwm-navigation.xml:21
 msgid "Move window to last workspace"
 msgstr "Perkelti langą į pastarąją darbo sritį"
 
-#: data/50-mutter-navigation.xml:24
+#: data/50-ukwm-navigation.xml:24
 msgid "Move window one workspace to the left"
 msgstr "Perkelti langą į kairiau esančią darbo sritį"
 
-#: data/50-mutter-navigation.xml:27
+#: data/50-ukwm-navigation.xml:27
 msgid "Move window one workspace to the right"
 msgstr "Perkelti langą į dešiniau esančią darbo sritį"
 
-#: data/50-mutter-navigation.xml:30
+#: data/50-ukwm-navigation.xml:30
 msgid "Move window one workspace up"
 msgstr "Perkelti langą į aukščiau esančią darbo sritį"
 
-#: data/50-mutter-navigation.xml:33
+#: data/50-ukwm-navigation.xml:33
 msgid "Move window one workspace down"
 msgstr "Perkelti langą į žemiau esančią darbo sritį"
 
-#: data/50-mutter-navigation.xml:36
+#: data/50-ukwm-navigation.xml:36
 msgid "Move window one monitor to the left"
 msgstr "Perkelti langą į kairiau esantį monitorių"
 
-#: data/50-mutter-navigation.xml:39
+#: data/50-ukwm-navigation.xml:39
 msgid "Move window one monitor to the right"
 msgstr "Perkelti langą į dešiniau esantį monitorių"
 
-#: data/50-mutter-navigation.xml:42
+#: data/50-ukwm-navigation.xml:42
 msgid "Move window one monitor up"
 msgstr "Perkelti langą į aukščiau esantį monitorių"
 
-#: data/50-mutter-navigation.xml:45
+#: data/50-ukwm-navigation.xml:45
 msgid "Move window one monitor down"
 msgstr "Perkelti langą į žemiau esantį monitorių"
 
-#: data/50-mutter-navigation.xml:49
+#: data/50-ukwm-navigation.xml:49
 msgid "Switch applications"
 msgstr "Pereiti tarp programų"
 
-#: data/50-mutter-navigation.xml:54
+#: data/50-ukwm-navigation.xml:54
 msgid "Switch to previous application"
 msgstr "Pereiti į ankstesnę programą"
 
-#: data/50-mutter-navigation.xml:58
+#: data/50-ukwm-navigation.xml:58
 msgid "Switch windows"
 msgstr "Pereiti tarp langų"
 
-#: data/50-mutter-navigation.xml:63
+#: data/50-ukwm-navigation.xml:63
 msgid "Switch to previous window"
 msgstr "Pereiti į ankstesnį langą"
 
-#: data/50-mutter-navigation.xml:67
+#: data/50-ukwm-navigation.xml:67
 msgid "Switch windows of an application"
 msgstr "Pereiti tarp programos langų"
 
-#: data/50-mutter-navigation.xml:72
+#: data/50-ukwm-navigation.xml:72
 msgid "Switch to previous window of an application"
 msgstr "Pereiti į ankstesnį programos langą"
 
-#: data/50-mutter-navigation.xml:76
+#: data/50-ukwm-navigation.xml:76
 msgid "Switch system controls"
 msgstr "Pereiti tarp sistemos valdiklių"
 
-#: data/50-mutter-navigation.xml:81
+#: data/50-ukwm-navigation.xml:81
 msgid "Switch to previous system control"
 msgstr "Pereiti prie ankstesnio sistemos valdiklio"
 
-#: data/50-mutter-navigation.xml:85
+#: data/50-ukwm-navigation.xml:85
 msgid "Switch windows directly"
 msgstr "Tiesiogiai pereiti tarp langų"
 
-#: data/50-mutter-navigation.xml:90
+#: data/50-ukwm-navigation.xml:90
 msgid "Switch directly to previous window"
 msgstr "Tiesiogiai pereiti į ankstesnį langą"
 
-#: data/50-mutter-navigation.xml:94
+#: data/50-ukwm-navigation.xml:94
 msgid "Switch windows of an app directly"
 msgstr "Tiesiogiai pereiti tarp programos langų"
 
-#: data/50-mutter-navigation.xml:99
+#: data/50-ukwm-navigation.xml:99
 msgid "Switch directly to previous window of an app"
 msgstr "Tiesiogiai pereiti prie ankstesnio programos lango"
 
-#: data/50-mutter-navigation.xml:103
+#: data/50-ukwm-navigation.xml:103
 msgid "Switch system controls directly"
 msgstr "Tiesiogiai pereiti tarp sistemos valdiklių"
 
-#: data/50-mutter-navigation.xml:108
+#: data/50-ukwm-navigation.xml:108
 msgid "Switch directly to previous system control"
 msgstr "Tiesiogiai pereiti prie ankstesnio sistemos valdiklio"
 
-#: data/50-mutter-navigation.xml:111
+#: data/50-ukwm-navigation.xml:111
 msgid "Hide all normal windows"
 msgstr "Paslėpti visus įprastinius langus"
 
-#: data/50-mutter-navigation.xml:114
+#: data/50-ukwm-navigation.xml:114
 msgid "Switch to workspace 1"
 msgstr "Persijungti į darbo sritį Nr.1"
 
-#: data/50-mutter-navigation.xml:117
+#: data/50-ukwm-navigation.xml:117
 msgid "Switch to workspace 2"
 msgstr "Persijungti į darbo sritį Nr.2"
 
-#: data/50-mutter-navigation.xml:120
+#: data/50-ukwm-navigation.xml:120
 msgid "Switch to workspace 3"
 msgstr "Persijungti į darbo sritį Nr.3"
 
-#: data/50-mutter-navigation.xml:123
+#: data/50-ukwm-navigation.xml:123
 msgid "Switch to workspace 4"
 msgstr "Persijungti į darbo sritį Nr.4"
 
-#: data/50-mutter-navigation.xml:126
+#: data/50-ukwm-navigation.xml:126
 msgid "Switch to last workspace"
 msgstr "Persijungti į pastarąją darbo sritį"
 
-#: data/50-mutter-navigation.xml:129
+#: data/50-ukwm-navigation.xml:129
 msgid "Move to workspace left"
 msgstr "Perkelti į darbo sritį kairėje"
 
-#: data/50-mutter-navigation.xml:132
+#: data/50-ukwm-navigation.xml:132
 msgid "Move to workspace right"
 msgstr "Perkelti į darbo sritį dešinėje"
 
-#: data/50-mutter-navigation.xml:135
+#: data/50-ukwm-navigation.xml:135
 msgid "Move to workspace above"
 msgstr "Perkelti į darbo sritį viršuje"
 
-#: data/50-mutter-navigation.xml:138
+#: data/50-ukwm-navigation.xml:138
 msgid "Move to workspace below"
 msgstr "Perkelti į darbo sritį apačioje"
 
-#: data/50-mutter-system.xml:6
+#: data/50-ukwm-system.xml:6
 msgid "System"
 msgstr "Sistema"
 
-#: data/50-mutter-system.xml:8
+#: data/50-ukwm-system.xml:8
 msgid "Show the run command prompt"
 msgstr "Rodyti komandų paleidimo langelį"
 
-#: data/50-mutter-system.xml:10
+#: data/50-ukwm-system.xml:10
 msgid "Show the activities overview"
 msgstr "Rodyti veiklų apžvalgą"
 
-#: data/50-mutter-windows.xml:6
+#: data/50-ukwm-windows.xml:6
 msgid "Windows"
 msgstr "Langai"
 
-#: data/50-mutter-windows.xml:8
+#: data/50-ukwm-windows.xml:8
 msgid "Activate the window menu"
 msgstr "Parodyti lango meniu"
 
-#: data/50-mutter-windows.xml:10
+#: data/50-ukwm-windows.xml:10
 msgid "Toggle fullscreen mode"
 msgstr "Perjungti viso ekrano veikseną"
 
-#: data/50-mutter-windows.xml:12
+#: data/50-ukwm-windows.xml:12
 msgid "Toggle maximization state"
 msgstr "Perjungti lango išdidinimo būseną"
 
-#: data/50-mutter-windows.xml:14
+#: data/50-ukwm-windows.xml:14
 msgid "Maximize window"
 msgstr "Išdidinti langą"
 
-#: data/50-mutter-windows.xml:16
+#: data/50-ukwm-windows.xml:16
 msgid "Restore window"
 msgstr "Atkurti lango dydį"
 
-#: data/50-mutter-windows.xml:18
+#: data/50-ukwm-windows.xml:18
 msgid "Toggle shaded state"
 msgstr "Perjungti lango sutraukimo būseną"
 
-#: data/50-mutter-windows.xml:20
+#: data/50-ukwm-windows.xml:20
 msgid "Close window"
 msgstr "Užverti langą"
 
-#: data/50-mutter-windows.xml:22
+#: data/50-ukwm-windows.xml:22
 msgid "Hide window"
 msgstr "Slėpti langą"
 
-#: data/50-mutter-windows.xml:24
+#: data/50-ukwm-windows.xml:24
 msgid "Move window"
 msgstr "Perkelti langą"
 
-#: data/50-mutter-windows.xml:26
+#: data/50-ukwm-windows.xml:26
 msgid "Resize window"
 msgstr "Keisti lango dydį"
 
-#: data/50-mutter-windows.xml:29
+#: data/50-ukwm-windows.xml:29
 msgid "Toggle window on all workspaces or one"
 msgstr "Perjungti lango buvimo visose darbo srityse būseną"
 
-#: data/50-mutter-windows.xml:31
+#: data/50-ukwm-windows.xml:31
 msgid "Raise window if covered, otherwise lower it"
 msgstr ""
 "Iškelti langą, jei jis uždengtas kito lango, priešingu atveju jį nuleisti"
 
-#: data/50-mutter-windows.xml:33
+#: data/50-ukwm-windows.xml:33
 msgid "Raise window above other windows"
 msgstr "Iškelti langą virš kitų langų"
 
-#: data/50-mutter-windows.xml:35
+#: data/50-ukwm-windows.xml:35
 msgid "Lower window below other windows"
 msgstr "Nuleisti langą žemiau kitų langų"
 
-#: data/50-mutter-windows.xml:37
+#: data/50-ukwm-windows.xml:37
 msgid "Maximize window vertically"
 msgstr "Išdidinti langą vertikaliai"
 
-#: data/50-mutter-windows.xml:39
+#: data/50-ukwm-windows.xml:39
 msgid "Maximize window horizontally"
 msgstr "Išdidinti langą horizontaliai"
 
-#: data/50-mutter-windows.xml:43
+#: data/50-ukwm-windows.xml:43
 msgid "View split on left"
 msgstr "Rodyti skyrimą kairėje"
 
-#: data/50-mutter-windows.xml:47
+#: data/50-ukwm-windows.xml:47
 msgid "View split on right"
 msgstr "Rodyti skyrimą dešinėje"
 
-#: data/mutter.desktop.in:4
-msgid "Mutter"
-msgstr "Mutter"
+#: data/ukwm.desktop.in:4
+msgid "Ukwm"
+msgstr "Ukwm"
 
-#: data/org.gnome.mutter.gschema.xml.in:7
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "Klavišas, naudojamas kartu su specialiomis lango tvarkymo operacijomis"
 
-#: data/org.gnome.mutter.gschema.xml.in:8
+#: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -285,11 +285,11 @@ msgstr ""
 "paleidimo sistemos kombinacija. Numatytasis nustatymas – „Windows klavišas“. "
 "Tikimasi, kad šis susiejimas bus arba numatytasis, arba nustatytas į tuščią."
 
-#: data/org.gnome.mutter.gschema.xml.in:20
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Prikabinti modalinius dialogus"
 
-#: data/org.gnome.mutter.gschema.xml.in:21
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -299,11 +299,11 @@ msgstr ""
 "pasirodys prikabinti prie tėvinio lango antraštės ir yra perkialiami kartu "
 "su tėviniu langu."
 
-#: data/org.gnome.mutter.gschema.xml.in:30
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Įjungti kraštų uždengimą numetant langus ekrano kraštuose"
 
-#: data/org.gnome.mutter.gschema.xml.in:31
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -313,11 +313,11 @@ msgstr ""
 "vertikaliai ir pakeičia dydį horizontaliai taip, kad užimtų pusę esamos "
 "vietos. Langų numetimas ekrano viršuje juos visiškai išdidina."
 
-#: data/org.gnome.mutter.gschema.xml.in:40
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Darbo sritys tvarkomos dinamiškai"
 
-#: data/org.gnome.mutter.gschema.xml.in:41
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -327,11 +327,11 @@ msgstr ""
 "sričių skaičius (nusakomas raktu num-workspaces schemoje org.gnome.desktop."
 "wm.preferences)."
 
-#: data/org.gnome.mutter.gschema.xml.in:50
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Darbo sritys tik pagrindiniame"
 
-#: data/org.gnome.mutter.gschema.xml.in:51
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -339,11 +339,11 @@ msgstr ""
 "Nusako, ar darbo sričių perjungimas turi įvykti langams visuose "
 "monitoriuose, ar tik langams pagrindiniame monitoriuje."
 
-#: data/org.gnome.mutter.gschema.xml.in:59
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Nėra tab iššokimo"
 
-#: data/org.gnome.mutter.gschema.xml.in:60
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -351,11 +351,11 @@ msgstr ""
 "Nusako, ar iššokančio lango ir rėmelio paryškinimo naudojimas turėtų būti "
 "išjungtas langų perėjime."
 
-#: data/org.gnome.mutter.gschema.xml.in:68
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Atidėti aktyvavimo pakeitimus iki žymiklis nustaja judėti"
 
-#: data/org.gnome.mutter.gschema.xml.in:69
+#: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -365,11 +365,11 @@ msgstr ""
 "tuomet aktyvavimas nebus pakeistas nedelsiant įėjus į langą, bet tik pelės "
 "žymikliui nustojus judėti."
 
-#: data/org.gnome.mutter.gschema.xml.in:79
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Tempiamos paraštės prolis"
 
-#: data/org.gnome.mutter.gschema.xml.in:80
+#: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
@@ -377,11 +377,11 @@ msgstr ""
 "Bendros tempiamos paraštės dydis. Jei temos matomos paraštės yra "
 "nepakankamos, bus pridėtos nematomos paraštės."
 
-#: data/org.gnome.mutter.gschema.xml.in:89
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Automatiškai išdidinti beveik monitoriaus dydžio langus"
 
-#: data/org.gnome.mutter.gschema.xml.in:90
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -389,11 +389,11 @@ msgstr ""
 "Jei įjungta, nauji langai, kurių pradinis dydis yra monitoriaus dydžio yra "
 "automatiškai išdidinami."
 
-#: data/org.gnome.mutter.gschema.xml.in:98
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Patalpinti naujus langus centre"
 
-#: data/org.gnome.mutter.gschema.xml.in:99
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -401,18 +401,18 @@ msgstr ""
 "Kai teigiama, nauji langai bus visada patalpinti aktyvaus monitoriaus ekrano "
 "viduryje."
 
-#: data/org.gnome.mutter.gschema.xml.in:107
+#: data/org.ukui.ukwm.gschema.xml.in:107
 msgid "Enable experimental features"
 msgstr "Įjungti eksperimentines savybes"
 
-#: data/org.gnome.mutter.gschema.xml.in:108
+#: data/org.ukui.ukwm.gschema.xml.in:108
 #| msgid ""
 #| "To enable experimental features, add the feature keyword to the list. "
 #| "Whether the feature requires restarting the compositor depends on the "
 #| "given feature. Any experimental feature is not required to still be "
 #| "available, or configurable. Don’t expect adding anything in this setting "
 #| "to be future proof. Currently possible keywords: • “scale-monitor-"
-#| "framebuffer” — makes mutter default to layout logical monitors in a "
+#| "framebuffer” — makes ukwm default to layout logical monitors in a "
 #| "logical pixel coordinate space, while scaling monitor framebuffers "
 #| "instead of window content, to manage HiDPI monitors. Does not require a "
 #| "restart."
@@ -422,7 +422,7 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"mutter default to layout logical monitors in a logical pixel coordinate "
+"ukwm default to layout logical monitors in a logical pixel coordinate "
 "space, while scaling monitor framebuffers instead of window content, to "
 "manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
 "enables remote desktop support. To support remote desktop with screen "
@@ -434,7 +434,7 @@ msgstr ""
 "konkrečios savybės. Nei viena eksperimentinė savybė privalo būti prieinama "
 "ar konfigūruojama. Nesitikėkite, kad ką nors pridėjus į šį sąrašą, tai "
 "išliks ir ateityje. Šiuo metu galimi raktažodžiai: • „scale-monitor-"
-"framebuffer“ — mutter numatytai išdėsto loginius monitorius loginėje "
+"framebuffer“ — ukwm numatytai išdėsto loginius monitorius loginėje "
 "pikselių koordinačių erdvėje, tuo pat ištempiant monitorių kadrų buferius "
 "vietoje langų turinio, tokiu būdu valdant didelio tankio monitorius. "
 "Nereikalauja paleisti iš naujo. • „remote-desktop“ – įjungia nutolusio "
@@ -442,71 +442,71 @@ msgstr ""
 "taip pat reikia įjungti „screen-cast“. • „screen-cast“ – įjungia ekrano "
 "transliacijos palaikymą."
 
-#: data/org.gnome.mutter.gschema.xml.in:145
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Pasirinkti langą iš tab iššokimo"
 
-#: data/org.gnome.mutter.gschema.xml.in:150
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Atšaukti tab iššokimą"
 
-#: data/org.gnome.mutter.gschema.xml.in:155
+#: data/org.ukui.ukwm.gschema.xml.in:155
 msgid "Switch monitor configurations"
 msgstr "Perjungti monitorių konfigūracijas"
 
-#: data/org.gnome.mutter.gschema.xml.in:160
+#: data/org.ukui.ukwm.gschema.xml.in:160
 msgid "Rotates the built-in monitor configuration"
 msgstr "Suka integruotas monitorių konfigūracijas"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Persijungti į VT 1"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Persijungti į VT 2"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:14
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Persijungti į VT 3"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:18
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Persijungti į VT 4"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:22
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Persijungti į VT 5"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:26
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Persijungti į VT 6"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:30
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Persijungti į VT 7"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:34
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Persijungti į VT 8"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:38
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Persijungti į VT 9"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:42
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Persijungti į VT 10"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:46
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Persijungti į VT 11"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:50
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Persijungti į VT 12"
 
-#: data/org.gnome.mutter.wayland.gschema.xml.in:54
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
 msgid "Re-enable shortcuts"
 msgstr "Iš naujo įjungti trumpinius"
 
@@ -626,29 +626,29 @@ msgstr "_Priverstinai išeiti"
 msgid "_Wait"
 msgstr "_Laukti"
 
-#: src/core/mutter.c:39
+#: src/core/ukwm.c:39
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Autorių teisės © 2001-%d Havoc Pennington, Red Hat, Inc., ir kiti\n"
 "Tai yra laisva programinė įranga; kopijavimo sąlygos yra aprašytos "
 "pirminiuose koduose.\n"
 "Nėra JOKIOS garantijos; netgi PARDAVIMO ar TINKAMUMO TAM TIKRAM TIKSLUI "
 "garantijos.\n"
 
-#: src/core/mutter.c:53
+#: src/core/ukwm.c:53
 msgid "Print version"
 msgstr "Parodyti versiją"
 
-#: src/core/mutter.c:59
-msgid "Mutter plugin to use"
-msgstr "Naudojamas Mutter įskiepis"
+#: src/core/ukwm.c:59
+msgid "Ukwm plugin to use"
+msgstr "Naudojamas Ukwm įskiepis"
 
 #: src/core/prefs.c:1997
 #, c-format
@@ -670,8 +670,8 @@ msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Ekranas %d vaizduoklyje „%s“ yra netinkamas\n"
 
 #: src/core/util.c:120
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter buvo sukompiliuota be išsamaus veikimo veiksenos\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Ukwm buvo sukompiliuota be išsamaus veikimo veiksenos\n"
 
 #: src/wayland/meta-wayland-tablet-pad.c:563
 #, c-format

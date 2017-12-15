@@ -94,7 +94,7 @@ noinst_PROGRAMS = test-conformance$(EXEEXT)
 @BUILD_COGL_PATH_TRUE@	test-path.c \
 @BUILD_COGL_PATH_TRUE@	test-path-clip.c
 
-@BUILD_COGL_PATH_TRUE@am__append_2 = $(top_builddir)/cogl-path/libmutter-cogl-path-$(LIBMUTTER_API_VERSION).la
+@BUILD_COGL_PATH_TRUE@am__append_2 = $(top_builddir)/cogl-path/libukwm-cogl-path-$(LIBUKWM_API_VERSION).la
 @ENABLE_INSTALLED_TESTS_TRUE@insttest_PROGRAMS =  \
 @ENABLE_INSTALLED_TESTS_TRUE@	test-conformance$(EXEEXT)
 subdir = tests/conform
@@ -113,7 +113,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/cogl-config.h \
-	$(top_builddir)/cogl-mutter-config.h
+	$(top_builddir)/cogl-ukwm-config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(insttestdir)" \
@@ -194,7 +194,7 @@ am_test_conformance_OBJECTS = $(am__objects_2) $(am__objects_4)
 test_conformance_OBJECTS = $(am_test_conformance_OBJECTS)
 am__DEPENDENCIES_1 =
 test_conformance_DEPENDENCIES = $(am__DEPENDENCIES_1) \
-	$(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(am__DEPENDENCIES_1) $(am__append_2)
 AM_V_lt = $(am__v_lt_@AM_V@)
 am__v_lt_ = $(am__v_lt_@AM_DEFAULT_V@)
@@ -389,7 +389,7 @@ INTROSPECTION_TYPELIBDIR = @INTROSPECTION_TYPELIBDIR@
 LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -401,7 +401,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -539,7 +539,7 @@ AM_CPPFLAGS = -I$(top_srcdir) -I$(top_builddir)/cogl \
 	-DTESTS_DATADIR=\""$(top_srcdir)/tests/data"\"
 test_conformance_CFLAGS = -g3 -O0 $(COGL_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) -Wno-error=maybe-uninitialized -Wno-error=nested-externs -Wno-error=missing-prototypes
 test_conformance_LDADD = $(COGL_DEP_LIBS) \
-	$(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(LIBM) $(am__append_2)
 test_conformance_LDFLAGS = -export-dynamic
 
@@ -551,9 +551,9 @@ test_conformance_LDFLAGS = -export-dynamic
 #      by simply defining this variable conditionally
 TEST_PROGS = test-conformance
 DISTCLEANFILES = .gitignore
-@ENABLE_INSTALLED_TESTS_TRUE@insttestdir = $(libexecdir)/installed-tests/mutter-cogl/conform
+@ENABLE_INSTALLED_TESTS_TRUE@insttestdir = $(libexecdir)/installed-tests/ukwm-cogl/conform
 @ENABLE_INSTALLED_TESTS_TRUE@insttest_DATA = unit-tests
-@ENABLE_INSTALLED_TESTS_TRUE@testmetadir = $(datadir)/installed-tests/mutter-cogl
+@ENABLE_INSTALLED_TESTS_TRUE@testmetadir = $(datadir)/installed-tests/ukwm-cogl
 @ENABLE_INSTALLED_TESTS_TRUE@testmeta_DATA = conform.test
 @ENABLE_INSTALLED_TESTS_TRUE@CLEANFILES = conform.test
 all: $(BUILT_SOURCES)
@@ -1698,7 +1698,7 @@ clean-generic: clean-wrappers
 @ENABLE_INSTALLED_TESTS_TRUE@	echo "  GEN      $@"; \
 @ENABLE_INSTALLED_TESTS_TRUE@	echo "[Test]" > $@.tmp; \
 @ENABLE_INSTALLED_TESTS_TRUE@	echo "Type=session" >> $@.tmp; \
-@ENABLE_INSTALLED_TESTS_TRUE@	echo "Exec=sh -c \"cd $(libexecdir)/installed-tests/mutter-cogl/conform; ../run-tests.sh ../config.env ./test-conformance\"" >> $@.tmp; \
+@ENABLE_INSTALLED_TESTS_TRUE@	echo "Exec=sh -c \"cd $(libexecdir)/installed-tests/ukwm-cogl/conform; ../run-tests.sh ../config.env ./test-conformance\"" >> $@.tmp; \
 @ENABLE_INSTALLED_TESTS_TRUE@	mv $@.tmp $@
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

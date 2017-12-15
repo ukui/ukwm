@@ -1,9 +1,9 @@
-# Akhahalduri 'Mutter' eesti tõlge.
-# Estonian translation of Mutter.
+# Akhahalduri 'Ukwm' eesti tõlge.
+# Estonian translation of Ukwm.
 #
 # Copyright (C) 2004–2005 The Free Software Foundation
 # Copyright (C) 2007–2011 The GNOME Project.
-# This file is distributed under the same license as the mutter package.
+# This file is distributed under the same license as the ukwm package.
 #
 # Tõivo Leedjärv <toivo linux ee>, 2004.
 # Ivar Smolin <okul linux ee>, 2005, 2006, 2009–2011.
@@ -11,9 +11,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mutter MASTER\n"
+"Project-Id-Version: ukwm MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=mutter&keywords=I18N+L10N&component=general\n"
+"product=ukwm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-09-10 15:25+0000\n"
 "PO-Revision-Date: 2013-09-11 23:20+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
@@ -263,13 +263,13 @@ msgstr "Tundmatu %s"
 
 #, c-format
 msgid ""
-"mutter %s\n"
+"ukwm %s\n"
 "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
-"mutter %s\n"
+"ukwm %s\n"
 "Autoriõigused (C) 2001-%d Havoc Pennington, Red Hat, Inc., ja teised\n"
 "See programm on vaba tarkvara; kopeerimistingimuste kohta vaata\n"
 "programmi lähteteksti. Sellel programmil pole MINGISUGUST GARANTIID;\n"
@@ -279,8 +279,8 @@ msgstr ""
 msgid "Print version"
 msgstr "Versiooni printimine"
 
-msgid "Mutter plugin to use"
-msgstr "Millist Mutteri pluginat kasutada"
+msgid "Ukwm plugin to use"
+msgstr "Millist Ukwmi pluginat kasutada"
 
 msgid ""
 "Workarounds for broken applications disabled. Some applications may not "
@@ -359,8 +359,8 @@ msgid "Failed to parse saved session file: %s\n"
 msgstr "Viga salvestatud seansifaili analüüsimisel: %s\n"
 
 #, c-format
-msgid "<mutter_session> attribute seen but we already have the session ID"
-msgstr "Nähti <mutter_session> atribuuti, aga sessiooni ID on juba määratud"
+msgid "<ukwm_session> attribute seen but we already have the session ID"
+msgstr "Nähti <ukwm_session> atribuuti, aga sessiooni ID on juba määratud"
 
 #, c-format
 msgid "Unknown attribute %s on <%s> element"
@@ -393,8 +393,8 @@ msgstr "Tõrge logifaili %s avamisel funktsiooniga fdopen(): %s\n"
 msgid "Opened log file %s\n"
 msgstr "Avati logifail %s\n"
 
-msgid "Mutter was compiled without support for verbose mode\n"
-msgstr "Mutter kompileeriti ilma jutuka režiimi toeta\n"
+msgid "Ukwm was compiled without support for verbose mode\n"
+msgstr "Ukwm kompileeriti ilma jutuka režiimi toeta\n"
 
 msgid "Window manager: "
 msgstr "Aknahaldur: "
@@ -474,8 +474,8 @@ msgid ""
 "Property %s on window 0x%lx contained invalid UTF-8 for item %d in the list\n"
 msgstr "Omadus %s aknal 0x%lx sisaldab vigast UTF-8 %d kirjele nimekirjas\n"
 
-msgid "Mutter"
-msgstr "Mutter"
+msgid "Ukwm"
+msgstr "Ukwm"
 
 msgid "Modifier to use for extended window management operations"
 msgstr "Laiendatud aknaoperatsioonide korral kasutatav muuteklahv"

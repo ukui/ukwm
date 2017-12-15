@@ -105,7 +105,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/cogl-config.h \
-	$(top_builddir)/cogl-mutter-config.h
+	$(top_builddir)/cogl-ukwm-config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 PROGRAMS = $(noinst_PROGRAMS)
@@ -113,7 +113,7 @@ am_test_journal_OBJECTS = test-journal.$(OBJEXT)
 test_journal_OBJECTS = $(am_test_journal_OBJECTS)
 am__DEPENDENCIES_1 =
 am__DEPENDENCIES_2 = $(am__DEPENDENCIES_1) \
-	$(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(am__DEPENDENCIES_1)
 test_journal_DEPENDENCIES = $(am__DEPENDENCIES_2)
 AM_V_lt = $(am__v_lt_@AM_V@)
@@ -277,7 +277,7 @@ INTROSPECTION_TYPELIBDIR = @INTROSPECTION_TYPELIBDIR@
 LD = @LD@
 LDFLAGS = @LDFLAGS@
 LIBM = @LIBM@
-LIBMUTTER_API_VERSION = @LIBMUTTER_API_VERSION@
+LIBUKWM_API_VERSION = @LIBUKWM_API_VERSION@
 LIBOBJS = @LIBOBJS@
 LIBS = @LIBS@
 LIBTOOL = @LIBTOOL@
@@ -289,7 +289,7 @@ MAINTAINER_CFLAGS = @MAINTAINER_CFLAGS@
 MAKEINFO = @MAKEINFO@
 MANIFEST_TOOL = @MANIFEST_TOOL@
 MKDIR_P = @MKDIR_P@
-MUTTER_VERSION = @MUTTER_VERSION@
+UKWM_VERSION = @UKWM_VERSION@
 NM = @NM@
 NMEDIT = @NMEDIT@
 OBJDUMP = @OBJDUMP@
@@ -386,7 +386,7 @@ test_conformance_CPPFLAGS = \
 AM_CFLAGS = $(COGL_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS)
 common_ldadd = \
 	$(COGL_DEP_LIBS) \
-	$(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(LIBM)
 
 test_journal_SOURCES = test-journal.c

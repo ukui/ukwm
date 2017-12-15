@@ -131,10 +131,10 @@ AM_CPPFLAGS += \
 test_conformance_CFLAGS = -g3 -O0 $(COGL_DEP_CFLAGS) $(COGL_EXTRA_CFLAGS) -Wno-error=maybe-uninitialized -Wno-error=nested-externs -Wno-error=missing-prototypes
 test_conformance_LDADD = \
 	$(COGL_DEP_LIBS) \
-	$(top_builddir)/cogl/libmutter-cogl-$(LIBMUTTER_API_VERSION).la \
+	$(top_builddir)/cogl/libukwm-cogl-$(LIBUKWM_API_VERSION).la \
 	$(LIBM)
 if BUILD_COGL_PATH
-test_conformance_LDADD += $(top_builddir)/cogl-path/libmutter-cogl-path-$(LIBMUTTER_API_VERSION).la
+test_conformance_LDADD += $(top_builddir)/cogl-path/libukwm-cogl-path-$(LIBUKWM_API_VERSION).la
 endif
 test_conformance_LDFLAGS = -export-dynamic
 
@@ -158,18 +158,18 @@ clean-generic: clean-wrappers
 
 if ENABLE_INSTALLED_TESTS
 
-insttestdir = $(libexecdir)/installed-tests/mutter-cogl/conform
+insttestdir = $(libexecdir)/installed-tests/ukwm-cogl/conform
 insttest_PROGRAMS = test-conformance
 insttest_DATA = unit-tests
 
-testmetadir = $(datadir)/installed-tests/mutter-cogl
+testmetadir = $(datadir)/installed-tests/ukwm-cogl
 testmeta_DATA = conform.test
 
 conform.test:
 	echo "  GEN      $@"; \
 	echo "[Test]" > $@.tmp; \
 	echo "Type=session" >> $@.tmp; \
-	echo "Exec=sh -c \"cd $(libexecdir)/installed-tests/mutter-cogl/conform; ../run-tests.sh ../config.env ./test-conformance\"" >> $@.tmp; \
+	echo "Exec=sh -c \"cd $(libexecdir)/installed-tests/ukwm-cogl/conform; ../run-tests.sh ../config.env ./test-conformance\"" >> $@.tmp; \
 	mv $@.tmp $@
 
 CLEANFILES = conform.test

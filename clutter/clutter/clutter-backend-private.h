@@ -4,6 +4,7 @@
  * An OpenGL based 'interactive canvas' library.
  *
  * Copyright (C) 2010  Intel Corporation.
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -131,7 +132,7 @@ gboolean                _clutter_backend_translate_event                (Clutter
                                                                          gpointer                native,
                                                                          ClutterEvent           *event);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void                    _clutter_backend_add_event_translator           (ClutterBackend         *backend,
                                                                          ClutterEventTranslator *translator);
 
@@ -146,7 +147,7 @@ gint32                  _clutter_backend_get_units_serial               (Clutter
 
 PangoDirection          _clutter_backend_get_keymap_direction           (ClutterBackend         *backend);
 
-CLUTTER_AVAILABLE_IN_MUTTER
+CLUTTER_AVAILABLE_IN_UKWM
 void                    _clutter_backend_reset_cogl_framebuffer         (ClutterBackend         *backend);
 
 void                    clutter_set_allowed_drivers                     (const char             *drivers);

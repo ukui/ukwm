@@ -1,7 +1,7 @@
 # Flag build for parallelism; see https://savannah.gnu.org/patch/?6905
 .AUTOPARALLEL:
 
-lib_LTLIBRARIES = libmutter-@LIBMUTTER_API_VERSION@.la
+lib_LTLIBRARIES = libukwm-@LIBUKWM_API_VERSION@.la
 
 SUBDIRS=compositor/plugins
 
@@ -13,11 +13,11 @@ AM_CPPFLAGS = \
 	-DCLUTTER_ENABLE_EXPERIMENTAL_API				\
 	-DCOGL_ENABLE_EXPERIMENTAL_API					\
 	-DCOGL_ENABLE_EXPERIMENTAL_2_0_API                              \
-	-DCOGL_ENABLE_MUTTER_API					\
+	-DCOGL_ENABLE_UKWM_API					\
 	-DCLUTTER_DISABLE_DEPRECATION_WARNINGS				\
 	-DCOGL_DISABLE_DEPRECATION_WARNINGS				\
-	$(MUTTER_CFLAGS)						\
-	$(MUTTER_NATIVE_BACKEND_CFLAGS)					\
+	$(UKWM_CFLAGS)						\
+	$(UKWM_NATIVE_BACKEND_CFLAGS)					\
 	-I$(builddir)							\
 	-I$(srcdir)							\
 	-I$(srcdir)/backends						\
@@ -33,19 +33,19 @@ AM_CPPFLAGS = \
 	-I$(top_srcdir)/clutter/clutter					\
 	-I$(top_builddir)/clutter					\
 	-I$(top_builddir)/clutter/clutter				\
-	-DMUTTER_LIBEXECDIR=\"$(libexecdir)\"				\
-	-DMUTTER_LOCALEDIR=\"$(localedir)\"				\
-	-DMUTTER_PKGDATADIR=\"$(pkgdatadir)\"				\
-	-DMUTTER_DATADIR=\"$(datadir)\"					\
-	-DG_LOG_DOMAIN=\"mutter\"					\
+	-DUKWM_LIBEXECDIR=\"$(libexecdir)\"				\
+	-DUKWM_LOCALEDIR=\"$(localedir)\"				\
+	-DUKWM_PKGDATADIR=\"$(pkgdatadir)\"				\
+	-DUKWM_DATADIR=\"$(datadir)\"					\
+	-DG_LOG_DOMAIN=\"ukwm\"					\
 	-DSN_API_NOT_YET_FROZEN=1					\
-	-DMUTTER_PKGLIBDIR=\"$(pkglibdir)\"				\
-	-DMUTTER_PLUGIN_DIR=\"$(MUTTER_PLUGIN_DIR)\"			\
+	-DUKWM_PKGLIBDIR=\"$(pkglibdir)\"				\
+	-DUKWM_PLUGIN_DIR=\"$(UKWM_PLUGIN_DIR)\"			\
 	-DGETTEXT_PACKAGE=\"$(GETTEXT_PACKAGE)\"			\
 	-DXWAYLAND_PATH=\"$(XWAYLAND_PATH)\"				\
 	$(NULL)
 
-mutter_built_sources = \
+ukwm_built_sources = \
 	$(dbus_idle_built_sources)		\
 	$(dbus_display_config_built_sources)	\
 	$(dbus_login1_built_sources)		\
@@ -54,14 +54,14 @@ mutter_built_sources = \
 	$(NULL)
 
 if HAVE_REMOTE_DESKTOP
-mutter_built_sources += \
+ukwm_built_sources += \
 	$(dbus_remote_desktop_built_sources)	\
 	$(dbus_screen_cast_built_sources)	\
 	$(NULL)
 endif
 
 if HAVE_WAYLAND
-mutter_built_sources += \
+ukwm_built_sources += \
 	pointer-gestures-unstable-v1-protocol.c				\
 	pointer-gestures-unstable-v1-server-protocol.h			\
 	gtk-shell-protocol.c			\
@@ -90,7 +90,7 @@ wayland_protocols =				\
 	wayland/protocol/gtk-primary-selection.xml	\
 	$(NULL)
 
-libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES =	\
+libukwm_@LIBUKWM_API_VERSION@_la_SOURCES =	\
 	backends/meta-backend.c			\
 	meta/meta-backend.h			\
 	meta/meta-settings.h			\
@@ -236,7 +236,7 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES =	\
 	meta/meta-shadow-factory.h		\
 	meta/meta-window-actor.h		\
 	meta/meta-window-shape.h		\
-	meta/compositor-mutter.h 		\
+	meta/compositor-ukwm.h 		\
 	core/constraints.c			\
 	core/constraints.h			\
 	core/core.c				\
@@ -317,11 +317,11 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES =	\
 	x11/window-x11-private.h		\
 	x11/xprops.c				\
 	x11/xprops.h				\
-	x11/mutter-Xatomtype.h			\
+	x11/ukwm-Xatomtype.h			\
 	$(NULL)
 
 if HAVE_REMOTE_DESKTOP
-libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES +=	\
+libukwm_@LIBUKWM_API_VERSION@_la_SOURCES +=	\
 	backends/meta-dbus-session-watcher.c	\
 	backends/meta-dbus-session-watcher.h	\
 	backends/meta-remote-desktop.c		\
@@ -344,7 +344,7 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES +=	\
 endif
 
 if HAVE_WAYLAND
-libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES +=	\
+libukwm_@LIBUKWM_API_VERSION@_la_SOURCES +=	\
 	compositor/meta-surface-actor-wayland.c	\
 	compositor/meta-surface-actor-wayland.h	\
 	wayland/meta-wayland.c			\
@@ -434,7 +434,7 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES +=	\
 endif
 
 if HAVE_NATIVE_BACKEND
-libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES +=		\
+libukwm_@LIBUKWM_API_VERSION@_la_SOURCES +=		\
 	backends/native/meta-backend-native.c		\
 	backends/native/meta-backend-native.h		\
 	backends/native/meta-backend-native-private.h	\
@@ -462,23 +462,23 @@ libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES +=		\
 	$(NULL)
 endif
 
-nodist_libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES = $(mutter_built_sources)
+nodist_libukwm_@LIBUKWM_API_VERSION@_la_SOURCES = $(ukwm_built_sources)
 
-libmutter_@LIBMUTTER_API_VERSION@_la_LDFLAGS = \
+libukwm_@LIBUKWM_API_VERSION@_la_LDFLAGS = \
 	-no-undefined -export-symbols-regex "^(meta|ag)_.*"
-libmutter_@LIBMUTTER_API_VERSION@_la_LIBADD  = \
-	$(MUTTER_LIBS) \
-	$(MUTTER_NATIVE_BACKEND_LIBS)	\
-	$(top_builddir)/clutter/clutter/libmutter-clutter-$(LIBMUTTER_API_VERSION).la \
+libukwm_@LIBUKWM_API_VERSION@_la_LIBADD  = \
+	$(UKWM_LIBS) \
+	$(UKWM_NATIVE_BACKEND_LIBS)	\
+	$(top_builddir)/clutter/clutter/libukwm-clutter-$(LIBUKWM_API_VERSION).la \
 	$(NULL)
 
 # Headers installed for plugins; introspected information will
-# be extracted into Mutter-<version>.gir
-libmutterinclude_headers =			\
+# be extracted into Ukwm-<version>.gir
+libukwminclude_headers =			\
 	meta/barrier.h				\
 	meta/boxes.h				\
 	meta/common.h				\
-	meta/compositor-mutter.h		\
+	meta/compositor-ukwm.h		\
 	meta/compositor.h			\
 	meta/display.h				\
 	meta/errors.h				\
@@ -511,32 +511,32 @@ libmutterinclude_headers =			\
 	meta/workspace.h			\
 	$(NULL)
 
-libmutterinclude_built_headers =		\
+libukwminclude_built_headers =		\
 	meta/meta-version.h			\
 	meta/meta-enum-types.h			\
 	$(NULL)
 
-libmutterinclude_base_headers =			\
-	$(libmutterinclude_headers)		\
-	$(libmutterinclude_built_headers)
+libukwminclude_base_headers =			\
+	$(libukwminclude_headers)		\
+	$(libukwminclude_built_headers)
 
-libmutterincludedir = $(includedir)/mutter/meta
+libukwmincludedir = $(includedir)/ukwm/meta
 
-libmutterinclude_HEADERS =			\
-	$(libmutterinclude_headers)
+libukwminclude_HEADERS =			\
+	$(libukwminclude_headers)
 
-nodist_libmutterinclude_HEADERS =		\
-	$(libmutterinclude_built_headers)
+nodist_libukwminclude_HEADERS =		\
+	$(libukwminclude_built_headers)
 
-bin_PROGRAMS=mutter
+bin_PROGRAMS=ukwm
 noinst_PROGRAMS=
 
-mutter_SOURCES = core/mutter.c
-mutter_LDADD = $(MUTTER_LIBS) libmutter-@LIBMUTTER_API_VERSION@.la
+ukwm_SOURCES = core/ukwm.c
+ukwm_LDADD = $(UKWM_LIBS) libukwm-@LIBUKWM_API_VERSION@.la
 
-libexec_PROGRAMS = mutter-restart-helper
-mutter_restart_helper_SOURCES = core/restart-helper.c
-mutter_restart_helper_LDADD = $(MUTTER_LIBS)
+libexec_PROGRAMS = ukwm-restart-helper
+ukwm_restart_helper_SOURCES = core/restart-helper.c
+ukwm_restart_helper_LDADD = $(UKWM_LIBS)
 
 include Makefile-tests.am
 
@@ -548,12 +548,12 @@ include $(INTROSPECTION_MAKEFILE)
 # by plugins.  If you're writing a plugin, use g-ir-compiler --add-include-path
 # and g-ir-compiler --includedir.
 girdir = $(pkglibdir)
-gir_DATA = Meta-$(LIBMUTTER_API_VERSION).gir
+gir_DATA = Meta-$(LIBUKWM_API_VERSION).gir
 
 typelibdir = $(pkglibdir)
-typelib_DATA = Meta-$(LIBMUTTER_API_VERSION).typelib
+typelib_DATA = Meta-$(LIBUKWM_API_VERSION).typelib
 
-INTROSPECTION_GIRS = Meta-$(LIBMUTTER_API_VERSION).gir
+INTROSPECTION_GIRS = Meta-$(LIBUKWM_API_VERSION).gir
 INTROSPECTION_SCANNER_ARGS =					\
 	--add-include-path=$(top_builddir)/clutter/clutter	\
 	--add-include-path=$(top_builddir)/cogl/cogl		\
@@ -567,69 +567,69 @@ INTROSPECTION_COMPILER_ARGS =					\
 INTROSPECTION_SCANNER_ENV = \
 	PKG_CONFIG_PATH=$(top_builddir)/clutter/clutter/:$(top_builddir)/cogl/cogl/:$(top_builddir)/cogl/cogl-pango/:$${PKG_CONFIG_PATH}
 
-Meta-@LIBMUTTER_API_VERSION@.gir: libmutter-$(LIBMUTTER_API_VERSION).la
-Meta_@LIBMUTTER_API_VERSION@_gir_VERSION = $(LIBMUTTER_API_VERSION)
-Meta_@LIBMUTTER_API_VERSION@_gir_INCLUDES =	\
+Meta-@LIBUKWM_API_VERSION@.gir: libukwm-$(LIBUKWM_API_VERSION).la
+Meta_@LIBUKWM_API_VERSION@_gir_VERSION = $(LIBUKWM_API_VERSION)
+Meta_@LIBUKWM_API_VERSION@_gir_INCLUDES =	\
 	GObject-2.0				\
 	GDesktopEnums-3.0			\
 	Gdk-3.0					\
 	Gtk-3.0					\
-	Cogl-$(LIBMUTTER_API_VERSION)		\
-	Clutter-$(LIBMUTTER_API_VERSION)	\
+	Cogl-$(LIBUKWM_API_VERSION)		\
+	Clutter-$(LIBUKWM_API_VERSION)	\
 	xlib-2.0				\
 	xfixes-4.0				\
 	$(NULL)
-Meta_@LIBMUTTER_API_VERSION@_gir_EXPORT_PACKAGES = libmutter-$(LIBMUTTER_API_VERSION)
-Meta_@LIBMUTTER_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS)
-Meta_@LIBMUTTER_API_VERSION@_gir_LIBS = libmutter-$(LIBMUTTER_API_VERSION).la
-Meta_@LIBMUTTER_API_VERSION@_gir_FILES =			\
-	$(libmutterinclude_base_headers)			\
-	$(filter %.c,$(libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES) $(nodist_libmutter_@LIBMUTTER_API_VERSION@_la_SOURCES))
-Meta_@LIBMUTTER_API_VERSION@_SCANNERFLAGS = --warn-all --warn-error
+Meta_@LIBUKWM_API_VERSION@_gir_EXPORT_PACKAGES = libukwm-$(LIBUKWM_API_VERSION)
+Meta_@LIBUKWM_API_VERSION@_gir_CFLAGS = $(AM_CPPFLAGS)
+Meta_@LIBUKWM_API_VERSION@_gir_LIBS = libukwm-$(LIBUKWM_API_VERSION).la
+Meta_@LIBUKWM_API_VERSION@_gir_FILES =			\
+	$(libukwminclude_base_headers)			\
+	$(filter %.c,$(libukwm_@LIBUKWM_API_VERSION@_la_SOURCES) $(nodist_libukwm_@LIBUKWM_API_VERSION@_la_SOURCES))
+Meta_@LIBUKWM_API_VERSION@_SCANNERFLAGS = --warn-all --warn-error
 
 endif
 
 dbus_idle_built_sources = meta-dbus-idle-monitor.c meta-dbus-idle-monitor.h
 
 CLEANFILES =					\
-	$(mutter_built_sources)			\
+	$(ukwm_built_sources)			\
 	$(typelib_DATA)				\
 	$(gir_DATA)
 
 DISTCLEANFILES = 				\
-	$(libmutterinclude_built_headers)	\
+	$(libukwminclude_built_headers)	\
 	$(pkgconfig_DATA)
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = libmutter-$(LIBMUTTER_API_VERSION).pc
+pkgconfig_DATA = libukwm-$(LIBUKWM_API_VERSION).pc
 
 EXTRA_DIST +=					\
 	$(wayland_protocols)			\
-	libmutter.pc.in				\
+	libukwm.pc.in				\
 	meta-enum-types.h.in			\
 	meta-enum-types.c.in			\
 	org.freedesktop.login1.xml		\
-	org.gnome.Mutter.DisplayConfig.xml	\
-	org.gnome.Mutter.IdleMonitor.xml	\
-	org.gnome.Mutter.RemoteDesktop.xml	\
-	org.gnome.Mutter.ScreenCast.xml	\
+	org.ukui.ukwm.DisplayConfig.xml	\
+	org.ukui.ukwm.IdleMonitor.xml	\
+	org.ukui.ukwm.RemoteDesktop.xml	\
+	org.ukui.ukwm.ScreenCast.xml	\
 	backends/native/gen-default-modes.py	\
 	$(NULL)
 
 BUILT_SOURCES =					\
-	$(mutter_built_sources)			\
-	$(libmutterinclude_built_headers)
+	$(ukwm_built_sources)			\
+	$(libukwminclude_built_headers)
 
-MUTTER_STAMP_FILES = stamp-meta-enum-types.h
-CLEANFILES += $(MUTTER_STAMP_FILES)
+UKWM_STAMP_FILES = stamp-meta-enum-types.h
+CLEANFILES += $(UKWM_STAMP_FILES)
 
 meta/meta-enum-types.h: stamp-meta-enum-types.h Makefile
 	@true
-stamp-meta-enum-types.h: $(libmutterinclude_headers) meta-enum-types.h.in
+stamp-meta-enum-types.h: $(libukwminclude_headers) meta-enum-types.h.in
 	$(AM_V_GEN) ( cd $(srcdir) && \
 	  $(GLIB_MKENUMS) \
 	    --template meta-enum-types.h.in \
-	  $(libmutterinclude_headers) ) > xgen-teth && \
+	  $(libukwminclude_headers) ) > xgen-teth && \
 	(cmp -s xgen-teth meta/meta-enum-types.h || cp xgen-teth meta/meta-enum-types.h) && \
 	rm -f xgen-teth && \
 	echo timestamp > $(@F)
@@ -638,47 +638,47 @@ meta-enum-types.c: stamp-meta-enum-types.h meta-enum-types.c.in
 	  $(AM_V_GEN) ( cd $(srcdir) && \
 	  $(GLIB_MKENUMS) \
 	    --template meta-enum-types.c.in \
-	  $(libmutterinclude_headers) ) > xgen-tetc && \
+	  $(libukwminclude_headers) ) > xgen-tetc && \
 	cp xgen-tetc meta-enum-types.c && \
 	rm -f xgen-tetc
 
 dbus_display_config_built_sources = meta-dbus-display-config.c meta-dbus-display-config.h
 
-$(dbus_display_config_built_sources) : Makefile.am org.gnome.Mutter.DisplayConfig.xml
+$(dbus_display_config_built_sources) : Makefile.am org.ukui.ukwm.DisplayConfig.xml
 	$(AM_V_GEN)gdbus-codegen							\
-		--interface-prefix org.gnome.Mutter					\
+		--interface-prefix org.ukui.ukwm					\
 		--c-namespace MetaDBus							\
 		--generate-c-code meta-dbus-display-config				\
 		--c-generate-autocleanup all						\
-		$(srcdir)/org.gnome.Mutter.DisplayConfig.xml
+		$(srcdir)/org.ukui.ukwm.DisplayConfig.xml
 
-$(dbus_idle_built_sources) : Makefile.am org.gnome.Mutter.IdleMonitor.xml
+$(dbus_idle_built_sources) : Makefile.am org.ukui.ukwm.IdleMonitor.xml
 	$(AM_V_GEN)gdbus-codegen							\
-		--interface-prefix org.gnome.Mutter					\
+		--interface-prefix org.ukui.ukwm					\
 		--c-namespace MetaDBus							\
 		--generate-c-code meta-dbus-idle-monitor				\
 		--c-generate-object-manager						\
 		--c-generate-autocleanup all						\
-		$(srcdir)/org.gnome.Mutter.IdleMonitor.xml
+		$(srcdir)/org.ukui.ukwm.IdleMonitor.xml
 
 if HAVE_REMOTE_DESKTOP
 dbus_remote_desktop_built_sources = meta-dbus-remote-desktop.c meta-dbus-remote-desktop.h
 
-$(dbus_remote_desktop_built_sources) : Makefile.am org.gnome.Mutter.RemoteDesktop.xml
+$(dbus_remote_desktop_built_sources) : Makefile.am org.ukui.ukwm.RemoteDesktop.xml
 	$(AM_V_GEN)gdbus-codegen							\
-		--interface-prefix org.gnome.Mutter					\
+		--interface-prefix org.ukui.ukwm					\
 		--c-namespace MetaDBus							\
 		--generate-c-code meta-dbus-remote-desktop				\
-		$(srcdir)/org.gnome.Mutter.RemoteDesktop.xml
+		$(srcdir)/org.ukui.ukwm.RemoteDesktop.xml
 
 dbus_screen_cast_built_sources = meta-dbus-screen-cast.c meta-dbus-screen-cast.h
 
-$(dbus_screen_cast_built_sources) : Makefile.am org.gnome.Mutter.ScreenCast.xml
+$(dbus_screen_cast_built_sources) : Makefile.am org.ukui.ukwm.ScreenCast.xml
 	$(AM_V_GEN)gdbus-codegen							\
-		--interface-prefix org.gnome.Mutter					\
+		--interface-prefix org.ukui.ukwm					\
 		--c-namespace MetaDBus							\
 		--generate-c-code meta-dbus-screen-cast					\
-		$(srcdir)/org.gnome.Mutter.ScreenCast.xml
+		$(srcdir)/org.ukui.ukwm.ScreenCast.xml
 endif
 
 dbus_login1_built_sources = meta-dbus-login1.c meta-dbus-login1.h

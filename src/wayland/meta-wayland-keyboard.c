@@ -2,6 +2,7 @@
  * Wayland Support
  *
  * Copyright (C) 2013 Intel Corporation
+ * Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -92,7 +93,7 @@ static int
 create_anonymous_file (off_t size,
                        GError **error)
 {
-  static const char template[] = "mutter-shared-XXXXXX";
+  static const char template[] = "ukwm-shared-XXXXXX";
   char *path;
   int fd, flags;
 
