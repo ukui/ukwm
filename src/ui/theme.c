@@ -42,7 +42,7 @@ meta_frame_layout_new  (void)
   /* Spacing as hardcoded in GTK+:
    * https://git.gnome.org/browse/gtk+/tree/gtk/gtkheaderbar.c?h=gtk-3-14#n53
    */
-  layout->titlebar_spacing = 6;
+  layout->titlebar_spacing = 1;
   layout->has_title = TRUE;
   layout->title_scale = PANGO_SCALE_MEDIUM;
   layout->icon_size = META_MINI_ICON_WIDTH;
@@ -1046,10 +1046,13 @@ meta_theme_create_style_info (GdkScreen   *screen,
   GtkCssProvider *provider;
   char *theme_name;
 
-  g_object_get (gtk_settings_get_for_screen (screen),
+
+/*  For UKUI theme control
+ *  g_object_get (gtk_settings_get_for_screen (screen),
                 "gtk-theme-name", &theme_name,
                 NULL);
-
+*/
+  theme_name = g_strdup(meta_prefs_get_theme());
   if (theme_name && *theme_name)
     provider = gtk_css_provider_get_named (theme_name, variant);
   else

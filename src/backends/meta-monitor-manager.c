@@ -2800,12 +2800,15 @@ meta_output_parse_edid (MetaOutput *output,
       if (!g_utf8_validate (output->vendor, -1, NULL))
         g_clear_pointer (&output->vendor, g_free);
 
+/* For UKUI
       output->product = g_strndup (parsed_edid->dsc_product_name, 14);
       if (!g_utf8_validate (output->product, -1, NULL) ||
           output->product[0] == '\0')
         {
           g_clear_pointer (&output->product, g_free);
-          output->product = g_strdup_printf ("0x%04x", (unsigned) parsed_edid->product_code);
+*/
+      output->product = g_strdup_printf ("0x%04x", (unsigned) parsed_edid->product_code);
+/*
         }
 
       output->serial = g_strndup (parsed_edid->dsc_serial_number, 14);
@@ -2813,8 +2816,11 @@ meta_output_parse_edid (MetaOutput *output,
           output->serial[0] == '\0')
         {
           g_clear_pointer (&output->serial, g_free);
-          output->serial = g_strdup_printf ("0x%08x", parsed_edid->serial_number);
+*/
+      output->serial = g_strdup_printf ("0x%08x", parsed_edid->serial_number);
+/*
         }
+*/
 
       g_free (parsed_edid);
     }

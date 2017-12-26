@@ -3752,19 +3752,22 @@ init_builtin_key_bindings (MetaDisplay *display)
                           META_KEYBINDING_ACTION_SWITCH_GROUP_BACKWARD,
                           handle_switch, META_TAB_LIST_GROUP);
 
-  add_builtin_keybinding (display,
-                          "switch-applications",
-                          common_keybindings,
-                          META_KEY_BINDING_NONE,
-                          META_KEYBINDING_ACTION_SWITCH_APPLICATIONS,
-                          handle_switch, META_TAB_LIST_NORMAL);
-
-  add_builtin_keybinding (display,
-                          "switch-applications-backward",
-                          common_keybindings,
-                          META_KEY_BINDING_IS_REVERSED,
-                          META_KEYBINDING_ACTION_SWITCH_APPLICATIONS_BACKWARD,
-                          handle_switch, META_TAB_LIST_NORMAL);
+  if (access("/usr/bin/ukui-window-switch", 01) != 0)
+  {
+    add_builtin_keybinding (display,
+                            "switch-applications",
+                            common_keybindings,
+                            META_KEY_BINDING_NONE,
+                            META_KEYBINDING_ACTION_SWITCH_APPLICATIONS,
+                            handle_switch, META_TAB_LIST_NORMAL);
+  
+    add_builtin_keybinding (display,
+                            "switch-applications-backward",
+                            common_keybindings,
+                            META_KEY_BINDING_IS_REVERSED,
+                            META_KEYBINDING_ACTION_SWITCH_APPLICATIONS_BACKWARD,
+                            handle_switch, META_TAB_LIST_NORMAL);
+  }
 
   add_builtin_keybinding (display,
                           "switch-windows",

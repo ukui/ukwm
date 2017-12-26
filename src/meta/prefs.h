@@ -104,6 +104,7 @@ typedef enum
   META_PREF_AUTO_MAXIMIZE,
   META_PREF_CENTER_NEW_WINDOWS,
   META_PREF_DRAG_THRESHOLD,
+  META_PREF_THEME, /* For UKUI theme control */
 } MetaPreference;
 
 typedef void (* MetaPrefsChangedFunc) (MetaPreference pref,
@@ -128,6 +129,10 @@ GDesktopFocusMode           meta_prefs_get_focus_mode         (void);
 GDesktopFocusNewWindows     meta_prefs_get_focus_new_windows  (void);
 gboolean                    meta_prefs_get_attach_modal_dialogs (void);
 gboolean                    meta_prefs_get_raise_on_click     (void);
+
+/* For UKUI theme control */
+const char*                 meta_prefs_get_theme              (void);
+
 /* returns NULL if GTK default should be used */
 const PangoFontDescription* meta_prefs_get_titlebar_font      (void);
 int                         meta_prefs_get_num_workspaces     (void);

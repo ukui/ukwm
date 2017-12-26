@@ -1,3 +1,4 @@
+NULL=
 
 pkglibdir = $(UKWM_PLUGIN_DIR)
 
@@ -5,6 +6,9 @@ AM_CPPFLAGS = \
 	$(UKWM_CFLAGS)						\
 	-I$(top_builddir)/src						\
 	-I$(top_srcdir)/src						\
+	-I$(top_srcdir)/src/core					\
+	-I$(top_srcdir)/src/ui						\
+	-I$(top_srcdir)/src/backends					\
 	-I$(top_srcdir)/cogl						\
 	-I$(top_builddir)/cogl						\
 	-I$(top_builddir)/cogl/cogl					\
@@ -20,11 +24,28 @@ AM_CPPFLAGS = \
 	-DUKWM_PLUGIN_DIR=\"$(UKWM_PLUGIN_DIR)\"
 
 default_la_CFLAGS   = -fPIC
-default_la_SOURCES  = default.c
+default_la_SOURCES  = default.c \
+		      ukui_plugin.h \
+		      ukui_plugin_generated.c \
+		      ukui_plugin_generated.h \
+		      $(NULL)
+
 default_la_LDFLAGS  = -module -avoid-version -no-undefined
 default_la_LIBADD   = $(CLUTTER_LIBS)
 
+DESC_XML = org.ukui.ukwm.UkwmPlugin.xml
+GENERATED_CH = ukui_plugin_generated
+
+ukui_plugin_generated.c ukui_plugin_generated.h: $(DESC_XML) Makefile
+	gdbus-codegen --interface org.ukui.ukwm --generate-c-code $(GENERATED_CH) $(DESC_XML)
+
+default_includedir=$(includedir)/ukwm/compositor/plugins/
+default_include_HEADERS = ukui_plugin.h
+
 pkglib_LTLIBRARIES = default.la
+
+ukui_plugin_xmldir = $(datadir)/ukui/plugin/
+ukui_plugin_xml_DATA = $(DESC_XML)
 
 # post-install hook to remove the .la and .a files we are not interested in
 # (There is no way to stop libtool generating static libs locally, and we

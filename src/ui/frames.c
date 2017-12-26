@@ -60,6 +60,10 @@ static void meta_ui_frame_update_prelit_control (MetaUIFrame     *frame,
                                                  MetaFrameControl control);
 
 static void meta_frames_font_changed          (MetaFrames *frames);
+
+/* For UKUI theme control */
+static void meta_frames_theme_changed          (MetaFrames *frames);
+
 static void meta_frames_button_layout_changed (MetaFrames *frames);
 
 
@@ -139,6 +143,10 @@ prefs_changed_callback (MetaPreference pref,
       break;
     case META_PREF_BUTTON_LAYOUT:
       meta_frames_button_layout_changed (META_FRAMES (data));
+      break;
+/* For UKUI theme control */
+    case META_PREF_THEME:
+      meta_frames_theme_changed (META_FRAMES (data));
       break;
     default:
       break;
@@ -312,6 +320,15 @@ reattach_style_func (gpointer key, gpointer value, gpointer data)
 {
   MetaUIFrame *frame = value;
   meta_ui_frame_attach_style (frame);
+}
+
+/* For UKUI theme control */
+static void
+meta_frames_theme_changed (MetaFrames *frames)
+{
+  GtkWidget *widget;
+  widget = GTK_WIDGET(frames);
+  g_signal_emit_by_name(widget,"style-updated",NULL);
 }
 
 static void

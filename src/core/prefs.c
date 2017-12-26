@@ -53,6 +53,10 @@
 #define KEY_GNOME_ACCESSIBILITY "toolkit-accessibility"
 #define KEY_GNOME_ANIMATIONS "enable-animations"
 #define KEY_GNOME_CURSOR_THEME "cursor-theme"
+
+/* For UKUI theme control */
+#define KEY_UKUI_GTK_THEME "gtk-theme"
+
 #define KEY_XKB_OPTIONS "xkb-options"
 
 #define KEY_OVERLAY_KEY "overlay-key"
@@ -63,6 +67,8 @@
 #define SCHEMA_GENERAL         "org.gnome.desktop.wm.preferences"
 #define SCHEMA_UKWM          "org.ukui.ukwm"
 #define SCHEMA_INTERFACE       "org.gnome.desktop.interface"
+/* For UKUI */
+#define SCHEMA_MATE_INTERFACE  "org.mate.interface"
 #define SCHEMA_INPUT_SOURCES   "org.gnome.desktop.input-sources"
 #define SCHEMA_XSETTINGS       "org.gnome.settings-daemon.plugins.xsettings"
 #define SCHEMA_MOUSE           "org.gnome.settings-daemon.peripherals.mouse"
@@ -83,6 +89,10 @@ static GDesktopFocusNewWindows focus_new_windows = G_DESKTOP_FOCUS_NEW_WINDOWS_S
 static gboolean raise_on_click = TRUE;
 static gboolean center_new_windows = FALSE;
 static gboolean attach_modal_dialogs = FALSE;
+
+/* For UKUI theme control */
+static char* current_theme = NULL;
+
 static int num_workspaces = 4;
 static GDesktopTitlebarAction action_double_click_titlebar = G_DESKTOP_TITLEBAR_ACTION_TOGGLE_MAXIMIZE;
 static GDesktopTitlebarAction action_middle_click_titlebar = G_DESKTOP_TITLEBAR_ACTION_LOWER;
@@ -407,6 +417,14 @@ static MetaStringPreference preferences_string[] =
       },
       mouse_button_mods_handler,
       NULL,
+    },
+    {
+      { KEY_UKUI_GTK_THEME,
+        SCHEMA_MATE_INTERFACE,
+        META_PREF_THEME,
+      },
+      NULL,
+      &current_theme,
     },
     {
       { KEY_TITLEBAR_FONT,
@@ -965,6 +983,12 @@ meta_prefs_init (void)
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_MOUSE), settings);
 
   /* Individual keys we watch outside of our schemas */
+  /* For UKUI theme control */
+  settings = g_settings_new (SCHEMA_MATE_INTERFACE);
+  g_signal_connect (settings, "changed::" KEY_UKUI_GTK_THEME,
+                    G_CALLBACK (settings_changed), NULL);
+  g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_MATE_INTERFACE), settings);
+
   settings = g_settings_new (SCHEMA_INTERFACE);
   g_signal_connect (settings, "changed::" KEY_GNOME_ACCESSIBILITY,
                     G_CALLBACK (settings_changed), NULL);
@@ -1344,6 +1368,13 @@ gboolean
 meta_prefs_get_show_fallback_app_menu (void)
 {
   return show_fallback_app_menu;
+}
+
+/* For UKUI theme control */
+const char*
+meta_prefs_get_theme (void)
+{
+  return current_theme;
 }
 
 const char*
@@ -1771,6 +1802,10 @@ meta_preference_to_string (MetaPreference pref)
 
     case META_PREF_RAISE_ON_CLICK:
       return "RAISE_ON_CLICK";
+
+    /* For UKUI theme control */
+    case META_PREF_THEME:
+      return "THEME";
 
     case META_PREF_TITLEBAR_FONT:
       return "TITLEBAR_FONT";
