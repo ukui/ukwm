@@ -66,7 +66,7 @@
 #include "backends/native/meta-backend-native.h"
 #endif
 
-#define GSD_KEYBOARD_SCHEMA "org.gnome.settings-daemon.peripherals.keyboard"
+#define USD_KEYBOARD_SCHEMA "org.ukui.peripherals-keyboard"
 typedef enum
 {
   GSD_KEYBOARD_NUM_LOCK_STATE_UNKNOWN,
@@ -620,7 +620,7 @@ meta_wayland_keyboard_enable (MetaWaylandKeyboard *keyboard)
 
   /* We are cheating for now, we use g-s-d settings... Check if available */
   schema = g_settings_schema_source_lookup (g_settings_schema_source_get_default (),
-                                            GSD_KEYBOARD_SCHEMA,
+                                            USD_KEYBOARD_SCHEMA,
                                             TRUE);
   if (schema)
     {
