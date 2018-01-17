@@ -529,8 +529,8 @@ meta_window_class_init (MetaWindowClass *klass)
                           FALSE,
                           G_PARAM_READABLE | G_PARAM_STATIC_STRINGS);
   obj_props[PROP_RESIZEABLE] =
-    g_param_spec_boolean ("resizeable",
-                          "Resizeable",
+    g_param_spec_boolean ("resizable",
+                          "Resizable",
                           "Whether the window can be resized",
                           FALSE,
                           G_PARAM_READABLE | G_PARAM_STATIC_STRINGS);
