@@ -77,19 +77,3 @@ script_tests = \
 	test-state-1.json
 
 TESTS_ENVIRONMENT += G_ENABLE_DIAGNOSTIC=0 CLUTTER_ENABLE_DIAGNOSTIC=0 CLUTTER_SCALE=1
-
-# simple rules for generating a Git ignore file for the conformance test suite
-$(srcdir)/.gitignore: Makefile
-	$(AM_V_GEN)( echo "/*.trs" ; \
-		     echo "/*.log" ; \
-		     echo "/*.test" ; \
-		     echo "/.gitignore" ; \
-		     for p in $(test_programs); do \
-			echo "/$$p" ; \
-		     done ) > $(@F)
-
-gitignore: $(srcdir)/.gitignore
-
-all-am: gitignore
-
-DISTCLEANFILES += .gitignore

@@ -17,18 +17,12 @@ stamp-test-unit: Makefile test-unit$(EXEEXT)
 	  $(NM) $(top_builddir)/cogl/.libs/"$$dlname"| \
 	  grep '[DR] _\?unit_test_'|sed 's/.\+ [DR] _\?//' > unit-tests
 	@chmod +x $(top_srcdir)/tests/test-launcher.sh
-	@( echo "/stamp-test-unit" ; \
-	   echo "/test-unit$(EXEEXT)" ; \
-	   echo "*.o" ; \
-	   echo ".gitignore" ; \
-	   echo "unit-tests" ; ) > .gitignore
 	@for i in `cat unit-tests`; \
 	do \
 		unit=`echo $$i | sed -e s/_/-/g | sed s/unit-test-//`; \
 		echo "  GEN    $$unit"; \
 		( echo "#!/bin/sh" ; echo "$(top_srcdir)/tests/test-launcher.sh $(abs_builddir)/test-unit$(EXEEXT) 'unit_test_' '$$i' \"\$$@\"" ) > $$unit$(SHEXT) ; \
 		chmod +x $$unit$(SHEXT); \
-		echo "/$$unit$(SHEXT)" >> .gitignore; \
 	done \
 	&& echo timestamp > $(@F)
 
@@ -75,8 +69,6 @@ test_unit_LDFLAGS = -export-dynamic
 TEST_PROGS = test-unit
 
 .PHONY: test
-
-DISTCLEANFILES = .gitignore
 
 # we override the clean-generic target to clean up the wrappers so
 # we cannot use CLEANFILES

@@ -88,18 +88,12 @@ stamp-test-conformance: Makefile $(srcdir)/test-conform-main.c
 	@mkdir -p wrappers
 	@sed -n -e 's/^ \{1,\}ADD_TEST *( *\([a-zA-Z0-9_]\{1,\}\).*/\1/p' $(srcdir)/test-conform-main.c > unit-tests
 	@chmod +x $(top_srcdir)/tests/test-launcher.sh
-	@( echo "/stamp-test-conformance" ; \
-	   echo "/test-conformance$(EXEEXT)" ; \
-	   echo "*.o" ; \
-	   echo ".gitignore" ; \
-	   echo "unit-tests" ; ) > .gitignore
 	@for i in `cat unit-tests`; \
 	do \
 		unit=`basename $$i | sed -e s/_/-/g`; \
 		echo "  GEN    $$unit"; \
 		( echo "#!/bin/sh" ; echo "$(top_srcdir)/tests/test-launcher.sh $(abs_builddir)/test-conformance$(EXEEXT) '' '$$i' \"\$$@\"" ) > $$unit$(SHEXT) ; \
 		chmod +x $$unit$(SHEXT); \
-		echo "/$$unit$(SHEXT)" >> .gitignore; \
 	done \
 	&& echo timestamp > $(@F)
 
@@ -147,8 +141,6 @@ test_conformance_LDFLAGS = -export-dynamic
 TEST_PROGS = test-conformance
 
 .PHONY: test
-
-DISTCLEANFILES = .gitignore
 
 # we override the clean-generic target to clean up the wrappers so
 # we cannot use CLEANFILES
