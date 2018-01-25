@@ -26,8 +26,6 @@ AM_CPPFLAGS = \
 default_la_CFLAGS   = -fPIC
 default_la_SOURCES  = default.c \
 		      ukui_plugin.h \
-		      ukui_plugin_generated.c \
-		      ukui_plugin_generated.h \
 		      $(NULL)
 
 default_la_LDFLAGS  = -module -avoid-version -no-undefined
@@ -35,6 +33,8 @@ default_la_LIBADD   = $(CLUTTER_LIBS)
 
 DESC_XML = org.ukui.ukwm.UkwmPlugin.xml
 GENERATED_CH = ukui_plugin_generated
+
+default.c: ukui_plugin_generated.h
 
 ukui_plugin_generated.c ukui_plugin_generated.h: $(DESC_XML) Makefile
 	gdbus-codegen --interface org.ukui.ukwm --generate-c-code $(GENERATED_CH) $(DESC_XML)
