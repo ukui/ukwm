@@ -31,6 +31,8 @@
  * Authors:
  *   Damien Lespiau <damien.lespiau@intel.com>
  *   Robert Bragg <robert@linux.intel.com>
+ * Modified by:
+ *   Liu Yi <liuyi@kylinos.cn>
  */
 
 #if !defined(__COGL_H_INSIDE__) && !defined(COGL_COMPILATION)

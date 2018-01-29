@@ -30,6 +30,8 @@
  *
  * Authors:
  *   Robert Bragg <robert@linux.intel.com>
+ * Modified by:
+ *   Liu Yi <liuyi@kylinos.cn>
  */
 
 #ifndef __COGL_FRAMEBUFFER_H

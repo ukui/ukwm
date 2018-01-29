@@ -30,6 +30,8 @@
  * Authors:
  *  Tomeu Vizoso <tomeu.vizoso@collabora.com>
  *  Robert Bragg <robert@linux.intel.com>
+ * Modified by:
+ *   Liu Yi <liuyi@kylinos.cn>
  *
  */
 

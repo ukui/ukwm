@@ -22,6 +22,8 @@
  * Authors:
  *  Matthew Allum
  *  Robert Bragg
+ * Modified by:
+ * Liu Yi <liuyi@kylinos.cn>
  */
 
 #ifndef __CLUTTER_BACKEND_EGL_NATIVE_H__

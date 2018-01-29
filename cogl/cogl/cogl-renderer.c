@@ -28,6 +28,8 @@
  *
  * Authors:
  *   Robert Bragg <robert@linux.intel.com>
+ * Modified by:
+ *   Liu Yi <liuyi@kylinos.cn>
  */
 
 #ifdef HAVE_CONFIG_H
