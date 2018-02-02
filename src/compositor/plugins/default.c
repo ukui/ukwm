@@ -69,10 +69,6 @@ MetaDisplay * global_display;
 GList * global_tab_list = NULL;
 alt_tab_item ati_list[ATP_COUNT];
 
-#ifdef SHARED_MEMORY
-  atp_shm_area * shared_ati;
-#endif
-
 #define ACTOR_DATA_KEY "MCCP-Default-actor-data"
 #define SCREEN_TILE_PREVIEW_DATA_KEY "MCCP-Default-screen-tile-preview-data"
 
@@ -84,7 +80,7 @@ alt_tab_item ati_list[ATP_COUNT];
 #define META_DEFAULT_PLUGIN_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj),  META_TYPE_DEFAULT_PLUGIN, MetaDefaultPluginClass))
 
 #define META_DEFAULT_PLUGIN_GET_PRIVATE(obj) \
-(G_TYPE_INSTANCE_GET_PRIVATE ((obj), META_TYPE_DEFAULT_PLUGIN, MetaDefaultPluginPrivate))
+  (G_TYPE_INSTANCE_GET_PRIVATE ((obj), META_TYPE_DEFAULT_PLUGIN, MetaDefaultPluginPrivate))
 
 typedef struct _MetaDefaultPlugin        MetaDefaultPlugin;
 typedef struct _MetaDefaultPluginClass   MetaDefaultPluginClass;
@@ -93,7 +89,7 @@ typedef struct _MetaDefaultPluginPrivate MetaDefaultPluginPrivate;
 static int uid;
 static char pid_file[PATH_MAX_LEN] = {0};
 static char tab_list_image_file[PATH_MAX_LEN] = {0};
-static char workspace_image_file[PATH_MAX_LEN] = {0};
+//static char workspace_image_file[PATH_MAX_LEN] = {0};
 
 struct _MetaDefaultPlugin
 {
@@ -200,9 +196,9 @@ meta_default_plugin_finalize (GObject *object)
 
 static void
 meta_default_plugin_set_property (GObject      *object,
-			    guint         prop_id,
-			    const GValue *value,
-			    GParamSpec   *pspec)
+                                  guint         prop_id,
+                                  const GValue *value,
+                                  GParamSpec   *pspec)
 {
   switch (prop_id)
     {
@@ -214,9 +210,9 @@ meta_default_plugin_set_property (GObject      *object,
 
 static void
 meta_default_plugin_get_property (GObject    *object,
-			    guint       prop_id,
-			    GValue     *value,
-			    GParamSpec *pspec)
+                                  guint       prop_id,
+                                  GValue     *value,
+                                  GParamSpec *pspec)
 {
   switch (prop_id)
     {
@@ -403,13 +399,12 @@ on_monitors_changed (MetaScreen *screen,
 }
 
 static gboolean ukwm_plugin_get_alt_tab_list(MetaPlugin *object,
-                                          GDBusMethodInvocation *invocation)
+                                             GDBusMethodInvocation *invocation)
 {
   int count = 0;
 
   MetaScreen * screen;
   MetaDisplay * display;
-  MetaWindow * window;
   MetaTabList type = META_TAB_LIST_NORMAL;
 
   GList * l = NULL;
@@ -419,7 +414,6 @@ static gboolean ukwm_plugin_get_alt_tab_list(MetaPlugin *object,
 
   screen = meta_plugin_get_screen(global_plugin);
   display = meta_screen_get_display(screen);
-  window = meta_display_get_focus_window(screen);
 
   if (global_tab_list != NULL)
     g_list_free(global_tab_list);
@@ -430,189 +424,71 @@ static gboolean ukwm_plugin_get_alt_tab_list(MetaPlugin *object,
   int offset_x = 0;
   int offset_y = 0;
 
-  Display *xdisplay = NULL;
-  MetaBackend *backend = meta_get_backend ();
-  if (META_IS_BACKEND_X11 (backend))
-  {
-    xdisplay = meta_backend_x11_get_xdisplay (META_BACKEND_X11 (backend));
-    if (xdisplay == NULL)
-      printf("In function get_alt_tab_list, xdisplay is NULL ...\n");
-  }
-  else
-    printf("Could not get x11 backend ...\n");
-
-  while (l != NULL && xdisplay != NULL)
-  {
-
-    MetaWindow * win = l->data;
-    XWindowAttributes xwa;
-    Window xwindow = win->xwindow;
-    int xscreen = DefaultScreen(xdisplay);
-
-    XGetWindowAttributes(xdisplay, xwindow, &xwa);
-
-    cairo_surface_t * thumbnail_cairo = NULL;
-    thumbnail_cairo = cairo_xlib_surface_create(xdisplay,
-                                          xwindow,
-                                          DefaultVisual(xdisplay, xscreen),
-                                          xwa.width,
-                                          xwa.height);
-
-    GdkPixbuf * thumbnail = gdk_pixbuf_get_from_surface(thumbnail_cairo, 0, 0,
-                                          xwa.width,
-                                          xwa.height);
-
-    int icon_width = cairo_image_surface_get_width(win->icon);
-    int icon_height = cairo_image_surface_get_height(win->icon);
-
-    GdkPixbuf * icon = gdk_pixbuf_get_from_surface(win->icon, 0, 0,
-                                          icon_width,
-                                          icon_height);
-
-    GdkPixbuf * preview = gdk_pixbuf_new(GDK_COLORSPACE_RGB, true, 8,
-                                          PREVIEW_WIDTH, PREVIEW_HEIGHT);
-    memset(gdk_pixbuf_get_pixels(preview), 0x0, gdk_pixbuf_get_byte_length(preview));
-
-    int dest_x = 0;
-    int dest_y = 0;
-    int dest_width = PREVIEW_WIDTH;
-    int dest_height = PREVIEW_HEIGHT;
-    double scale_x = 1;
-    double scale_y = 1;
-
-    /* Deal with the image
-     * Default in center **/
-
-    if ((xwa.width <= THUMBNAIL_WIDTH) && (xwa.height <= THUMBNAIL_HEIGHT))
+  while (l != NULL)
     {
-      scale_x = 1;
-      scale_y = 1;
-      dest_width = xwa.width;
-      dest_height = xwa.height;
+      if (count >= ATP_COUNT)
+        break;
+
+      MetaWindow * win = l->data;
+
+      int icon_width = cairo_image_surface_get_width(win->icon);
+      int icon_height = cairo_image_surface_get_height(win->icon);
+
+      ati_list[count].title_name = win->title;
+      ati_list[count].xid = (unsigned long)win->xwindow;
+      ati_list[count].width = icon_width;
+      ati_list[count].height = icon_height;
+      ati_list[count].x = offset_x;
+      ati_list[count].y = offset_y;
+      ati_list[count].icon = (void *)gdk_pixbuf_get_from_surface(win->icon, 0, 0,
+                                                                 icon_width,
+                                                                 icon_height);
+      offset_x += ati_list[count].width;
+
+      GVariant * _item = g_variant_new("(siiiii)",
+                                       ati_list[count].title_name,
+                                       ati_list[count].xid,
+                                       ati_list[count].width,
+                                       ati_list[count].height,
+                                       ati_list[count].x,
+                                       ati_list[count].y);
+
+      g_variant_builder_add(_builder, "v", _item);
+      l = l->next;
+      count += 1;
     }
-    else if ((xwa.width * 100 / xwa.height) > (THUMBNAIL_WIDTH * 100 / THUMBNAIL_HEIGHT))
-    {
-      scale_x = (double)THUMBNAIL_WIDTH / xwa.width;
-      scale_y = scale_x;
-      dest_width = THUMBNAIL_WIDTH;
-      dest_height = (int)(xwa.height * scale_y);
-    }
-    else
-    {
-      scale_y = (double)THUMBNAIL_HEIGHT / xwa.height;
-      scale_x = scale_y;
-      dest_width = (int)(xwa.width * scale_y);
-      dest_height = THUMBNAIL_HEIGHT;
-    }
-    dest_x = (THUMBNAIL_WIDTH - dest_width) / 2;
-    dest_y = (THUMBNAIL_HEIGHT - dest_height) / 2;
-
-    GdkPixbuf * fixed_thumbnail = gdk_pixbuf_scale_simple(thumbnail,
-                                          dest_width,
-                                          dest_height,
-                                          GDK_INTERP_BILINEAR);
-    gdk_pixbuf_copy_area(fixed_thumbnail, 0, 0, dest_width, dest_height,
-                                          preview, dest_x, dest_y);
-
-    if ((icon_width <= ICON_WIDTH) && (icon_height <= ICON_HEIGHT))
-    {
-      scale_x = 1;
-      scale_y = 1;
-      dest_width = icon_width;
-      dest_height = icon_height;
-    }
-    else if ((icon_width * 100 / icon_height) > (ICON_WIDTH * 100 / ICON_HEIGHT))
-    {
-      scale_x = (double)ICON_WIDTH / icon_width;
-      scale_y = scale_x;
-      dest_width = ICON_WIDTH;
-      dest_height = (int)(icon_height * scale_y);
-    }
-    else
-    {
-      scale_y = (double)ICON_HEIGHT / icon_height;
-      scale_x = scale_y;
-      dest_width = (int)(icon_width * scale_y);
-      dest_height = ICON_HEIGHT;
-    }
-    dest_x = (ICON_WIDTH - dest_width) / 2;
-    dest_y = (ICON_HEIGHT - dest_height) / 2;
-
-    GdkPixbuf * fixed_icon = gdk_pixbuf_scale_simple(icon,
-		                          dest_width,
-					  dest_height,
-					  GDK_INTERP_BILINEAR);
-    dest_x = PREVIEW_WIDTH - ICON_WIDTH;
-    dest_y = PREVIEW_HEIGHT - ICON_HEIGHT;
-    dest_width = ICON_WIDTH;
-    dest_height = ICON_HEIGHT;
-    scale_x = 1;
-    scale_y = 1;
-    gdk_pixbuf_composite(fixed_icon, preview, dest_x, dest_y,
-		                          dest_width, dest_height,
-					  dest_x, dest_y,
-					  scale_x, scale_y,
-					  GDK_INTERP_BILINEAR, 255);
-
-    ati_list[count].title_name = win->title;
-    ati_list[count].width = gdk_pixbuf_get_width(preview);
-    ati_list[count].height = gdk_pixbuf_get_height(preview);
-    ati_list[count].x = offset_x;
-    ati_list[count].y = offset_y;
-    ati_list[count].priv = (void *)preview;
-    offset_x += ati_list[count].width;
-
-    GVariant * _item = g_variant_new("(siiii)", ati_list[count].title_name,
-		                          ati_list[count].width,
-                                          ati_list[count].height,
-                                          ati_list[count].x,
-                                          ati_list[count].y);
-
-    g_variant_builder_add(_builder, "v", _item);
-    l = l->next;
-    count += 1;
-    gdk_pixbuf_unref(icon);
-    gdk_pixbuf_unref(fixed_icon);
-    gdk_pixbuf_unref(thumbnail);
-    gdk_pixbuf_unref(fixed_thumbnail);
-    cairo_surface_destroy(thumbnail_cairo);
-
-  }
   gva = g_variant_builder_end(_builder);
   g_variant_builder_unref(_builder);
-  
+
   int i = 0;
   int max_width = 0;
   int max_height = 0;
   for (i = 0; i < count; i++)
-  {
-    if (ati_list[i].x + ati_list[i].width > max_width)
-      max_width = ati_list[i].x + ati_list[i].width;
-    if (ati_list[i].y + ati_list[i].height > max_height)
-      max_height = ati_list[i].y + ati_list[i].height;
-  }
-  
-  GdkPixbuf * alt_tab_list_pixbuf = gdk_pixbuf_new(GDK_COLORSPACE_RGB, true, 8,
-                                          max_width, max_height);
-  for (i = 0; i < count; i++)
-  {
-    gdk_pixbuf_copy_area((GdkPixbuf *)ati_list[i].priv, 0, 0,
-                                          ati_list[i].width, ati_list[i].height,
-                                          alt_tab_list_pixbuf, ati_list[i].x, ati_list[i].y);
-    gdk_pixbuf_unref((GdkPixbuf *)ati_list[i].priv);
-  }
-  
-  gdk_pixbuf_save(alt_tab_list_pixbuf, tab_list_image_file,
-        	                          "png", NULL, NULL);
-  chmod(tab_list_image_file, 0660);
-  
-  #ifdef SHARED_MEMORY
-//    printf("Shared ATI len = %d\n", shared_ati->len);
-    gdk_pixbuf_save_to_buffer(alt_tab_list_pixbuf, &shared_ati->buffer, &shared_ati->len,
-		                          "png", NULL, NULL);
-  #endif
+    {
+      if (ati_list[i].x + ati_list[i].width > max_width)
+        max_width = ati_list[i].x + ati_list[i].width;
+      if (ati_list[i].y + ati_list[i].height > max_height)
+        max_height = ati_list[i].y + ati_list[i].height;
+    }
 
-  gdk_pixbuf_unref(alt_tab_list_pixbuf);
+  GdkPixbuf * alt_tab_list_pixbuf = gdk_pixbuf_new(GDK_COLORSPACE_RGB, true, 8,
+                                                   max_width, max_height);
+  memset(gdk_pixbuf_get_pixels(alt_tab_list_pixbuf), 0, max_width * max_height * 4);
+  for (i = 0; i < count; i++)
+    {
+      gdk_pixbuf_copy_area((GdkPixbuf *)ati_list[i].icon,
+                           0, 0,
+                           ati_list[i].width, ati_list[i].height,
+                           alt_tab_list_pixbuf,
+                           ati_list[i].x, ati_list[i].y);
+      g_object_unref((GdkPixbuf *)ati_list[i].icon);
+    }
+
+  gdk_pixbuf_save(alt_tab_list_pixbuf, tab_list_image_file,
+                  "png", NULL, NULL);
+  chmod(tab_list_image_file, 0660);
+
+  g_object_unref(alt_tab_list_pixbuf);
 
   ukwm_plugin_complete_get_alt_tab_list(object, invocation, count, gva);
 
@@ -620,46 +496,46 @@ static gboolean ukwm_plugin_get_alt_tab_list(MetaPlugin *object,
 }
 
 static gboolean ukwm_plugin_activate_window_by_tab_list_index(MetaPlugin *object,
-                                          GDBusMethodInvocation *invocation,
-                                          int index)
+                                                              GDBusMethodInvocation *invocation,
+                                                              int index)
 {
   MetaScreen * screen;
   MetaDisplay * display;
   MetaWindow * window;
   MetaTabList type = META_TAB_LIST_NORMAL;
-  
+
   screen = meta_plugin_get_screen(global_plugin);
   display = meta_screen_get_display(screen);
-  
+
   if (global_tab_list == NULL)
-  {
-          ukwm_plugin_complete_activate_window_by_tab_list_index(object, invocation);
-          return true;
-  }
+    {
+      ukwm_plugin_complete_activate_window_by_tab_list_index(object, invocation);
+      return true;
+    }
   index = index % g_list_length(global_tab_list);
   window = g_list_nth_data (global_tab_list, index);
 
   GList * now_tab_list = meta_display_get_tab_list (display, type, NULL);
   GList * window_exist = g_list_find(now_tab_list, window);
   if (window_exist == NULL)
-  {
-          ukwm_plugin_complete_activate_window_by_tab_list_index(object, invocation);
-          return true;
-  }
+    {
+      ukwm_plugin_complete_activate_window_by_tab_list_index(object, invocation);
+      return true;
+    }
 
   struct timeval tv1, tv2;
-//  struct sysinfo info;
+  //  struct sysinfo info;
   guint32 timestamp = 0;
 
-/*
+  /*
   if (sysinfo(&info))
   {
-    fprintf(stderr, "Failed to get sysinfo, errno:%u, reason:%s\n",
-                                          errno, strerror(errno));
-                                          timestamp = 0;
-  } 
+        fprintf(stderr, "Failed to get sysinfo, errno:%u, reason:%s\n",
+                                                                                  errno, strerror(errno));
+                                                                                  timestamp = 0;
+  }
   else
-    timestamp = info.uptime * 1000;
+        timestamp = info.uptime * 1000;
 */
 
   if (window)
@@ -672,10 +548,10 @@ static gboolean ukwm_plugin_activate_window_by_tab_list_index(MetaPlugin *object
   ukwm_plugin_complete_activate_window_by_tab_list_index(object, invocation);
   return true;
 }
-		 
+
 static void bus_acquired_cb(GDBusConnection *connection,
-                                          const gchar *bus_name,
-                                          gpointer user_data)
+                            const gchar *bus_name,
+                            gpointer user_data)
 {
   GError *pError = NULL;
 
@@ -684,9 +560,9 @@ static void bus_acquired_cb(GDBusConnection *connection,
 
   /** Third step: Attach to dbus signals. */
   g_signal_connect(pSkeleton, "handle-get-alt-tab-list",
-                          G_CALLBACK(ukwm_plugin_get_alt_tab_list), NULL);
+                   G_CALLBACK(ukwm_plugin_get_alt_tab_list), NULL);
   g_signal_connect(pSkeleton, "handle-activate-window-by-tab-list-index",
-                          G_CALLBACK(ukwm_plugin_activate_window_by_tab_list_index), NULL);
+                   G_CALLBACK(ukwm_plugin_activate_window_by_tab_list_index), NULL);
 
   /** Fourth step: Export interface skeleton. */
   (void) g_dbus_interface_skeleton_export(G_DBUS_INTERFACE_SKELETON(pSkeleton),
@@ -694,32 +570,32 @@ static void bus_acquired_cb(GDBusConnection *connection,
                                           UKUI_PLUGIN_OBJECT_PATH,
                                           &pError);
   if(pError != NULL)
-  {
-    g_print("Error: Failed to export object. Reason: %s.\n", pError->message);
-    g_error_free(pError);
-  }
+    {
+      g_print("Error: Failed to export object. Reason: %s.\n", pError->message);
+      g_error_free(pError);
+    }
 
 }
 
 static void name_acquired_cb(GDBusConnection *connection,
-                                          const gchar *bus_name,
-                                          gpointer user_data)
+                             const gchar *bus_name,
+                             gpointer user_data)
 {
   g_print("name_acquired_cb call, Acquired bus name: %s.\n", UKUI_PLUGIN_BUS_NAME);
 }
 
 static void name_lost_cb(GDBusConnection *connection,
-                                          const gchar *bus_name,
-                                          gpointer user_data)
+                         const gchar *bus_name,
+                         gpointer user_data)
 {
   if(connection == NULL)
-  {
-    g_print("name_lost_cb call, Error: Failed to connect to dbus.\n");
-  }
+    {
+      g_print("name_lost_cb call, Error: Failed to connect to dbus.\n");
+    }
   else
-  {
-    g_print("name_lost_cb call, Error: Failed to obtain bus name: %s.\n", UKUI_PLUGIN_BUS_NAME);
-  }
+    {
+      g_print("name_lost_cb call, Error: Failed to obtain bus name: %s.\n", UKUI_PLUGIN_BUS_NAME);
+    }
 }
 
 bool InitUkwmPluginDBusCommServer(void)
@@ -730,13 +606,13 @@ bool InitUkwmPluginDBusCommServer(void)
 
   /** first step: connect to dbus */
   (void)g_bus_own_name(UKUI_PLUGIN_BUS,
-                   UKUI_PLUGIN_BUS_NAME,
-                   G_BUS_NAME_OWNER_FLAGS_REPLACE|G_BUS_NAME_OWNER_FLAGS_ALLOW_REPLACEMENT,
-                   &bus_acquired_cb,
-                   &name_acquired_cb,
-                   &name_lost_cb,
-                   NULL,
-                   NULL);
+                       UKUI_PLUGIN_BUS_NAME,
+                       G_BUS_NAME_OWNER_FLAGS_REPLACE|G_BUS_NAME_OWNER_FLAGS_ALLOW_REPLACEMENT,
+                       &bus_acquired_cb,
+                       &name_acquired_cb,
+                       &name_lost_cb,
+                       NULL,
+                       NULL);
   return bRet;
 }
 
@@ -746,79 +622,54 @@ void ukui_window_switch_monitor(void)
 
   int lock_ret = -1;
   int pid_file_fd = open(pid_file, O_CREAT | O_TRUNC | O_RDWR, 0666);
-  if (pid_file_fd < 0) 
-  {
-    fprintf(stderr, "Can not open pid file[%s], %s\n",
-                                          pid_file, strerror(pid_file_fd));
-    return ;
-  }
-
-  while (1)
-  {
-    sleep(2);
-
-    int pid_file_fd = open(pid_file, O_CREAT | O_TRUNC | O_RDWR, 0666);
-    if (pid_file_fd < 0) 
+  if (pid_file_fd < 0)
     {
       fprintf(stderr, "Can not open pid file[%s], %s\n",
-                                          pid_file, strerror(pid_file_fd));
-      break;
+              pid_file, strerror(pid_file_fd));
+      return ;
     }
-    else
+
+  while (1)
     {
-      int flags = fcntl(pid_file_fd, F_GETFD);
-      fcntl(pid_file_fd, F_SETFD, flags | FD_CLOEXEC );
-      lock_ret = flock(pid_file_fd, LOCK_EX | LOCK_NB);
-      if (lock_ret == 0)
-      {
-        printf("ukui-window-switch is not running...\n");
-        flock(pid_file_fd, LOCK_UN);
-        pid_t kws_pid;
-	kws_pid = fork();
-	if (kws_pid == 0)
-	{
-	  char bin_file[PATH_MAX_LEN] = {0};
-	  snprintf(bin_file, PATH_MAX_LEN, "/usr/bin/%s", PROGRAM_NAME);
-	  if (access(bin_file, F_OK | R_OK | X_OK) == 0)
-          {
-	    int err;
-	    err = execlp(PROGRAM_NAME, PROGRAM_NAME, NULL);
-	    fprintf(stderr, "Can not exec %s: %s\n",
-			                  PROGRAM_NAME, strerror(err));
-	  }
-	  exit(0);
-	}
-      }
-      close(pid_file_fd);
+      sleep(2);
+
+      int pid_file_fd = open(pid_file, O_CREAT | O_TRUNC | O_RDWR, 0666);
+      if (pid_file_fd < 0)
+        {
+          fprintf(stderr, "Can not open pid file[%s], %s\n",
+                  pid_file, strerror(pid_file_fd));
+          break;
+        }
+      else
+        {
+          int flags = fcntl(pid_file_fd, F_GETFD);
+          fcntl(pid_file_fd, F_SETFD, flags | FD_CLOEXEC );
+          lock_ret = flock(pid_file_fd, LOCK_EX | LOCK_NB);
+          if (lock_ret == 0)
+            {
+              printf("ukui-window-switch is not running...\n");
+              flock(pid_file_fd, LOCK_UN);
+              pid_t kws_pid;
+              kws_pid = fork();
+              if (kws_pid == 0)
+                {
+                  char bin_file[PATH_MAX_LEN] = {0};
+                  snprintf(bin_file, PATH_MAX_LEN, "/usr/bin/%s", PROGRAM_NAME);
+                  if (access(bin_file, F_OK | R_OK | X_OK) == 0)
+                    {
+                      int err;
+                      err = execlp(PROGRAM_NAME, PROGRAM_NAME, NULL);
+                      fprintf(stderr, "Can not exec %s: %s\n",
+                              PROGRAM_NAME, strerror(err));
+                    }
+                  exit(0);
+                }
+            }
+          close(pid_file_fd);
+        }
     }
-  }		
 }
 
-
-#ifdef SHARED_MEMORY
-void CreateSHM(){
-  int shmid = 0;
-  void *shm = NULL;
-
-  shmid = shmget(ATP_SHM_KEY, ATP_SHM_SIZE, IPC_CREAT | 0644);
-  if(shmid == -1)
-  {
-    printf("shmget failed\n");
-    return ;
-  }
-
-  shm = shmat(shmid, NULL, 0);
-  if(shm == (void*)-1)
-  {
-    printf("shmat failed\n");
-  }
-
-  shared_ati = (atp_shm_area *)shm;
-  memset(shared_ati, 0x0, ATP_SHM_SIZE);
-  printf("Shared ATI is : %p\n", shared_ati);
-}
-#endif
-	
 static void
 start (MetaPlugin *plugin)
 {
@@ -838,23 +689,18 @@ start (MetaPlugin *plugin)
   uid = getuid();
   snprintf(pid_file, PATH_MAX_LEN, "/run/user/%d/%s.pid", uid, PROGRAM_NAME);
   snprintf(tab_list_image_file, PATH_MAX_LEN, "/run/user/%d/%s",
-	                                  uid, TAB_LIST_IMAGE_FILE);
+           uid, TAB_LIST_IMAGE_FILE);
 
   global_plugin = plugin;
   InitUkwmPluginDBusCommServer();
-  
+
   int err;
   pthread_t monitor_thread;
 
   err = pthread_create(&monitor_thread, NULL, ukui_window_switch_monitor, NULL);
   if (err != 0)
     fprintf(stderr, "Can't create ukui-window-switch monitor: %s\n",
-                                          strerror(err));
-
-#ifdef SHARED_MEMORY
-  CreateSHM();
-#endif
-										
+            strerror(err));
 }
 
 static void
@@ -1146,9 +992,9 @@ free_screen_tile_preview (gpointer data)
   ScreenTilePreview *preview = data;
 
   if (G_LIKELY (preview != NULL)) {
-    clutter_actor_destroy (preview->actor);
-    g_slice_free (ScreenTilePreview, preview);
-  }
+      clutter_actor_destroy (preview->actor);
+      g_slice_free (ScreenTilePreview, preview);
+    }
 }
 
 static ScreenTilePreview *
