@@ -26,6 +26,7 @@ AM_CPPFLAGS = \
 default_la_CFLAGS   = -fPIC
 default_la_SOURCES  = default.c \
 		      ukui_plugin.h \
+			  ukui_plugin_generated.c \
 		      $(NULL)
 
 default_la_LDFLAGS  = -module -avoid-version -no-undefined

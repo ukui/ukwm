@@ -2,7 +2,7 @@ AC_PREREQ(2.62)
 
 m4_define([ukwm_major_version], [1])
 m4_define([ukwm_minor_version], [1])
-m4_define([ukwm_micro_version], [0])
+m4_define([ukwm_micro_version], [4])
 
 m4_define([ukwm_version],
           [ukwm_major_version.ukwm_minor_version.ukwm_micro_version])
