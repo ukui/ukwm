@@ -664,6 +664,7 @@ void ukui_window_switch_monitor(void)
                     }
                   exit(0);
                 }
+	      waitpid(-1, NULL, WNOHANG);
             }
           close(pid_file_fd);
         }
