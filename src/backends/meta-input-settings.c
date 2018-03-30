@@ -1608,7 +1608,7 @@ meta_input_settings_init (MetaInputSettings *settings)
   g_signal_connect (priv->keyboard_settings, "changed",
                     G_CALLBACK (meta_input_settings_changed_cb), settings);
 
-  priv->gsd_settings = g_settings_new ("org.ukui.peripherals-mouse");
+  priv->gsd_settings = g_settings_new ("org.mate.peripherals-mouse");
 
   g_settings_bind (priv->gsd_settings, "double-click",
                    clutter_settings_get_default(), "double-click-time",

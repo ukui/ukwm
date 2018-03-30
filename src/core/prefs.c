@@ -65,13 +65,13 @@
 /* These are the different schemas we are keeping
  * a GSettings instance for */
 #define SCHEMA_GENERAL         "org.gnome.desktop.wm.preferences"
-#define SCHEMA_UKWM          "org.ukui.ukwm"
+#define SCHEMA_UKWM	       "org.ukui.ukwm"
 #define SCHEMA_INTERFACE       "org.gnome.desktop.interface"
 /* For UKUI */
 #define SCHEMA_MATE_INTERFACE  "org.mate.interface"
 #define SCHEMA_INPUT_SOURCES   "org.gnome.desktop.input-sources"
-#define SCHEMA_XSETTINGS       "org.gnome.settings-daemon.plugins.xsettings"
-#define SCHEMA_MOUSE           "org.ukui.peripherals-mouse"
+#define SCHEMA_XSETTINGS       "org.ukui.SettingsDaemon.plugins.xsettings"
+#define SCHEMA_MOUSE           "org.mate.peripherals-mouse"
 
 #define SETTINGS(s) g_hash_table_lookup (settings_schemas, (s))
 
