@@ -12,7 +12,7 @@ m4_define([ukwm_plugin_api_version], [3])
 m4_define([libukwm_api_version], [1])
 
 AC_INIT([ukwm], [ukwm_version],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=ukwm])
+        [https://github.com/ukui/ukwm/issues])
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([build-aux])
