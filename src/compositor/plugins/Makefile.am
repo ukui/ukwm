@@ -38,7 +38,7 @@ GENERATED_CH = ukui_plugin_generated
 default.c: ukui_plugin_generated.h
 
 ukui_plugin_generated.c ukui_plugin_generated.h: $(DESC_XML) Makefile
-	gdbus-codegen --interface org.ukui.ukwm --generate-c-code $(GENERATED_CH) $(DESC_XML)
+	gdbus-codegen --interface-prefix org.ukui.ukwm --generate-c-code $(GENERATED_CH) $(DESC_XML)
 
 default_includedir=$(includedir)/ukwm/compositor/plugins/
 default_include_HEADERS = ukui_plugin.h
