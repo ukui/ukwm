@@ -28,6 +28,7 @@
 #include "meta-plugin-manager.h"
 
 #include <glib.h>
+#include <X11/extensions/Xrandr.h>
 
 static gboolean
 print_version (const gchar    *option_name,
@@ -63,6 +64,51 @@ GOptionEntry ukwm_options[] = {
   { NULL }
 };
 
+/* This is used for detect whether there is monitor connected.
+ * if no monitor connected, and User autologin was set,
+ * Ukwm won't work
+ */
+
+static int
+detect_monitor_connect(void)
+{
+  int event_base, error_base;
+  int major, minor;
+  Display      *dpy;
+  Window       root;
+  int   screen = -1;
+
+  dpy = XOpenDisplay (NULL);
+  if(!dpy)
+    exit(1);
+  screen = DefaultScreen (dpy);
+  if (screen >= ScreenCount (dpy))
+    exit(1);
+  root = RootWindow (dpy, screen);
+
+  if (!XRRQueryExtension (dpy, &event_base, &error_base) ||
+        !XRRQueryVersion (dpy, &major, &minor))
+    {
+      g_print("RandR extension missing\n");
+      exit(1);
+    }
+
+  if(major > 1|| (major == 1 && minor >= 5))
+    {
+      XRRMonitorInfo *m;
+      int             n;
+      m = XRRGetMonitors(dpy, root, 1, &n);
+      XCloseDisplay(dpy);
+      return n;
+    }
+  else
+    {
+      g_print("RandR extension version is lower than 1.5\n");
+      exit(1);
+    }
+}
+
+
 int
 main (int argc, char **argv)
 {
@@ -77,6 +123,17 @@ main (int argc, char **argv)
       exit (1);
     }
   g_option_context_free (ctx);
+
+/*
+ * Wait until monitor is connected
+ */
+
+  while(1)
+    {
+      if(detect_monitor_connect())
+        break;
+      sleep(5);
+    }
 
   if (plugin)
     meta_plugin_manager_load (plugin);
