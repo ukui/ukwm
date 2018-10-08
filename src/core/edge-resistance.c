@@ -25,6 +25,7 @@
 #include "boxes-private.h"
 #include "display-private.h"
 #include "workspace-private.h"
+#include "frame.h"
 
 /* A simple macro for whether a given window's edges are potentially
  * relevant for resistance/snapping during a move/resize operation
@@ -684,6 +685,21 @@ apply_edge_resistance_to_each_side (MetaDisplay         *display,
                                               timeout_func,
                                               FALSE,
                                               keyboard_op);
+
+          /* Keep the headbar above the panel */
+          int n_monitors;
+          n_monitors = meta_screen_get_n_monitors(window->screen);
+          if (n_monitors == 1)
+          {
+            MetaFrameBorders borders;
+            meta_frame_calc_borders (window->frame, &borders);
+            MetaRectangle work_area;
+            meta_window_get_work_area_current_monitor (window, &work_area);
+            if (new_top > work_area.height - borders.visible.top)
+              new_top = work_area.height - borders.visible.top;
+          }
+          /* End */
+
           new_bottom = apply_edge_resistance (window,
                                               BOX_BOTTOM (*old_outer),
                                               BOX_BOTTOM (*new_outer),
