@@ -221,7 +221,7 @@ handle_start_element (GMarkupParseContext  *context,
             g_set_error_literal (error,
                                  META_MONITOR_CONFIG_STORE_ERROR,
                                  META_MONITOR_CONFIG_STORE_ERROR_NEEDS_MIGRATION,
-                                 "monitors.xml has the old format");
+                                 "ukwm-monitors.xml has the old format");
             return;
           }
 
@@ -1489,7 +1489,7 @@ meta_monitor_config_store_constructed (GObject *object)
   GError *error = NULL;
 
   user_file_path = g_build_filename (g_get_user_config_dir (),
-                                     "monitors.xml",
+                                     "ukwm-monitors.xml",
                                      NULL);
   config_store->user_file = g_file_new_for_path (user_file_path);
 

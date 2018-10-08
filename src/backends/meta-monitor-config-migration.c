@@ -1160,7 +1160,7 @@ meta_migrate_old_user_monitors_config (MetaMonitorConfigStore *config_store,
   g_autoptr (GFile) user_file = NULL;
 
   user_file_path = g_build_filename (g_get_user_config_dir (),
-                                     "monitors.xml",
+                                     "ukwm-monitors.xml",
                                      NULL);
   user_file = g_file_new_for_path (user_file_path);
   backup_path = g_build_filename (g_get_user_config_dir (),
@@ -1173,7 +1173,7 @@ meta_migrate_old_user_monitors_config (MetaMonitorConfigStore *config_store,
                     NULL, NULL, NULL,
                     error))
     {
-      g_warning ("Failed to make a backup of monitors.xml: %s",
+      g_warning ("Failed to make a backup of ukwm-monitors.xml: %s",
                  (*error)->message);
       g_clear_error (error);
     }

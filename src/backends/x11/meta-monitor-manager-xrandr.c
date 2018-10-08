@@ -1502,6 +1502,8 @@ meta_monitor_manager_xrandr_apply_monitors_config (MetaMonitorManager      *mana
                                                    MetaMonitorsConfigMethod method,
                                                    GError                 **error)
 {
+/* Since xrandr applied by desktop,ukwm should not apply xrandr config
+ 
   GPtrArray *crtc_infos;
   GPtrArray *output_infos;
 
@@ -1517,7 +1519,7 @@ meta_monitor_manager_xrandr_apply_monitors_config (MetaMonitorManager      *mana
     return FALSE;
 
   if (method != META_MONITORS_CONFIG_METHOD_VERIFY)
-    {
+    {*/
       /*
        * If the assignment has not changed, we won't get any notification about
        * any new configuration from the X server; but we still need to update
@@ -1526,7 +1528,7 @@ meta_monitor_manager_xrandr_apply_monitors_config (MetaMonitorManager      *mana
        * must check that our new assignment actually changes anything, otherwise
        * just update the logical state.
        */
-      if (is_assignments_changed (manager,
+/*      if (is_assignments_changed (manager,
                                   (MetaCrtcInfo **) crtc_infos->pdata,
                                   crtc_infos->len,
                                   (MetaOutputInfo **) output_infos->pdata,
@@ -1546,7 +1548,7 @@ meta_monitor_manager_xrandr_apply_monitors_config (MetaMonitorManager      *mana
     }
 
   g_ptr_array_free (crtc_infos, TRUE);
-  g_ptr_array_free (output_infos, TRUE);
+  g_ptr_array_free (output_infos, TRUE);*/
 
   return TRUE;
 }
