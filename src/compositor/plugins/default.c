@@ -237,12 +237,12 @@ meta_default_plugin_class_init (MetaDefaultPluginClass *klass)
   plugin_class->map              = map;
   plugin_class->minimize         = minimize;
   plugin_class->destroy          = destroy;
-  plugin_class->switch_workspace = switch_workspace;
+  plugin_class->switch_workspace = NULL;
   plugin_class->show_tile_preview = show_tile_preview;
   plugin_class->hide_tile_preview = hide_tile_preview;
   plugin_class->plugin_info      = plugin_info;
   plugin_class->kill_window_effects   = kill_window_effects;
-  plugin_class->kill_switch_workspace = kill_switch_workspace;
+  plugin_class->kill_switch_workspace = NULL;
   plugin_class->confirm_display_change = confirm_display_change;
 
   g_type_class_add_private (gobject_class, sizeof (MetaDefaultPluginPrivate));
