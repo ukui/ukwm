@@ -394,11 +394,6 @@ fi
 
 AM_CONDITIONAL(HAVE_SM, test "$found_sm" = "yes")
 
-AC_PATH_PROG(ZENITY, zenity, no)
-if test x"$ZENITY" = xno; then
-  AC_MSG_ERROR([zenity not found in your path - needed for dialogs])
-fi
-
 AC_ARG_ENABLE(debug,
 	[  --enable-debug		enable debugging],,
 	enable_debug=no)
