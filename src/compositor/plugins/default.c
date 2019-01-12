@@ -1011,8 +1011,8 @@ get_screen_tile_preview (MetaScreen *screen)
       preview = g_slice_new0 (ScreenTilePreview);
 
       preview->actor = clutter_actor_new ();
-      clutter_actor_set_background_color (preview->actor, CLUTTER_COLOR_Blue);
-      clutter_actor_set_opacity (preview->actor, 100);
+      clutter_actor_set_background_color (preview->actor, CLUTTER_COLOR_White);
+      clutter_actor_set_opacity (preview->actor, 25);
 
       clutter_actor_add_child (meta_get_window_group_for_screen (screen), preview->actor);
       g_object_set_qdata_full (G_OBJECT (screen),
@@ -1024,6 +1024,42 @@ get_screen_tile_preview (MetaScreen *screen)
 }
 
 static void
+ukwm_draw_preview_border(ClutterCanvas *canvas,
+                         cairo_t       *cr,
+                         int           width,
+                         int           height)
+{
+  int i;
+
+  cairo_save(cr);
+  cairo_set_operator (cr, CAIRO_OPERATOR_CLEAR);
+  cairo_paint (cr);
+  cairo_restore (cr);
+  cairo_set_operator (cr, CAIRO_OPERATOR_OVER);
+  for (i = 0; i < 4; i++)
+  {
+    cairo_rectangle(cr, i, i, width-2*i, height-2*i);
+    cairo_set_line_width(cr, 1);
+    cairo_set_source_rgb(cr, 250-(i*10), 250-(i*10), 250-(i*10));
+    cairo_stroke(cr);
+  }
+
+  cairo_rectangle(cr, 4, 4, width-8, height-8);
+  cairo_set_line_width(cr, 2);
+  cairo_set_source_rgb(cr, 0, 0, 0);
+  cairo_stroke(cr);
+
+  for(i = 0; i < 2; i++)
+  {
+    cairo_rectangle(cr, 6+i, 6+i, width-12-2*i, height-12-2*i);
+    cairo_set_line_width(cr, 1);
+    cairo_set_source_rgb(cr, 240+(i*10), 240+(i*10), 240+(i*10));
+    cairo_stroke(cr);
+  }
+
+}
+
+static void
 show_tile_preview (MetaPlugin    *plugin,
                    MetaWindow    *window,
                    MetaRectangle *tile_rect,
@@ -1032,6 +1068,7 @@ show_tile_preview (MetaPlugin    *plugin,
   MetaScreen *screen = meta_plugin_get_screen (plugin);
   ScreenTilePreview *preview = get_screen_tile_preview (screen);
   ClutterActor *window_actor;
+  ClutterContent *canvas;
 
   if (clutter_actor_is_visible (preview->actor)
       && preview->tile_rect.x == tile_rect->x
@@ -1042,6 +1079,15 @@ show_tile_preview (MetaPlugin    *plugin,
 
   clutter_actor_set_position (preview->actor, tile_rect->x, tile_rect->y);
   clutter_actor_set_size (preview->actor, tile_rect->width, tile_rect->height);
+  canvas = clutter_canvas_new();
+  clutter_canvas_set_size (CLUTTER_CANVAS (canvas), tile_rect->width, tile_rect->height);
+  clutter_actor_set_content (preview->actor, canvas);
+  clutter_actor_set_content_scaling_filters (preview->actor,
+                                             CLUTTER_SCALING_FILTER_LINEAR,
+                                             CLUTTER_SCALING_FILTER_LINEAR);
+  g_object_unref (canvas);
+  g_signal_connect (canvas, "draw", G_CALLBACK (ukwm_draw_preview_border), NULL);
+  clutter_content_invalidate (canvas);
 
   clutter_actor_show (preview->actor);
 

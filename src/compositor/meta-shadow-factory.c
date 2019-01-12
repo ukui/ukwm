@@ -123,12 +123,12 @@ static guint signals[LAST_SIGNAL] = { 0 };
 /* The first element in this array also defines the default parameters
  * for newly created classes */
 MetaShadowClassInfo default_shadow_classes[] = {
-  { "normal",       { 10, -1, 0, 2, 64 }, { 8, -1, 0, 2, 32 } },
-  { "dialog",       { 10, -1, 0, 2, 64 }, { 8, -1, 0, 2, 32 } },
-  { "modal_dialog", { 10, -1, 0, 2, 64 }, { 8, -1, 0, 2, 32 } },
-  { "utility",      { 10, -1, 0, 2, 64 }, { 8, -1, 0, 2, 32 } },
-  { "border",       { 10, -1, 0, 2, 64 }, { 8, -1, 0, 2, 32 } },
-  { "menu",         { 10, -1, 0, 2, 64 }, { 8, -1, 0, 2, 32 } },
+  { "normal",       { 5, -1, 0, 2, 64 }, { 5, -1, 0, 2, 32 } },
+  { "dialog",       { 5, -1, 0, 2, 64 }, { 5, -1, 0, 2, 32 } },
+  { "modal_dialog", { 5, -1, 0, 2, 64 }, { 5, -1, 0, 2, 32 } },
+  { "utility",      { 5, -1, 0, 2, 64 }, { 5, -1, 0, 2, 32 } },
+  { "border",       { 5, -1, 0, 2, 64 }, { 5, -1, 0, 2, 32 } },
+  { "menu",         { 5, -1, 0, 2, 64 }, { 5, -1, 0, 2, 32 } },
 
   { "popup-menu",    { 1, -1, 0, 0, 64 }, { 1, -1, 0, 0, 32 } },
   { "dropdown-menu", { 1, -1, 0, 0, 64 }, { 1, -1, 0, 0, 32 } },
