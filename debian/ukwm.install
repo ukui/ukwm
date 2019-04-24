@@ -1,0 +1,4 @@
+usr/bin
+usr/lib/ukwm/ukwm-restart-helper
+usr/lib/*/ukwm/plugins
+usr/share/applications

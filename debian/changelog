@@ -1,0 +1,42 @@
+ukwm (1.1.12-1) unstable; urgency=medium
+
+  * Drop build-dep zenity from control and configure.ac.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 07 Jan 2019 16:41:29 +0800
+
+ukwm (1.1.11-1) unstable; urgency=medium
+
+  * Modify shadow.
+  * Do not use animation when switch workspace.
+  * Bump standard-version to 4.3.0, compat version to 12.
+  * Update the vcs-browser to github.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 04 Jan 2019 17:17:53 +0800
+
+ukwm (1.1.10-2) unstable; urgency=medium
+
+  * Respect nocheck build profile for auto test override.
+    (Closes: #904889)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 16 Nov 2018 18:02:24 +0800
+
+ukwm (1.1.10-1) unstable; urgency=medium
+
+  * Fix the crash when system boot without monitor and user set
+    autologin.
+  * Don't apply xrandr config.
+  * Keep the headbar above the panel.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 23 Oct 2018 16:00:04 +0800
+
+ukwm (1.1.9-1) unstable; urgency=medium
+
+  * Fix the build error with glib 2.58. (Closes: #907964)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 19 Sep 2018 14:07:09 +0800
+
+ukwm (1.1.8-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #903951)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 17 Jul 2018 14:46:42 +0800

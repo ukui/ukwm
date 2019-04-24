@@ -1,0 +1,2682 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ukwm
+Upstream-Contact: Liu Yi <liuyi@kylinos.cn>
+Source: https://github.com/ukui/ukwm
+
+Files: po/tk.po
+Copyright:
+   Copyright (C) 2004 Free Software Foundation
+   Copyright (C) 2004 Kakilik Project <kakilik.sourceforge.net>
+License: GPL-2+
+
+Files: src/backends/meta-backend-private.h
+       src/backends/meta-cursor-renderer.c
+       src/backends/meta-cursor-renderer.h
+       src/backends/x11/meta-backend-x11.h
+       src/backends/x11/meta-input-settings-x11.c
+       src/backends/x11/meta-cursor-renderer-x11.c
+       src/backends/x11/meta-cursor-renderer-x11.h
+       src/backends/x11/meta-backend-x11.c
+       src/core/meta-accel-parse.h
+       src/meta/meta-backend.h
+       src/meta/meta-background-image.h
+       src/wayland/meta-wayland.h
+       src/wayland/meta-window-wayland.c
+       src/wayland/meta-window-wayland.h
+       src/wayland/meta-xwayland.h
+       src/backends/native/dbus-utils.c
+       src/backends/native/dbus-utils.h
+Copyright:
+   Copyright (C) 2014 Red Hat
+License: GPL-2+
+
+Files: src/backends/meta-backend.c
+       src/backends/meta-stage.c
+       src/core/meta-accel-parse.c
+       src/core/restart-helper.c
+       src/core/restart.c
+Copyright:
+   Copyright (C) 2014 Red Hat
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-barrier-private.h
+       src/backends/x11/meta-barrier-x11.c
+Copyright:
+   Copyright (C) 2014-2015 Red Hat
+License: GPL-2+
+
+Files: src/meta/meta-version.h.in
+Copyright:
+   Copyright (C) 2014 Rico Tzschichholz
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-cursor-tracker-private.h
+       src/backends/meta-cursor.c
+       src/backends/meta-cursor.h
+       src/backends/meta-idle-monitor-dbus.h
+       src/backends/meta-idle-monitor-private.h
+       src/compositor/meta-background.c
+       src/compositor/meta-cullable.c
+       src/compositor/meta-cullable.h
+       src/compositor/meta-surface-actor-wayland.c
+       src/compositor/meta-surface-actor-wayland.h
+       src/compositor/meta-surface-actor-x11.c
+       src/compositor/meta-surface-actor-x11.h
+       src/meta/meta-cursor-tracker.h
+       src/meta/meta-idle-monitor.h
+       src/wayland/meta-wayland-types.h
+       src/backends/native/meta-idle-monitor-native.c
+       src/backends/native/meta-idle-monitor-native.h
+       src/backends/native/meta-launcher.h
+       src/backends/native/meta-monitor-manager-kms.c
+       src/backends/x11/meta-idle-monitor-xsync.h
+Copyright:
+   Copyright 2013 Red Hat, Inc.
+License: GPL-2+
+
+Files: src/backends/meta-cursor-tracker.c
+       src/backends/meta-display-config-shared.h
+       src/backends/meta-idle-monitor-dbus.c
+       src/backends/meta-idle-monitor.c
+       src/backends/native/meta-launcher.c
+       src/backends/x11/meta-idle-monitor-xsync.c
+Copyright:
+   Copyright 2013 Red Hat, Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-dbus-session-watcher.c
+       src/backends/meta-remote-desktop-session.h
+       src/backends/meta-remote-desktop.h
+       src/backends/meta-screen-cast-session.h
+       src/backends/meta-screen-cast-stream-src.h
+       src/backends/meta-screen-cast.h
+Copyright:
+   Copyright (C) 2015-2017 Red Hat Inc.
+License: GPL-2+
+
+Files: src/backends/meta-remote-desktop-session.c
+       src/backends/meta-remote-desktop.c
+       src/backends/meta-screen-cast-session.c
+       src/backends/meta-screen-cast-stream-src.c
+       src/backends/meta-screen-cast.c
+Copyright:
+   Copyright (C) 2015-2017 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-dbus-session-watcher.h
+       src/backends/meta-monitor-config-migration.h
+       src/backends/meta-monitor-config-store.c
+       src/backends/meta-monitor-config-store.h
+       src/backends/meta-orientation-manager.c
+       src/backends/meta-orientation-manager.h
+       src/backends/meta-screen-cast-monitor-stream-src.h
+       src/backends/meta-screen-cast-monitor-stream.c
+       src/backends/meta-screen-cast-monitor-stream.h
+       src/backends/meta-screen-cast-stream.h
+       src/backends/meta-settings-private.h
+       src/core/meta-fraction.h
+       src/core/meta-inhibit-shortcuts-dialog-default-private.h
+       src/core/meta-inhibit-shortcuts-dialog.c
+       src/meta/meta-inhibit-shortcuts-dialog.h
+       src/meta/meta-settings.h
+       src/tests/monitor-config-migration-unit-tests.c
+       src/tests/monitor-config-migration-unit-tests.h
+       src/tests/monitor-store-unit-tests.h
+       src/tests/monitor-test-utils.c
+       src/tests/monitor-test-utils.h
+       src/tests/test-utils.h
+       src/wayland/meta-wayland-inhibit-shortcuts-dialog.c
+       src/wayland/meta-wayland-inhibit-shortcuts-dialog.h
+       src/wayland/meta-wayland-inhibit-shortcuts.c
+       src/wayland/meta-wayland-inhibit-shortcuts.h
+       src/backends/x11/cm/meta-backend-x11-cm.c
+       src/backends/x11/cm/meta-backend-x11-cm.h
+       src/backends/x11/nested/meta-backend-x11-nested.c
+       src/backends/x11/nested/meta-backend-x11-nested.h
+Copyright:
+   Copyright (C) 2017 Red Hat Inc.
+License: GPL-2+
+
+Files: src/backends/meta-screen-cast-monitor-stream-src.c
+       src/backends/meta-screen-cast-stream.c
+       src/backends/meta-settings.c
+       src/tests/headless-start-test.c
+Copyright:
+   Copyright (C) 2017 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-dnd-private.h
+       src/compositor/meta-dnd.c
+       src/meta/meta-dnd.h
+Copyright:
+   Copyright (C) 2016 Hyungwon Hwang
+License: GPL-2+
+
+Files: src/backends/meta-egl.c
+       src/backends/meta-egl.h
+       src/backends/meta-logical-monitor.c
+       src/backends/meta-logical-monitor.h
+       src/backends/meta-monitor-config-manager.c
+       src/backends/meta-monitor-config-manager.h
+       src/backends/meta-monitor.c
+       src/backends/meta-monitor.h
+       src/backends/meta-renderer.c
+       src/core/main-private.h
+       src/core/meta-close-dialog-default-private.h
+       src/core/meta-close-dialog.c
+       src/meta/meta-close-dialog.h
+       src/tests/meta-backend-test.c
+       src/tests/meta-backend-test.h
+       src/tests/meta-monitor-manager-test.c
+       src/tests/meta-monitor-manager-test.h
+       src/tests/monitor-store-unit-tests.c
+       src/tests/monitor-unit-tests.c
+       src/tests/monitor-unit-tests.h
+       src/wayland/meta-wayland-egl-stream.c
+       src/wayland/meta-wayland-egl-stream.h
+       src/wayland/meta-wayland-gtk-shell.h
+       src/wayland/meta-wayland-input-device.c
+       src/wayland/meta-wayland-input-device.h
+       src/wayland/meta-wayland-surface-role-tablet-cursor.c
+       src/wayland/meta-wayland-surface-role-tablet-cursor.h
+       src/wayland/meta-wayland-tablet-pad-group.c
+       src/wayland/meta-wayland-tablet-pad-ring.c
+       src/wayland/meta-wayland-tablet-pad-strip.c
+       src/wayland/meta-wayland-tablet-pad.c
+       src/backends/native/gen-default-modes.py
+       src/backends/native/meta-clutter-backend-native.c
+       src/backends/native/meta-clutter-backend-native.h
+       src/backends/native/meta-renderer-native.h
+       src/backends/native/meta-stage-native.c
+       src/backends/x11/meta-clutter-backend-x11.h
+       src/backends/x11/meta-renderer-x11.h
+       src/backends/x11/cm/meta-renderer-x11-cm.c
+       src/backends/x11/cm/meta-renderer-x11-cm.h
+       src/backends/x11/nested/meta-renderer-x11-nested.c
+       src/backends/x11/nested/meta-renderer-x11-nested.h
+Copyright:
+   Copyright (C) 2016 Red Hat Inc.
+License: GPL-2+
+
+
+Files: src/wayland/meta-wayland-dma-buf.c
+       src/wayland/meta-wayland-dma-buf.c
+Copyright:
+   Copyright (C) 2016 Red Hat Inc.
+   Copyright (C) 2017 Intel Corporation
+License: GPL-2+
+
+Files: src/backends/meta-renderer.h
+       src/backends/native/meta-stage-native.h
+       src/backends/x11/meta-clutter-backend-x11.c
+       src/backends/x11/meta-renderer-x11.c
+       src/backends/x11/meta-stage-x11-nested.c
+       src/backends/x11/meta-stage-x11-nested.h
+Copyright:
+   Copyright (C) 2016 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-pointer-constraint.c
+       src/backends/meta-pointer-constraint.h
+       src/core/meta-border.c
+       src/core/meta-border.h
+       src/meta/meta-monitor-manager.h
+       src/wayland/meta-pointer-confinement-wayland.c
+       src/wayland/meta-pointer-confinement-wayland.h
+       src/wayland/meta-pointer-lock-wayland.c
+       src/wayland/meta-pointer-lock-wayland.h
+       src/wayland/meta-wayland-data-device-private.h
+       src/wayland/meta-wayland-pointer-constraints.c
+       src/wayland/meta-wayland-pointer-constraints.h
+       src/wayland/meta-wayland-pointer-gesture-pinch.c
+       src/wayland/meta-wayland-pointer-gesture-swipe.c
+       src/wayland/meta-wayland-pointer-gestures.c
+       src/wayland/meta-wayland-surface-role-cursor.c
+       src/wayland/meta-wayland-surface-role-cursor.h
+       src/wayland/meta-wayland-tablet-manager.c
+       src/wayland/meta-wayland-tablet-seat.c
+       src/wayland/meta-wayland-tablet-tool.c
+       src/wayland/meta-wayland-tablet.c
+       src/wayland/meta-wayland-xdg-foreign.c
+       src/wayland/meta-wayland-xdg-foreign.h
+       src/wayland/meta-xwayland-selection-private.h
+       src/backends/native/meta-backend-native-private.h
+       src/backends/native/meta-barrier-native.c
+       src/backends/native/meta-barrier-native.h
+       src/backends/x11/meta-barrier-x11.h
+       src/backends/x11/nested/meta-cursor-renderer-x11-nested.c
+       src/backends/x11/nested/meta-cursor-renderer-x11-nested.h
+Copyright:
+   Copyright (C) 2015 Red Hat
+License: GPL-2+
+
+Files: src/tests/unit-tests.c
+Copyright:
+   Copyright (C) 2015 Red Hat
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-input-settings-private.h
+       src/compositor/meta-background-image.c
+       src/compositor/meta-dnd-actor-private.h
+       src/compositor/meta-dnd-actor.c
+       src/compositor/meta-feedback-actor-private.h
+       src/compositor/meta-feedback-actor.c
+       src/core/meta-gesture-tracker-private.h
+       src/core/meta-gesture-tracker.c
+       src/tests/test-client.c
+       src/wayland/meta-wayland-buffer.c
+       src/wayland/meta-wayland-buffer.h
+       src/wayland/meta-wayland-outputs.c
+       src/wayland/meta-wayland-outputs.h
+       src/wayland/meta-wayland-region.c
+       src/wayland/meta-wayland-region.h
+       src/wayland/meta-wayland-touch.c
+       src/backends/native/meta-backend-native.h
+       src/backends/native/meta-cursor-renderer-native.h
+       src/backends/native/meta-input-settings-native.c
+       src/backends/native/meta-input-settings-native.h
+       src/backends/x11/meta-backend-x11.c
+       src/backends/x11/meta-backend-x11.h
+       src/backends/x11/meta-cursor-renderer-x11.c
+       src/backends/x11/meta-cursor-renderer-x11.h
+       src/backends/x11/meta-input-settings-x11.c
+       src/backends/x11/meta-input-settings-x11.h
+Copyright:
+   Copyright 2014 Red Hat Inc.
+License: GPL-2+
+
+Files: src/backends/meta-input-settings.c
+       src/tests/test-runner.c
+       src/tests/test-utils.c
+       src/backends/native/meta-cursor-renderer-native.c
+Copyright:
+   Copyright 2014 Red Hat Inc.
+   Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/native/meta-backend-native.c
+Copyright:
+   Copyright (C) 2014 Red Hat
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+   Copyright © 2006 Keith Packard
+   Copyright 2010 Red Hat, Inc
+License: GPL-2+
+
+Files: src/core/startup-notification-private.h
+Copyright:
+   Copyright (C) 2001, 2002 Havoc Pennington
+   Copyright (C) 2002, 2003 Red Hat Inc.
+   Copyright (C) 2001 Dominik Vogt, Matthias Clasen, and fvwm2 team
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+License: GPL-2+
+
+Files: src/core/screen.c
+       src/core/startup-notification.c
+Copyright:
+   Copyright (C) 2001, 2002 Havoc Pennington
+   Copyright (C) 2002, 2003 Red Hat Inc.
+   Copyright (C) 2001 Dominik Vogt, Matthias Clasen, and fvwm2 team
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-monitor-config-migration.c
+Copyright:
+    Copyright (C) 2001, 2002 Havoc Pennington
+    Copyright (C) 2002, 2003 Red Hat Inc.
+    Copyright (C) 2001 Dominik Vogt, Matthias Clasen, and fvwm2 team
+    Copyright (C) 2003 Rob Adams
+    Copyright (C) 2004-2006 Elijah Newren
+    Copyright (C) 2013, 2017 Red Hat Inc.
+    Copyright 2007, 2008, Red Hat, Inc.
+    Copyright 2010 Giovanni Campagna
+License: GPL-2+
+
+Files: src/backends/meta-monitor-manager-dummy.c
+       src/backends/meta-monitor-manager.c
+       src/backends/x11/meta-monitor-manager-xrandr.c
+Copyright:
+   Copyright (C) 2001, 2002 Havoc Pennington
+   Copyright (C) 2002, 2003 Red Hat Inc.
+   Copyright (C) 2001 Dominik Vogt, Matthias Clasen, and fvwm2 team
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2013 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-monitor-manager-dummy.h
+       src/backends/native/meta-monitor-manager-kms.h
+       src/backends/x11/meta-monitor-manager-xrandr.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2013 Red Hat Inc.
+License: GPL-2+
+
+Files: src/core/keybindings-private.h
+       src/meta/theme.h
+       src/ui/frames.h
+       src/ui/theme-private.h
+       src/ui/theme.c
+       src/x11/session.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+License: GPL-2+
+
+Files: src/ui/ui.c
+       src/x11/iconcache.c
+       src/x11/iconcache.h
+Copyright:
+   Copyright (C) 2002 Havoc Pennington
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/errors.c
+       src/core/frame.h
+       src/core/place.h
+       src/meta/errors.h
+       src/meta/main.h
+       src/ui/ui.h
+       src/x11/xprops.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/main.c
+       src/meta/prefs.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/prefs.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington, Copyright (C) 2002 Red Hat Inc.
+   Copyright (C) 2006 Elijah Newren
+   Copyright (C) 2008 Thomas Thurman
+   Copyright (C) 2010 Milan Bouchet-Valat, Copyright (C) 2011 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/atomnames.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002, 2003, 2004 Red Hat, Inc.
+   Copyright (C) 2003, 2004 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2008 Thomas Thurman
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/group-props.c
+       src/x11/group-props.h
+Copyright:
+   Copyright (C) 2002 Red Hat Inc.
+License: GPL-2+
+
+Files: src/x11/group.c
+Copyright:
+   Copyright (C) 2002 Red Hat Inc.
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/meta/group.h
+       src/x11/group-private.h
+Copyright:
+   Copyright (C) 2002 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/frame.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2003, 2004 Red Hat, Inc.
+   Copyright (C) 2005 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/stack.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2005 Elijah Newren
+License: GPL-2+
+
+Files: src/core/core.c
+       src/core/util-private.h
+       src/core/util.c
+       src/meta/common.h
+       src/meta/util.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2005 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/core.c
+       src/core/screen-private.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/window-x11.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002 Red Hat, Inc.
+   Copyright (C) 2003, 2004 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+License: GPL-2+
+
+Files: src/core/window-private.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002 Red Hat, Inc.
+   Copyright (C) 2003, 2004 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/display-private.h
+       src/core/keybindings.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002 Red Hat, Inc.
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/meta-inhibit-shortcuts-dialog-default.c
+Copyright:
+   Copyright (C) 2001, 2002 Havoc Pennington
+   Copyright (C) 2004 Elijah Newren
+   Copyright (C) 2017 Red Hat
+License: GPL-2+
+
+Files: src/core/delete.c
+Copyright:
+   Copyright (C) 2001, 2002 Havoc Pennington
+   Copyright (C) 2004 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/meta-close-dialog-default.c
+Copyright:
+   Copyright (C) 2001, 2002 Havoc Pennington
+   Copyright (C) 2004 Elijah Newren
+   Copyright (C) 2016 Red Hat
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/workspace-private.h
+       src/meta/workspace.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2004, 2005 Elijah Newren
+License: GPL-2+
+
+Files: src/x11/session.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2004, 2005 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/workspace.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004, 2005 Elijah Newren
+License: GPL-2+
+
+Files: src/ui/frames.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2003 Red Hat, Inc.
+   Copyright (C) 2005, 2006 Elijah Newren
+License: GPL-2+
+
+Files: src/core/stack.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002, 2003 Red Hat, Inc.
+   Copyright (C) 2004 Rob Adams
+   Copyright (C) 2004, 2005 Elijah Newren
+License: GPL-2+
+
+Files: src/core/events.c
+       src/core/events.h
+       src/x11/events.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002, 2003, 2004 Red Hat, Inc.
+   Copyright (C) 2003, 2004 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+License: GPL-2+
+
+Files: src/core/place.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002, 2003 Red Hat, Inc.
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2005 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/window-x11-private.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington, Anders Carlsson
+   Copyright (C) 2002, 2003 Red Hat, Inc.
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+License: GPL-2+
+
+Files: src/core/window.c
+       src/x11/window-x11.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington, Anders Carlsson
+   Copyright (C) 2002, 2003 Red Hat, Inc.
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/display.c
+       src/x11/events.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002, 2003, 2004 Red Hat, Inc.
+   Copyright (C) 2003, 2004 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/backends/meta-monitor-manager-private.h
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2003 Rob Adams
+   Copyright (C) 2004-2006 Elijah Newren
+   Copyright (C) 2013 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/window-props.c
+Copyright:
+   Copyright (C) 2001, 2002, 2003 Red Hat, Inc.
+   Copyright (C) 2004, 2005 Elijah Newren
+   Copyright (C) 2009 Thomas Thurman
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/window-props.h
+Copyright:
+   Copyright (C) 2001, 2002 Red Hat, Inc.
+License: GPL-2+
+
+Files: src/backends/meta-stage.h
+       src/wayland/meta-wayland-private.h
+       src/wayland/meta-wayland-seat.h
+Copyright:
+   Copyright (C) 2012 Intel Corporation
+License: GPL-2+
+
+Files: src/wayland/meta-wayland-seat.c
+       src/wayland/meta-wayland-surface.h
+       src/wayland/meta-xwayland-private.h
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+License: GPL-2+
+
+Files: src/wayland/meta-wayland-gtk-shell.c
+       src/wayland/meta-wayland-surface.c
+       src/wayland/meta-wayland-versions.h
+Copyright:
+   Copyright (C) 2012,2013 Intel Corporation
+License: GPL-2+
+
+Files: src/wayland/meta-wayland-wl-shell.h
+       src/wayland/meta-wayland-xdg-shell.h
+Copyright:
+   Copyright (C) 2013-2015 Red Hat Inc.
+License: GPL-2+
+
+Files: src/wayland/meta-wayland-wl-shell.c
+Copyright:
+   Copyright (C) 2012,2013 Intel Corporation
+   Copyright (C) 2013-2015 Red Hat Inc.
+License: GPL-2+
+
+Files: src/wayland/meta-wayland-xdg-shell.c
+Copyright:
+   Copyright (C) 2012-2013 Intel Corporation
+   Copyright (C) 2013-2015 Red Hat Inc.
+License: GPL-2+
+
+Files: src/wayland/meta-wayland.c
+Copyright:
+   Copyright (C) 2012,2013 Intel Corporation
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/wayland/meta-xwayland.c
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/ukwm.c
+Copyright:
+   Copyright 2011 Red Hat, Inc.
+   Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/compositor/clutter-utils.h
+       src/compositor/cogl-utils.h
+       src/compositor/meta-shadow-factory.c
+       src/compositor/meta-window-shape.c
+       src/compositor/region-utils.c
+       src/compositor/region-utils.h
+       src/meta/meta-background-actor.h
+       src/meta/meta-background.h
+       src/meta/meta-shadow-factory.h
+       src/meta/meta-window-shape.h
+Copyright:
+   Copyright 2010 Red Hat, Inc.
+License: GPL-2+
+
+Files: src/compositor/clutter-utils.c
+Copyright:
+   Copyright 2010 Red Hat, Inc.
+   Copyright 2010 Intel Corporation
+License: GPL-2+
+
+Files: src/compositor/cogl-utils.c
+Copyright:
+   Copyright 2010 Red Hat, Inc.
+   Copyright 2010 Intel Corporation
+   Copyright 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/compositor/meta-background-actor.c
+Copyright:
+   Copyright 2009 Sander Dijkhuis
+   Copyright 2014 Red Hat, Inc.
+License: GPL-2+
+
+Files: src/compositor/meta-module.c
+       src/compositor/meta-module.h
+       src/compositor/meta-plugin-manager.h
+       src/compositor/meta-plugin.c
+       src/compositor/meta-shaped-texture-private.h
+       src/meta/meta-shaped-texture.h
+       src/compositor/plugins/default.c
+Copyright:
+   Copyright (c) 2008 Intel Corp.
+License: GPL-2+
+
+Files: src/compositor/meta-shaped-texture.c
+Copyright:
+   Copyright (C) 2008 Intel Corporation
+   Copyright (C) 2012 Red Hat, Inc.
+License: GPL-2+
+
+Files: src/compositor/meta-plugin-manager.c
+       src/meta/meta-plugin.h
+Copyright:
+   Copyright (c) 2008 Intel Corp.
+   Copyright (c) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/compositor/meta-texture-rectangle.h
+Copyright:
+   Copyright (C) 2011 Intel Corporation
+License: GPL-2+
+
+Files: src/compositor/meta-texture-rectangle.c
+Copyright:
+   Copyright (C) 2011, 2012 Intel Corporation
+License: GPL-2+
+
+Files: clutter/build/autotools/tap-driver.sh
+Copyright:
+   Copyright (C) 2011-2013 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: src/compositor/meta-texture-tower.c
+       src/compositor/meta-texture-tower.h
+       src/core/stack-tracker.c
+       src/core/stack-tracker.h
+Copyright:
+   Copyright (C) 2009 Red Hat, Inc.
+License: GPL-2+
+
+Files: clutter/tests/conform/events-touch.c
+Copyright:
+  Copyright (C) 2009 Red Hat, Inc.
+  Copyright (C) 2012 Collabora Ltd.
+License: GPL-2+
+
+Files: src/meta/keybindings.h
+Copyright:
+   Copyright (C) 2009 Intel Corporation.
+License: GPL-2+
+
+Files: src/core/bell.c
+Copyright:
+   Copyright (C) 2002 Sun Microsystems Inc.
+   Copyright (C) 2005, 2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/edge-resistance.c
+Copyright:
+   Copyright (C) 2005, 2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/bell.h
+Copyright:
+   Copyright (C) 2002 Sun Microsystems Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/edge-resistance.h
+Copyright:
+   Copyright (C) 2005 Elijah Newren
+License: GPL-2+
+
+Files: src/core/boxes-private.h
+       src/meta/boxes.h
+Copyright:
+   Copyright (C) 2005, 2006 Elijah Newren
+License: GPL-2+
+
+Files: src/core/boxes.c
+Copyright:
+   Copyright (C) 2005, 2006 Elijah Newren
+   Copyright (C) 1995-2000  GTK+ Team
+   Copyright (C) 2002 Red Hat, Inc.
+License: GPL-2+
+
+Files: src/core/constraints.c
+Copyright:
+   Copyright (C) 2002, 2003 Red Hat, Inc.
+   Copyright (C) 2003, 2004 Rob Adams
+   Copyright (C) 2005, 2006 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/testboxes.c
+Copyright:
+   Copyright (C) 2005 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/core/constraints.h
+Copyright:
+   Copyright (C) 2002 Red Hat, Inc.
+   Copyright (C) 2005 Elijah Newren
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+
+Files: src/meta/meta-window-actor.h
+Copyright:
+   Copyright (C) 2008 Matthew Allum
+   Copyright (C) 2007 Iain Holmes
+License: GPL-2+
+
+Files: src/meta/compositor-ukwm.h
+Copyright:
+   Copyright (C) 2008 Matthew Allum
+   Copyright (C) 2007 Iain Holmes
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/meta/compositor.h
+       src/meta/screen.h
+       src/meta/types.h
+Copyright:
+   Copyright (C) 2008 Iain Holmes
+License: GPL-2+
+
+Files: src/meta/display.h
+       src/meta/window.h
+Copyright:
+   Copyright (C) 2008 Iain Holmes
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/x11/xprops.c
+Copyright:
+   Copyright (C) 2001 Havoc Pennington
+   Copyright (C) 2002 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+   Copyright 1987, 1988, 1998  The Open Group
+   Copyright 1988 by Wyse Technology, Inc., San Jose, Ca,
+   Copyright 1987 by Digital Equipment Corporation, Maynard, Massachusetts,
+License: GPL-2+
+
+Files: clutter/clutter/clutter-stage-view.c
+       clutter/clutter/clutter-virtual-input-device.c
+       clutter/clutter/clutter-virtual-input-device.h
+       src/wayland/meta-wayland-tablet-pad-group.h
+       src/wayland/meta-wayland-tablet-pad-ring.h
+       src/wayland/meta-wayland-tablet-pad-strip.h
+       src/wayland/meta-wayland-tablet-pad.h
+       clutter/clutter/evdev/clutter-virtual-input-device-evdev.c
+       clutter/clutter/evdev/clutter-virtual-input-device-evdev.h
+       clutter/clutter/x11/clutter-input-device-tool-xi2.c
+       clutter/clutter/x11/clutter-input-device-tool-xi2.h
+       clutter/clutter/x11/clutter-virtual-input-device-x11.c
+       clutter/clutter/x11/clutter-virtual-input-device-x11.h
+Copyright:
+   Copyright (C) 2016 Red Hat Inc.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-stage-view.h
+       clutter/clutter/clutter-ukwm.h
+       src/backends/meta-renderer-view.c
+       src/backends/meta-renderer-view.h
+Copyright:
+   Copyright (C) 2016 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-master-clock-default.h
+Copyright:
+   Copyright (C) 2015  Intel Corporation.
+License: LGPL-2+
+
+Files: src/wayland/meta-wayland-pointer-gesture-pinch.h
+       src/wayland/meta-wayland-pointer-gesture-swipe.h
+       src/wayland/meta-wayland-pointer-gestures.h
+       src/wayland/meta-wayland-tablet-manager.h
+       src/wayland/meta-wayland-tablet-seat.h
+       src/wayland/meta-wayland-tablet-tool.h
+       src/wayland/meta-wayland-tablet.h
+       clutter/clutter/evdev/clutter-event-evdev.c
+Copyright:
+   Copyright (C) 2015 Red Hat
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-autocleanups.h
+Copyright:
+   Copyright 2015  Emmanuele Bassi
+License: LGPL-2+
+
+Files: src/wayland/meta-wayland-touch.h
+Copyright:
+   Copyright (C) 2014 Red Hat
+License: LGPL-2+
+
+Files: src/wayland/meta-wayland-pointer.h
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+License: LGPL-2+
+
+Files: src/wayland/meta-wayland-popup.h
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+   Copyright (C) 2015 Red Hat, Inc.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-test-utils.h
+Copyright:
+   Copyright (C) 2013  Emmanuele Bassi <ebassi@gnome.org>
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-cairo.c
+       clutter/clutter/clutter-cairo.h
+       clutter/clutter/clutter-canvas.c
+       clutter/clutter/clutter-canvas.h
+       clutter/clutter/clutter-content.h
+       clutter/clutter/clutter-image.c
+       clutter/clutter/clutter-image.h
+       clutter/clutter/clutter-keyframe-transition.c
+       clutter/clutter/clutter-keyframe-transition.h
+       clutter/clutter/clutter-property-transition.c
+       clutter/clutter/clutter-property-transition.h
+       clutter/clutter/clutter-rotate-action.c
+       clutter/clutter/clutter-rotate-action.h
+       clutter/clutter/clutter-scroll-actor.c
+       clutter/clutter/clutter-scroll-actor.h
+       clutter/clutter/clutter-transition-group.c
+       clutter/clutter/clutter-transition-group.h
+       clutter/clutter/clutter-transition.c
+       clutter/clutter/clutter-transition.h
+       clutter/clutter/clutter-zoom-action.c
+       clutter/clutter/clutter-zoom-action.h
+       clutter/clutter/deprecated/clutter-timeline.h
+Copyright:
+   Copyright (C) 2012 Intel Corporation
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-gesture-action-private.h
+Copyright:
+   Copyright (C) 2012 Collabora Ltd..
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-macros.h
+       clutter/clutter/evdev/clutter-evdev.h
+Copyright:
+   Copyright (C) 2012 Intel Corporation
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-content-private.h
+       clutter/clutter/clutter-content.c
+       clutter/clutter/clutter-drop-action.c
+       clutter/clutter/clutter-drop-action.h
+       clutter/clutter/clutter-enums.h
+       clutter/clutter/clutter-flatten-effect.c
+       clutter/clutter/clutter-flatten-effect.h
+       clutter/clutter/clutter-paint-node-private.h
+       clutter/clutter/clutter-paint-node.c
+       clutter/clutter/clutter-paint-node.h
+       clutter/clutter/clutter-paint-nodes.c
+       clutter/clutter/clutter-paint-nodes.h
+       clutter/clutter/deprecated/clutter-container.h
+       clutter/clutter/deprecated/clutter-group.h
+       clutter/clutter/deprecated/clutter-main.h
+       clutter/clutter/wayland/clutter-wayland-compositor.h
+       clutter/clutter/wayland/clutter-wayland-surface.c
+       clutter/clutter/wayland/clutter-wayland-surface.h
+       clutter/clutter/x11/clutter-device-manager-xi2.h
+       clutter/clutter/x11/clutter-input-device-xi2.c
+       clutter/clutter/x11/clutter-input-device-xi2.h
+Copyright:
+   Copyright (C) 2011 Intel Corporation
+License: LGPL-2+
+
+Files: clutter/clutter/deprecated/clutter-stage.h
+Copyright:
+   Copyright (C) 2011 Intel Corp
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/x11/clutter-device-manager-xi2.c
+Copyright:
+   Copyright (C) 2011 Intel Corp
+   Copyright 1985, 1987, 1998  The Open Group
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-text-buffer.c
+       clutter/clutter/clutter-text-buffer.h
+Copyright:
+   Copyright (C) 2011 Collabora Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-action.c
+       clutter/clutter/clutter-action.h
+       clutter/clutter/clutter-actor-meta-private.h
+       clutter/clutter/clutter-actor-meta.c
+       clutter/clutter/clutter-actor-meta.h
+       clutter/clutter/clutter-actor-private.h
+       clutter/clutter/clutter-align-constraint.c
+       clutter/clutter/clutter-align-constraint.h
+       clutter/clutter/clutter-bind-constraint.c
+       clutter/clutter/clutter-bind-constraint.h
+       clutter/clutter/clutter-blur-effect.c
+       clutter/clutter/clutter-blur-effect.h
+       clutter/clutter/clutter-click-action.c
+       clutter/clutter/clutter-click-action.h
+       clutter/clutter/clutter-color-static.h
+       clutter/clutter/clutter-colorize-effect.c
+       clutter/clutter/clutter-colorize-effect.h
+       clutter/clutter/clutter-constraint-private.h
+       clutter/clutter/clutter-constraint.c
+       clutter/clutter/clutter-constraint.h
+       clutter/clutter/clutter-deform-effect.c
+       clutter/clutter/clutter-deform-effect.h
+       clutter/clutter/clutter-desaturate-effect.c
+       clutter/clutter/clutter-desaturate-effect.h
+       clutter/clutter/clutter-device-manager-private.h
+       clutter/clutter/clutter-drag-action.c
+       clutter/clutter/clutter-drag-action.h
+       clutter/clutter/clutter-effect.c
+       clutter/clutter/clutter-effect.h
+       clutter/clutter/clutter-offscreen-effect.c
+       clutter/clutter/clutter-offscreen-effect.h
+       clutter/clutter/clutter-page-turn-effect.c
+       clutter/clutter/clutter-page-turn-effect.h
+       clutter/clutter/clutter-paint-volume-private.h
+       clutter/clutter/clutter-paint-volume.c
+       clutter/clutter/clutter-path-constraint.c
+       clutter/clutter/clutter-path-constraint.h
+       clutter/clutter/clutter-shader-effect.c
+       clutter/clutter/clutter-shader-effect.h
+       clutter/clutter/clutter-snap-constraint.c
+       clutter/clutter/clutter-snap-constraint.h
+       clutter/clutter/clutter-stage-manager-private.h
+       clutter/clutter/clutter-stage-private.h
+       clutter/clutter/deprecated/clutter-animator.c
+       clutter/clutter/deprecated/clutter-animator.h
+       clutter/clutter/deprecated/clutter-table-layout.h
+       clutter/clutter/evdev/clutter-device-manager-evdev.h
+       clutter/clutter/evdev/clutter-xkb-utils.c
+       clutter/clutter/evdev/clutter-xkb-utils.h
+       clutter/clutter/x11/clutter-keymap-x11.c
+Copyright:
+   Copyright (C) 2010  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/cally/cally-clone.c
+       clutter/clutter/cally/cally-clone.h
+Copyright:
+   Copyright (C) 2010 Igalia, S.L.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-brightness-contrast-effect.c
+       clutter/clutter/clutter-brightness-contrast-effect.h
+Copyright:
+   Copyright (C) 2010-2012 Inclusive Design Research Centre, OCAD University.
+License: LGPL-2+
+
+Files: clutter/clutter/egl/clutter-backend-eglnative.c
+       clutter/clutter/x11/clutter-input-device-core-x11.c
+       clutter/clutter/x11/clutter-input-device-core-x11.h
+Copyright:
+   Copyright (C) 2010,2011  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/evdev/clutter-device-manager-evdev.c
+       clutter/clutter/evdev/clutter-input-device-evdev.c
+       clutter/clutter/evdev/clutter-input-device-evdev.h
+Copyright:
+   Copyright (C) 2010  Intel Corp.
+   Copyright (C) 2014  Jonas Ådahl
+License: LGPL-2+
+
+Files: clutter/clutter/evdev/clutter-seat-evdev.c
+       clutter/clutter/evdev/clutter-seat-evdev.h
+Copyright:
+   Copyright (C) 2010  Intel Corp.
+   Copyright (C) 2014  Jonas Ådahl
+   Copyright (C) 2016  Red Hat Inc.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-gesture-action.c
+Copyright:
+   Copyright (C) 2010  Intel Corporation.
+   Copyright (C) 2011  Robert Bosch Car Multimedia GmbH.
+   Copyright (C) 2012  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-gesture-action.h
+       clutter/clutter/clutter-swipe-action.c
+       clutter/clutter/clutter-swipe-action.h
+Copyright:
+   Copyright (C) 2010  Intel Corporation.
+   Copyright (C) 2011  Robert Bosch Car Multimedia GmbH.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-pan-action.c
+Copyright:
+   Copyright (C) 2010  Intel Corporation.
+   Copyright (C) 2011  Robert Bosch Car Multimedia GmbH.
+   Copyright (C) 2012, 2014  Collabora Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-pan-action.h
+       clutter/clutter/clutter-tap-action.c
+       clutter/clutter/clutter-tap-action.h
+Copyright:
+   Copyright (C) 2010  Intel Corporation.
+   Copyright (C) 2011  Robert Bosch Car Multimedia GmbH.
+   Copyright (C) 2012  Collabora Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-grid-layout.c
+       clutter/clutter/clutter-grid-layout.h
+Copyright:
+   Copyright (C) 2010 Red Hat, Inc.
+   Copyright (C) 2012 Bastian Winkler <buz@netbuz.org>
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-backend-private.h
+Copyright:
+   Copyright (C) 2010  Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-animatable.c
+       clutter/clutter/clutter-animatable.h
+       clutter/clutter/clutter-bin-layout.c
+       clutter/clutter/clutter-bin-layout.h
+       clutter/clutter/clutter-box-layout.c
+       clutter/clutter/clutter-box-layout.h
+       clutter/clutter/clutter-device-manager.c
+       clutter/clutter/clutter-device-manager.h
+       clutter/clutter/clutter-fixed-layout.c
+       clutter/clutter/clutter-fixed-layout.h
+       clutter/clutter/clutter-flow-layout.c
+       clutter/clutter/clutter-flow-layout.h
+       clutter/clutter/clutter-layout-manager.c
+       clutter/clutter/clutter-layout-manager.h
+       clutter/clutter/clutter-layout-meta.c
+       clutter/clutter/clutter-layout-meta.h
+       clutter/clutter/clutter-master-clock-default.c
+       clutter/clutter/clutter-master-clock.c
+       clutter/clutter/clutter-master-clock.h
+       clutter/clutter/deprecated/clutter-animatable.h
+       clutter/clutter/deprecated/clutter-bin-layout.h
+       clutter/clutter/deprecated/clutter-state.c
+       clutter/clutter/deprecated/clutter-state.h
+       clutter/clutter/deprecated/clutter-table-layout.c
+       clutter/clutter/deprecated/clutter-timeout-interval.c
+       clutter/clutter/deprecated/clutter-timeout-interval.h
+       clutter/clutter/x11/clutter-keymap-x11.h
+Copyright:
+   Copyright (C) 2009  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/deprecated/clutter-box.c
+       clutter/clutter/deprecated/clutter-box.h
+Copyright:
+   Copyright (C) 2009,2010  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/cally/cally-rectangle.c
+       clutter/clutter/cally/cally-rectangle.h
+       clutter/clutter/cally/cally-root.h
+       clutter/clutter/cally/cally-text.h
+       clutter/clutter/cally/cally-texture.c
+       clutter/clutter/cally/cally-texture.h
+       clutter/tests/accessibility/cally-atkcomponent-example.c
+       clutter/tests/accessibility/cally-atkeditabletext-example.c
+       clutter/tests/accessibility/cally-atkevents-example.c
+       clutter/tests/accessibility/cally-atktext-example.c
+       clutter/tests/accessibility/cally-clone-example.c
+       clutter/tests/accessibility/cally-examples-util.c
+       clutter/tests/accessibility/cally-examples-util.h
+Copyright:
+   Copyright (C) 2009 Igalia, S.L.
+License: LGPL-2+
+
+Files: clutter/clutter/cally/cally-text.c
+Copyright:
+   Copyright (C) 2009 Igalia, S.L.
+   Copyright 2001, 2002, 2003 Sun Microsystems Inc.
+   Copyright (c) 2010 Red Hat, Inc.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-input-device-tool.c
+       clutter/clutter/clutter-input-device-tool.h
+       clutter/clutter/clutter-input-device.c
+       clutter/clutter/clutter-input-device.h
+       clutter/clutter/deprecated/clutter-input-device.h
+       clutter/clutter/evdev/clutter-input-device-tool-evdev.c
+       clutter/clutter/evdev/clutter-input-device-tool-evdev.h
+       clutter/clutter/x11/clutter-device-manager-core-x11.c
+       clutter/clutter/x11/clutter-device-manager-core-x11.h
+Copyright:
+   Copyright © 2009, 2010, 2011  Intel Corp.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-binding-pool.c
+       clutter/clutter/clutter-binding-pool.h
+       clutter/clutter/clutter-clone.c
+       clutter/clutter/clutter-clone.h
+       clutter/clutter/clutter-interval.c
+       clutter/clutter/clutter-interval.h
+       clutter/clutter/clutter-path.c
+       clutter/clutter/clutter-path.h
+       clutter/clutter/clutter-text.c
+       clutter/clutter/clutter-text.h
+       clutter/clutter/deprecated/clutter-animation.c
+       clutter/clutter/deprecated/clutter-animation.h
+Copyright:
+   Copyright (C) 2008  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-child-meta.c
+       clutter/clutter/clutter-child-meta.h
+       clutter/clutter/clutter-id-pool.h
+       clutter/clutter/clutter-shader-types.c
+       clutter/clutter/clutter-shader-types.h
+       clutter/clutter/clutter-stage-manager.c
+       clutter/clutter/clutter-stage-manager.h
+       clutter/clutter/deprecated/clutter-frame-source.c
+       clutter/clutter/deprecated/clutter-frame-source.h
+       clutter/clutter/deprecated/clutter-stage-manager.h
+Copyright:
+   Copyright (C) 2008 OpenedHand
+License: LGPL-2+
+
+Files: clutter/clutter/cally/cally-root.c
+       clutter/clutter/cally/cally-stage.c
+       clutter/clutter/cally/cally-stage.h
+       clutter/clutter/cally/cally-util.h
+       clutter/clutter/cally/cally.c
+       clutter/clutter/cally/cally.h
+Copyright:
+   Copyright (C) 2008 Igalia, S.L.
+License: LGPL-2+
+
+Files: clutter/clutter/deprecated/clutter-cairo-texture.c
+Copyright:
+   Copyright (C) 2008, 2009, 2010, 2011  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/deprecated/clutter-cairo-texture.h
+Copyright:
+   Copyright (C) 2008, 2009, 2010  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/cally/cally-actor-private.h
+       clutter/clutter/cally/cally-actor.c
+       clutter/clutter/cally/cally-actor.h
+       clutter/clutter/cally/cally-factory.h
+       clutter/clutter/cally/cally-group.c
+       clutter/clutter/cally/cally-group.h
+       clutter/clutter/cally/cally-main.h
+       clutter/clutter/cally/cally-util.c
+Copyright:
+   Copyright (C) 2008 Igalia, S.L.
+   Copyright 2001, 2002, 2003 Sun Microsystems Inc.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-bezier.c
+       clutter/clutter/clutter-units.c
+       clutter/clutter/deprecated/clutter-behaviour-ellipse.h
+       clutter/clutter/deprecated/clutter-behaviour-rotate.c
+       clutter/clutter/deprecated/clutter-behaviour-rotate.h
+       clutter/clutter/deprecated/clutter-score.c
+       clutter/clutter/deprecated/clutter-shader.h
+       clutter/clutter/x11/clutter-x11-texture-pixmap.h
+Copyright:
+   Copyright (C) 2007 OpenedHand
+License: LGPL-2+
+
+Files: clutter/clutter/x11/clutter-x11-texture-pixmap.c
+Copyright:
+   Copyright (C) 2007 OpenedHand
+   Copyright (C) 2010 Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-units.h
+       clutter/clutter/deprecated/clutter-shader.c
+Copyright:
+   Copyright (C) 2007, 2008 OpenedHand
+   Copyright (C) 2009 Intel Corp.
+License: LGPL-2+
+
+Files: clutter/clutter/deprecated/clutter-behaviour-ellipse.c
+Copyright:
+   Copyright (C) 2007 OpenedHand
+   Copyright (C) 2009 Intel Corp.
+License: LGPL-2+
+
+Files: src/backends/edid.h
+Copyright:
+   Copyright (C) 2007, 2008, Red Hat, Inc.
+License: LGPL-2+
+
+Files: clutter/clutter/cogl/clutter-stage-cogl.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2010,2011  Intel Corporation.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-backend.h
+       clutter/clutter/clutter-base-types.c
+       clutter/clutter/clutter-color.c
+       clutter/clutter/clutter-container.c
+       clutter/clutter/clutter-container.h
+       clutter/clutter/clutter-event.c
+       clutter/clutter/clutter-feature.c
+       clutter/clutter/clutter-feature.h
+       clutter/clutter/clutter-group.h
+       clutter/clutter/clutter-main.h
+       clutter/clutter/clutter-private.h
+       clutter/clutter/clutter-script-private.h
+       clutter/clutter/clutter-script.c
+       clutter/clutter/clutter-script.h
+       clutter/clutter/clutter-scriptable.c
+       clutter/clutter/clutter-scriptable.h
+       clutter/clutter/clutter-texture.h
+       clutter/clutter/clutter-timeline.c
+       clutter/clutter/clutter-timeline.h
+       clutter/clutter/clutter-types.h
+       clutter/clutter/clutter-util.c
+       clutter/clutter/clutter-version.h
+       clutter/clutter/clutter-version.h.in
+       clutter/clutter/clutter.h
+       clutter/clutter/deprecated/clutter-behaviour-depth.c
+       clutter/clutter/deprecated/clutter-behaviour-depth.h
+       clutter/clutter/deprecated/clutter-behaviour-opacity.c
+       clutter/clutter/deprecated/clutter-behaviour-opacity.h
+       clutter/clutter/deprecated/clutter-behaviour-path.h
+       clutter/clutter/deprecated/clutter-behaviour-scale.c
+       clutter/clutter/deprecated/clutter-behaviour-scale.h
+       clutter/clutter/deprecated/clutter-behaviour.c
+       clutter/clutter/deprecated/clutter-behaviour.h
+       clutter/clutter/deprecated/clutter-group.c
+       clutter/clutter/deprecated/clutter-list-model.c
+       clutter/clutter/deprecated/clutter-list-model.h
+       clutter/clutter/deprecated/clutter-model-private.h
+       clutter/clutter/deprecated/clutter-model.c
+       clutter/clutter/deprecated/clutter-model.h
+       clutter/clutter/deprecated/clutter-rectangle.c
+       clutter/clutter/deprecated/clutter-rectangle.h
+       clutter/clutter/deprecated/clutter-score.h
+       clutter/clutter/deprecated/clutter-texture.c
+       clutter/clutter/deprecated/clutter-texture.h
+       clutter/clutter/deprecated/clutter-timeout-pool.c
+       clutter/clutter/deprecated/clutter-timeout-pool.h
+       clutter/clutter/deprecated/clutter-util.h
+       clutter/clutter/egl/clutter-egl.h
+       clutter/clutter/x11/clutter-x11.h
+Copyright:
+   Copyright (C) 2006 OpenedHand
+License: LGPL-2+
+
+Files: clutter/clutter/deprecated/clutter-media.c
+       clutter/clutter/deprecated/clutter-media.h
+Copyright:
+   Copyright (C) 2006 OpenedHand
+   Copyright (C) 2009 Intel Corp.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-event.h
+       clutter/clutter/clutter-main.c
+       clutter/clutter/clutter-stage.c
+       clutter/clutter/clutter-stage.h
+Copyright:
+   Copyright (C) 2006 OpenedHand
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-bezier.h
+Copyright:
+   Copyright (C) 2006, 2007 OpenedHand
+License: LGPL-2+
+
+Files: clutter/clutter/egl/clutter-egl-headers.h
+       clutter/clutter/x11/clutter-backend-x11.c
+Copyright:
+   Copyright (C) 2006-2007 OpenedHand
+License: LGPL-2+
+
+Files: clutter/clutter/x11/clutter-backend-x11.h
+       clutter/clutter/x11/clutter-stage-x11.c
+       clutter/clutter/x11/clutter-stage-x11.h
+Copyright:
+   Copyright (C) 2006-2007 OpenedHand
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: clutter/clutter/egl/clutter-backend-eglnative.h
+Copyright:
+   Copyright (C) 2006, 2007 OpenedHand
+   Copyright (C) 2010 Intel Corp
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-id-pool.c
+Copyright:
+   Copyright (C) 2006-2008 OpenedHand
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-actor.c
+Copyright:
+   Copyright (C) 2006, 2007, 2008 OpenedHand Ltd
+   Copyright (C) 2009, 2010, 2011, 2012 Intel Corp
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-color.h
+       clutter/clutter/clutter-script-parser.c
+       clutter/clutter/deprecated/clutter-alpha.h
+Copyright:
+   Copyright (C) 2006, 2007, 2008 OpenedHand
+   Copyright (C) 2009 Intel Corp.
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-keysyms.h
+       clutter/clutter/deprecated/clutter-actor.h
+       clutter/clutter/deprecated/clutter-alpha.c
+       clutter/clutter/deprecated/clutter-backend.h
+       clutter/clutter/deprecated/clutter-behaviour-path.c
+       clutter/clutter/deprecated/clutter-keysyms.h
+       clutter/clutter/x11/clutter-event-x11.c
+Copyright:
+   Copyright (C) 2006, 2007, 2008  OpenedHand Ltd
+   Copyright (C) 2009, 2010  Intel Corp
+License: LGPL-2+
+
+Files: clutter/clutter/clutter-backend.c
+Copyright:
+   Copyright (C) 2006, 2007, 2008 OpenedHand Ltd
+   Copyright (C) 2009, 2010 Intel Corp
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: LGPL-2+
+
+Files: src/core/meta-fraction.c
+Copyright:
+   Copyright (C) 1999,2000 Erik Walthinsen <omega@cse.ogi.edu>
+License: LGPL-2+
+
+Files: cogl/cogl/cogl-ukwm.h
+Copyright:
+   Copyright (C) 2016 Red Hat Inc.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-glx.h
+       cogl/cogl/deprecated/cogl-auto-texture.h
+       cogl/cogl/deprecated/cogl-framebuffer-deprecated.c
+       cogl/cogl/deprecated/cogl-framebuffer-deprecated.h
+Copyright:
+   Copyright (C) 2014 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-atlas-texture.h
+       cogl/cogl/cogl-i18n-private.h
+       cogl/cogl/cogl-pipeline-hash-table.c
+       cogl/cogl/cogl-pipeline-hash-table.h
+       cogl/cogl/cogl-poll-private.h
+Copyright:
+   Copyright (C) 2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/deprecated/cogl-type-casts.h
+Copyright:
+   Copyright (C) 2013 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-bitmap-packing.h
+       cogl/cogl/cogl-driver.h
+       cogl/cogl/cogl-error-private.h
+       cogl/cogl/cogl-error.h
+       cogl/cogl/cogl-glsl-shader-private.h
+       cogl/cogl/cogl-glsl-shader.c
+       cogl/cogl/cogl-gpu-info-private.h
+       cogl/cogl/cogl-gpu-info.c
+       cogl/cogl/cogl-macros.h
+       cogl/cogl/cogl-magazine.c
+       cogl/cogl/cogl-poll.c
+       cogl/cogl/cogl-poll.h
+       cogl/cogl/cogl-primitive-texture.c
+       cogl/cogl/cogl-texture-2d-gl.h
+       cogl/cogl/cogl-wayland-server.h
+       cogl/cogl/winsys/cogl-winsys-glx-private.h
+       cogl/cogl/driver/gl/cogl-attribute-gl-private.h
+       cogl/cogl/driver/gl/cogl-buffer-gl-private.h
+       cogl/cogl/driver/gl/cogl-clip-stack-gl-private.h
+       cogl/cogl/driver/gl/cogl-texture-2d-gl-private.h
+       cogl/cogl/driver/gl/cogl-texture-gl-private.h
+       cogl/cogl/driver/gl/cogl-texture-gl.c
+       cogl/cogl/driver/nop/cogl-attribute-nop-private.h
+       cogl/cogl/driver/nop/cogl-attribute-nop.c
+       cogl/cogl/driver/nop/cogl-clip-stack-nop-private.h
+       cogl/cogl/driver/nop/cogl-clip-stack-nop.c
+       cogl/cogl/driver/nop/cogl-driver-nop.c
+       cogl/cogl/driver/nop/cogl-framebuffer-nop-private.h
+       cogl/cogl/driver/nop/cogl-texture-2d-nop-private.h
+       cogl/cogl/driver/gl/gl/cogl-pipeline-progend-fixed-arbfp.c
+Copyright:
+   Copyright (C) 2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-fence-private.h
+       cogl/cogl/cogl-fence.c
+       cogl/cogl/cogl-fence.h
+Copyright:
+   Copyright (C) 2012 Collabora Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-frame-info-private.h
+       cogl/cogl/cogl-frame-info.c
+       cogl/cogl/cogl-frame-info.h
+       cogl/cogl/cogl-output-private.h
+       cogl/cogl/cogl-output.c
+       cogl/cogl/cogl-output.h
+       cogl/cogl/cogl-sampler-cache-private.h
+       cogl/cogl/cogl-sampler-cache.c
+Copyright:
+   Copyright (C) 2012 Red Hat, Inc.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-closure-list-private.h
+       cogl/cogl/cogl-closure-list.c
+       cogl/cogl/cogl-version.h
+       cogl/cogl/driver/gl/cogl-util-gl-private.h
+       cogl/cogl/driver/gl/cogl-util-gl.c
+Copyright:
+   Copyright (C) 2012,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-gl-header.h.in
+       cogl/cogl/cogl-primitive-texture.h
+Copyright:
+   Copyright (C) 2012 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/config-custom.h
+       cogl/cogl/cogl-blit.c
+       cogl/cogl/cogl-blit.h
+       cogl/cogl/cogl-boxed-value.c
+       cogl/cogl/cogl-boxed-value.h
+       cogl/cogl/cogl-config-private.h
+       cogl/cogl/cogl-config.c
+       cogl/cogl/cogl-depth-state-private.h
+       cogl/cogl/cogl-depth-state.c
+       cogl/cogl/cogl-depth-state.h
+       cogl/cogl/cogl-display-private.h
+       cogl/cogl/cogl-display.c
+       cogl/cogl/cogl-error.c
+       cogl/cogl/cogl-flags.h
+       cogl/cogl/cogl-glib-source.c
+       cogl/cogl/cogl-glib-source.h
+       cogl/cogl/cogl-glx-display-private.h
+       cogl/cogl/cogl-glx-renderer-private.h
+       cogl/cogl/cogl-magazine-private.h
+       cogl/cogl/cogl-memory-stack-private.h
+       cogl/cogl/cogl-memory-stack.c
+       cogl/cogl/cogl-meta-texture.c
+       cogl/cogl/cogl-onscreen-template-private.h
+       cogl/cogl/cogl-onscreen-template.c
+       cogl/cogl/cogl-pango.h
+       cogl/cogl/cogl-pipeline-cache.h
+       cogl/cogl/cogl-pipeline-layer-state-private.h
+       cogl/cogl/cogl-point-in-poly-private.h
+       cogl/cogl/cogl-renderer-private.h
+       cogl/cogl/cogl-snippet-private.h
+       cogl/cogl/cogl-snippet.c
+       cogl/cogl/cogl-swap-chain-private.h
+       cogl/cogl/cogl-swap-chain.c
+       cogl/cogl/cogl-swap-chain.h
+       cogl/cogl/cogl-texture-2d-sliced.h
+       cogl/cogl/cogl-texture-rectangle.h
+       cogl/cogl/cogl-x11-renderer-private.h
+       cogl/cogl/cogl-xlib-renderer-private.h
+       cogl/cogl/cogl-xlib-renderer.h
+       cogl/cogl/cogl-xlib.h
+       cogl/cogl-pango/cogl-pango-pipeline-cache.c
+       cogl/cogl-pango/cogl-pango-pipeline-cache.h
+       cogl/cogl/deprecated/cogl-clutter-xlib.h
+       cogl/cogl/deprecated/cogl-clutter.c
+       cogl/cogl/deprecated/cogl-clutter.h
+       cogl/cogl/winsys/cogl-winsys-egl-private.h
+       cogl/cogl/winsys/cogl-winsys-egl-x11-private.h
+       cogl/cogl/winsys/cogl-winsys-stub-private.h
+       cogl/cogl/winsys/cogl-winsys-stub.c
+       cogl/cogl/driver/gl/cogl-pipeline-progend-fixed-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-progend-fixed.c
+       cogl/cogl/driver/gl/gl/cogl-pipeline-progend-fixed-arbfp-private.h
+Copyright:
+   Copyright (C) 2011 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-framebuffer.h
+       cogl/cogl/cogl-meta-texture.h
+       cogl/cogl/cogl-renderer.c
+Copyright:
+   Copyright (C) 2011 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-onscreen-private.h
+       cogl/cogl/cogl-onscreen.c
+       cogl/cogl/cogl-pipeline-cache.c
+       cogl/cogl/cogl-pipeline-snippet-private.h
+       cogl/cogl/cogl-pipeline-snippet.c
+       cogl/cogl/cogl-snippet.h
+       cogl/cogl/cogl-texture-2d.h
+       cogl/cogl/winsys/cogl-winsys-egl-x11.c
+Copyright:
+   Copyright (C) 2011, 2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-onscreen.h
+Copyright:
+   Copyright (C) 2011,2012,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-gles2-context-private.h
+       cogl/cogl/cogl-gles2-context.c
+Copyright:
+   Copyright (C) 2011 Collabora Ltd.
+   Copyright (C) 2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-gles2.h
+Copyright:
+   Copyright (C) 2011 Collabora Ltd.
+   Copyright (C) 2012 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: src/backends/native/meta-renderer-native.c
+Copyright:
+   Copyright (C) 2011 Intel Corporation.
+   Copyright (C) 2016 Red Hat
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-attribute-buffer-private.h
+       cogl/cogl/cogl-attribute-buffer.c
+       cogl/cogl/cogl-attribute-buffer.h
+       cogl/cogl/cogl-attribute-private.h
+       cogl/cogl/cogl-attribute.c
+       cogl/cogl/cogl-attribute.h
+       cogl/cogl/cogl-bitmask.c
+       cogl/cogl/cogl-bitmask.h
+       cogl/cogl/cogl-buffer-private.h
+       cogl/cogl/cogl-buffer.c
+       cogl/cogl/cogl-color-private.h
+       cogl/cogl/cogl-context.h
+       cogl/cogl/cogl-debug-options.h
+       cogl/cogl/cogl-display.h
+       cogl/cogl/cogl-euler.c
+       cogl/cogl/cogl-euler.h
+       cogl/cogl/cogl-glsl-shader-boilerplate.h
+       cogl/cogl/cogl-gtype-private.h
+       cogl/cogl/cogl-index-buffer-private.h
+       cogl/cogl/cogl-index-buffer.c
+       cogl/cogl/cogl-index-buffer.h
+       cogl/cogl/cogl-indices-private.h
+       cogl/cogl/cogl-indices.c
+       cogl/cogl/cogl-indices.h
+       cogl/cogl/cogl-pixel-buffer-private.h
+       cogl/cogl/cogl-pixel-buffer.c
+       cogl/cogl/cogl-primitive-private.h
+       cogl/cogl/cogl-primitive.c
+       cogl/cogl/cogl-primitive.h
+       cogl/cogl/cogl-primitives-private.h
+       cogl/cogl/cogl-quaternion.c
+       cogl/cogl/cogl-quaternion.h
+       cogl/cogl/cogl-sub-texture.h
+       cogl/cogl/cogl-texture-3d-private.h
+       cogl/cogl/cogl-texture-3d.c
+       cogl/cogl/cogl-texture-3d.h
+       cogl/cogl/cogl-texture-rectangle.c
+       cogl/cogl/cogl-vector.c
+       cogl/cogl/cogl1-context.h
+       cogl/cogl-path/cogl-path-private.h
+       cogl/cogl/deprecated/cogl-material-compat.c
+       cogl/cogl/winsys/cogl-texture-pixmap-x11-private.h
+       cogl/cogl/winsys/cogl-texture-pixmap-x11.c
+       cogl/cogl/winsys/cogl-texture-pixmap-x11.h
+       cogl/cogl/winsys/cogl-winsys-egl-feature-functions.h
+       cogl/cogl/winsys/cogl-winsys-glx-feature-functions.h
+       cogl/cogl-path/tesselator/memalloc.h
+       cogl/cogl/driver/gl/cogl-pipeline-fragend-fixed-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-fragend-glsl-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-opengl-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-progend-glsl-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-progend-glsl.c
+       cogl/cogl/driver/gl/cogl-pipeline-vertend-fixed-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-vertend-glsl-private.h
+       cogl/cogl-path/tesselator/GL/glu.h
+       cogl/cogl/driver/gl/gl/cogl-pipeline-fragend-arbfp-private.h
+Copyright:
+   Copyright (C) 2010 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-atlas.c
+       cogl/cogl/cogl-atlas.h
+       cogl/cogl/cogl-xlib-private.h
+       cogl/cogl/cogl-xlib.c
+Copyright:
+   Copyright (C) 2010,2011 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/driver/gl/cogl-attribute-gl.c
+Copyright:
+   Copyright (C) 2010,2011,2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/driver/gl/cogl-buffer-gl.c
+Copyright:
+   Copyright (C) 2010,2011,2012,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-private.h
+       cogl/cogl/driver/gl/cogl-pipeline-vertend-glsl.c
+Copyright:
+   Copyright (C) 2010,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-buffer.h
+Copyright:
+   Copyright (C) 2010 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-atlas-texture-private.h
+       cogl/cogl/cogl-blend-string.c
+       cogl/cogl/cogl-blend-string.h
+       cogl/cogl/cogl-debug.c
+       cogl/cogl/cogl-feature-private.c
+       cogl/cogl/cogl-feature-private.h
+       cogl/cogl/cogl-rectangle-map.c
+       cogl/cogl/cogl-rectangle-map.h
+       cogl/cogl/cogl-sub-texture-private.h
+       cogl/cogl/cogl-texture-2d-private.h
+       cogl/cogl/cogl-texture-2d.c
+       cogl/cogl/cogl-texture-rectangle-private.h
+       cogl/cogl-pango/cogl-pango-display-list.c
+       cogl/cogl-pango/cogl-pango-display-list.h
+Copyright:
+   Copyright (C) 2009 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-object.h
+Copyright:
+   Copyright (C) 2009,2010 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-atlas-texture.c
+       cogl/cogl/cogl-sub-texture.c
+Copyright:
+   Copyright (C) 2009,2010,2011 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/driver/gl/cogl-texture-2d-gl.c
+       cogl/cogl/driver/nop/cogl-texture-2d-nop.c
+Copyright:
+   Copyright (C) 2009,2010,2011,2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-matrix-stack-private.h
+       cogl/cogl/cogl-matrix-stack.c
+       cogl/cogl/cogl-matrix-stack.h
+Copyright:
+   Copyright (C) 2009,2010,2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-matrix.c
+Copyright:
+   Copyright (C) 2009,2010,2011 Intel Corporation.
+   Copyright (C) 1999-2005  Brian Paul   All Rights Reserved.
+   Copyright (C) 1999-2005  Brian Paul   All Rights Reserved.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/gl-prototypes/cogl-all-functions.h
+       cogl/cogl/gl-prototypes/cogl-core-functions.h
+       cogl/cogl/gl-prototypes/cogl-fixed-functions.h
+       cogl/cogl/gl-prototypes/cogl-gles1-functions.h
+       cogl/cogl/gl-prototypes/cogl-gles2-functions.h
+       cogl/cogl/gl-prototypes/cogl-glsl-functions.h
+       cogl/cogl/gl-prototypes/cogl-in-gles-core-functions.h
+       cogl/cogl/gl-prototypes/cogl-in-gles1-core-functions.h
+       cogl/cogl/gl-prototypes/cogl-in-gles2-core-functions.h
+Copyright:
+   Copyright (C) 2009, 2011 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl-pango/cogl-pango-fontmap.c
+       cogl/cogl-pango/cogl-pango-glyph-cache.c
+       cogl/cogl-pango/cogl-pango-glyph-cache.h
+Copyright:
+   Copyright (C) 2008 OpenedHand
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl-pango/cogl-pango-private.h
+       cogl/cogl-pango/cogl-pango-render.c
+       cogl/cogl-pango/cogl-pango.h
+Copyright:
+   Copyright (C) 2008 OpenedHand
+   Copyright (C) 2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-color.c
+       cogl/cogl/cogl-color.h
+       cogl/cogl/cogl-deprecated.h
+       cogl/cogl/cogl-matrix-private.h
+       cogl/cogl/cogl-matrix.h
+       cogl/cogl/cogl-quaternion-private.h
+       cogl/cogl/cogl-types.h
+       cogl/cogl/deprecated/cogl-program-private.h
+       cogl/cogl/deprecated/cogl-shader-private.h
+       cogl/cogl/deprecated/cogl-shader.h
+       cogl/cogl/deprecated/cogl-vertex-buffer-private.h
+       cogl/cogl/deprecated/cogl-vertex-buffer.h
+Copyright:
+   Copyright (C) 2008,2009 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl.h
+Copyright:
+   Copyright (C) 2008,2009 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-node-private.h
+       cogl/cogl/cogl-node.c
+       cogl/cogl/cogl-object-private.h
+       cogl/cogl/cogl-pipeline-layer-state.c
+       cogl/cogl/cogl-pipeline-layer.c
+       cogl/cogl/cogl-pipeline-state-private.h
+       cogl/cogl/cogl-pipeline-state.c
+       cogl/cogl/cogl-pixel-buffer.h
+       cogl/cogl/cogl-vector.h
+       cogl/cogl/cogl-xlib-renderer.c
+       cogl/cogl/deprecated/cogl-program.c
+       cogl/cogl/deprecated/cogl-vertex-buffer.c
+       cogl/cogl/driver/gl/cogl-pipeline-fragend-fixed.c
+       cogl/cogl/driver/gl/cogl-pipeline-opengl.c
+       cogl/cogl/driver/gl/cogl-pipeline-vertend-fixed.c
+       cogl/cogl/driver/gl/gl/cogl-pipeline-fragend-arbfp.c
+Copyright:
+   Copyright (C) 2008,2009,2010 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-pipeline-debug.c
+       cogl/cogl/cogl-pipeline-layer-private.h
+       cogl/cogl/cogl-pipeline-private.h
+       cogl/cogl/driver/gl/cogl-framebuffer-gl-private.h
+Copyright:
+   Copyright (C) 2008,2009,2010,2011 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-pipeline.c
+       cogl/cogl/driver/gl/cogl-pipeline-fragend-glsl.c
+Copyright:
+   Copyright (C) 2008,2009,2010,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl-path/cogl-path-functions.h
+       cogl/cogl-path/cogl-path-types.h
+       cogl/cogl-path/cogl-path.h
+Copyright:
+   Copyright (C) 2008,2009,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-bitmap-private.h
+Copyright:
+   Copyright (C) 2007 OpenedHand
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-bitmap-conversion.c
+       cogl/cogl/cogl-bitmap-pixbuf.c
+       cogl/cogl/cogl-bitmap.c
+       cogl/cogl/cogl-bitmap.h
+       cogl/cogl/cogl-debug.h
+       cogl/cogl/cogl-framebuffer-private.h
+       cogl/cogl/cogl-journal-private.h
+       cogl/cogl/cogl-journal.c
+       cogl/cogl/cogl-pipeline-layer-state.h
+       cogl/cogl/cogl-pipeline.h
+       cogl/cogl/cogl-primitives.h
+       cogl/cogl/cogl-profile.h
+       cogl/cogl/cogl-renderer.h
+       cogl/cogl/cogl-spans.c
+       cogl/cogl/cogl-spans.h
+       cogl/cogl/cogl-texture-2d-sliced-private.h
+       cogl/cogl/cogl-texture-driver.h
+       cogl/cogl/cogl-texture-private.h
+       cogl/cogl/deprecated/cogl-material-compat.h
+       cogl/cogl/winsys/cogl-winsys-private.h
+       cogl/cogl/driver/gl/gl/cogl-driver-gl.c
+       cogl/cogl/driver/gl/gl/cogl-texture-driver-gl.c
+       cogl/cogl/driver/gl/gles/cogl-driver-gles.c
+       cogl/cogl/driver/gl/gles/cogl-texture-driver-gles.c
+Copyright:
+   Copyright (C) 2007,2008,2009 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-texture.c
+Copyright:
+   Copyright (C) 2007,2008,2009 Intel Corporation.
+   Copyright (C) 2010 Red Hat, Inc.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-clip-stack.c
+       cogl/cogl/cogl-clip-stack.h
+       cogl/cogl/cogl-defines.h.in
+       cogl/cogl/cogl-egl-defines.h.in
+       cogl/cogl/cogl-egl-private.h
+       cogl/cogl/cogl-egl.h
+       cogl/cogl/cogl-object.c
+       cogl/cogl/cogl-primitives.c
+       cogl/cogl/cogl-texture-2d-sliced.c
+       cogl/cogl/cogl-util.c
+       cogl/cogl/cogl.c
+       cogl/cogl/deprecated/cogl-shader.c
+       cogl/cogl/winsys/cogl-winsys.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2010 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-texture.h
+       cogl/cogl/cogl-util.h
+Copyright:
+   Copyright (C) 2007,2008,2009,2010 Intel Corporation.
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl-path/cogl-path.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2010,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/winsys/cogl-winsys-egl.c
+       cogl/cogl/winsys/cogl-winsys-glx.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2010,2011,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/driver/gl/cogl-clip-stack-gl.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2010,2011,2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-pipeline-state.h
+Copyright:
+   Copyright (C) 2007,2008,2009,2011 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/deprecated/cogl-auto-texture.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2011,2012 Intel Corporation.
+   Copyright (C) 2010 Red Hat, Inc.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-framebuffer.c
+       cogl/cogl/cogl-offscreen.h
+       cogl/cogl/driver/gl/cogl-framebuffer-gl.c
+       cogl/cogl/driver/nop/cogl-framebuffer-nop.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2012 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+Files: cogl/cogl/cogl-context-private.h
+       cogl/cogl/cogl-context.c
+Copyright:
+   Copyright (C) 2007,2008,2009,2013 Intel Corporation.
+License: MIT~OldStyle+LegalDisclaimer
+
+
+Files: src/wayland/meta-wayland-keyboard.c
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+   Copyright (C) 2017 Tianjin KYLIN Information Technology Co., Ltd.
+   Copyright © 2010-2011 Intel Corporation
+   Copyright © 2008-2011 Kristian Høgsberg
+   Copyright © 2012 Collabora, Ltd.
+License: GPL-2+ and Expat
+
+Files: src/wayland/meta-wayland-keyboard.h
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+   Copyright © 2008-2011 Kristian Høgsberg
+   Copyright © 2012 Collabora, Ltd.
+License: GPL-2+ and Expat
+
+Files: src/wayland/meta-wayland-pointer.c
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+   Copyright © 2008 Kristian Høgsberg
+License: LGPL-2+ and Expat
+
+Files: src/wayland/meta-wayland-popup.c
+Copyright:
+   Copyright (C) 2013 Intel Corporation
+   Copyright (C) 2015 Red Hat, Inc.
+   Copyright © 2008 Kristian Høgsberg
+License: LGPL-2+ and Expat
+
+Files: src/wayland/meta-xwayland-selection.c
+Copyright:
+   Copyright © 2012 Intel Corporation
+   Copyright © 2017 Tianjin KYLIN Information Technology Co., Ltd.
+License: Expat
+
+Files: src/compositor/meta-sync-ring.c
+Copyright:
+   Copyright © 2011 NVIDIA Corporation
+License: Expat
+
+Files: src/wayland/meta-wayland-data-device.c
+Copyright:
+   Copyright © 2011 Kristian Høgsberg
+License: Expat
+
+Files: src/wayland/meta-wayland-data-device.h
+Copyright:
+   Copyright © 2008 Kristian Høgsberg
+License: Expat
+
+Files: cogl/cogl/cogl-list.c
+Copyright:
+   Copyright © 2008-2011 Kristian Høgsberg
+   Copyright © 2011, 2012 Intel Corporation
+License: Expat
+
+Files: cogl/cogl/cogl-list.h
+Copyright:
+   Copyright © 2008 Kristian Høgsberg
+   Copyright © 2012, 2013 Intel Corporation
+License: Expat
+
+Files: clutter/clutter/x11/xsettings/xsettings-client.c
+       clutter/clutter/x11/xsettings/xsettings-client.h
+Copyright:
+   Copyright © 2001, 2007 Red Hat, Inc.
+License: Expat
+
+Files: clutter/clutter/x11/xsettings/xsettings-common.c
+       clutter/clutter/x11/xsettings/xsettings-common.h
+Copyright:
+   Copyright © 2001 Red Hat, Inc.
+License: Expat
+
+Files: cogl/cogl-path/tesselator/dict-list.h
+       cogl/cogl-path/tesselator/dict.c
+       cogl/cogl-path/tesselator/dict.h
+       cogl/cogl-path/tesselator/geom.c
+       cogl/cogl-path/tesselator/geom.h
+       cogl/cogl-path/tesselator/mesh.c
+       cogl/cogl-path/tesselator/mesh.h
+       cogl/cogl-path/tesselator/normal.c
+       cogl/cogl-path/tesselator/normal.h
+       cogl/cogl-path/tesselator/priorityq-heap.c
+       cogl/cogl-path/tesselator/priorityq-heap.h
+       cogl/cogl-path/tesselator/priorityq-sort.h
+       cogl/cogl-path/tesselator/priorityq.c
+       cogl/cogl-path/tesselator/priorityq.h
+       cogl/cogl-path/tesselator/render.c
+       cogl/cogl-path/tesselator/render.h
+       cogl/cogl-path/tesselator/sweep.c
+       cogl/cogl-path/tesselator/sweep.h
+       cogl/cogl-path/tesselator/tess.c
+       cogl/cogl-path/tesselator/tess.h
+       cogl/cogl-path/tesselator/tessmono.c
+       cogl/cogl-path/tesselator/tessmono.h
+Copyright:
+   Copyright (C) 1991-2000 Silicon Graphics, Inc. All Rights Reserved.
+License: SGI-B-2.0
+
+Files: cogl/cogl-path/tesselator/tesselator.h
+Copyright:
+   Copyright (C) 1991-2000 Silicon Graphics, Inc. All Rights Reserved.
+   Copyright (C) 2010 Intel Corporation
+License: SGI-B-2.0
+
+Files: ABOUT-NLS
+       autogen.sh
+       clutter/build/autotools/as-compiler-flag.m4
+       clutter/build/autotools/glib-tap.mk
+       clutter/build/autotools/glibtests.m4
+       clutter/build/autotools/introspection.m4
+       clutter/build/autotools/Makefile.am
+       clutter/build/autotools/tap-test
+       clutter/build/Makefile.am
+       clutter/clutter/clutter-actor-box.c
+       clutter/clutter/clutter-actor.h
+       clutter/clutter/clutter-build-config.h.in
+       clutter/clutter/clutter-config.h.in
+       clutter/clutter/clutter-debug.h
+       clutter/clutter/clutter-deprecated.h
+       clutter/clutter/clutter-easing.c
+       clutter/clutter/clutter-easing.h
+       clutter/clutter/clutter-effect-private.h
+       clutter/clutter/clutter-enum-types.c.in
+       clutter/clutter/clutter-enum-types.h.in
+       clutter/clutter/clutter-event-private.h
+       clutter/clutter/clutter-event-translator.c
+       clutter/clutter/clutter-event-translator.h
+       clutter/clutter/clutter-keysyms-table.c
+       clutter/clutter/clutter-keysyms-update.pl
+       clutter/clutter/clutter-marshal.list
+       clutter/clutter/clutter-offscreen-effect-private.h
+       clutter/clutter/clutter-settings.c
+       clutter/clutter/clutter-settings.h
+       clutter/clutter/clutter-settings-private.h
+       clutter/clutter/clutter-stage-window.c
+       clutter/clutter/clutter-stage-window.h
+       clutter/clutter/clutter-test-utils.c
+       clutter/clutter/cogl/clutter-stage-cogl.h
+       clutter/clutter/deprecated/clutter-actor-deprecated.c
+       clutter/clutter/deprecated/clutter-input-device-deprecated.c
+       clutter/clutter/deprecated/clutter-layout-manager-deprecated.c
+       clutter/clutter/Makefile.am
+       clutter/clutter/Makefile.am.enums
+       clutter/clutter/Makefile.am.marshal
+       clutter/clutter/ukwm-clutter.pc.in
+       clutter/clutter/x11/clutter-settings-x11.h
+       clutter/configure.ac
+       clutter/examples/actor-model.c
+       clutter/examples/basic-actor.c
+       clutter/examples/bin-layout.c
+       clutter/examples/box-layout.c
+       clutter/examples/canvas.c
+       clutter/examples/constraints.c
+       clutter/examples/drag-action.c
+       clutter/examples/drop-action.c
+       clutter/examples/easing-modes.c
+       clutter/examples/flow-layout.c
+       clutter/examples/grid-layout.c
+       clutter/examples/image-content.c
+       clutter/examples/layout-manager.c
+       clutter/examples/Makefile.am
+       clutter/examples/pan-action.c
+       clutter/examples/README
+       clutter/examples/redhand.png
+       clutter/examples/rounded-rectangle.c
+       clutter/examples/scroll-actor.c
+       clutter/examples/threads.c
+       clutter/Makefile.am
+       clutter/tests/accessibility/Makefile.am
+       clutter/tests/clutter-1.0.suppressions
+       clutter/tests/conform/actor-anchors.c
+       clutter/tests/conform/actor-destroy.c
+       clutter/tests/conform/actor-graph.c
+       clutter/tests/conform/actor-invariants.c
+       clutter/tests/conform/actor-iter.c
+       clutter/tests/conform/actor-layout.c
+       clutter/tests/conform/actor-meta.c
+       clutter/tests/conform/actor-offscreen-limit-max-size.c
+       clutter/tests/conform/actor-offscreen-redirect.c
+       clutter/tests/conform/actor-paint-opacity.c
+       clutter/tests/conform/actor-pick.c
+       clutter/tests/conform/actor-shader-effect.c
+       clutter/tests/conform/actor-size.c
+       clutter/tests/conform/animator.c
+       clutter/tests/conform/behaviours.c
+       clutter/tests/conform/binding-pool.c
+       clutter/tests/conform/color.c
+       clutter/tests/conform/group.c
+       clutter/tests/conform/interval.c
+       clutter/tests/conform/Makefile.am
+       clutter/tests/conform/model.c
+       clutter/tests/conform/rectangle.c
+       clutter/tests/conform/script-parser.c
+       clutter/tests/conform/scripts/test-animator-1.json
+       clutter/tests/conform/scripts/test-animator-2.json
+       clutter/tests/conform/scripts/test-animator-3.json
+       clutter/tests/conform/scripts/test-script-animation.json
+       clutter/tests/conform/scripts/test-script-child.json
+       clutter/tests/conform/scripts/test-script-implicit-alpha.json
+       clutter/tests/conform/scripts/test-script-interval.json
+       clutter/tests/conform/scripts/test-script-layout-property.json
+       clutter/tests/conform/scripts/test-script-margin.json
+       clutter/tests/conform/scripts/test-script-model.json
+       clutter/tests/conform/scripts/test-script-named-object.json
+       clutter/tests/conform/scripts/test-script-object-property.json
+       clutter/tests/conform/scripts/test-script-single.json
+       clutter/tests/conform/scripts/test-script-timeline-markers.json
+       clutter/tests/conform/scripts/test-state-1.json
+       clutter/tests/conform/text.c
+       clutter/tests/conform/texture.c
+       clutter/tests/conform/units.c
+       clutter/tests/interactive/Makefile.am
+       clutter/tests/interactive/redhand.png
+       clutter/tests/interactive/test-actors.c
+       clutter/tests/interactive/test-animation.c
+       clutter/tests/interactive/test-animator.c
+       clutter/tests/interactive/test-bind-constraint.c
+       clutter/tests/interactive/test-binding-pool.c
+       clutter/tests/interactive/test-cairo-clock.c
+       clutter/tests/interactive/test-cairo-flowers.c
+       clutter/tests/interactive/test-cogl-multitexture.c
+       clutter/tests/interactive/test-cogl-offscreen.c
+       clutter/tests/interactive/test-cogl-point-sprites.c
+       clutter/tests/interactive/test-cogl-shader-arbfp.c
+       clutter/tests/interactive/test-cogl-shader-glsl.c
+       clutter/tests/interactive/test-cogl-tex-convert.c
+       clutter/tests/interactive/test-cogl-tex-foreign.c
+       clutter/tests/interactive/test-cogl-tex-polygon.c
+       clutter/tests/interactive/test-cogl-tex-tile.c
+       clutter/tests/interactive/test-cogl-vertex-buffer.c
+       clutter/tests/interactive/test-content.c
+       clutter/tests/interactive/test-devices.c
+       clutter/tests/interactive/test-easing.c
+       clutter/tests/interactive/test-events.c
+       clutter/tests/interactive/test-fbo.c
+       clutter/tests/interactive/test-grab.c
+       clutter/tests/interactive/test-image.c
+       clutter/tests/interactive/test-keyframe-transition.c
+       clutter/tests/interactive/test-layout.c
+       clutter/tests/interactive/test-main.c
+       clutter/tests/interactive/test-multistage.c
+       clutter/tests/interactive/test-paint-wrapper.c
+       clutter/tests/interactive/test-path-constraint.c
+       clutter/tests/interactive/test-pixmap.c
+       clutter/tests/interactive/test-rotate-zoom.c
+       clutter/tests/interactive/test-scale.c
+       clutter/tests/interactive/test-script.c
+       clutter/tests/interactive/test-script.json
+       clutter/tests/interactive/test-script-signals.json
+       clutter/tests/interactive/test-scrolling.c
+       clutter/tests/interactive/test-shader-effects.c
+       clutter/tests/interactive/test-stage-read-pixels.c
+       clutter/tests/interactive/test-stage-sizing.c
+       clutter/tests/interactive/test-state-animator.c
+       clutter/tests/interactive/test-state.c
+       clutter/tests/interactive/test-state-script.c
+       clutter/tests/interactive/test-swipe-action.c
+       clutter/tests/interactive/test-table-layout.c
+       clutter/tests/interactive/test-text.c
+       clutter/tests/interactive/test-text-field.c
+       clutter/tests/interactive/test-texture-async.c
+       clutter/tests/interactive/test-texture-material.c
+       clutter/tests/interactive/test-texture-quality.c
+       clutter/tests/interactive/test-texture-slicing.c
+       clutter/tests/interactive/test-touch-events.c
+       clutter/tests/interactive/wrapper.sh.in
+       clutter/tests/Makefile.am
+       clutter/tests/micro-bench/Makefile.am
+       clutter/tests/micro-bench/test-cogl-perf.c
+       clutter/tests/micro-bench/test-picking.c
+       clutter/tests/micro-bench/test-random-text.c
+       clutter/tests/micro-bench/test-text.c
+       clutter/tests/micro-bench/test-text-perf.c
+       clutter/tests/performance/create-report.rb
+       clutter/tests/performance/Makefile.am
+       clutter/tests/performance/Makefile-retrospect
+       clutter/tests/performance/Makefile-tests
+       clutter/tests/performance/test-common.h
+       clutter/tests/performance/test-picking.c
+       clutter/tests/performance/test-state.c
+       clutter/tests/performance/test-state-hidden.c
+       clutter/tests/performance/test-state-interactive.c
+       clutter/tests/performance/test-state-mini.c
+       clutter/tests/performance/test-state-pick.c
+       clutter/tests/performance/test-text-perf.c
+       clutter/tests/README
+       cogl/build/autotools/as-compiler-flag.m4
+       cogl/build/autotools/introspection.m4
+       cogl/build/autotools/Makefile.am.enums
+       cogl/cogl/cogl-gles2-types.h
+       cogl/cogl/cogl-gtype.c
+       cogl/cogl/cogl-onscreen-template.h
+       cogl/cogl/cogl-point-in-poly.c
+       cogl/cogl/cogl-profile.c
+       cogl/cogl/cogl.symbols
+       cogl/cogl-config.h.in
+       cogl/cogl-gles2/cogl-gles2-api.c
+       cogl/cogl-gles2/GLES2/gl2ext.h
+       cogl/cogl-gles2/GLES2/gl2.h
+       cogl/cogl-gles2/GLES2/gl2platform.h
+       cogl/cogl-gles2/Makefile.am
+       cogl/cogl-gles2/ukwm-cogl-gles2.pc.in
+       cogl/cogl/Makefile.am
+       cogl/cogl-pango/cogl-pango.symbols
+       cogl/cogl-pango/Makefile.am
+       cogl/cogl-pango/ukwm-cogl-pango.pc.in
+       cogl/cogl-path/cogl-path-enum-types.c.in
+       cogl/cogl-path/cogl-path-enum-types.h.in
+       cogl/cogl-path/cogl-path.symbols
+       cogl/cogl-path/Makefile.am
+       cogl/cogl-path/tesselator/gluos.h
+       cogl/cogl-path/tesselator/README
+       cogl/cogl-path/ukwm-cogl-path.pc.in
+       cogl/cogl/ukwm-cogl.pc.in
+       cogl/cogl-ukwm-config.h.in
+       cogl/configure.ac
+       cogl/Makefile.am
+       cogl/test-fixtures/Makefile.am
+       cogl/test-fixtures/test-unit.h
+       cogl/test-fixtures/test-utils.c
+       cogl/test-fixtures/test-utils.h
+       cogl/tests/config.env.in
+       cogl/tests/conform/Makefile.am
+       cogl/tests/conform/test-alpha-test.c
+       cogl/tests/conform/test-alpha-textures.c
+       cogl/tests/conform/test-atlas-migration.c
+       cogl/tests/conform/test-backface-culling.c
+       cogl/tests/conform/test-blend.c
+       cogl/tests/conform/test-blend-strings.c
+       cogl/tests/conform/test-color-hsl.c
+       cogl/tests/conform/test-color-mask.c
+       cogl/tests/conform/test-conform-main.c
+       cogl/tests/conform/test-copy-replace-texture.c
+       cogl/tests/conform/test-custom-attributes.c
+       cogl/tests/conform/test-depth-test.c
+       cogl/tests/conform/test-euler-quaternion.c
+       cogl/tests/conform/test-fence.c
+       cogl/tests/conform/test-framebuffer-get-bits.c
+       cogl/tests/conform/test-gles2-context.c
+       cogl/tests/conform/test-just-vertex-shader.c
+       cogl/tests/conform/test-layer-remove.c
+       cogl/tests/conform/test-map-buffer-range.c
+       cogl/tests/conform/test-no-gl-header.c
+       cogl/tests/conform/test-npot-texture.c
+       cogl/tests/conform/test-offscreen.c
+       cogl/tests/conform/test-path.c
+       cogl/tests/conform/test-path-clip.c
+       cogl/tests/conform/test-pipeline-cache-unrefs-texture.c
+       cogl/tests/conform/test-pipeline-shader-state.c
+       cogl/tests/conform/test-pipeline-uniforms.c
+       cogl/tests/conform/test-pipeline-user-matrix.c
+       cogl/tests/conform/test-pixel-buffer.c
+       cogl/tests/conform/test-point-size-attribute.c
+       cogl/tests/conform/test-point-size.c
+       cogl/tests/conform/test-point-sprite.c
+       cogl/tests/conform/test-premult.c
+       cogl/tests/conform/test-primitive-and-journal.c
+       cogl/tests/conform/test-primitive.c
+       cogl/tests/conform/test-read-texture-formats.c
+       cogl/tests/conform/test-snippets.c
+       cogl/tests/conform/test-sparse-pipeline.c
+       cogl/tests/conform/test-sub-texture.c
+       cogl/tests/conform/test-texture-3d.c
+       cogl/tests/conform/test-texture-get-set-data.c
+       cogl/tests/conform/test-texture-no-allocate.c
+       cogl/tests/conform/test-texture-rg.c
+       cogl/tests/conform/test-version.c
+       cogl/tests/conform/test-wrap-modes.c
+       cogl/tests/conform/test-wrap-rectangle-textures.c
+       cogl/tests/conform/test-write-texture-formats.c
+       cogl/tests/data/Makefile.am
+       cogl/tests/data/valgrind.suppressions
+       cogl/tests/Makefile.am
+       cogl/tests/micro-perf/Makefile.am
+       cogl/tests/micro-perf/test-journal.c
+       cogl/tests/README
+       cogl/tests/run-tests.sh
+       cogl/tests/test-launcher.sh
+       cogl/tests/unit/Makefile.am
+       cogl/tests/unit/test-unit-main.c
+       config.h.in
+       configure.ac
+       COPYING
+       ChangeLog
+       data/50-ukwm-navigation.xml
+       data/50-ukwm-system.xml
+       data/50-ukwm-windows.xml
+       data/Makefile.am
+       data/org.ukui.ukwm.gschema.xml.in
+       data/org.ukui.ukwm.wayland.gschema.xml.in
+       data/ukwm.desktop.in
+       data/ukwm-schemas.convert
+       debian/changelog
+       debian/compat
+       debian/control
+       debian/copyright
+       debian/gir1.2-ukwm-1.install
+       debian/libukwm-1-0.install
+       debian/libukwm-1-0.symbols
+       debian/libukwm-1-dev.install
+       debian/README.Debian
+       debian/rules
+       debian/source/format
+       debian/ukwm-common.install
+       debian/ukwm.install
+       debian/ukwm.postinst
+       debian/ukwm.prerm
+       debian/watch
+       doc/code-overview.txt
+       doc/dialogs.txt
+       doc/how-to-get-focus-right.txt
+       doc/Makefile.am
+       doc/man/Makefile.am
+       doc/man/ukwm.1
+       doc/rationales.txt
+       Makefile.am
+       NEWS
+       po/am.po
+       po/ar.po
+       po/as.po
+       po/ast.po
+       po/az.po
+       po/be@latin.po
+       po/be.po
+       po/bg.po
+       po/bn_IN.po
+       po/bn.po
+       po/boldquot.sed
+       po/br.po
+       po/bs.po
+       po/ca.po
+       po/ca@valencia.po
+       po/ChangeLog
+       po/cs.po
+       po/cy.po
+       po/da.po
+       po/de.po
+       po/dz.po
+       po/el.po
+       po/en@boldquot.header
+       po/en_CA.po
+       po/en_GB.po
+       po/en@quot.header
+       po/eo.po
+       po/es.po
+       po/et.po
+       po/eu.po
+       po/fa.po
+       po/fi.po
+       po/fr.po
+       po/fur.po
+       po/ga.po
+       po/gd.po
+       po/gl.po
+       po/gu.po
+       po/ha.po
+       po/he.po
+       po/hi.po
+       po/hr.po
+       po/hu.po
+       po/hy.po
+       po/id.po
+       po/ig.po
+       po/insert-header.sin
+       po/is.po
+       po/it.po
+       po/ja.po
+       po/ka.po
+       po/kk.po
+       po/kn.po
+       po/ko.po
+       po/ku.po
+       po/la.po
+       po/LINGUAS
+       po/lt.po
+       po/lv.po
+       po/mai.po
+       po/Makefile.in.in
+       po/Makevars
+       po/mg.po
+       po/mk.po
+       po/ml.po
+       po/mn.po
+       po/mr.po
+       po/ms.po
+       po/nb.po
+       po/nds.po
+       po/ne.po
+       po/nl.po
+       po/nn.po
+       po/oc.po
+       po/or.po
+       po/pa.po
+       po/pl.po
+       po/POTFILES.in
+       po/pt_BR.po
+       po/pt.po
+       po/quot.sed
+       po/remove-potcdate.sin
+       po/ro.po
+       po/Rules-quot
+       po/ru.po
+       po/rw.po
+       po/si.po
+       po/sk.po
+       po/sl.po
+       po/sq.po
+       po/sr@latin.po
+       po/sr.po
+       po/stamp-po
+       po/sv.po
+       po/ta.po
+       po/te.po
+       po/tg.po
+       po/th.po
+       po/tr.po
+       po/ug.po
+       po/uk.po
+       po/vi.po
+       po/wa.po
+       po/xh.po
+       po/yo.po
+       po/zh_CN.po
+       po/zh_HK.po
+       po/zh_TW.po
+       src/backends/edid-parse.c
+       src/backends/meta-barrier.c
+       src/backends/meta-egl-ext.h
+       src/backends/native/meta-default-modes.h
+       src/compositor/compositor.c
+       src/compositor/compositor-private.h
+       src/compositor/meta-background-actor-private.h
+       src/compositor/meta-background-group.c
+       src/compositor/meta-background-private.h
+       src/compositor/meta-surface-actor.c
+       src/compositor/meta-surface-actor.h
+       src/compositor/meta-sync-ring.h
+       src/compositor/meta-window-actor.c
+       src/compositor/meta-window-actor-private.h
+       src/compositor/meta-window-group.c
+       src/compositor/meta-window-group.h
+       src/compositor/plugins/Makefile.am
+       src/compositor/plugins/org.ukui.ukwm.UkwmPlugin.xml
+       src/compositor/plugins/ukui_plugin.h
+       src/core/core.h
+       src/libukwm.pc.in
+       src/Makefile.am
+       src/Makefile-tests.am
+       src/meta/barrier.h
+       src/meta-enum-types.c.in
+       src/meta-enum-types.h.in
+       src/meta/meta-background-group.h
+       src/org.freedesktop.login1.xml
+       src/org.ukui.ukwm.DisplayConfig.xml
+       src/org.ukui.ukwm.IdleMonitor.xml
+       src/org.ukui.ukwm.RemoteDesktop.xml
+       src/org.ukui.ukwm.ScreenCast.xml
+       src/tests/stacking/basic-wayland.metatest
+       src/tests/stacking/basic-x11.metatest
+       src/tests/stacking/minimized.metatest
+       src/tests/stacking/mixed-windows.metatest
+       src/tests/stacking/override-redirect.metatest
+       src/tests/stacking/set-parent.metatest
+       src/tests/ukwm-all.test.in
+       src/wayland/meta-wayland-dma-buf.h
+       src/wayland/protocol/gtk-primary-selection.xml
+       src/wayland/protocol/gtk-shell.xml
+       src/x11/ukwm-Xatomtype.h
+Copyright: 2017 liuyi <liuyi@kylinos.cn>
+License: GPL-2+ or LGPL-2+
+Comment:
+ File(s) have no license header. Using license from
+ COPYING file.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: MIT~OldStyle+LegalDisclaimer
+ Permission to use, copy, modify, distribute, and sell this software and its
+ documentation for any purpose is hereby granted without fee, provided that
+ the above copyright notice appear in all copies and that both that
+ copyright notice and this permission notice appear in supporting
+ documentation, and that the name of the copyright holder not be used
+ in advertising or publicity pertaining to distribution of the software
+ without specific, written prior permission.  The copyright holder makes
+ no representations about the suitability of this software for any purpose.
+ It is provided "as is" without express or implied warranty.
+ .
+ THE COPYRIGHT HOLDER DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+ INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT
+ SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL
+ DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+ WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+ OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: SGI-B-2.0
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation files
+ (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge,
+ publish, distribute, sublicense, and/or sell copies of the Software,
+ and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice including the dates of first publication and either
+ this permission notice or a reference to http://oss.sgi.com/projects/FreeB/
+ shall be included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL SILICON GRAPHICS, INC.
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ .
+ Except as contained in this notice, the name of Silicon Graphics,
+ Inc. shall not be used in advertising or otherwise to promote the sale,
+ use or other dealings in this Software without prior written authorization
+ from Silicon Graphics, Inc.

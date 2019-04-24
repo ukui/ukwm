@@ -1,0 +1,57 @@
+#!/usr/bin/make -f
+
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,--as-needed
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+ifneq (,$(findstring $(DEB_HOST_ARCH),"s390x"))
+export DEB_BUILD_OPTIONS += nocheck
+else ifneq (yes,$(shell dpkg-vendor --derives-from Ubuntu && echo yes))
+export DEB_BUILD_OPTIONS += nocheck
+endif
+
+%:
+	dh $@ --with gir,gnome --no-control
+
+override_dh_autoreconf:
+	dh_autoreconf --as-needed
+
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+CONFFLAGS = \
+	--enable-egl-device \
+	--enable-wayland \
+	--enable-native-backend
+else
+CONFFLAGS += \
+	--disable-wayland-egl-platform \
+	--disable-wayland-egl-server \
+	--disable-kms-egl-platform \
+	--disable-wayland \
+	--disable-native-backend
+endif
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--libexecdir="\$${prefix}/lib/ukwm" \
+		--enable-startup-notification \
+		--enable-compile-warnings \
+		$(CONFFLAGS)
+
+# See https://bugs.debian.org/874077
+# Ignore test failures on Debian and on s390x
+override_dh_auto_test:
+ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
+	xvfb-run dh_auto_test
+endif
+
+override_dh_install:
+	find debian/tmp -name '*.la' -print -delete
+	dh_install
+
+override_dh_missing:
+	dh_missing --list-missing
+
+override_dh_girepository:
+	dh_girepository /usr/lib/$(DEB_HOST_MULTIARCH)/ukwm
+
+override_dh_makeshlibs:
+	dh_makeshlibs -V'libukwm-1-0 (>= 1.0.1)'
