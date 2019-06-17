@@ -1,8 +1,11 @@
 ukwm (1.1.12-1) unstable; urgency=medium
 
+  * Update to new "output" setting for tablets/touchscreens.(Closes: #1812143)
+  * Fix bug when use win+p with multi-monitors. (Closes: #1828984)
+  * Modify window tiling preview for UKUI.
   * Drop build-dep zenity from control and configure.ac.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 07 Jan 2019 16:41:29 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 17 Jun 2019 13:52:13 +0800
 
 ukwm (1.1.11-1) unstable; urgency=medium
 
