@@ -193,7 +193,7 @@ derive_calculated_global_scale (MetaMonitorManager *manager)
   if (!monitor || !meta_monitor_is_active (monitor))
     monitor = meta_monitor_manager_get_active_monitor (manager);
 
-  if (!_monitor)
+  if (!monitor)
     return 1.0;
 
   return calculate_monitor_scale (manager, monitor);
