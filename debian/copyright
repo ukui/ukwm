@@ -2390,7 +2390,6 @@ Files: ABOUT-NLS
        config.h.in
        configure.ac
        COPYING
-       ChangeLog
        data/50-ukwm-navigation.xml
        data/50-ukwm-system.xml
        data/50-ukwm-windows.xml

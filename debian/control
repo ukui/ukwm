@@ -5,6 +5,7 @@ Maintainer: Kylin Team <team+kylin@tracker.debian.org>
 Uploaders: liuyi <liuyi@kylinos.cn>,
            handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 12),
+               dh-sequence-gir,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.15),
                libgtk-3-dev (>= 3.19.8),
