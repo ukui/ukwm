@@ -2,8 +2,7 @@ Source: ukwm
 Section: x11
 Priority: optional
 Maintainer: Kylin Team <team+kylin@tracker.debian.org>
-Uploaders: liuyi <liuyi@kylinos.cn>,
-           handsome_feng <jianfengli@ubuntukylin.com>
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 12),
                dh-sequence-gir,
                gnome-pkg-tools (>= 0.10),
@@ -53,7 +52,7 @@ Build-Depends: debhelper (>= 12),
                xkb-data,
                xvfb <!nocheck>,
                xauth <!nocheck>
-Standards-Version: 4.3.0
+Standards-Version: 4.4.0
 Homepage: http://www.ukui.org
 Vcs-Git: https://github.com/ukui/ukwm.git
 Vcs-Browser: https://github.com/ukui/ukwm
