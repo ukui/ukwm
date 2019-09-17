@@ -8,6 +8,6 @@ requires=@COGL_PKG_REQUIRES@
 Name: Cogl
 Description: An object oriented GL/GLES Abstraction/Utility Layer
 Version: @UKWM_VERSION@
-Libs: -L${libdir} -lukwm-cogl-@LIBUKWM_API_VERSION@
+Libs: -L${libdir} -lukwm-cogl-${apiversion}
 Cflags: -I${includedir}/cogl
 Requires: ${requires}
