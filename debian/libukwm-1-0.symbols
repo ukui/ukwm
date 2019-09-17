@@ -1,4 +1,5 @@
 libukwm-1.so.0 libukwm-1-0 #MINVER#
+* Build-Depends-Package: libukwm-1-dev
  meta_activate_session@Base 1.1.6
  meta_activate_vt@Base 1.1.6
  meta_actor_is_untransformed@Base 1.1.6
