@@ -8,6 +8,7 @@ ukwm (1.1.13-1) unstable; urgency=medium
 
   [ handsome_feng ]
   * Fix a typo.
+  * Fix some lintian warnings.
   * Debian/control:
     - Bump standards version to 4.4.0.
 
