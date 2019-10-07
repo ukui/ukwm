@@ -1,18 +1,25 @@
-ukwm (1.1.13-1) unstable; urgency=medium
+ukwm (1.1.13-0ubuntu1) eoan; urgency=medium
 
   [ Liu Yi ]
-  * Update to new "output" setting for tablets/touchscreens. (LP: #1812143)
-  * Fix bug when use win+p with multi-monitors. (LP: #1828984)
-  * Modify window tiling preview for UKUI.
-  * Drop build-dep zenity from control and configure.ac.
+  * Bugfix only:
+    - Update to new "output" setting for tablets/touchscreens. (LP: #1812143)
+    - Fix bug when use win+p with multi-monitors. (LP: #1828984)
+    - Modify window tiling preview for UKUI.
 
   [ handsome_feng ]
   * Fix a typo.
   * Fix some lintian warnings.
   * Debian/control:
-    - Bump standards version to 4.4.0.
+    - Bump standards version to 4.4.1.
+    - Drop zenity from build-dep.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 16 Sep 2019 17:02:59 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 07 Oct 2019 22:48:33 +0800
+
+ukwm (1.1.11-1build1) eoan; urgency=medium
+
+  * No-change rebuild for libgnome-desktop-3-18
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Wed, 21 Aug 2019 10:43:26 +0100
 
 ukwm (1.1.11-1) unstable; urgency=medium
 

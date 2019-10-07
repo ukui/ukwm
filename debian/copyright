@@ -2389,7 +2389,6 @@ Files: ABOUT-NLS
        cogl/tests/unit/test-unit-main.c
        config.h.in
        configure.ac
-       COPYING
        data/50-ukwm-navigation.xml
        data/50-ukwm-system.xml
        data/50-ukwm-windows.xml

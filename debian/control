@@ -1,7 +1,8 @@
 Source: ukwm
 Section: x11
 Priority: optional
-Maintainer: Kylin Team <team+kylin@tracker.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Kylin Team <team+kylin@tracker.debian.org>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
 Build-Depends: debhelper (>= 12),
                dh-sequence-gir,
@@ -52,7 +53,8 @@ Build-Depends: debhelper (>= 12),
                xkb-data,
                xvfb <!nocheck>,
                xauth <!nocheck>
-Standards-Version: 4.4.0
+Standards-Version: 4.4.1
+Rules-Requires-Root: no
 Homepage: http://www.ukui.org
 Vcs-Git: https://github.com/ukui/ukwm.git
 Vcs-Browser: https://github.com/ukui/ukwm
