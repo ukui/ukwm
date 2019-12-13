@@ -2400,7 +2400,6 @@ Files: ABOUT-NLS
        debian/changelog
        debian/control
        debian/copyright
-       debian/file-without-copyright-information
        debian/gir1.2-ukwm-1.install
        debian/libukwm-1-0.install
        debian/libukwm-1-0.symbols
@@ -2409,6 +2408,7 @@ Files: ABOUT-NLS
        debian/rules
        debian/source/format
        debian/ukwm-common.install
+       debian/ukwm-common.lintian-overrides
        debian/ukwm.install
        debian/ukwm.postinst
        debian/ukwm.prerm
