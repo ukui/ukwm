@@ -9,9 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity.HEAD.he\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-03-30 18:41+0300\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-03-30 18:46+0300\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: עברית <>\n"
@@ -22,246 +21,6 @@ msgstr ""
 "X-Generator: Gtranslator 2.91.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "ניווט"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "העברת החלון למרחב עבודה 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "העברת החלון למרחב עבודה 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "העברה החלון למרחב עבודה 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "העברה החלון למרחב עבודה 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "העברת החלון למרחב העבודה האחרון"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "העברת החלון למרחב העבודה שמשמאל"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "העברת החלון למרחב העבודה שמימין"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "העברת החלון למרחב העבודה שמלמעלה"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "העברת החלון למרחב העבודה שמלמטה"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "העברת החלון לצג שמשמאל"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "העברת החלון לצג שמימין"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "העברת החלון לצג שמלמעלה"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "העברת החלון לצג שמלמטה"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "החלפה בין יישומים"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "החלפה ליישום הקודם"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "החלפת חלונות"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "החלפה לחלון הקודם"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "החלפה בין חלונות של יישום"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "החלפה לחלון הקודם של היישום"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "החלפה בין פקדי המערכת"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "החלפה לפקד המערכת הקודם"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "החלפת החלונות באופן ישיר"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "החלפה לחלון הקודם באופן ישיר"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "החלפת חלונות של יישום באופן ישיר"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "החלפה לחלון הקודם של היישום באופן ישיר"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "החלפת פקדי המערכת באופן ישיר"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "החלפה לפקד המערכת הקודם באופן ישיר"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "הסתרת כל החלונות הרגילים"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "מעבר למרחב עבודה 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "מעבר למרחב עבודה 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "מעבר למרחב עבודה 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "מעבר למרחב עבודה 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "מעבר למרחב העבודה האחרון"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "העברה למרחב העבודה לשמאל"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "העברה למרחב העבודה לימין"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "העברה למרחב העבודה שמלמעלה"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "העברה למרחב העבודה שמלמטה"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "מערכת"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "הצגת החלונית להרצת פקודה"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "הצגת סקירת הפעילויות"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "חלונות"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "הפעלת תפריט החלון"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "הפעלה/כיבוי מצב מסך מלא"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "הפעלה/כיבוי מצב הגדלה"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "הגדלת חלון"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "שחזור חלון"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "החלפת מצב ההצללה"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "סגירת חלון"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "הסתרת החלון"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "הזזת חלון"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "שינוי גודל חלון"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "החלפת המצב בין האם החלון מופיע במרחב עבודה אחד או בכולם"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "הגבהת החלון אם הוא מכוסה, אחרת יש להנמיכו"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "הגבהת החלון מעל לחלונות אחרים"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "הנמכת החלון מתחת לחלונות אחרים"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "הגדלת החלון אנכית"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "הגדלת החלון אופקית"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "פיצול הצפייה משמאל"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "פיצול הצפייה מימין"
-
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr "Ukwm"
@@ -271,7 +30,6 @@ msgid "Modifier to use for extended window management operations"
 msgstr "Modifier to use for extended window management operations"
 
 #: data/org.ukui.ukwm.gschema.xml.in:8
-#, 
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
@@ -316,7 +74,6 @@ msgid "Workspaces are managed dynamically"
 msgstr "Workspaces are managed dynamically"
 
 #: data/org.ukui.ukwm.gschema.xml.in:41
-#, 
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
@@ -355,7 +112,6 @@ msgid "Delay focus changes until the pointer stops moving"
 msgstr "Delay focus changes until the pointer stops moving"
 
 #: data/org.ukui.ukwm.gschema.xml.in:69
-#, 
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
@@ -401,13 +157,41 @@ msgstr ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 
-#: data/org.ukui.ukwm.gschema.xml.in:120
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Select window from tab popup"
 
-#: data/org.ukui.ukwm.gschema.xml.in:125
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Cancel tab popup"
+
+#: data/org.ukui.ukwm.gschema.xml.in:155
+#, fuzzy
+msgid "Switch monitor configurations"
+msgstr "החלפה בין צגים"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
+msgstr ""
 
 #: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
@@ -457,10 +241,14 @@ msgstr "מעבר ל־VT ‏11"
 msgid "Switch to VT 12"
 msgstr "מעבר ל־VT ‏12"
 
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:1848
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "מצב העברה (קבוצה %d)"
@@ -468,113 +256,113 @@ msgstr "מצב העברה (קבוצה %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:1870
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "החלפה בין צגים"
 
-#: src/backends/meta-input-settings.c:1872
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "הצגת עזרה על המסך"
 
-#: src/backends/meta-monitor-manager.c:630
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "תצוגה מובנית"
 
-#: src/backends/meta-monitor-manager.c:653
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: src/backends/meta-monitor-manager.c:655
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "תצוגה לא ידועה"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:663
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: src/compositor/compositor.c:474
+#: src/compositor/compositor.c:476
 #, c-format
 msgid ""
 "Another compositing manager is already running on screen %i on display “%s”."
 msgstr "מנהל תצוגת חלונות אחר כבר פועל במסך %i בתצוגה „%s“."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "אירוע פעמון"
 
+#: src/core/display.c:609
+#, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr "Failed to open X Window System display “%s”\n"
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr "Disable connection to session manager"
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr "Replace the running window manager"
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr "Specify session management ID"
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr "X Display to use"
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr "Initialize session from savefile"
+
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr "Make X calls synchronous"
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr "Run as a wayland compositor"
+
+#: src/core/main.c:232
+msgid "Run as a nested compositor"
+msgstr "Run as a nested compositor"
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr "Run as a full display server, rather than nested"
+
 #. Translators: %s is a window title
-#: src/core/delete.c:127
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "„%s“ אינו מגיב."
 
-#: src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "היישום אינו מגיב."
 
-#: src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
 msgstr ""
 "באפשרותך להמתין זמן קצר ולתת ליישום להמשיך או להכריח את היישום להסתיים."
 
-#: src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_אילוץ סגירה"
 
-#: src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "ה_מתנה"
 
-#: src/core/display.c:608
-#, c-format
-msgid "Failed to open X Window System display “%s”\n"
-msgstr "Failed to open X Window System display “%s”\n"
-
-#: src/core/main.c:189
-msgid "Disable connection to session manager"
-msgstr "Disable connection to session manager"
-
-#: src/core/main.c:195
-msgid "Replace the running window manager"
-msgstr "Replace the running window manager"
-
-#: src/core/main.c:201
-msgid "Specify session management ID"
-msgstr "Specify session management ID"
-
-#: src/core/main.c:206
-msgid "X Display to use"
-msgstr "X Display to use"
-
-#: src/core/main.c:212
-msgid "Initialize session from savefile"
-msgstr "Initialize session from savefile"
-
-#: src/core/main.c:218
-msgid "Make X calls synchronous"
-msgstr "Make X calls synchronous"
-
-#: src/core/main.c:225
-msgid "Run as a wayland compositor"
-msgstr "Run as a wayland compositor"
-
-#: src/core/main.c:231
-msgid "Run as a nested compositor"
-msgstr "Run as a nested compositor"
-
-#: src/core/main.c:239
-msgid "Run as a full display server, rather than nested"
-msgstr "Run as a full display server, rather than nested"
-
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -588,20 +376,20 @@ msgstr ""
 "זוהי תכנה חופשית; יש לעיין במקור כדי לקבל מידע אודות תנאי ההעתקה.\n"
 "לא קיימת שום אחריות; אפילו לא עבור סחר או התאמה לצרכים מסוימים.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Print version"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "תוסף ה־ukwm לשימוש"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "מרחב עבודה %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -610,12 +398,12 @@ msgstr ""
 "Display “%s” already has a window manager; try using the --replace option to "
 "replace the current window manager."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Screen %d on display “%s” is invalid\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm הודר ללא תמיכה במצב פירוט\n"
 
@@ -624,18 +412,198 @@ msgstr "Ukwm הודר ללא תמיכה במצב פירוט\n"
 msgid "Mode Switch: Mode %d"
 msgstr "מצב העברה: מצב %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
 msgstr ""
-"חלונות אלו אינם תומכים ב„שמירת ההגדרות הנוכחיות”, ויהיה צורך "
-"באתחול ידני בכניסה הבאה שלך."
+"חלונות אלו אינם תומכים ב„שמירת ההגדרות הנוכחיות”, ויהיה צורך באתחול ידני "
+"בכניסה הבאה שלך."
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (מעל %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "ניווט"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "העברת החלון למרחב עבודה 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "העברת החלון למרחב עבודה 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "העברה החלון למרחב עבודה 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "העברה החלון למרחב עבודה 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "העברת החלון למרחב העבודה האחרון"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "העברת החלון למרחב העבודה שמשמאל"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "העברת החלון למרחב העבודה שמימין"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "העברת החלון למרחב העבודה שמלמעלה"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "העברת החלון למרחב העבודה שמלמטה"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "העברת החלון לצג שמשמאל"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "העברת החלון לצג שמימין"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "העברת החלון לצג שמלמעלה"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "העברת החלון לצג שמלמטה"
+
+#~ msgid "Switch applications"
+#~ msgstr "החלפה בין יישומים"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "החלפה ליישום הקודם"
+
+#~ msgid "Switch windows"
+#~ msgstr "החלפת חלונות"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "החלפה לחלון הקודם"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "החלפה בין חלונות של יישום"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "החלפה לחלון הקודם של היישום"
+
+#~ msgid "Switch system controls"
+#~ msgstr "החלפה בין פקדי המערכת"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "החלפה לפקד המערכת הקודם"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "החלפת החלונות באופן ישיר"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "החלפה לחלון הקודם באופן ישיר"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "החלפת חלונות של יישום באופן ישיר"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "החלפה לחלון הקודם של היישום באופן ישיר"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "החלפת פקדי המערכת באופן ישיר"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "החלפה לפקד המערכת הקודם באופן ישיר"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "הסתרת כל החלונות הרגילים"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "מעבר למרחב עבודה 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "מעבר למרחב עבודה 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "מעבר למרחב עבודה 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "מעבר למרחב עבודה 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "מעבר למרחב העבודה האחרון"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "העברה למרחב העבודה לשמאל"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "העברה למרחב העבודה לימין"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "העברה למרחב העבודה שמלמעלה"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "העברה למרחב העבודה שמלמטה"
+
+#~ msgid "System"
+#~ msgstr "מערכת"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "הצגת החלונית להרצת פקודה"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "הצגת סקירת הפעילויות"
+
+#~ msgid "Windows"
+#~ msgstr "חלונות"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "הפעלת תפריט החלון"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "הפעלה/כיבוי מצב מסך מלא"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "הפעלה/כיבוי מצב הגדלה"
+
+#~ msgid "Maximize window"
+#~ msgstr "הגדלת חלון"
+
+#~ msgid "Restore window"
+#~ msgstr "שחזור חלון"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "החלפת מצב ההצללה"
+
+#~ msgid "Close window"
+#~ msgstr "סגירת חלון"
+
+#~ msgid "Hide window"
+#~ msgstr "הסתרת החלון"
+
+#~ msgid "Move window"
+#~ msgstr "הזזת חלון"
+
+#~ msgid "Resize window"
+#~ msgstr "שינוי גודל חלון"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "החלפת המצב בין האם החלון מופיע במרחב עבודה אחד או בכולם"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "הגבהת החלון אם הוא מכוסה, אחרת יש להנמיכו"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "הגבהת החלון מעל לחלונות אחרים"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "הנמכת החלון מתחת לחלונות אחרים"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "הגדלת החלון אנכית"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "הגדלת החלון אופקית"
+
+#~ msgid "View split on left"
+#~ msgstr "פיצול הצפייה משמאל"
+
+#~ msgid "View split on right"
+#~ msgstr "פיצול הצפייה מימין"
 
 #~ msgid "background texture could not be created from file"
 #~ msgstr "לא ניתן ליצור מרקם רקע מקובץ"
@@ -1261,8 +1229,7 @@ msgstr "%s (מעל %s)"
 #~ msgstr "Failed to parse saved session file: %s\n"
 
 #~ msgid "<ukwm_session> attribute seen but we already have the session ID"
-#~ msgstr ""
-#~ "התכונה <ukwm_session> מופיעה אך כבר יש בידינו את מספר זיהוי ההפעלה"
+#~ msgstr "התכונה <ukwm_session> מופיעה אך כבר יש בידינו את מספר זיהוי ההפעלה"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Unknown attribute %s on <%s> element"

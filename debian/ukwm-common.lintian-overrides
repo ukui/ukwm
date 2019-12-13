@@ -1,0 +1,2 @@
+# Ship manpages separately from the executables
+ukwm-common: manpage-without-executable

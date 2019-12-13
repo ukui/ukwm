@@ -11,7 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
-"POT-Creation-Date: 2017-08-29 16:09+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-09-03 19:25+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -19,249 +20,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
-" 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 "X-Generator: Lokalize 2.0\n"
-
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Navigācija"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Pārvietot logu uz 1. darbvietu"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Pārvietot logu uz 2. darbvietu"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Pārvietot logu uz 3. darbvietu"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Pārvietot logu uz 4. darbvietu"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Pārvietot logu uz pēdējo darbvietu"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Pārvietot logu uz darbvietu pa kreisi"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Pārvietot logu uz darbvietu pa labi"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Pārvietot logu uz darbvietu augšup"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Pārvietot logu uz darbvietu lejup"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Pārvietot logu uz monitoru pa kreisi"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Pārvietot logu uz monitoru pa labi"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Pārvietot logu uz monitoru augšup"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Pārvietot logu uz monitoru lejup"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Pārslēgt lietotnes"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Pārslēgties uz iepriekšējo lietotni"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Pārslēgt logus"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Pārslēgties uz iepriekšējo logu"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Pārslēgt vienas lietotnes logus"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Pārslēgties uz lietotnes iepriekšējo logu"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Pārslēgt sistēmas vadīklas"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Pārslēgties uz iepriekšējo sistēmas vadīklu"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Pārslēgties starp logiem tieši"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Pārslēgties tieši uz iepriekšējo logu"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Pārslēgties starp lietotnes logiem tieši"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Pārslēgties tieši uz iepriekšējo lietotnes logu"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Pārslēgt sistēmas vadīklas tieši"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Pārslēgties tieši uz iepriekšējo sistēmas vadīklu"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Slēpt visus parastos logus"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Pārslēgties uz 1. darbvietu"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Pārslēgties uz 2. darbvietu"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Pārslēgties uz 3. darbvietu"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Pārslēgties uz 4. darbvietu"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Pārslēgties uz pēdējo darbvietu"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Pāriet uz darbvietu pa kreisi"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Pāriet uz darbvietu pa labi"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Pāriet uz darbvietu augšup"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Pāriet uz darbvietu lejup"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "Sistēma"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "Rādīt palaišanas komandrindu"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Rādīt aktivitāšu pārskatu"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Logi"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Aktivizēt loga izvēlni"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Pārslēgt pilnekrāna režīmu"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Pārslēgt maksimizācijas stāvokli"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Maksimizēt logu"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Atjaunot loga izmēru"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Pārslēgt ēnoto stāvokli"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Aizvērt logu"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Paslēpt logu"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Pārvietot logu"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Mainīt loga izmēru"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "Pārslēgt, vai logam jābūt visās darbvietās vai vienā"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Pacelt logu, ja to aizsedz, citādi pazemināt"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Pacelt logu virs citiem logiem"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Pazemināt logu zem citiem logiem"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Maksimizēt logu vertikāli"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Maksimizēt logu horizontāli"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Izvietot kreisajā ekrāna pusē"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Izvietot labajā ekrāna pusē"
 
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
@@ -403,41 +164,30 @@ msgid "Enable experimental features"
 msgstr "Ieslēgt eksperimentālās iespējas"
 
 #: data/org.ukui.ukwm.gschema.xml.in:108
-#| msgid ""
-#| "To enable experimental features, add the feature keyword to the list. "
-#| "Whether the feature requires restarting the compositor depends on the "
-#| "given feature. Any experimental feature is not required to still be "
-#| "available, or configurable. Don’t expect adding anything in this setting "
-#| "to be future proof. Currently possible keywords: • “scale-monitor-"
-#| "framebuffer” — makes ukwm default to layout logical monitors in a "
-#| "logical pixel coordinate space, while scaling monitor framebuffers "
-#| "instead of window content, to manage HiDPI monitors. Does not require a "
-#| "restart."
 msgid ""
 "To enable experimental features, add the feature keyword to the list. "
 "Whether the feature requires restarting the compositor depends on the given "
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"ukwm default to layout logical monitors in a logical pixel coordinate "
-"space, while scaling monitor framebuffers instead of window content, to "
-"manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
-"enables remote desktop support. To support remote desktop with screen "
-"sharing, “screen-cast” must also be enabled. • “screen-cast” — enables "
-"screen cast support."
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
 msgstr ""
 "Lai ieslēgtu eksperimentālās iespējas, pievienojiet iespējas atslēgvārdu "
 "sarakstam. Vai iespējai būs nepieciešama kompozitora pārstartēšana, būs "
 "atkarīga no dotās iespējas. Jebkura eksperimentāla iespēja var būt "
 "nepieejama vai nekonfigurējama. Negaidiet, ka jebkura no šīm iespējām "
 "nākotnē strādās. Pašlaik pieejamie atslēgvārdi: • “scale-monitor-"
-"framebuffer” — liek ukwm pēc noklusējuma izkārtot loģiskos monitorus "
-"loģisko pikseļu koordināšu telpā, kamēr mērogo monitora kadru buferus, nevis "
-"loga saturu, lai pārvaldītu HiDPI monitorus. Pārstartēšana nav nepieciešama."
-" • “remote-desktop” — "
-"ieslēdz attālinātās darbvirsmas atbalstu. Lai atbalstītu attālināto"
-" darbvirsmu ar ekrāna koplietošanu, jābūt arī ieslēgtam “screen-cast”. •"
-" “screen-cast” — ieslēdz ekrānraides atbalstu."
+"framebuffer” — liek ukwm pēc noklusējuma izkārtot loģiskos monitorus loģisko "
+"pikseļu koordināšu telpā, kamēr mērogo monitora kadru buferus, nevis loga "
+"saturu, lai pārvaldītu HiDPI monitorus. Pārstartēšana nav nepieciešama. • "
+"“remote-desktop” — ieslēdz attālinātās darbvirsmas atbalstu. Lai atbalstītu "
+"attālināto darbvirsmu ar ekrāna koplietošanu, jābūt arī ieslēgtam “screen-"
+"cast”. • “screen-cast” — ieslēdz ekrānraides atbalstu."
 
 #: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
@@ -510,7 +260,7 @@ msgstr "Atkal ieslēdz saīsnes"
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:2151
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "Režīma slēdzis (grupa %d)"
@@ -518,30 +268,30 @@ msgstr "Režīma slēdzis (grupa %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:2174
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Pārslēgt monitoru"
 
-#: src/backends/meta-input-settings.c:2176
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Rādīt palīdzību uz ekrāna"
 
-#: src/backends/meta-monitor-manager.c:903
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Iebūvēts displejs"
 
-#: src/backends/meta-monitor-manager.c:926
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Nezināms"
 
-#: src/backends/meta-monitor-manager.c:928
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Nezināms displejs"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:936
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
@@ -554,62 +304,62 @@ msgid ""
 "Another compositing manager is already running on screen %i on display “%s”."
 msgstr "Cits kompozīcijas pārvaldnieks jau darbojas ekrānā %d displejā “%s”."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Zvana notikums"
 
-#: src/core/display.c:608
+#: src/core/display.c:609
 #, c-format
 msgid "Failed to open X Window System display “%s”\n"
 msgstr "Neizdevās atvērt X logu sistēmas displeju “%s”\n"
 
-#: src/core/main.c:189
+#: src/core/main.c:190
 msgid "Disable connection to session manager"
 msgstr "Deaktivēt savienojumu ar sesiju pārvaldnieku"
 
-#: src/core/main.c:195
+#: src/core/main.c:196
 msgid "Replace the running window manager"
 msgstr "Aizvietot darbojošos logu pārvaldnieku"
 
-#: src/core/main.c:201
+#: src/core/main.c:202
 msgid "Specify session management ID"
 msgstr "Norādiet sesiju pārvaldības ID"
 
-#: src/core/main.c:206
+#: src/core/main.c:207
 msgid "X Display to use"
 msgstr "Lietojamais X displejs"
 
-#: src/core/main.c:212
+#: src/core/main.c:213
 msgid "Initialize session from savefile"
 msgstr "Inicializēt sesiju no saglabātās datnes"
 
-#: src/core/main.c:218
+#: src/core/main.c:219
 msgid "Make X calls synchronous"
 msgstr "Padarīt X izsaukumus sinhronus"
 
-#: src/core/main.c:225
+#: src/core/main.c:226
 msgid "Run as a wayland compositor"
 msgstr "Palaist kā wayland kompozitoru"
 
-#: src/core/main.c:231
+#: src/core/main.c:232
 msgid "Run as a nested compositor"
 msgstr "Palaist kā ligzdotu kompozitoru"
 
-#: src/core/main.c:239
+#: src/core/main.c:240
 msgid "Run as a full display server, rather than nested"
 msgstr "Palaist kā pilnu attēlošanas serveri, nevis iegultu"
 
 #. Translators: %s is a window title
-#: src/core/meta-close-dialog-default.c:147
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "“%s” nereaģē."
 
-#: src/core/meta-close-dialog-default.c:149
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Lietotne nereaģē."
 
-#: src/core/meta-close-dialog-default.c:154
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -617,15 +367,15 @@ msgstr ""
 "Var uzgaidīt neilgu brīdi, līdz tā atgūstas, vai arī aizvērt to piespiedu "
 "kārtā."
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "Aizvērt _piespiedu kārtā"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "_Gaidīt"
 
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -640,20 +390,20 @@ msgstr ""
 "Netiek dota NEKĀDA garantija; pat ne KOMERCIĀLAS VĒRTĪBAS vai DERĪGUMA "
 "NOTEIKTAM NOLŪKAM.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Parādīt versiju"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Izmantojamais ukwm spraudnis"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Darbvieta %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -662,12 +412,12 @@ msgstr ""
 "Displejam “%s” jau ir logu pārvaldnieks; mēģiniet lietot --replace iespēju, "
 "lai aizvietotu pašreizējo logu pārvaldnieku."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Ekrāna %d displejs “%s“ nav derīgs\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm tika kompilēts bez detalizētas izvades režīma atbalsta\n"
 
@@ -676,7 +426,7 @@ msgstr "Ukwm tika kompilēts bez detalizētas izvades režīma atbalsta\n"
 msgid "Mode Switch: Mode %d"
 msgstr "Režīma slēdzis: režīms %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
@@ -684,8 +434,187 @@ msgstr ""
 "Šie logi neatbalsta “saglabāt pašreizējos iestatījumus” un būs jāpārstartē "
 "pašrocīgi nākamreiz, kad ierakstīsities."
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (uz %s)"
 
+#~ msgid "Navigation"
+#~ msgstr "Navigācija"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Pārvietot logu uz 1. darbvietu"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Pārvietot logu uz 2. darbvietu"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Pārvietot logu uz 3. darbvietu"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Pārvietot logu uz 4. darbvietu"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Pārvietot logu uz pēdējo darbvietu"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Pārvietot logu uz darbvietu pa kreisi"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Pārvietot logu uz darbvietu pa labi"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Pārvietot logu uz darbvietu augšup"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Pārvietot logu uz darbvietu lejup"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Pārvietot logu uz monitoru pa kreisi"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Pārvietot logu uz monitoru pa labi"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Pārvietot logu uz monitoru augšup"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Pārvietot logu uz monitoru lejup"
+
+#~ msgid "Switch applications"
+#~ msgstr "Pārslēgt lietotnes"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Pārslēgties uz iepriekšējo lietotni"
+
+#~ msgid "Switch windows"
+#~ msgstr "Pārslēgt logus"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Pārslēgties uz iepriekšējo logu"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Pārslēgt vienas lietotnes logus"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Pārslēgties uz lietotnes iepriekšējo logu"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Pārslēgt sistēmas vadīklas"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Pārslēgties uz iepriekšējo sistēmas vadīklu"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Pārslēgties starp logiem tieši"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Pārslēgties tieši uz iepriekšējo logu"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Pārslēgties starp lietotnes logiem tieši"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Pārslēgties tieši uz iepriekšējo lietotnes logu"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Pārslēgt sistēmas vadīklas tieši"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Pārslēgties tieši uz iepriekšējo sistēmas vadīklu"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Slēpt visus parastos logus"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Pārslēgties uz 1. darbvietu"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Pārslēgties uz 2. darbvietu"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Pārslēgties uz 3. darbvietu"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Pārslēgties uz 4. darbvietu"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Pārslēgties uz pēdējo darbvietu"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Pāriet uz darbvietu pa kreisi"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Pāriet uz darbvietu pa labi"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Pāriet uz darbvietu augšup"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Pāriet uz darbvietu lejup"
+
+#~ msgid "System"
+#~ msgstr "Sistēma"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Rādīt palaišanas komandrindu"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Rādīt aktivitāšu pārskatu"
+
+#~ msgid "Windows"
+#~ msgstr "Logi"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Aktivizēt loga izvēlni"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Pārslēgt pilnekrāna režīmu"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Pārslēgt maksimizācijas stāvokli"
+
+#~ msgid "Maximize window"
+#~ msgstr "Maksimizēt logu"
+
+#~ msgid "Restore window"
+#~ msgstr "Atjaunot loga izmēru"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Pārslēgt ēnoto stāvokli"
+
+#~ msgid "Close window"
+#~ msgstr "Aizvērt logu"
+
+#~ msgid "Hide window"
+#~ msgstr "Paslēpt logu"
+
+#~ msgid "Move window"
+#~ msgstr "Pārvietot logu"
+
+#~ msgid "Resize window"
+#~ msgstr "Mainīt loga izmēru"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Pārslēgt, vai logam jābūt visās darbvietās vai vienā"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Pacelt logu, ja to aizsedz, citādi pazemināt"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Pacelt logu virs citiem logiem"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Pazemināt logu zem citiem logiem"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Maksimizēt logu vertikāli"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Maksimizēt logu horizontāli"
+
+#~ msgid "View split on left"
+#~ msgstr "Izvietot kreisajā ekrāna pusē"
+
+#~ msgid "View split on right"
+#~ msgstr "Izvietot labajā ekrāna pusē"

@@ -10,9 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-08-29 06:41+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-08-29 10:21+0200\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -22,250 +21,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Poedit 1.8.12\n"
-
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Navigazione"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Sposta la finestra sullo spazio di lavoro 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Sposta la finestra sullo spazio di lavoro 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Sposta la finestra sullo spazio di lavoro 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Sposta la finestra sullo spazio di lavoro 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Sposta la finestra sull'ultimo spazio di lavoro"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Sposta la finestra sullo spazio di lavoro a sinistra"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Sposta la finestra sullo spazio di lavoro a destra"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Sposta la finestra sullo spazio di lavoro in alto"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Sposta la finestra sullo spazio di lavoro in basso"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Sposta la finestra un monitor a sinistra"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Sposta la finestra un monitor a destra"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Sposta la finestra un monitor in su"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Sposta la finestra un monitor in giù"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Evidenzia le applicazioni"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Evidenzia l'applicazione precedente"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Evidenzia direttamente le finestre"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Evidenzia la finestra precedente"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Evidenzia le finestre di un'applicazione"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Evidenzia la finestra precedente di un'applicazione"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Evidenzia i controlli di sistema"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Evidenzia i controlli di sistema precedenti"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Evidenzia direttamente le finestre"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Evidenzia direttamente la finestra precedente"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Evidenzia direttamente le finestre di una applicazione"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Evidenzia direttamente la finestra precedente di un'applicazione"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Evidenzia direttamente i controlli di sistema"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Evidenzia direttamente i controlli di sistema precedenti"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Nasconde tutte le finestre normali"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Passa allo spazio di lavoro 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Passa allo spazio di lavoro 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Passa allo spazio di lavoro 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Passa allo spazio di lavoro 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Passa all'ultimo spazio di lavoro"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Sposta su spazio di lavoro a sinistra"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Sposta su spazio di lavoro a destra"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Sposta su spazio di lavoro in alto"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Sposta su spazio di lavoro in basso"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "Sistema"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "Mostra il prompt esegui comando"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Mostra la panoramica delle attività"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Finestre"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Attiva il menù della finestra"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Attiva/Disattiva la modalità schermo intero"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Attiva/Disattiva lo stato massimizzazione"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Massimizza la finestra"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Ripristina la finestra"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Attiva/Disattiva lo stato arrotolato"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Chiudi la finestra"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Ridimensiona la finestra"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Muovi la finestra"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Ridimensiona la finestra"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr ""
-"Attiva/Disattiva la stato «su tutti gli spazi di lavoro» per la finestra"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Solleva la finestra se è coperta, in caso contrario l'abbassa"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Solleva la finestra sopra le altre"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Abbassa la finestra sotto le altre"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Massimizza verticalmente la finestra"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Massimizza orizzontalmente la finestra"
-
-# scorciatoia per mettere la finestra a mezzo schermo intero sulla sinistra
-#
-# traduzione infedele, ma "frazionamento della vista a sn/ds" mi pare peggio
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Massimizza a sinistra"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Massimizza a destra"
 
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
@@ -421,12 +176,12 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"ukwm default to layout logical monitors in a logical pixel coordinate "
-"space, while scaling monitor framebuffers instead of window content, to "
-"manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
-"enables remote desktop support. To support remote desktop with screen "
-"sharing, “screen-cast” must also be enabled. • “screen-cast” — enables "
-"screen cast support."
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
 msgstr ""
 "Per abilitare le funzionalità sperimentali, aggiungere la parola chiave di "
 "tale funzionalità nella lista. Se la funzionalità desiderata richiede il "
@@ -513,7 +268,7 @@ msgstr "Riabilita scorciatoie"
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:2151
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "Cambio modalità (gruppo %d)"
@@ -521,30 +276,30 @@ msgstr "Cambio modalità (gruppo %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:2174
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Cambia monitor"
 
-#: src/backends/meta-input-settings.c:2176
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Mostra aiuto sullo schermo"
 
-#: src/backends/meta-monitor-manager.c:903
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Display integrato"
 
-#: src/backends/meta-monitor-manager.c:926
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: src/backends/meta-monitor-manager.c:928
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Display sconosciuto"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:936
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
@@ -559,62 +314,62 @@ msgstr ""
 "Un altro compositing manager è già in esecuzione sullo schermo %i sul "
 "display «%s»."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Evento campanella"
 
-#: src/core/display.c:608
+#: src/core/display.c:609
 #, c-format
 msgid "Failed to open X Window System display “%s”\n"
 msgstr "Apertura del display «%s» di X Window System non riuscita\n"
 
-#: src/core/main.c:189
+#: src/core/main.c:190
 msgid "Disable connection to session manager"
 msgstr "Disabilita la connessione al gestore di sessione"
 
-#: src/core/main.c:195
+#: src/core/main.c:196
 msgid "Replace the running window manager"
 msgstr "Sostituisce il window manager in esecuzione"
 
-#: src/core/main.c:201
+#: src/core/main.c:202
 msgid "Specify session management ID"
 msgstr "Specifica l'ID di gestione sessione"
 
-#: src/core/main.c:206
+#: src/core/main.c:207
 msgid "X Display to use"
 msgstr "Display X da usare"
 
-#: src/core/main.c:212
+#: src/core/main.c:213
 msgid "Initialize session from savefile"
 msgstr "Inizializza la sessione da file salvato"
 
-#: src/core/main.c:218
+#: src/core/main.c:219
 msgid "Make X calls synchronous"
 msgstr "Rende le chiamate X sincrone"
 
-#: src/core/main.c:225
+#: src/core/main.c:226
 msgid "Run as a wayland compositor"
 msgstr "Esegui come compositor Wayland"
 
-#: src/core/main.c:231
+#: src/core/main.c:232
 msgid "Run as a nested compositor"
 msgstr "Esegui come compositor annidato"
 
-#: src/core/main.c:239
+#: src/core/main.c:240
 msgid "Run as a full display server, rather than nested"
 msgstr "Esegui come display server invece che annidato"
 
 #. Translators: %s is a window title
-#: src/core/meta-close-dialog-default.c:147
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "Nessuna risposta da %s."
 
-#: src/core/meta-close-dialog-default.c:149
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "L'applicazione non risponde."
 
-#: src/core/meta-close-dialog-default.c:154
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -622,15 +377,15 @@ msgstr ""
 "È possibile scegliere di attendere un po' lasciando che l'applicazione "
 "continui, oppure forzare la terminazione dell'applicazione."
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Forza uscita"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "_Attendi"
 
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -645,20 +400,20 @@ msgstr ""
 "NON è fornita alcuna garanzia; neanche di COMMERCIABILITÀ o\n"
 "APPLICABILITÀ PER UNO SCOPO PARTICOLARE.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Stampa la versione"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Plugin Ukwm da usare"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Spazio di lavoro %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -667,12 +422,12 @@ msgstr ""
 "Il display «%s» ha già un window manager; provare a utilizzare l'opzione --"
 "replace per sostituirlo."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Lo schermo %d sul display «%s» non è valido\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr ""
 "Ukwm è stato compilato escludendo il supporto per la modalità prolissa\n"
@@ -682,7 +437,7 @@ msgstr ""
 msgid "Mode Switch: Mode %d"
 msgstr "Cambio modalità: modalità %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
@@ -690,7 +445,191 @@ msgstr ""
 "Queste finestre non supportano la funzione «salva impostazioni attuali» e "
 "dovranno essere riavviate manualmente al prossimo accesso."
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (su %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigazione"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Sposta la finestra sull'ultimo spazio di lavoro"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro a sinistra"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro a destra"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro in alto"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Sposta la finestra sullo spazio di lavoro in basso"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Sposta la finestra un monitor a sinistra"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Sposta la finestra un monitor a destra"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Sposta la finestra un monitor in su"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Sposta la finestra un monitor in giù"
+
+#~ msgid "Switch applications"
+#~ msgstr "Evidenzia le applicazioni"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Evidenzia l'applicazione precedente"
+
+#~ msgid "Switch windows"
+#~ msgstr "Evidenzia direttamente le finestre"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Evidenzia la finestra precedente"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Evidenzia le finestre di un'applicazione"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Evidenzia la finestra precedente di un'applicazione"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Evidenzia i controlli di sistema"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Evidenzia i controlli di sistema precedenti"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Evidenzia direttamente le finestre"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Evidenzia direttamente la finestra precedente"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Evidenzia direttamente le finestre di una applicazione"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Evidenzia direttamente la finestra precedente di un'applicazione"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Evidenzia direttamente i controlli di sistema"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Evidenzia direttamente i controlli di sistema precedenti"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Nasconde tutte le finestre normali"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Passa allo spazio di lavoro 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Passa allo spazio di lavoro 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Passa allo spazio di lavoro 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Passa allo spazio di lavoro 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Passa all'ultimo spazio di lavoro"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Sposta su spazio di lavoro a sinistra"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Sposta su spazio di lavoro a destra"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Sposta su spazio di lavoro in alto"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Sposta su spazio di lavoro in basso"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Mostra il prompt esegui comando"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Mostra la panoramica delle attività"
+
+#~ msgid "Windows"
+#~ msgstr "Finestre"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Attiva il menù della finestra"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Attiva/Disattiva la modalità schermo intero"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Attiva/Disattiva lo stato massimizzazione"
+
+#~ msgid "Maximize window"
+#~ msgstr "Massimizza la finestra"
+
+#~ msgid "Restore window"
+#~ msgstr "Ripristina la finestra"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Attiva/Disattiva lo stato arrotolato"
+
+#~ msgid "Close window"
+#~ msgstr "Chiudi la finestra"
+
+#~ msgid "Hide window"
+#~ msgstr "Ridimensiona la finestra"
+
+#~ msgid "Move window"
+#~ msgstr "Muovi la finestra"
+
+#~ msgid "Resize window"
+#~ msgstr "Ridimensiona la finestra"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr ""
+#~ "Attiva/Disattiva la stato «su tutti gli spazi di lavoro» per la finestra"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Solleva la finestra se è coperta, in caso contrario l'abbassa"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Solleva la finestra sopra le altre"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Abbassa la finestra sotto le altre"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Massimizza verticalmente la finestra"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Massimizza orizzontalmente la finestra"
+
+# scorciatoia per mettere la finestra a mezzo schermo intero sulla sinistra
+#
+# traduzione infedele, ma "frazionamento della vista a sn/ds" mi pare peggio
+#~ msgid "View split on left"
+#~ msgstr "Massimizza a sinistra"
+
+#~ msgid "View split on right"
+#~ msgstr "Massimizza a destra"

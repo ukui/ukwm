@@ -2398,9 +2398,9 @@ Files: ABOUT-NLS
        data/ukwm.desktop.in
        data/ukwm-schemas.convert
        debian/changelog
-       debian/compat
        debian/control
        debian/copyright
+       debian/file-without-copyright-information
        debian/gir1.2-ukwm-1.install
        debian/libukwm-1-0.install
        debian/libukwm-1-0.symbols
@@ -2432,6 +2432,7 @@ Files: ABOUT-NLS
        po/bg.po
        po/bn_IN.po
        po/bn.po
+       po/bo.po
        po/boldquot.sed
        po/br.po
        po/bs.po

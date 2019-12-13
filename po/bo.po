@@ -1,18 +1,17 @@
-# Turkmen translation of metacity
-# Copyright (C) 2004 Free Software Foundation
-# Copyright (C) 2004 Kakilik Project <kakilik.sourceforge.net>
-# This file is distributed under the terms of GNU General Public License (GPL)
-# Gurban Mühemmet Tewekgeli <gmtavakkoli@yahoo.com>, 2004.
+# Tibetan translations for ukwm package.
+# Copyright (C) 2019 Translation copyright holder
+# This file is distributed under the same license as the ukwm package.
+# feng <jianfengli@ubuntukylin.com>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: metacity VERSION\n"
+"Project-Id-Version: ukwm 1.1.4\n"
 "Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
 "POT-Creation-Date: 2019-12-13 09:56+0800\n"
-"PO-Revision-Date: 2004-08-13 03:30+0330\n"
-"Last-Translator: Gurban Mühemmet Tewekgeli <gmtavakkoli@yahoo.com>\n"
-"Language-Team: Turkmen <kakilikgroup@yahoo.com>\n"
-"Language: tk\n"
+"PO-Revision-Date: 2019-12-13 10:04+0800\n"
+"Last-Translator: handsome_feng <jianfengli@ubuntukylin.com>\n"
+"Language-Team: Tibetan\n"
+"Language: bo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -384,108 +383,3 @@ msgstr ""
 #, c-format
 msgid "%s (on %s)"
 msgstr ""
-
-#~ msgid "Close Window"
-#~ msgstr "Äpişgäni Bagla"
-
-#~ msgid "Window Menu"
-#~ msgstr "Äpişge Menüsi"
-
-#~ msgid "Minimize Window"
-#~ msgstr "Äpişgäni Kiçelt"
-
-#~ msgid "Maximize Window"
-#~ msgstr "Äpişgäni Ulalt"
-
-#~ msgid "Unmaximize Window"
-#~ msgstr "Äpişgäniň Ulylykny Gaýtar"
-
-#~ msgid "Mi_nimize"
-#~ msgstr "_Kiçelt"
-
-#~ msgid "Ma_ximize"
-#~ msgstr "_Ulalt"
-
-#~ msgid "Unma_ximize"
-#~ msgstr "_Gaýtar"
-
-#~ msgid "Roll _Up"
-#~ msgstr "_Ýygna"
-
-#~ msgid "_Unroll"
-#~ msgstr "_Aç"
-
-#~ msgid "On _Top"
-#~ msgstr "Iň Göň_de"
-
-#~ msgid "_Move"
-#~ msgstr "Göç_ir"
-
-#~ msgid "_Close"
-#~ msgstr "_Bagla"
-
-#~ msgid "Shift"
-#~ msgstr "Şift"
-
-#~ msgid "Ctrl"
-#~ msgstr "Kontrol"
-
-#~ msgid "Alt"
-#~ msgstr "Alt"
-
-#~ msgid "Meta"
-#~ msgstr "Meta"
-
-#~ msgid "Super"
-#~ msgstr "Super"
-
-#~ msgid "Hyper"
-#~ msgstr "Hyper"
-
-#~ msgid "Mod2"
-#~ msgstr "Mod2"
-
-#~ msgid "Mod3"
-#~ msgstr "Mod3"
-
-#~ msgid "Mod4"
-#~ msgstr "Mod4"
-
-#~ msgid "Mod5"
-#~ msgstr "Mod5"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Close window"
-#~ msgstr "Äpişgäni Bagla"
-
-#~ msgid "Maximize window"
-#~ msgstr "Äpişgäni Ulalt"
-
-#~ msgid "Minimize window"
-#~ msgstr "Äpişgäni Kiçelt"
-
-#~ msgid "Move window"
-#~ msgstr "Äpişgäni Göçir"
-
-#~ msgid "Unmaximize window"
-#~ msgstr "Äpişgeleriň ululygny gaýtar"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-#~ msgid "/_Windows"
-#~ msgstr "/_Äpişgeler"
-
-#~ msgid "top"
-#~ msgstr "üst"
-
-#~ msgid "bottom"
-#~ msgstr "ast"
-
-#~ msgid "left"
-#~ msgstr "sol"
-
-#~ msgid "right"
-#~ msgstr "sag"

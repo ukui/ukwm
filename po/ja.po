@@ -11,9 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-15 13:06+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2016-04-16 07:37+0900\n"
 "Last-Translator: sujiniku <sujinikusityuu@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -24,297 +23,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
-#: ../data/50-ukwm-navigation.xml.in.h:1
-msgid "Navigation"
-msgstr "ナビゲーション"
-
-#: ../data/50-ukwm-navigation.xml.in.h:2
-msgid "Move window to workspace 1"
-msgstr "ウィンドウをワークスペース 1 へ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:3
-msgid "Move window to workspace 2"
-msgstr "ウィンドウをワークスペース 2 へ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:4
-msgid "Move window to workspace 3"
-msgstr "ウィンドウをワークスペース 3 へ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:5
-msgid "Move window to workspace 4"
-msgstr "ウィンドウをワークスペース 4 へ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:6
-#, fuzzy
-#| msgid "Move window to workspace 1"
-msgid "Move window to last workspace"
-msgstr "ウィンドウをワークスペース 1 へ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:7
-msgid "Move window one workspace to the left"
-msgstr "ウィンドウを左側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:8
-msgid "Move window one workspace to the right"
-msgstr "ウィンドウを右側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:9
-msgid "Move window one workspace up"
-msgstr "ウィンドウを上側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:10
-msgid "Move window one workspace down"
-msgstr "ウィンドウを下側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:11
-#, fuzzy
-#| msgid "Move window one workspace to the left"
-msgid "Move window one monitor to the left"
-msgstr "ウィンドウを左側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:12
-#, fuzzy
-#| msgid "Move window one workspace to the right"
-msgid "Move window one monitor to the right"
-msgstr "ウィンドウを右側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:13
-#, fuzzy
-#| msgid "Move window one workspace up"
-msgid "Move window one monitor up"
-msgstr "ウィンドウを上側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:14
-#, fuzzy
-#| msgid "Move window one workspace down"
-msgid "Move window one monitor down"
-msgstr "ウィンドウを下側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:15
-msgid "Switch applications"
-msgstr "アプリケーションを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:16
-#, fuzzy
-#| msgid "Switch applications"
-msgid "Switch to previous application"
-msgstr "アプリケーションを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:17
-msgid "Switch windows"
-msgstr "ウィンドウを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:18
-#, fuzzy
-#| msgid "Switch windows"
-msgid "Switch to previous window"
-msgstr "ウィンドウを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:19
-msgid "Switch windows of an application"
-msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:20
-#, fuzzy
-#| msgid "Switch windows of an application"
-msgid "Switch to previous window of an application"
-msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:21
-msgid "Switch system controls"
-msgstr "システムのコントロールを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:22
-#, fuzzy
-#| msgid "Switch system controls"
-msgid "Switch to previous system control"
-msgstr "システムのコントロールを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:23
-msgid "Switch windows directly"
-msgstr "ウィンドウを直接切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:24
-msgid "Switch directly to previous window"
-msgstr ""
-
-#: ../data/50-ukwm-navigation.xml.in.h:25
-msgid "Switch windows of an app directly"
-msgstr "ひとつのアプリケーション内のウィンドウを直接切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:26
-#, fuzzy
-#| msgid "Switch windows of an application"
-msgid "Switch directly to previous window of an app"
-msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:27
-msgid "Switch system controls directly"
-msgstr "システムのコントロールを直接切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:28
-#, fuzzy
-#| msgid "Switch system controls"
-msgid "Switch directly to previous system control"
-msgstr "システムのコントロールを切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:29
-msgid "Hide all normal windows"
-msgstr "すべての通常のウィンドウを隠す"
-
-# ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
-#: ../data/50-ukwm-navigation.xml.in.h:30
-msgid "Switch to workspace 1"
-msgstr "ワークスペース 1 へ切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:31
-msgid "Switch to workspace 2"
-msgstr "ワークスペース 2 へ切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:32
-msgid "Switch to workspace 3"
-msgstr "ワークスペース 3 へ切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:33
-msgid "Switch to workspace 4"
-msgstr "ワークスペース 4 へ切り替える"
-
-# ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
-#: ../data/50-ukwm-navigation.xml.in.h:34
-#, fuzzy
-#| msgid "Switch to workspace 1"
-msgid "Switch to last workspace"
-msgstr "ワークスペース 1 へ切り替える"
-
-#: ../data/50-ukwm-navigation.xml.in.h:35
-msgid "Move to workspace left"
-msgstr "左側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:36
-msgid "Move to workspace right"
-msgstr "右側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:37
-msgid "Move to workspace above"
-msgstr "上側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-navigation.xml.in.h:38
-msgid "Move to workspace below"
-msgstr "下側のワークスペースへ移動する"
-
-#: ../data/50-ukwm-system.xml.in.h:1
-msgid "System"
-msgstr "システム"
-
-#: ../data/50-ukwm-system.xml.in.h:2
-msgid "Show the run command prompt"
-msgstr "コマンド実行プロンプトを表示する"
-
-#: ../data/50-ukwm-system.xml.in.h:3
-msgid "Show the activities overview"
-msgstr "アクティビティ画面を表示する"
-
-#: ../data/50-ukwm-windows.xml.in.h:1
-msgid "Windows"
-msgstr "ウィンドウ"
-
-#: ../data/50-ukwm-windows.xml.in.h:2
-msgid "Activate the window menu"
-msgstr "ウィンドウメニューを開く"
-
-#: ../data/50-ukwm-windows.xml.in.h:3
-msgid "Toggle fullscreen mode"
-msgstr "フルスクリーンモードを切り替える"
-
-#: ../data/50-ukwm-windows.xml.in.h:4
-msgid "Toggle maximization state"
-msgstr "最大化/最小化の状態を切り替える"
-
-#: ../data/50-ukwm-windows.xml.in.h:5
-msgid "Maximize window"
-msgstr "ウィンドウを最大化する"
-
-#: ../data/50-ukwm-windows.xml.in.h:6
-msgid "Restore window"
-msgstr "ウィンドウを戻す"
-
-#: ../data/50-ukwm-windows.xml.in.h:7
-msgid "Toggle shaded state"
-msgstr "シェードの状態を切り替える"
-
-#: ../data/50-ukwm-windows.xml.in.h:8
-msgid "Close window"
-msgstr "ウィンドウを閉じる"
-
-#: ../data/50-ukwm-windows.xml.in.h:9
-msgid "Hide window"
-msgstr "ウィンドウを非表示にする"
-
-#: ../data/50-ukwm-windows.xml.in.h:10
-msgid "Move window"
-msgstr "ウィンドウを移動する"
-
-#: ../data/50-ukwm-windows.xml.in.h:11
-msgid "Resize window"
-msgstr "ウィンドウサイズを変更する"
-
-#: ../data/50-ukwm-windows.xml.in.h:12
-msgid "Toggle window on all workspaces or one"
-msgstr "ウィンドウをすべてのワークスペースに固定するかどうかを切り替える"
-
-#: ../data/50-ukwm-windows.xml.in.h:13
-msgid "Raise window if covered, otherwise lower it"
-msgstr "ウィンドウが覆われていれば最前面に、そうでなければ最背面に移動する"
-
-#: ../data/50-ukwm-windows.xml.in.h:14
-msgid "Raise window above other windows"
-msgstr "ウィンドウを最前面に移動する"
-
-#: ../data/50-ukwm-windows.xml.in.h:15
-msgid "Lower window below other windows"
-msgstr "ウィンドウを最背面に移動する"
-
-#: ../data/50-ukwm-windows.xml.in.h:16
-msgid "Maximize window vertically"
-msgstr "ウィンドウを垂直方向に最大化する"
-
-#: ../data/50-ukwm-windows.xml.in.h:17
-msgid "Maximize window horizontally"
-msgstr "ウィンドウを水平方向に最大化する"
-
-#: ../data/50-ukwm-windows.xml.in.h:18
-msgid "View split on left"
-msgstr "画面左半分に表示する"
-
-#: ../data/50-ukwm-windows.xml.in.h:19
-msgid "View split on right"
-msgstr "画面右半分に表示する"
-
-#: ../data/ukwm.desktop.in.h:1
+#: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr "Ukwm"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr "ウィンドウの拡張管理の操作で使用する修飾キー"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.gschema.xml.in:8
+#, fuzzy
 msgid ""
-"This key will initiate the \"overlay\", which is a combination window "
-"overview and application launching system. The default is intended to be the "
-"\"Windows key\" on PC hardware. It's expected that this binding either the "
-"default or set to the empty string."
+"This key will initiate the “overlay”, which is a combination window overview "
+"and application launching system. The default is intended to be the “Windows "
+"key” on PC hardware. It’s expected that this binding either the default or "
+"set to the empty string."
 msgstr ""
 "ここに指定したキーで「オーバーレイの機能」を起動します。この機能は GNOME "
 "Shell などが提供するウィンドウの全体表示やアプリの起動システムと連携します。"
 "デフォルトのキーは PC のキーボードにある [Windows キー] です。指定可能な値: "
 "デフォルトのキー、または空の文字列"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "モーダルなダイアログを統合するかどうか"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -324,33 +58,33 @@ msgstr ""
 "に、親ウィンドウのタイトルバーに統合したダイアログを表示します (親ウィンドウ"
 "を移動すると一緒にモーダルなダイアログも移動します)。"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
-"Determines whether workspaces are managed dynamically or whether there's a "
+"Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "プライマリモニターのみワークスペースを切り替えるかどうか"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -359,185 +93,268 @@ msgstr ""
 "か、またはプライマリモニターにあるウィンドウに対してのみワークスペースの切り"
 "替えを提供するかどうかです。"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
+#: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focus will not be changed immediately when entering a window, but only "
-"after the pointer stops moving."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focus will not be changed immediately when entering a window, but only after "
+"the pointer stops moving."
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "ドラッグが可能になる境界線の幅"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
+#: data/org.ukui.ukwm.gschema.xml.in:80
+#, fuzzy
 msgid ""
-"The amount of total draggable borders. If the theme's visible borders are "
+"The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
 "ドラッグができるようになる境界線の幅です。テーマで表示している境界線がこの値"
 "よりも小さい場合は、表示できない境界線がこの値になるように追加されます。"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr ""
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "タブのポップアップでウィンドウを選択します"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr ""
 
-# ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:155
 #, fuzzy
-#| msgid "Switch to workspace 1"
+msgid "Switch monitor configurations"
+msgstr "アプリケーションを切り替える"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
+msgstr ""
+
+# ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
+#, fuzzy
 msgid "Switch to VT 1"
 msgstr "ワークスペース 1 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 #, fuzzy
-#| msgid "Switch to workspace 2"
 msgid "Switch to VT 2"
 msgstr "ワークスペース 2 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 #, fuzzy
-#| msgid "Switch to workspace 3"
 msgid "Switch to VT 3"
 msgstr "ワークスペース 3 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 #, fuzzy
-#| msgid "Switch to workspace 4"
 msgid "Switch to VT 4"
 msgstr "ワークスペース 4 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 #, fuzzy
-#| msgid "Switch to workspace 5"
 msgid "Switch to VT 5"
 msgstr "ワークスペース 5 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 #, fuzzy
-#| msgid "Switch to workspace 6"
 msgid "Switch to VT 6"
 msgstr "ワークスペース 6 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 #, fuzzy
-#| msgid "Switch to workspace 7"
 msgid "Switch to VT 7"
 msgstr "ワークスペース 7 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 #, fuzzy
-#| msgid "Switch to workspace 8"
 msgid "Switch to VT 8"
 msgstr "ワークスペース 8 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 #, fuzzy
-#| msgid "Switch to workspace 9"
 msgid "Switch to VT 9"
 msgstr "ワークスペース 9 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 #, fuzzy
-#| msgid "Switch to workspace 10"
 msgid "Switch to VT 10"
 msgstr "ワークスペース 10 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 #, fuzzy
-#| msgid "Switch to workspace 11"
 msgid "Switch to VT 11"
 msgstr "ワークスペース 11 へ切り替える"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 #, fuzzy
-#| msgid "Switch to workspace 12"
 msgid "Switch to VT 12"
 msgstr "ワークスペース 12 へ切り替える"
 
-#: ../src/backends/meta-monitor-manager.c:518
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
+#. TRANSLATORS: This string refers to a button that switches between
+#. * different modes.
+#.
+#: src/backends/meta-input-settings.c:2168
+#, c-format
+msgid "Mode Switch (Group %d)"
+msgstr ""
+
+#. TRANSLATORS: This string refers to an action, cycles drawing tablets'
+#. * mapping through the available outputs.
+#.
+#: src/backends/meta-input-settings.c:2191
+#, fuzzy
+msgid "Switch monitor"
+msgstr "システムのコントロールを切り替える"
+
+#: src/backends/meta-input-settings.c:2193
+msgid "Show on-screen help"
+msgstr ""
+
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr ""
 
-#: ../src/backends/meta-monitor-manager.c:544
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr ""
 
-#: ../src/backends/meta-monitor-manager.c:546
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr ""
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: ../src/backends/meta-monitor-manager.c:554
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr ""
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: ../src/compositor/compositor.c:456
-#, c-format
+#: src/compositor/compositor.c:476
+#, fuzzy, c-format
 msgid ""
-"Another compositing manager is already running on screen %i on display \"%s"
-"\"."
+"Another compositing manager is already running on screen %i on display “%s”."
 msgstr ""
 "既に別の合成マネージャーがディスプレイ \"%2$s\" 上のスクリーン %1$i で起動中"
 "です"
 
-#: ../src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "ベルイベント"
 
-#: ../src/core/delete.c:127
+#: src/core/display.c:609
+#, fuzzy, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr "X Window System のディスプレイ '%s' のオープンに失敗しました\n"
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr "セッションマネージャーに接続しない"
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr "実行中のウィンドウマネージャーを置き換える"
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr "セッション管理 ID を指定する"
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr "使用する X ディスプレイを指定する"
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr "保存ファイルからセッションを初期化する"
+
+# 'X' という１文字は固有名詞のため大文字にする
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr "X の呼び出しを同期する"
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr ""
+
+#: src/core/main.c:232
+msgid "Run as a nested compositor"
+msgstr ""
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr ""
+
+#. Translators: %s is a window title
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "“%s” から応答がありません"
 
-#: ../src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "アプリケーションから応答がありません"
 
-#: ../src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -545,61 +362,19 @@ msgstr ""
 "応答があるまで少し待つか、または強制的にアプリケーションを終了するか選択して"
 "ください。"
 
-#: ../src/core/delete.c:141
-msgid "_Wait"
-msgstr "待機する(_W)"
-
-#: ../src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "強制終了する(_F)"
 
-#: ../src/core/display.c:555
-#, c-format
-msgid "Failed to open X Window System display '%s'\n"
-msgstr "X Window System のディスプレイ '%s' のオープンに失敗しました\n"
+#: src/core/meta-close-dialog-default.c:162
+msgid "_Wait"
+msgstr "待機する(_W)"
 
-#: ../src/core/main.c:181
-msgid "Disable connection to session manager"
-msgstr "セッションマネージャーに接続しない"
-
-#: ../src/core/main.c:187
-msgid "Replace the running window manager"
-msgstr "実行中のウィンドウマネージャーを置き換える"
-
-#: ../src/core/main.c:193
-msgid "Specify session management ID"
-msgstr "セッション管理 ID を指定する"
-
-#: ../src/core/main.c:198
-msgid "X Display to use"
-msgstr "使用する X ディスプレイを指定する"
-
-#: ../src/core/main.c:204
-msgid "Initialize session from savefile"
-msgstr "保存ファイルからセッションを初期化する"
-
-# 'X' という１文字は固有名詞のため大文字にする
-#: ../src/core/main.c:210
-msgid "Make X calls synchronous"
-msgstr "X の呼び出しを同期する"
-
-#: ../src/core/main.c:217
-msgid "Run as a wayland compositor"
-msgstr ""
-
-#: ../src/core/main.c:223
-msgid "Run as a nested compositor"
-msgstr ""
-
-#: ../src/core/main.c:231
-msgid "Run as a full display server, rather than nested"
-msgstr ""
-
-#: ../src/core/ukwm.c:39
-#, c-format
+#: src/core/ukwm.c:41
+#, fuzzy, c-format
 msgid ""
 "ukwm %s\n"
-"Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
+"Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
@@ -610,53 +385,253 @@ msgstr ""
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 
-#: ../src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "バージョンを表示する"
 
-#: ../src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "使用する Ukwm のプラグイン"
 
-#: ../src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "ワークスペース %d"
 
-#: ../src/core/screen.c:521
+#: src/core/screen.c:584
 #, fuzzy, c-format
-#| msgid ""
-#| "Screen %d on display \"%s\" already has a window manager; try using the --"
-#| "replace option to replace the current window manager.\n"
 msgid ""
-"Display \"%s\" already has a window manager; try using the --replace option "
-"to replace the current window manager."
+"Display “%s” already has a window manager; try using the --replace option to "
+"replace the current window manager."
 msgstr ""
 "ディスプレイ \"%2$s\" 上のスクリーン %1$d はすでにウィンドウマネージャーを"
 "持っています; 現在のウィンドウマネージャーを上書きするために--replace オプ"
 "ションの使用を試してください。\n"
 
-#: ../src/core/screen.c:603
-#, c-format
-msgid "Screen %d on display '%s' is invalid\n"
+#: src/core/screen.c:669
+#, fuzzy, c-format
+msgid "Screen %d on display “%s” is invalid\n"
 msgstr "ディスプレイ '%2$s' 上のスクリーン %1$d は無効です\n"
 
-#: ../src/core/util.c:121
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "この ukwm は詳細ログモードをサポートしていません\n"
 
-#: ../src/x11/session.c:1815
+#: src/wayland/meta-wayland-tablet-pad.c:563
+#, c-format
+msgid "Mode Switch: Mode %d"
+msgstr ""
+
+#: src/x11/session.c:1816
+#, fuzzy
 msgid ""
-"These windows do not support &quot;save current setup&quot; and will have to "
-"be restarted manually next time you log in."
+"These windows do not support “save current setup” and will have to be "
+"restarted manually next time you log in."
 msgstr ""
 "これらのウィンドウは \"現在の設定を保存する\" 機能をサポートしません。次回ロ"
 "グインする時に手動で再起動してください。"
 
-#: ../src/x11/window-props.c:549
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (%s)"
+
+#~ msgid "Navigation"
+#~ msgstr "ナビゲーション"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "ウィンドウをワークスペース 1 へ移動する"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "ウィンドウをワークスペース 2 へ移動する"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "ウィンドウをワークスペース 3 へ移動する"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "ウィンドウをワークスペース 4 へ移動する"
+
+#, fuzzy
+#~| msgid "Move window to workspace 1"
+#~ msgid "Move window to last workspace"
+#~ msgstr "ウィンドウをワークスペース 1 へ移動する"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "ウィンドウを左側のワークスペースへ移動する"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "ウィンドウを右側のワークスペースへ移動する"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "ウィンドウを上側のワークスペースへ移動する"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "ウィンドウを下側のワークスペースへ移動する"
+
+#, fuzzy
+#~| msgid "Move window one workspace to the left"
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "ウィンドウを左側のワークスペースへ移動する"
+
+#, fuzzy
+#~| msgid "Move window one workspace to the right"
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "ウィンドウを右側のワークスペースへ移動する"
+
+#, fuzzy
+#~| msgid "Move window one workspace up"
+#~ msgid "Move window one monitor up"
+#~ msgstr "ウィンドウを上側のワークスペースへ移動する"
+
+#, fuzzy
+#~| msgid "Move window one workspace down"
+#~ msgid "Move window one monitor down"
+#~ msgstr "ウィンドウを下側のワークスペースへ移動する"
+
+#, fuzzy
+#~| msgid "Switch applications"
+#~ msgid "Switch to previous application"
+#~ msgstr "アプリケーションを切り替える"
+
+#~ msgid "Switch windows"
+#~ msgstr "ウィンドウを切り替える"
+
+#, fuzzy
+#~| msgid "Switch windows"
+#~ msgid "Switch to previous window"
+#~ msgstr "ウィンドウを切り替える"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
+
+#, fuzzy
+#~| msgid "Switch windows of an application"
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
+
+#, fuzzy
+#~| msgid "Switch system controls"
+#~ msgid "Switch to previous system control"
+#~ msgstr "システムのコントロールを切り替える"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "ウィンドウを直接切り替える"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "ひとつのアプリケーション内のウィンドウを直接切り替える"
+
+#, fuzzy
+#~| msgid "Switch windows of an application"
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "ひとつのアプリケーション内のウィンドウを切り替える"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "システムのコントロールを直接切り替える"
+
+#, fuzzy
+#~| msgid "Switch system controls"
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "システムのコントロールを切り替える"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "すべての通常のウィンドウを隠す"
+
+# ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
+#~ msgid "Switch to workspace 1"
+#~ msgstr "ワークスペース 1 へ切り替える"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "ワークスペース 2 へ切り替える"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "ワークスペース 3 へ切り替える"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "ワークスペース 4 へ切り替える"
+
+# ｢キーボードショートカット｣のアプレット (gnome-control-center) で表示するメッセージ
+#, fuzzy
+#~| msgid "Switch to workspace 1"
+#~ msgid "Switch to last workspace"
+#~ msgstr "ワークスペース 1 へ切り替える"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "左側のワークスペースへ移動する"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "右側のワークスペースへ移動する"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "上側のワークスペースへ移動する"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "下側のワークスペースへ移動する"
+
+#~ msgid "System"
+#~ msgstr "システム"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "コマンド実行プロンプトを表示する"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "アクティビティ画面を表示する"
+
+#~ msgid "Windows"
+#~ msgstr "ウィンドウ"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "ウィンドウメニューを開く"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "フルスクリーンモードを切り替える"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "最大化/最小化の状態を切り替える"
+
+#~ msgid "Maximize window"
+#~ msgstr "ウィンドウを最大化する"
+
+#~ msgid "Restore window"
+#~ msgstr "ウィンドウを戻す"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "シェードの状態を切り替える"
+
+#~ msgid "Close window"
+#~ msgstr "ウィンドウを閉じる"
+
+#~ msgid "Hide window"
+#~ msgstr "ウィンドウを非表示にする"
+
+#~ msgid "Move window"
+#~ msgstr "ウィンドウを移動する"
+
+#~ msgid "Resize window"
+#~ msgstr "ウィンドウサイズを変更する"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "ウィンドウをすべてのワークスペースに固定するかどうかを切り替える"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "ウィンドウが覆われていれば最前面に、そうでなければ最背面に移動する"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "ウィンドウを最前面に移動する"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "ウィンドウを最背面に移動する"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "ウィンドウを垂直方向に最大化する"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "ウィンドウを水平方向に最大化する"
+
+#~ msgid "View split on left"
+#~ msgstr "画面左半分に表示する"
+
+#~ msgid "View split on right"
+#~ msgstr "画面右半分に表示する"
 
 #~ msgid "Unknown window information request: %d"
 #~ msgstr "ウィンドウ情報の要求が不明です: %d"
@@ -740,8 +715,7 @@ msgstr "%s (%s)"
 #~ msgstr "保存されたセッションファイルの解析に失敗しました: %s\n"
 
 #~ msgid "<ukwm_session> attribute seen but we already have the session ID"
-#~ msgstr ""
-#~ "<ukwm_session> 属性はありますが、既にセッション ID を所有しています"
+#~ msgstr "<ukwm_session> 属性はありますが、既にセッション ID を所有しています"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "<%2$s> エレメントに不明な属性 %1$s があります"

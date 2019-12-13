@@ -8,7 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity.HEAD.ro\n"
-"POT-Creation-Date: 2015-10-21 11:43+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2015-10-22 19:10+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
@@ -21,272 +22,33 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/50-ukwm-navigation.xml.in.h:1
-msgid "Navigation"
-msgstr "Navigare"
-
-#: ../data/50-ukwm-navigation.xml.in.h:2
-msgid "Move window to workspace 1"
-msgstr "Mută fereastra pe spațiul de lucru 1"
-
-#: ../data/50-ukwm-navigation.xml.in.h:3
-msgid "Move window to workspace 2"
-msgstr "Mută fereastra pe spațiul de lucru 2"
-
-#: ../data/50-ukwm-navigation.xml.in.h:4
-msgid "Move window to workspace 3"
-msgstr "Mută fereastra pe spațiul de lucru 3"
-
-#: ../data/50-ukwm-navigation.xml.in.h:5
-msgid "Move window to workspace 4"
-msgstr "Mută fereastra pe spațiul de lucru 4"
-
-#: ../data/50-ukwm-navigation.xml.in.h:6
-msgid "Move window to last workspace"
-msgstr "Mută fereastra pe spațiul de lucru anterior"
-
-#: ../data/50-ukwm-navigation.xml.in.h:7
-msgid "Move window one workspace to the left"
-msgstr "Mută fereastra pe spațiul de lucru de la stânga"
-
-#: ../data/50-ukwm-navigation.xml.in.h:8
-msgid "Move window one workspace to the right"
-msgstr "Mută fereastra pe spațiul de lucru de la dreapta"
-
-#: ../data/50-ukwm-navigation.xml.in.h:9
-msgid "Move window one workspace up"
-msgstr "Mută fereastra pe spațiul de lucru de mai sus"
-
-#: ../data/50-ukwm-navigation.xml.in.h:10
-msgid "Move window one workspace down"
-msgstr "Mută fereastra pe spațiul de lucru de mai jos"
-
-#: ../data/50-ukwm-navigation.xml.in.h:11
-msgid "Move window one monitor to the left"
-msgstr "Mută fereastra cu un monitor la stânga"
-
-#: ../data/50-ukwm-navigation.xml.in.h:12
-msgid "Move window one monitor to the right"
-msgstr "Mută fereastra un monitor la dreapta"
-
-#: ../data/50-ukwm-navigation.xml.in.h:13
-msgid "Move window one monitor up"
-msgstr "Mută fereastra cu un monitor mai sus"
-
-#: ../data/50-ukwm-navigation.xml.in.h:14
-msgid "Move window one monitor down"
-msgstr "Mută fereastra cu un monitor mai jos"
-
-#: ../data/50-ukwm-navigation.xml.in.h:15
-msgid "Switch applications"
-msgstr "Comută aplicațiile"
-
-#: ../data/50-ukwm-navigation.xml.in.h:16
-msgid "Switch to previous application"
-msgstr "Schimbă la aplicația anterioară"
-
-#: ../data/50-ukwm-navigation.xml.in.h:17
-msgid "Switch windows"
-msgstr "Schimbă ferestre"
-
-#: ../data/50-ukwm-navigation.xml.in.h:18
-msgid "Switch to previous window"
-msgstr "Schimbă la fereastra anterioară"
-
-#: ../data/50-ukwm-navigation.xml.in.h:19
-msgid "Switch windows of an application"
-msgstr "Schimbă ferestrele unei aplicații"
-
-#: ../data/50-ukwm-navigation.xml.in.h:20
-msgid "Switch to previous window of an application"
-msgstr "Schimbă la fereastra anterioară a unei aplicații"
-
-#: ../data/50-ukwm-navigation.xml.in.h:21
-msgid "Switch system controls"
-msgstr "Schimbă comenzile de sistem"
-
-#: ../data/50-ukwm-navigation.xml.in.h:22
-msgid "Switch to previous system control"
-msgstr "Schimbă la comanda de control anterioară"
-
-#: ../data/50-ukwm-navigation.xml.in.h:23
-msgid "Switch windows directly"
-msgstr "Schimbă ferestrele în mod direct"
-
-#: ../data/50-ukwm-navigation.xml.in.h:24
-msgid "Switch directly to previous window"
-msgstr "Schimbă la fereastra anterioară în mod direct"
-
-#: ../data/50-ukwm-navigation.xml.in.h:25
-msgid "Switch windows of an app directly"
-msgstr "Schimbă în mod direct ferestrele uneui aplicații "
-
-#: ../data/50-ukwm-navigation.xml.in.h:26
-msgid "Switch directly to previous window of an app"
-msgstr "Schimbă în mod direct la fereastra anterioară a unei aplicații"
-
-#: ../data/50-ukwm-navigation.xml.in.h:27
-msgid "Switch system controls directly"
-msgstr "Schimbă comenzile de sistem în mod direct"
-
-#: ../data/50-ukwm-navigation.xml.in.h:28
-msgid "Switch directly to previous system control"
-msgstr "Schimbă în mod direct la o comandă de sistem anterioară"
-
-#: ../data/50-ukwm-navigation.xml.in.h:29
-msgid "Hide all normal windows"
-msgstr "Ascunde toate ferestrele normale "
-
-#: ../data/50-ukwm-navigation.xml.in.h:30
-msgid "Switch to workspace 1"
-msgstr "Comută la spațiul de lucru 1"
-
-#: ../data/50-ukwm-navigation.xml.in.h:31
-msgid "Switch to workspace 2"
-msgstr "Comută la spațiul de lucru 2"
-
-#: ../data/50-ukwm-navigation.xml.in.h:32
-msgid "Switch to workspace 3"
-msgstr "Comută la spațiul de lucru 3"
-
-#: ../data/50-ukwm-navigation.xml.in.h:33
-msgid "Switch to workspace 4"
-msgstr "Comută la spațiul de lucru 4"
-
-#: ../data/50-ukwm-navigation.xml.in.h:34
-msgid "Switch to last workspace"
-msgstr "Comută la ultimul spațiu de lucru "
-
-#: ../data/50-ukwm-navigation.xml.in.h:35
-msgid "Move to workspace left"
-msgstr "Mută pe spațiul de lucru din stânga"
-
-#: ../data/50-ukwm-navigation.xml.in.h:36
-msgid "Move to workspace right"
-msgstr "Mută pe spațiul de lucru din dreapta"
-
-#: ../data/50-ukwm-navigation.xml.in.h:37
-msgid "Move to workspace above"
-msgstr "Mută pe spațiul de lucru deasupra"
-
-#: ../data/50-ukwm-navigation.xml.in.h:38
-msgid "Move to workspace below"
-msgstr "Mută pe spațiul de lucru de jos"
-
-#: ../data/50-ukwm-system.xml.in.h:1
-msgid "System"
-msgstr "Sistem"
-
-#: ../data/50-ukwm-system.xml.in.h:2
-msgid "Show the run command prompt"
-msgstr "Arată prompterul de comandă al comenzii run (rulează)"
-
-#: ../data/50-ukwm-system.xml.in.h:3
-msgid "Show the activities overview"
-msgstr "Arată prezentarea generală a activităților"
-
-#: ../data/50-ukwm-windows.xml.in.h:1
-msgid "Windows"
-msgstr "Ferestre"
-
-#: ../data/50-ukwm-windows.xml.in.h:2
-msgid "Activate the window menu"
-msgstr "Activează meniul ferestrei"
-
-#: ../data/50-ukwm-windows.xml.in.h:3
-msgid "Toggle fullscreen mode"
-msgstr "Comută modul pe tot ecranul"
-
-#: ../data/50-ukwm-windows.xml.in.h:4
-msgid "Toggle maximization state"
-msgstr "Comută starea de maximizare"
-
-#: ../data/50-ukwm-windows.xml.in.h:5
-msgid "Maximize window"
-msgstr "Maximizează fereastra"
-
-#: ../data/50-ukwm-windows.xml.in.h:6
-msgid "Restore window"
-msgstr "Restabilește fereastra"
-
-#: ../data/50-ukwm-windows.xml.in.h:7
-msgid "Toggle shaded state"
-msgstr "Comută starea de umbrire"
-
-#: ../data/50-ukwm-windows.xml.in.h:8
-msgid "Close window"
-msgstr "Închide fereastra"
-
-#: ../data/50-ukwm-windows.xml.in.h:9
-msgid "Hide window"
-msgstr "Ascunde fereastra"
-
-#: ../data/50-ukwm-windows.xml.in.h:10
-msgid "Move window"
-msgstr "Mută fereastra"
-
-#: ../data/50-ukwm-windows.xml.in.h:11
-msgid "Resize window"
-msgstr "Redimensionează fereastra"
-
-#: ../data/50-ukwm-windows.xml.in.h:12
-msgid "Toggle window on all workspaces or one"
-msgstr "Comută fereastra pe toate spațiile de lucru sau doar pe unul"
-
-#: ../data/50-ukwm-windows.xml.in.h:13
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Ridică fereastra dacă este acoperită, altfel, coboar-o"
-
-#: ../data/50-ukwm-windows.xml.in.h:14
-msgid "Raise window above other windows"
-msgstr "Ridică fereastra deasupra celorlalte ferestre"
-
-#: ../data/50-ukwm-windows.xml.in.h:15
-msgid "Lower window below other windows"
-msgstr "Coboară fereastra sub alte ferestre"
-
-#: ../data/50-ukwm-windows.xml.in.h:16
-msgid "Maximize window vertically"
-msgstr "Maximizează fereastra pe verticală"
-
-#: ../data/50-ukwm-windows.xml.in.h:17
-msgid "Maximize window horizontally"
-msgstr "Maximizează fereastra pe orizontală"
-
-#: ../data/50-ukwm-windows.xml.in.h:18
-msgid "View split on left"
-msgstr "Împarte în stânga"
-
-#: ../data/50-ukwm-windows.xml.in.h:19
-msgid "View split on right"
-msgstr "Împarte în dreapta"
-
-#: ../data/ukwm.desktop.in.h:1
+#: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr "Ukwm"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Modificatorul folosit pentru operațiile extinse de management al ferestrelor"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.gschema.xml.in:8
+#, fuzzy
 msgid ""
-"This key will initiate the \"overlay\", which is a combination window "
-"overview and application launching system. The default is intended to be the "
-"\"Windows key\" on PC hardware. It's expected that this binding either the "
-"default or set to the empty string."
+"This key will initiate the “overlay”, which is a combination window overview "
+"and application launching system. The default is intended to be the “Windows "
+"key” on PC hardware. It’s expected that this binding either the default or "
+"set to the empty string."
 msgstr ""
 "Această cheie va iniția „overlay”-ul, care este o combinație între o privire "
 "de ansamblu a ferestrelor și un sistemul de lansare de aplicații. Implicit "
 "este testa „Windows” pe hardware PC. Este de așteptat ca această cheie să "
 "fie sau implicit sau setat la șirul vid."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Atașează dialogurile modale"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -296,13 +58,13 @@ msgstr ""
 "modale apar atașate la bara de titlu a ferestrei părinte și sunt mutate "
 "împreună cu fereastra părinte."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.gschema.xml.in:30
 #, fuzzy
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr ""
 "Activează mozaicul lateral la plasarea ferestrelor pe marginile ecranului"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -313,13 +75,14 @@ msgstr ""
 "pentru a acoperi jumătate din suprafața disponibilă. Plasarea ferestrelor pe "
 "marginea de sus a ecranului le maximizează complet."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Spațiile de lucru sunt gestionate în mod dinamic"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.gschema.xml.in:41
+#, fuzzy
 msgid ""
-"Determines whether workspaces are managed dynamically or whether there's a "
+"Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
@@ -327,11 +90,11 @@ msgstr ""
 "există un număr static de spații de lucru (determinată de cheia „num-"
 "workspaces” din ”org.gnome.desktop.wm.preferences”)"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Spații de lucru doar pe ecranul principal"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -340,11 +103,11 @@ msgstr ""
 "ferestrele de pe toate monitoarele sau doar pentru ferestrele de pe "
 "monitorul principal."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Fără popup pentru tab"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -352,42 +115,43 @@ msgstr ""
 "Determină dacă utilizarea unui popup sau a unui cadrul evidențiat ar trebui "
 "să fie dezactivată pentru rotirea ferestrelor."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr ""
 "Întârzie schimbările de focalizare până când cursorul încetează să se miște"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
+#: data/org.ukui.ukwm.gschema.xml.in:69
+#, fuzzy
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focus will not be changed immediately when entering a window, but only "
-"after the pointer stops moving."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focus will not be changed immediately when entering a window, but only after "
+"the pointer stops moving."
 msgstr ""
 "Dacă este activat iar modul de focalizare este „alunecos” sau „maus”, "
 "focalizarea nu va fi schimbată imediat după intrarea în câmpul unei "
 "ferestre, ci doar după ce pointerul încetează să se miște."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
+#: data/org.ukui.ukwm.gschema.xml.in:79
 #, fuzzy
 msgid "Draggable border width"
 msgstr "Lățimea margini ce poate fi acționată"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
+#: data/org.ukui.ukwm.gschema.xml.in:80
 #, fuzzy
 msgid ""
-"The amount of total draggable borders. If the theme's visible borders are "
+"The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
 "Numărul marginilor ce pot fi acționate. Dacă marginile vizibile ale temei "
 "sunt insuficiente vor fi adăugate margini invizibile pentru a completa "
 "aceast număr."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 "Maximizează automat ferestrele de dimensiune apropiată de cea a monitorului"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -395,11 +159,11 @@ msgstr ""
 "Dacă este activată, ferestrele noi care sunt inițial de mărimea monitorului "
 "sunt maximizate în mod automat."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Plasează ferestre noi în centru"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -407,107 +171,201 @@ msgstr ""
 "Când este adevărat, ferestrele noi vor fi plasate în centrul ecranului activ "
 "al monitorului."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Selectează fereastra din popup-ul tabului"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Elimină popup-ul pentru tab"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:155
+#, fuzzy
+msgid "Switch monitor configurations"
+msgstr "Comută aplicațiile"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
+msgstr ""
+
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Comută la terminalul virtual 1"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Comută la terminalul virtual 2"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Comută la terminalul virtual 3"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Comută la terminalul virtual 4"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Comută la terminalul virtual 5"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Comută la terminalul virtual 6"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Comută la terminalul virtual 7"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Comută la terminalul virtual 8"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Comută la terminalul virtual 9"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Comută la terminalul virtual 10"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Comută la terminalul virtual 11"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Comută la terminalul virtual 12"
 
-#: ../src/backends/meta-monitor-manager.c:500
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
+#. TRANSLATORS: This string refers to a button that switches between
+#. * different modes.
+#.
+#: src/backends/meta-input-settings.c:2168
+#, c-format
+msgid "Mode Switch (Group %d)"
+msgstr ""
+
+#. TRANSLATORS: This string refers to an action, cycles drawing tablets'
+#. * mapping through the available outputs.
+#.
+#: src/backends/meta-input-settings.c:2191
+#, fuzzy
+msgid "Switch monitor"
+msgstr "Schimbă comenzile de sistem"
+
+#: src/backends/meta-input-settings.c:2193
+msgid "Show on-screen help"
+msgstr ""
+
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Afișaj integrat"
 
-#: ../src/backends/meta-monitor-manager.c:526
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Necunoscut"
 
-#: ../src/backends/meta-monitor-manager.c:528
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Afișaj necunoscut"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: ../src/backends/meta-monitor-manager.c:536
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: ../src/compositor/compositor.c:456
-#, c-format
+#: src/compositor/compositor.c:476
+#, fuzzy, c-format
 msgid ""
-"Another compositing manager is already running on screen %i on display \"%s"
-"\"."
+"Another compositing manager is already running on screen %i on display “%s”."
 msgstr ""
 "Un alt administrator de ferestre compozit rulează deja pe ecranul %i pe "
 "afișajul „%s”."
 
-#: ../src/core/bell.c:185
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Eveniment sonor"
 
-#: ../src/core/delete.c:127
+#: src/core/display.c:609
+#, fuzzy, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr "Nu s-a putut deschide afișajul X Window System „%s”\n"
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr "Dezactivează conexiunea la administratorul de sesiune"
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr "Înlocuiește administratorul de ferestre curent"
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr "Specifică ID-ul administrării de sesiune"
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr "Ecranul X ce va fi folosit"
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr "Inițializează sesiunea din fișierul salvat"
+
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr "Realizează apelurile X sincron"
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr "Rulează ca compozitor wayland"
+
+#: src/core/main.c:232
+#, fuzzy
+msgid "Run as a nested compositor"
+msgstr "Rulează ca compozitor wayland"
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr "Rulează ca server de afișare și nu ca server imbricat"
+
+#. Translators: %s is a window title
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "„%s” nu răspunde."
 
-#: ../src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Aplicația nu răspunde."
 
-#: ../src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -515,56 +373,19 @@ msgstr ""
 "Puteți alege între a aștepta pentru câteva secunde ca aplicația să continue "
 "sau a forța terminarea aplicației."
 
-#: ../src/core/delete.c:141
-msgid "_Wait"
-msgstr "_Așteaptă"
-
-#: ../src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Forțează închiderea"
 
-#: ../src/core/display.c:563
-#, c-format
-msgid "Failed to open X Window System display '%s'\n"
-msgstr "Nu s-a putut deschide afișajul X Window System „%s”\n"
+#: src/core/meta-close-dialog-default.c:162
+msgid "_Wait"
+msgstr "_Așteaptă"
 
-#: ../src/core/main.c:176
-msgid "Disable connection to session manager"
-msgstr "Dezactivează conexiunea la administratorul de sesiune"
-
-#: ../src/core/main.c:182
-msgid "Replace the running window manager"
-msgstr "Înlocuiește administratorul de ferestre curent"
-
-#: ../src/core/main.c:188
-msgid "Specify session management ID"
-msgstr "Specifică ID-ul administrării de sesiune"
-
-#: ../src/core/main.c:193
-msgid "X Display to use"
-msgstr "Ecranul X ce va fi folosit"
-
-#: ../src/core/main.c:199
-msgid "Initialize session from savefile"
-msgstr "Inițializează sesiunea din fișierul salvat"
-
-#: ../src/core/main.c:205
-msgid "Make X calls synchronous"
-msgstr "Realizează apelurile X sincron"
-
-#: ../src/core/main.c:212
-msgid "Run as a wayland compositor"
-msgstr "Rulează ca compozitor wayland"
-
-#: ../src/core/main.c:220
-msgid "Run as a full display server, rather than nested"
-msgstr "Rulează ca server de afișare și nu ca server imbricat"
-
-#: ../src/core/ukwm.c:39
-#, c-format
+#: src/core/ukwm.c:41
+#, fuzzy, c-format
 msgid ""
 "ukwm %s\n"
-"Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
+"Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
@@ -576,50 +397,230 @@ msgstr ""
 "Nu există NICI O garanție; nici pentru COMERCIALIZARE sau UTILIZAREA ÎNTR-UN "
 "SCOP ANUME.\n"
 
-#: ../src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Afișează versiunea"
 
-#: ../src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Modul Ukwm de utilizat"
 
-#: ../src/core/prefs.c:2050
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Spațiu de lucru %d"
 
-#: ../src/core/screen.c:526
-#, c-format
+#: src/core/screen.c:584
+#, fuzzy, c-format
 msgid ""
-"Display \"%s\" already has a window manager; try using the --replace option "
-"to replace the current window manager."
+"Display “%s” already has a window manager; try using the --replace option to "
+"replace the current window manager."
 msgstr ""
 "Afișajul „%s” are deja un administrator de ferestre; încercați să folosiți "
 "opțiunea --replace (înlocuiește) pentru a înlocui administratorul de "
 "ferestre actual."
 
-#: ../src/core/screen.c:608
-#, c-format
-msgid "Screen %d on display '%s' is invalid\n"
+#: src/core/screen.c:669
+#, fuzzy, c-format
+msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Ecranul %d pe afișajul „%s” este invalid\n"
 
-#: ../src/core/util.c:118
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm a fost compilat fără suport pentru modul detaliat\n"
 
-#: ../src/x11/session.c:1815
+#: src/wayland/meta-wayland-tablet-pad.c:563
+#, c-format
+msgid "Mode Switch: Mode %d"
+msgstr ""
+
+#: src/x11/session.c:1816
+#, fuzzy
 msgid ""
-"These windows do not support &quot;save current setup&quot; and will have to "
-"be restarted manually next time you log in."
+"These windows do not support “save current setup” and will have to be "
+"restarted manually next time you log in."
 msgstr ""
 "Aceste ferestre nu suportă „salvează configurarea curentă” și vor trebui "
 "repornite manual următoarea dată când vă veți autentifica."
 
-#: ../src/x11/window-props.c:549
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (pe %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigare"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Mută fereastra pe spațiul de lucru 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Mută fereastra pe spațiul de lucru 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Mută fereastra pe spațiul de lucru 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Mută fereastra pe spațiul de lucru 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Mută fereastra pe spațiul de lucru anterior"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Mută fereastra pe spațiul de lucru de la stânga"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Mută fereastra pe spațiul de lucru de la dreapta"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Mută fereastra pe spațiul de lucru de mai sus"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Mută fereastra pe spațiul de lucru de mai jos"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Mută fereastra cu un monitor la stânga"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Mută fereastra un monitor la dreapta"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Mută fereastra cu un monitor mai sus"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Mută fereastra cu un monitor mai jos"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Schimbă la aplicația anterioară"
+
+#~ msgid "Switch windows"
+#~ msgstr "Schimbă ferestre"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Schimbă la fereastra anterioară"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Schimbă ferestrele unei aplicații"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Schimbă la fereastra anterioară a unei aplicații"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Schimbă la comanda de control anterioară"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Schimbă ferestrele în mod direct"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Schimbă la fereastra anterioară în mod direct"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Schimbă în mod direct ferestrele uneui aplicații "
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Schimbă în mod direct la fereastra anterioară a unei aplicații"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Schimbă comenzile de sistem în mod direct"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Schimbă în mod direct la o comandă de sistem anterioară"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Ascunde toate ferestrele normale "
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Comută la spațiul de lucru 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Comută la spațiul de lucru 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Comută la spațiul de lucru 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Comută la spațiul de lucru 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Comută la ultimul spațiu de lucru "
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Mută pe spațiul de lucru din stânga"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Mută pe spațiul de lucru din dreapta"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Mută pe spațiul de lucru deasupra"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Mută pe spațiul de lucru de jos"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Arată prompterul de comandă al comenzii run (rulează)"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Arată prezentarea generală a activităților"
+
+#~ msgid "Windows"
+#~ msgstr "Ferestre"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Activează meniul ferestrei"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Comută modul pe tot ecranul"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Comută starea de maximizare"
+
+#~ msgid "Maximize window"
+#~ msgstr "Maximizează fereastra"
+
+#~ msgid "Restore window"
+#~ msgstr "Restabilește fereastra"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Comută starea de umbrire"
+
+#~ msgid "Close window"
+#~ msgstr "Închide fereastra"
+
+#~ msgid "Hide window"
+#~ msgstr "Ascunde fereastra"
+
+#~ msgid "Move window"
+#~ msgstr "Mută fereastra"
+
+#~ msgid "Resize window"
+#~ msgstr "Redimensionează fereastra"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Comută fereastra pe toate spațiile de lucru sau doar pe unul"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Ridică fereastra dacă este acoperită, altfel, coboar-o"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Ridică fereastra deasupra celorlalte ferestre"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Coboară fereastra sub alte ferestre"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Maximizează fereastra pe verticală"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Maximizează fereastra pe orizontală"
+
+#~ msgid "View split on left"
+#~ msgstr "Împarte în stânga"
+
+#~ msgid "View split on right"
+#~ msgstr "Împarte în dreapta"
 
 #~ msgid "Switch to workspace on the left of the current workspace"
 #~ msgstr "Schimbă cu spațiul de lucru din stânga celui actual"
@@ -865,8 +866,7 @@ msgstr "%s (pe %s)"
 #~| msgid ""
 #~| "<metacity_session> attribute seen but we already have the session ID"
 #~ msgid "<ukwm_session> attribute seen but we already have the session ID"
-#~ msgstr ""
-#~ "atributul <ukwm_session> a fost văzut dar avem deja ID-ul sesiunii"
+#~ msgstr "atributul <ukwm_session> a fost văzut dar avem deja ID-ul sesiunii"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Atribut necunoscut %s al elementului <%s>"

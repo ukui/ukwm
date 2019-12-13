@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-08 14:26+0200\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2015-03-08 14:32+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
@@ -14,277 +14,37 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/50-ukwm-navigation.xml.in.h:1
-msgid "Navigation"
-msgstr "Навігація"
-
-#: ../data/50-ukwm-navigation.xml.in.h:2
-msgid "Move window to workspace 1"
-msgstr "Перемістити вікно на робочий простір 1"
-
-#: ../data/50-ukwm-navigation.xml.in.h:3
-msgid "Move window to workspace 2"
-msgstr "Перемістити вікно на робочий простір 2"
-
-#: ../data/50-ukwm-navigation.xml.in.h:4
-msgid "Move window to workspace 3"
-msgstr "Перемістити вікно на робочий простір 3"
-
-#: ../data/50-ukwm-navigation.xml.in.h:5
-msgid "Move window to workspace 4"
-msgstr "Перемістити вікно на робочий простір 4"
-
-#: ../data/50-ukwm-navigation.xml.in.h:6
-msgid "Move window to last workspace"
-msgstr "Перемістити вікно на останній робочий простір"
-
-#: ../data/50-ukwm-navigation.xml.in.h:7
-msgid "Move window one workspace to the left"
-msgstr "Перемістити вікно на робочий простір ліворуч"
-
-#: ../data/50-ukwm-navigation.xml.in.h:8
-msgid "Move window one workspace to the right"
-msgstr "Перемістити вікно на робочий простір праворуч"
-
-#: ../data/50-ukwm-navigation.xml.in.h:9
-msgid "Move window one workspace up"
-msgstr "Перемістити вікно на робочий простір вище"
-
-#: ../data/50-ukwm-navigation.xml.in.h:10
-msgid "Move window one workspace down"
-msgstr "Перемістити вікно на робочий простір нижче"
-
-#: ../data/50-ukwm-navigation.xml.in.h:11
-msgid "Move window one monitor to the left"
-msgstr "Перемістити вікно на монітор ліворуч"
-
-#: ../data/50-ukwm-navigation.xml.in.h:12
-msgid "Move window one monitor to the right"
-msgstr "Перемістити вікно на монітор праворуч"
-
-#: ../data/50-ukwm-navigation.xml.in.h:13
-msgid "Move window one monitor up"
-msgstr "Перемістити вікно на монітор вище"
-
-#: ../data/50-ukwm-navigation.xml.in.h:14
-msgid "Move window one monitor down"
-msgstr "Перемістити вікно на монітор нижче"
-
-#: ../data/50-ukwm-navigation.xml.in.h:15
-msgid "Switch applications"
-msgstr "Перемкнути програми"
-
-#: ../data/50-ukwm-navigation.xml.in.h:16
-msgid "Switch to previous application"
-msgstr "Перемкнути до попередньої програми"
-
-#: ../data/50-ukwm-navigation.xml.in.h:17
-msgid "Switch windows"
-msgstr "Перемкнути вікна"
-
-#: ../data/50-ukwm-navigation.xml.in.h:18
-msgid "Switch to previous window"
-msgstr "Перемкнути до попереднього вікна"
-
-#: ../data/50-ukwm-navigation.xml.in.h:19
-msgid "Switch windows of an application"
-msgstr "Перемкнути вікна програм"
-
-#: ../data/50-ukwm-navigation.xml.in.h:20
-msgid "Switch to previous window of an application"
-msgstr "Перемкнути до попереднього вікна програми"
-
-#: ../data/50-ukwm-navigation.xml.in.h:21
-msgid "Switch system controls"
-msgstr "Перемкнути системні керування"
-
-#: ../data/50-ukwm-navigation.xml.in.h:22
-msgid "Switch to previous system control"
-msgstr "Перемкнути до переднього системного керування"
-
-#: ../data/50-ukwm-navigation.xml.in.h:23
-msgid "Switch windows directly"
-msgstr "Перемкнути вікна напряму"
-
-#: ../data/50-ukwm-navigation.xml.in.h:24
-msgid "Switch directly to previous window"
-msgstr "Перемкнути напряму до попереднього вікна"
-
-#: ../data/50-ukwm-navigation.xml.in.h:25
-msgid "Switch windows of an app directly"
-msgstr "Перемкнути вікна програм напряму"
-
-#: ../data/50-ukwm-navigation.xml.in.h:26
-msgid "Switch directly to previous window of an app"
-msgstr "Перемкнути напряму до попереднього вікна програми"
-
-#: ../data/50-ukwm-navigation.xml.in.h:27
-msgid "Switch system controls directly"
-msgstr "Перемкнути системні керування напряму"
-
-#: ../data/50-ukwm-navigation.xml.in.h:28
-msgid "Switch directly to previous system control"
-msgstr "Перемкнути напряму до переднього системного керування"
-
-#: ../data/50-ukwm-navigation.xml.in.h:29
-msgid "Hide all normal windows"
-msgstr "Сховати всі звичайні вікна"
-
-#: ../data/50-ukwm-navigation.xml.in.h:30
-msgid "Switch to workspace 1"
-msgstr "Перейти до робочого простору 1"
-
-#: ../data/50-ukwm-navigation.xml.in.h:31
-msgid "Switch to workspace 2"
-msgstr "Перейти до робочого простору 2"
-
-#: ../data/50-ukwm-navigation.xml.in.h:32
-msgid "Switch to workspace 3"
-msgstr "Перейти до робочого простору 3"
-
-#: ../data/50-ukwm-navigation.xml.in.h:33
-msgid "Switch to workspace 4"
-msgstr "Перейти до робочого простору 4"
-
-#: ../data/50-ukwm-navigation.xml.in.h:34
-msgid "Switch to last workspace"
-msgstr "Перейти до останнього робочого простору"
-
-#: ../data/50-ukwm-navigation.xml.in.h:35
-msgid "Move to workspace left"
-msgstr "Перейти до робочого простору ліворуч"
-
-#: ../data/50-ukwm-navigation.xml.in.h:36
-msgid "Move to workspace right"
-msgstr "Перейти до робочого простору праворуч"
-
-#: ../data/50-ukwm-navigation.xml.in.h:37
-msgid "Move to workspace above"
-msgstr "Перейти до робочого простору вище"
-
-#: ../data/50-ukwm-navigation.xml.in.h:38
-msgid "Move to workspace below"
-msgstr "Перейти до робочого простору знизу"
-
-#: ../data/50-ukwm-system.xml.in.h:1
-msgid "System"
-msgstr "Система"
-
-#: ../data/50-ukwm-system.xml.in.h:2
-msgid "Show the run command prompt"
-msgstr "Показати запуск командного рядка"
-
-#: ../data/50-ukwm-system.xml.in.h:3
-msgid "Show the activities overview"
-msgstr "Показати огляд активності"
-
-#: ../data/50-ukwm-windows.xml.in.h:1
-msgid "Windows"
-msgstr "Вікна"
-
-#: ../data/50-ukwm-windows.xml.in.h:2
-msgid "Activate the window menu"
-msgstr "Активувати меню вікна"
-
-#: ../data/50-ukwm-windows.xml.in.h:3
-msgid "Toggle fullscreen mode"
-msgstr "Перемикання повноекранного режиму"
-
-#: ../data/50-ukwm-windows.xml.in.h:4
-msgid "Toggle maximization state"
-msgstr "Перемкнути стан розгортання вікна на весь екран"
-
-#: ../data/50-ukwm-windows.xml.in.h:5
-msgid "Maximize window"
-msgstr "Розгорнути вікно"
-
-#: ../data/50-ukwm-windows.xml.in.h:6
-msgid "Restore window"
-msgstr "Відновити вікно"
-
-#: ../data/50-ukwm-windows.xml.in.h:7
-msgid "Toggle shaded state"
-msgstr "Перемикання стану згорнутості"
-
-#: ../data/50-ukwm-windows.xml.in.h:8
-msgid "Close window"
-msgstr "Закрити вікно"
-
-#: ../data/50-ukwm-windows.xml.in.h:9
-msgid "Hide window"
-msgstr "Сховати вікно"
-
-#: ../data/50-ukwm-windows.xml.in.h:10
-msgid "Move window"
-msgstr "Перемістити вікно"
-
-#: ../data/50-ukwm-windows.xml.in.h:11
-msgid "Resize window"
-msgstr "Змінити розміри вікна"
-
-#: ../data/50-ukwm-windows.xml.in.h:12
-msgid "Toggle window on all workspaces or one"
-msgstr "Перемикання вікна на всі робочі простори або один"
-
-#: ../data/50-ukwm-windows.xml.in.h:13
-msgid "Raise window if covered, otherwise lower it"
-msgstr ""
-"Підняти вікно на передній план, якщо воно прикрите іншим, інакше опустити "
-
-#: ../data/50-ukwm-windows.xml.in.h:14
-msgid "Raise window above other windows"
-msgstr "Підняти вікно над іншими"
-
-#: ../data/50-ukwm-windows.xml.in.h:15
-msgid "Lower window below other windows"
-msgstr "Перемістити вікна нижче усіх вікон"
-
-#: ../data/50-ukwm-windows.xml.in.h:16
-msgid "Maximize window vertically"
-msgstr "Розгорнути вікно на весь екран вертикально"
-
-#: ../data/50-ukwm-windows.xml.in.h:17
-msgid "Maximize window horizontally"
-msgstr "Розгорнути вікно на весь екран горизонтально"
-
-#: ../data/50-ukwm-windows.xml.in.h:18
-msgid "View split on left"
-msgstr "Перегляд розділити ліворуч"
-
-#: ../data/50-ukwm-windows.xml.in.h:19
-msgid "View split on right"
-msgstr "Перегляд розділити праворуч"
-
-#: ../data/ukwm.desktop.in.h:1
+#: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr "Ukwm"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Модифікатор, що використовується для розширених дій віконного менеджера"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.gschema.xml.in:8
+#, fuzzy
 msgid ""
-"This key will initiate the \"overlay\", which is a combination window "
-"overview and application launching system. The default is intended to be the "
-"\"Windows key\" on PC hardware. It's expected that this binding either the "
-"default or set to the empty string."
+"This key will initiate the “overlay”, which is a combination window overview "
+"and application launching system. The default is intended to be the “Windows "
+"key” on PC hardware. It’s expected that this binding either the default or "
+"set to the empty string."
 msgstr ""
 "Ця клавіша ініціює «накладання», яке є поєднанням огляду вікон і системою "
 "запуску програм. Типово на це призначено клавішу «Win» в обладнанні. "
 "Очікується, що це буде прив'язка або типова, або порожній рядок."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Долучити модальні вікна"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -294,11 +54,11 @@ msgstr ""
 "долучено до батьківського вікна заголовка і пересунуто разом з батьківських "
 "вікном."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Увімкнути розбиття країв, коли кладуться вікна на краї екрана"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -308,13 +68,14 @@ msgstr ""
 "змінить їхній розмір горизонтально, щоб покрити половину доступної ділянки. "
 "Перекидання вікон на верхівку екрана розгорне їх повністю."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Робочі простори організовуються динамічно"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.gschema.xml.in:41
+#, fuzzy
 msgid ""
-"Determines whether workspaces are managed dynamically or whether there's a "
+"Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
@@ -322,11 +83,11 @@ msgstr ""
 "кількість просторів (визначено ключем num-workspaces у org.gnome.desktop.wm."
 "preferences)."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Робочий простір лише на первинному"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -334,11 +95,11 @@ msgstr ""
 "Визначає, чи перемикання робочого простору повинно здійснюватись для вікон "
 "на всіх моніторах, чи лише для вікон на первинному моніторі."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Без контекстних вкладок"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -346,37 +107,39 @@ msgstr ""
 "Визначає, чи слід вимкнути виринання і підкреслювання рамки для повторюваних "
 "вікон. "
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Затримувати зміни фокусу, поки вказівник не перестане рухатись"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
+#: data/org.ukui.ukwm.gschema.xml.in:69
+#, fuzzy
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focus will not be changed immediately when entering a window, but only "
-"after the pointer stops moving."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focus will not be changed immediately when entering a window, but only after "
+"the pointer stops moving."
 msgstr ""
 "Якщо вказано та фокусний режим «за вказівником» або «миша», то зміни не "
 "будуть негайні, коли переходите на вікно, але тільки після того, як "
 "вказівник не рухатиметься."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Перетяжна ширина меж"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
+#: data/org.ukui.ukwm.gschema.xml.in:80
+#, fuzzy
 msgid ""
-"The amount of total draggable borders. If the theme's visible borders are "
+"The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
 "Загальний об'єм перетяжних меж. Якщо видимих меж теми не вистачає, буде "
 "використано це значення з невидимих меж."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr "Автоматично розгортати вікна з роміром екрана"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -384,171 +147,228 @@ msgstr ""
 "Якщо вказано, нові вікна, які запущено в розмірі екрана, автоматично "
 "розгортаються на ввесь екран."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Помістити нове вікно в центр"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
 msgstr "Якщо вказано, нові вікна будуть завжди в центрі чинного екрана."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Вибрати вікно з контекстних вкладок"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Скасувати контекстні вкладки"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:155
+#, fuzzy
+msgid "Switch monitor configurations"
+msgstr "Перемкнути програми"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
+msgstr ""
+
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Перейти до VT 1"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Перейти до VT 2"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Перейти до VT 3"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Перейти до VT 4"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Перейти до VT 5"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Перейти до VT 6"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Перейти до VT 7"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Перейти до VT 8"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Перейти до VT 9"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Перейти до VT 10"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Перейти до VT 11"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Перейти до VT 12"
 
-#: ../src/backends/meta-monitor-manager.c:364
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
+#. TRANSLATORS: This string refers to a button that switches between
+#. * different modes.
+#.
+#: src/backends/meta-input-settings.c:2168
+#, c-format
+msgid "Mode Switch (Group %d)"
+msgstr ""
+
+#. TRANSLATORS: This string refers to an action, cycles drawing tablets'
+#. * mapping through the available outputs.
+#.
+#: src/backends/meta-input-settings.c:2191
+#, fuzzy
+msgid "Switch monitor"
+msgstr "Перемкнути системні керування"
+
+#: src/backends/meta-input-settings.c:2193
+msgid "Show on-screen help"
+msgstr ""
+
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Вбудований екран"
 
-#: ../src/backends/meta-monitor-manager.c:391
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Невідомо"
 
-#: ../src/backends/meta-monitor-manager.c:393
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Невідомий екран"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: ../src/backends/meta-monitor-manager.c:401
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: ../src/compositor/compositor.c:456
-#, c-format
+#: src/compositor/compositor.c:476
+#, fuzzy, c-format
 msgid ""
-"Another compositing manager is already running on screen %i on display \"%s"
-"\"."
+"Another compositing manager is already running on screen %i on display “%s”."
 msgstr "Уже запущено інший композитний менеджер на екрані %i через показ «%s»."
 
-#: ../src/core/bell.c:185
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Подія гудка"
 
-#: ../src/core/delete.c:127
+#: src/core/display.c:609
+#, fuzzy, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr "Не вдалось відкрити дисплей віконної системи X «%s»\n"
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr "Вимкнути з'єднання з менеджером сеансу"
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr "Замінити запущений віконний менеджер"
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr "Вказати ідентифікатор сеансу"
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr "Дисплей X"
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr "Розпочати сеанс зі збереженого файла"
+
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr "Зробити виклики X синхронними"
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr "запустити як композитор wayland"
+
+#: src/core/main.c:232
+#, fuzzy
+msgid "Run as a nested compositor"
+msgstr "запустити як композитор wayland"
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr "Запусти як повноцінний сервер, а не вкладений"
+
+#. Translators: %s is a window title
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "«%s» не відповідає."
 
-#: ../src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Програма не відповідає."
 
-#: ../src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
 msgstr ""
 "Можете трошки зачекати відновлення активності або примусово закрити програму."
 
-#: ../src/core/delete.c:141
-msgid "_Wait"
-msgstr "_Зачекати"
-
-#: ../src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Завершити примусово"
 
-#: ../src/core/display.c:562
-#, c-format
-msgid "Failed to open X Window System display '%s'\n"
-msgstr "Не вдалось відкрити дисплей віконної системи X «%s»\n"
+#: src/core/meta-close-dialog-default.c:162
+msgid "_Wait"
+msgstr "_Зачекати"
 
-#: ../src/core/main.c:176
-msgid "Disable connection to session manager"
-msgstr "Вимкнути з'єднання з менеджером сеансу"
-
-#: ../src/core/main.c:182
-msgid "Replace the running window manager"
-msgstr "Замінити запущений віконний менеджер"
-
-#: ../src/core/main.c:188
-msgid "Specify session management ID"
-msgstr "Вказати ідентифікатор сеансу"
-
-#: ../src/core/main.c:193
-msgid "X Display to use"
-msgstr "Дисплей X"
-
-#: ../src/core/main.c:199
-msgid "Initialize session from savefile"
-msgstr "Розпочати сеанс зі збереженого файла"
-
-#: ../src/core/main.c:205
-msgid "Make X calls synchronous"
-msgstr "Зробити виклики X синхронними"
-
-#: ../src/core/main.c:212
-msgid "Run as a wayland compositor"
-msgstr "запустити як композитор wayland"
-
-#: ../src/core/main.c:220
-msgid "Run as a full display server, rather than nested"
-msgstr "Запусти як повноцінний сервер, а не вкладений"
-
-#: ../src/core/ukwm.c:39
-#, c-format
+#: src/core/ukwm.c:41
+#, fuzzy, c-format
 msgid ""
 "ukwm %s\n"
-"Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
+"Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
@@ -559,49 +379,230 @@ msgstr ""
 "Не надається НІЯКИХ гарантій; навіть ПРИДАТНОСТІ ДЛЯ ПРОДАЖУ чи "
 "ВІДПОВІДНОСТІ ПЕВНІЙ МЕТІ.\n"
 
-#: ../src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Показати версію"
 
-#: ../src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Додатки Clutter для використання"
 
-#: ../src/core/prefs.c:2004
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Робочий простір %d"
 
-#: ../src/core/screen.c:525
-#, c-format
+#: src/core/screen.c:584
+#, fuzzy, c-format
 msgid ""
-"Display \"%s\" already has a window manager; try using the --replace option "
-"to replace the current window manager."
+"Display “%s” already has a window manager; try using the --replace option to "
+"replace the current window manager."
 msgstr ""
 "Екран «%s» вже має менеджера вікон; спробуйте вказати параметр --replace, "
 "щоб замінити поточний менеджер вікон."
 
-#: ../src/core/screen.c:607
-#, c-format
-msgid "Screen %d on display '%s' is invalid\n"
+#: src/core/screen.c:669
+#, fuzzy, c-format
+msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Екран %d на дисплеї «%s» не правильний\n"
 
-#: ../src/core/util.c:118
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm зібрано без підтримки докладного режиму\n"
 
-#: ../src/x11/session.c:1815
+#: src/wayland/meta-wayland-tablet-pad.c:563
+#, c-format
+msgid "Mode Switch: Mode %d"
+msgstr ""
+
+#: src/x11/session.c:1816
+#, fuzzy
 msgid ""
-"These windows do not support &quot;save current setup&quot; and will have to "
-"be restarted manually next time you log in."
+"These windows do not support “save current setup” and will have to be "
+"restarted manually next time you log in."
 msgstr ""
 "Ці вікна не підтримують &quot;збереження поточних параметрів&quot; і при "
 "наступному входженні їх треба запустити власноруч."
 
-#: ../src/x11/window-props.c:549
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (на %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Навігація"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Перемістити вікно на робочий простір 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Перемістити вікно на робочий простір 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Перемістити вікно на робочий простір 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Перемістити вікно на робочий простір 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Перемістити вікно на останній робочий простір"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Перемістити вікно на робочий простір ліворуч"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Перемістити вікно на робочий простір праворуч"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Перемістити вікно на робочий простір вище"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Перемістити вікно на робочий простір нижче"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Перемістити вікно на монітор ліворуч"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Перемістити вікно на монітор праворуч"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Перемістити вікно на монітор вище"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Перемістити вікно на монітор нижче"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Перемкнути до попередньої програми"
+
+#~ msgid "Switch windows"
+#~ msgstr "Перемкнути вікна"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Перемкнути до попереднього вікна"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Перемкнути вікна програм"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Перемкнути до попереднього вікна програми"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Перемкнути до переднього системного керування"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Перемкнути вікна напряму"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Перемкнути напряму до попереднього вікна"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Перемкнути вікна програм напряму"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Перемкнути напряму до попереднього вікна програми"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Перемкнути системні керування напряму"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Перемкнути напряму до переднього системного керування"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Сховати всі звичайні вікна"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Перейти до робочого простору 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Перейти до робочого простору 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Перейти до робочого простору 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Перейти до робочого простору 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Перейти до останнього робочого простору"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Перейти до робочого простору ліворуч"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Перейти до робочого простору праворуч"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Перейти до робочого простору вище"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Перейти до робочого простору знизу"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Показати запуск командного рядка"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Показати огляд активності"
+
+#~ msgid "Windows"
+#~ msgstr "Вікна"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Активувати меню вікна"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Перемикання повноекранного режиму"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Перемкнути стан розгортання вікна на весь екран"
+
+#~ msgid "Maximize window"
+#~ msgstr "Розгорнути вікно"
+
+#~ msgid "Restore window"
+#~ msgstr "Відновити вікно"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Перемикання стану згорнутості"
+
+#~ msgid "Close window"
+#~ msgstr "Закрити вікно"
+
+#~ msgid "Hide window"
+#~ msgstr "Сховати вікно"
+
+#~ msgid "Move window"
+#~ msgstr "Перемістити вікно"
+
+#~ msgid "Resize window"
+#~ msgstr "Змінити розміри вікна"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Перемикання вікна на всі робочі простори або один"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr ""
+#~ "Підняти вікно на передній план, якщо воно прикрите іншим, інакше опустити "
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Підняти вікно над іншими"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Перемістити вікна нижче усіх вікон"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Розгорнути вікно на весь екран вертикально"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Розгорнути вікно на весь екран горизонтально"
+
+#~ msgid "View split on left"
+#~ msgstr "Перегляд розділити ліворуч"
+
+#~ msgid "View split on right"
+#~ msgstr "Перегляд розділити праворуч"
 
 #~ msgid "background texture could not be created from file"
 #~ msgstr "будову тла неможливо створити з файла"

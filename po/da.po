@@ -19,9 +19,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-08-29 16:09+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-09-03 20:29+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -29,246 +28,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Navigation"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Flyt vindue til arbejdsområde 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Flyt vindue til arbejdsområde 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Flyt vindue til arbejdsområde 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Flyt vindue til arbejdsområde 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Flyt vindue til sidste arbejdsområde"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Flyt vindue et arbejdsområde til venstre"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Flyt vindue et arbejdsområde til højre"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Flyt vindue et arbejdsområde op"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Flyt vindue et arbejdsområde ned"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Flyt vindue en skærm til venstre"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Flyt vindue en skærm til højre"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Flyt vindue en skærm op"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Flyt vindue en skærm ned"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Skift mellem programmer"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Skift til forrige program"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Skift mellem vinduer"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Skift til forrige vindue"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Skift mellem vinduer i et program"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Skift til forrige vindue af et program"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Skift mellem systemkontroller"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Skift til forrige systemkontrol"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Skift direkte mellem vinduer"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Skift direkte til forrige vindue"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Skift direkte mellem vinduer i et program"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Skift direkte til forrige vindue af et program"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Skift direkte mellem systemkontroller"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Skift direkte til forrige systemkontrol"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Skjul alle normale vinduer"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Skift til arbejdsområde 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Skift til arbejdsområde 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Skift til arbejdsområde 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Skift til arbejdsområde 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Skift til sidste arbejdsområde"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Flyt til arbejdsområdet til venstre"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Flyt til arbejdsområdet til højre"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Flyt til arbejdsområdet ovenover"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Flyt til arbejdsområdet nedenunder"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "System"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "Vis “kør kommando”-prompten"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Vis aktivitetsoversigten"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Vinduer"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Aktivér vinduesmenuen"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Slå fuldskærmstilstand til/fra"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Slå maksimering til/fra"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Maksimér vindue"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Gendan vindue"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Slå vinduesoprulning til/fra"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Luk vindue"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Skjul vindue"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Flyt vindue"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Ændr vinduesstørrelse"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "Slå visning af vindue på alle arbejdsområder til/fra"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Hæv vindue hvis det er dækket, ellers sænk det"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Hæv vindue over andre vinduer"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Sænk vindue under andre vinduer"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Maksimér vindue lodret"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Maksimér vindue vandret"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Delt visning venstre"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Delt visning højre"
 
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
@@ -418,13 +177,24 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"ukwm default to layout logical monitors in a logical pixel coordinate "
-"space, while scaling monitor framebuffers instead of window content, to "
-"manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
-"enables remote desktop support. To support remote desktop with screen "
-"sharing, “screen-cast” must also be enabled. • “screen-cast” — enables "
-"screen cast support."
-msgstr "For at slå eksperimentelle funktioner til, skal du tilføje funktionsnøgleordet til listen. Om funktionen kræver genstart af kompositoren afhænger af den givne funktion. Der er ingen garanti for at eksperimentelle funktion forbliver tilgængelige eller mulige at konfigurere. Forvent ikke at noget i denne indstilling nødvendigvis fungerer i fremtiden. Mulige nøgleord i øjeblikket: • “scale-monitor-framebuffer” — får ukwm til som standard at arrangere logiske skærme i et logisk pixelkoordinatrum, mens skærmes framebuffere skaleres frem for vinduesindholdet for at håndtere HiDPI-skærme. Fjernskrivebord med skærmdeling understøttes hvis “screen-cast” også er aktiveret. • “screen-cast” — aktiverer understøttelse af skærmoptagelse."
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+"For at slå eksperimentelle funktioner til, skal du tilføje "
+"funktionsnøgleordet til listen. Om funktionen kræver genstart af "
+"kompositoren afhænger af den givne funktion. Der er ingen garanti for at "
+"eksperimentelle funktion forbliver tilgængelige eller mulige at konfigurere. "
+"Forvent ikke at noget i denne indstilling nødvendigvis fungerer i fremtiden. "
+"Mulige nøgleord i øjeblikket: • “scale-monitor-framebuffer” — får ukwm til "
+"som standard at arrangere logiske skærme i et logisk pixelkoordinatrum, mens "
+"skærmes framebuffere skaleres frem for vinduesindholdet for at håndtere "
+"HiDPI-skærme. Fjernskrivebord med skærmdeling understøttes hvis “screen-"
+"cast” også er aktiveret. • “screen-cast” — aktiverer understøttelse af "
+"skærmoptagelse."
 
 #: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
@@ -498,7 +268,7 @@ msgstr "Genaktivér genveje"
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:2151
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "Tilstandsskift (Gruppe %d)"
@@ -506,30 +276,30 @@ msgstr "Tilstandsskift (Gruppe %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:2174
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Skift skærm"
 
-#: src/backends/meta-input-settings.c:2176
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Vis integreret hjælp"
 
-#: src/backends/meta-monitor-manager.c:903
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Indbygget terminal"
 
-#: src/backends/meta-monitor-manager.c:926
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Ukendt"
 
-#: src/backends/meta-monitor-manager.c:928
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Ukendt terminal"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:936
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
@@ -543,62 +313,62 @@ msgid ""
 msgstr ""
 "En anden komposithåndtering kører allerede på skærm %i på terminal “%s”."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Bip-hændelse"
 
-#: src/core/display.c:608
+#: src/core/display.c:609
 #, c-format
 msgid "Failed to open X Window System display “%s”\n"
 msgstr "Kunne ikke åbne X Window System-terminalen “%s”\n"
 
-#: src/core/main.c:189
+#: src/core/main.c:190
 msgid "Disable connection to session manager"
 msgstr "Deaktivér forbindelse til sessionshåndtering"
 
-#: src/core/main.c:195
+#: src/core/main.c:196
 msgid "Replace the running window manager"
 msgstr "Erstat den kørende vindueshåndtering"
 
-#: src/core/main.c:201
+#: src/core/main.c:202
 msgid "Specify session management ID"
 msgstr "Angiv sessionhåndterings-id"
 
-#: src/core/main.c:206
+#: src/core/main.c:207
 msgid "X Display to use"
 msgstr "X-terminal som bruges"
 
-#: src/core/main.c:212
+#: src/core/main.c:213
 msgid "Initialize session from savefile"
 msgstr "Initialisér session fra gemt fil"
 
-#: src/core/main.c:218
+#: src/core/main.c:219
 msgid "Make X calls synchronous"
 msgstr "Gør kald til X synkrone"
 
-#: src/core/main.c:225
+#: src/core/main.c:226
 msgid "Run as a wayland compositor"
 msgstr "Kør som en wayland-kompositor"
 
-#: src/core/main.c:231
+#: src/core/main.c:232
 msgid "Run as a nested compositor"
 msgstr "Kør som en indlejret kompositor"
 
-#: src/core/main.c:239
+#: src/core/main.c:240
 msgid "Run as a full display server, rather than nested"
 msgstr "Kør som fuld terminalserver, frem for indlejret"
 
 #. Translators: %s is a window title
-#: src/core/meta-close-dialog-default.c:147
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "“%s” svarer ikke."
 
-#: src/core/meta-close-dialog-default.c:149
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Program svarer ikke."
 
-#: src/core/meta-close-dialog-default.c:154
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -606,15 +376,15 @@ msgstr ""
 "Du kan vælge at vente et lille stykke tid på at programmet fortsætter, eller "
 "du kan tvinge programmet til at afslutte fuldstændigt."
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Tving til at afslutte"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "_Vent"
 
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -629,20 +399,20 @@ msgstr ""
 "Der er INGEN garanti; ikke engang for SALGBARHED eller EGNETHED TIL ET "
 "BESTEMT FORMÅL.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Vis version"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Ukwm-udvidelsesmodul der skal bruges"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Arbejdsområde %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -651,12 +421,12 @@ msgstr ""
 "Terminalen “%s” har allerede en vindueshåndtering; prøv tilvalget --replace "
 "for at erstatte den aktuelle vindueshåndtering."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Skærm %d på terminal “%s” er ugyldig\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm blev kompileret uden understøttelse for uddybende tilstand\n"
 
@@ -665,7 +435,7 @@ msgstr "Ukwm blev kompileret uden understøttelse for uddybende tilstand\n"
 msgid "Mode Switch: Mode %d"
 msgstr "Tilstandsskift: Tilstand %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
@@ -674,10 +444,190 @@ msgstr ""
 "manuelt næste gang, du logger på."
 
 # Lad os håbe dette er rigtigt
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (på %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Flyt vindue til arbejdsområde 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Flyt vindue til arbejdsområde 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Flyt vindue til arbejdsområde 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Flyt vindue til arbejdsområde 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Flyt vindue til sidste arbejdsområde"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Flyt vindue et arbejdsområde til venstre"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Flyt vindue et arbejdsområde til højre"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Flyt vindue et arbejdsområde op"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Flyt vindue et arbejdsområde ned"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Flyt vindue en skærm til venstre"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Flyt vindue en skærm til højre"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Flyt vindue en skærm op"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Flyt vindue en skærm ned"
+
+#~ msgid "Switch applications"
+#~ msgstr "Skift mellem programmer"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Skift til forrige program"
+
+#~ msgid "Switch windows"
+#~ msgstr "Skift mellem vinduer"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Skift til forrige vindue"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Skift mellem vinduer i et program"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Skift til forrige vindue af et program"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Skift mellem systemkontroller"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Skift til forrige systemkontrol"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Skift direkte mellem vinduer"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Skift direkte til forrige vindue"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Skift direkte mellem vinduer i et program"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Skift direkte til forrige vindue af et program"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Skift direkte mellem systemkontroller"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Skift direkte til forrige systemkontrol"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Skjul alle normale vinduer"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Skift til arbejdsområde 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Skift til arbejdsområde 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Skift til arbejdsområde 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Skift til arbejdsområde 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Skift til sidste arbejdsområde"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Flyt til arbejdsområdet til venstre"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Flyt til arbejdsområdet til højre"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Flyt til arbejdsområdet ovenover"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Flyt til arbejdsområdet nedenunder"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Vis “kør kommando”-prompten"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Vis aktivitetsoversigten"
+
+#~ msgid "Windows"
+#~ msgstr "Vinduer"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Aktivér vinduesmenuen"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Slå fuldskærmstilstand til/fra"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Slå maksimering til/fra"
+
+#~ msgid "Maximize window"
+#~ msgstr "Maksimér vindue"
+
+#~ msgid "Restore window"
+#~ msgstr "Gendan vindue"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Slå vinduesoprulning til/fra"
+
+#~ msgid "Close window"
+#~ msgstr "Luk vindue"
+
+#~ msgid "Hide window"
+#~ msgstr "Skjul vindue"
+
+#~ msgid "Move window"
+#~ msgstr "Flyt vindue"
+
+#~ msgid "Resize window"
+#~ msgstr "Ændr vinduesstørrelse"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Slå visning af vindue på alle arbejdsområder til/fra"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Hæv vindue hvis det er dækket, ellers sænk det"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Hæv vindue over andre vinduer"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Sænk vindue under andre vinduer"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Maksimér vindue lodret"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Maksimér vindue vandret"
+
+#~ msgid "View split on left"
+#~ msgstr "Delt visning venstre"
+
+#~ msgid "View split on right"
+#~ msgstr "Delt visning højre"
 
 #~ msgid "Failed to scan themes directory: %s\n"
 #~ msgstr "Kunne ikke skanne temamappe: %s\n"
@@ -1200,8 +1150,7 @@ msgstr "%s (på %s)"
 
 #~ msgid "<ukwm_session> attribute seen but we already have the session ID"
 #~ msgstr ""
-#~ "<ukwm_session>-egenskaben blev fundet, men vi har allerede sessions-"
-#~ "id'en"
+#~ "<ukwm_session>-egenskaben blev fundet, men vi har allerede sessions-id'en"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Ukendt egenskab %s for <%s>-element"

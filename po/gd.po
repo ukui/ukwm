@@ -5,9 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=mutte"
-"r&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-03-02 11:37+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-03-07 11:59+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -20,246 +19,6 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Seòladaireachd"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Gluais an uinneag gu rum-obrach 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Gluais an uinneag gu rum-obrach 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Gluais an uinneag gu rum-obrach 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Gluais an uinneag gu rum-obrach 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Gluais an uinneag gun rum-obrach mu dheireadh"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Gluais an uinneag gun rum-obrach ris an taobh chlì"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Gluais an uinneag gun rum-obrach ris an taobh deas"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Gluais an uinneag gun rum-obrach os a chionn"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Gluais an uinneag gun rum-obrach foidhe"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Gluais an uinneag gun sgrìn aig an taobh chlì"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Gluais an uinneag gun sgrìn aig an taobh deas"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Gluais an uinneag gun sgrìn os a chionn"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Gluais an uinneag gun sgrìn foidhe"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Gearr leum gu aplacaid eile"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Gearr leum gun aplacaid roimhpe"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Gearr leum gu uinneag eile"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Gearr leum gun uinneag roimhpe"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Gearr leum gu uinneag eile na h-aplacaid"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Gearr leum gu uinneag roimhpe na h-aplacaid"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Gearr leum gu inneal-smachd siostaim eile"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Gearr leum gun inneal-smachd siostaim roimhe"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Gearr leum gu uinneag eile sa bhad"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Gearr leum gun uinneag roimhpe sa bhad"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Gearr leum gu uinneag eile na h-aplacaid sa bhad"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Gearr leum gu uinneag roimphe na h-aplacaid sa bhad"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Gearr leum gu inneal-smachd siostaim eile sa bhad"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Gearr leum gun inneal-smachd siostaim roimhe sa bhad"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Cuir gach uinneag àbhaisteach am falach"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Gearr leum gu rum-obrach 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Gearr leum gu rum-obrach 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Gearr leum gu rum-obrach 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Gearr leum gu rum-obrach 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Gearr leum gun rum-obrach mu dheireadh"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Gluais dhan rum-obrach air an taobh chlì"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Gluais dhan rum-obrach air an taobh deas"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Gluais dhan rum-obrach aig a' bharr"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Gluais dhan rum-obrach aig a' bhonn"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "An siostam"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr ""
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Foir-shealladh air na gnìomhachdan"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Uinneagan"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Gnìomhaich clàr-taice na h-uinneige"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Toglaich am modh làn-sgrìn"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Toglaich staid an làn-mheudachaidh"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Làn-mheudaich an uinneag"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Aisig an uinneag"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Toglaich staid an sgàileachaidh"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Dùin an uinneag"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Cuir an uinneag am falach"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Gluais an uinneag"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Atharraich meud na h-uinneige"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "Toglaich an uinneag air a h-uile rum-obrach no aonan"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Tog an uinneag nuair a thèid a còmhdachadh air neo ìslich i"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Tog an uinneag os cionn càich"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Ìslich an uinneag fo na h-uinneagan eile"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Làn-mheudaich an uinneag gu h-ingearach"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Làn-mheudaich an uinneag air a' chòmhnard"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Sgoilt an t-sealladh air an taobh chì"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Sgoilt an t-sealladh air an taobh deas"
-
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr ""
@@ -270,10 +29,10 @@ msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:8
 msgid ""
-"This key will initiate the \"overlay\", which is a combination window "
-"overview and application launching system. The default is intended to be the "
-"\"Windows key\" on PC hardware. It's expected that this binding either the "
-"default or set to the empty string."
+"This key will initiate the “overlay”, which is a combination window overview "
+"and application launching system. The default is intended to be the “Windows "
+"key” on PC hardware. It’s expected that this binding either the default or "
+"set to the empty string."
 msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:20
@@ -304,7 +63,7 @@ msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:41
 msgid ""
-"Determines whether workspaces are managed dynamically or whether there's a "
+"Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
@@ -335,9 +94,9 @@ msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:69
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focus will not be changed immediately when entering a window, but only "
-"after the pointer stops moving."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focus will not be changed immediately when entering a window, but only after "
+"the pointer stops moving."
 msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:79
@@ -346,7 +105,7 @@ msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:80
 msgid ""
-"The amount of total draggable borders. If the theme's visible borders are "
+"The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
 
@@ -370,12 +129,40 @@ msgid ""
 "screen of the monitor."
 msgstr ""
 
-#: data/org.ukui.ukwm.gschema.xml.in:120
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr ""
 
-#: data/org.ukui.ukwm.gschema.xml.in:125
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:155
+#, fuzzy
+msgid "Switch monitor configurations"
+msgstr "Gearr leum gu monatair eile"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
 msgstr ""
 
 #: data/org.ukui.ukwm.wayland.gschema.xml.in:6
@@ -426,166 +213,354 @@ msgstr ""
 msgid "Switch to VT 12"
 msgstr ""
 
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
+#. TRANSLATORS: This string refers to a button that switches between
+#. * different modes.
+#.
+#: src/backends/meta-input-settings.c:2168
+#, fuzzy, c-format
+msgid "Mode Switch (Group %d)"
+msgstr "Suidse nam modh: Modh %d"
+
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:1913
-#| msgid "Switch system controls"
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Gearr leum gu monatair eile"
 
-#: src/backends/meta-input-settings.c:1915
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Seall a' chobhair air an sgrìn"
 
-#: src/backends/meta-monitor-manager.c:515
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Uidheam-taisbeanaidh 'na broinn"
 
-#: src/backends/meta-monitor-manager.c:538
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Chan eil fhios"
 
-#: src/backends/meta-monitor-manager.c:540
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Uidheam-taisbeanaidh nach aithne dhuinn"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:548
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: src/compositor/compositor.c:471
+#: src/compositor/compositor.c:476
 #, c-format
 msgid ""
-"Another compositing manager is already running on screen %i on display \"%s"
-"\"."
+"Another compositing manager is already running on screen %i on display “%s”."
 msgstr ""
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr ""
 
-#: src/core/delete.c:127
+#: src/core/display.c:609
+#, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr ""
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr ""
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr ""
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr ""
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr ""
+
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr ""
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr ""
+
+#: src/core/main.c:232
+msgid "Run as a nested compositor"
+msgstr ""
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr ""
+
+#. Translators: %s is a window title
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr ""
 
-#: src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr ""
 
-#: src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
 msgstr ""
 
-#: src/core/delete.c:141
-msgid "_Wait"
-msgstr "_Fuirich"
-
-#: src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "Sparr _fàgail air"
 
-#: src/core/display.c:590
-#, c-format
-msgid "Failed to open X Window System display '%s'\n"
-msgstr ""
+#: src/core/meta-close-dialog-default.c:162
+msgid "_Wait"
+msgstr "_Fuirich"
 
-#: src/core/main.c:182
-msgid "Disable connection to session manager"
-msgstr ""
-
-#: src/core/main.c:188
-msgid "Replace the running window manager"
-msgstr ""
-
-#: src/core/main.c:194
-msgid "Specify session management ID"
-msgstr ""
-
-#: src/core/main.c:199
-msgid "X Display to use"
-msgstr ""
-
-#: src/core/main.c:205
-msgid "Initialize session from savefile"
-msgstr ""
-
-#: src/core/main.c:211
-msgid "Make X calls synchronous"
-msgstr ""
-
-#: src/core/main.c:218
-msgid "Run as a wayland compositor"
-msgstr ""
-
-#: src/core/main.c:224
-msgid "Run as a nested compositor"
-msgstr ""
-
-#: src/core/main.c:232
-msgid "Run as a full display server, rather than nested"
-msgstr ""
-
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
-"Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
+"Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
 msgstr ""
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr ""
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr ""
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Rum-obrach %d"
 
-#: src/core/screen.c:521
+#: src/core/screen.c:584
 #, c-format
 msgid ""
-"Display \"%s\" already has a window manager; try using the --replace option "
-"to replace the current window manager."
+"Display “%s” already has a window manager; try using the --replace option to "
+"replace the current window manager."
 msgstr ""
 
-#: src/core/screen.c:606
+#: src/core/screen.c:669
 #, c-format
-msgid "Screen %d on display '%s' is invalid\n"
+msgid "Screen %d on display “%s” is invalid\n"
 msgstr ""
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr ""
 
-#: src/wayland/meta-wayland-tablet-pad.c:595
+#: src/wayland/meta-wayland-tablet-pad.c:563
 #, c-format
 msgid "Mode Switch: Mode %d"
 msgstr "Suidse nam modh: Modh %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
-"These windows do not support &quot;save current setup&quot; and will have to "
-"be restarted manually next time you log in."
+"These windows do not support “save current setup” and will have to be "
+"restarted manually next time you log in."
 msgstr ""
 
-#: src/x11/window-props.c:548
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (air %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Seòladaireachd"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Gluais an uinneag gu rum-obrach 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Gluais an uinneag gu rum-obrach 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Gluais an uinneag gu rum-obrach 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Gluais an uinneag gu rum-obrach 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Gluais an uinneag gun rum-obrach mu dheireadh"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Gluais an uinneag gun rum-obrach ris an taobh chlì"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Gluais an uinneag gun rum-obrach ris an taobh deas"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Gluais an uinneag gun rum-obrach os a chionn"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Gluais an uinneag gun rum-obrach foidhe"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Gluais an uinneag gun sgrìn aig an taobh chlì"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Gluais an uinneag gun sgrìn aig an taobh deas"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Gluais an uinneag gun sgrìn os a chionn"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Gluais an uinneag gun sgrìn foidhe"
+
+#~ msgid "Switch applications"
+#~ msgstr "Gearr leum gu aplacaid eile"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Gearr leum gun aplacaid roimhpe"
+
+#~ msgid "Switch windows"
+#~ msgstr "Gearr leum gu uinneag eile"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Gearr leum gun uinneag roimhpe"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Gearr leum gu uinneag eile na h-aplacaid"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Gearr leum gu uinneag roimhpe na h-aplacaid"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Gearr leum gu inneal-smachd siostaim eile"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Gearr leum gun inneal-smachd siostaim roimhe"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Gearr leum gu uinneag eile sa bhad"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Gearr leum gun uinneag roimhpe sa bhad"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Gearr leum gu uinneag eile na h-aplacaid sa bhad"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Gearr leum gu uinneag roimphe na h-aplacaid sa bhad"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Gearr leum gu inneal-smachd siostaim eile sa bhad"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Gearr leum gun inneal-smachd siostaim roimhe sa bhad"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Cuir gach uinneag àbhaisteach am falach"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Gearr leum gu rum-obrach 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Gearr leum gu rum-obrach 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Gearr leum gu rum-obrach 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Gearr leum gu rum-obrach 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Gearr leum gun rum-obrach mu dheireadh"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Gluais dhan rum-obrach air an taobh chlì"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Gluais dhan rum-obrach air an taobh deas"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Gluais dhan rum-obrach aig a' bharr"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Gluais dhan rum-obrach aig a' bhonn"
+
+#~ msgid "System"
+#~ msgstr "An siostam"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Foir-shealladh air na gnìomhachdan"
+
+#~ msgid "Windows"
+#~ msgstr "Uinneagan"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Gnìomhaich clàr-taice na h-uinneige"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Toglaich am modh làn-sgrìn"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Toglaich staid an làn-mheudachaidh"
+
+#~ msgid "Maximize window"
+#~ msgstr "Làn-mheudaich an uinneag"
+
+#~ msgid "Restore window"
+#~ msgstr "Aisig an uinneag"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Toglaich staid an sgàileachaidh"
+
+#~ msgid "Close window"
+#~ msgstr "Dùin an uinneag"
+
+#~ msgid "Hide window"
+#~ msgstr "Cuir an uinneag am falach"
+
+#~ msgid "Move window"
+#~ msgstr "Gluais an uinneag"
+
+#~ msgid "Resize window"
+#~ msgstr "Atharraich meud na h-uinneige"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Toglaich an uinneag air a h-uile rum-obrach no aonan"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Tog an uinneag nuair a thèid a còmhdachadh air neo ìslich i"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Tog an uinneag os cionn càich"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Ìslich an uinneag fo na h-uinneagan eile"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Làn-mheudaich an uinneag gu h-ingearach"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Làn-mheudaich an uinneag air a' chòmhnard"
+
+#~ msgid "View split on left"
+#~ msgstr "Sgoilt an t-sealladh air an taobh chì"
+
+#~ msgid "View split on right"
+#~ msgstr "Sgoilt an t-sealladh air an taobh deas"

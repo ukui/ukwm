@@ -1,3 +1,14 @@
+ukwm (1.1.14-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/{compat,control}:
+    - Use debheper-compat, bump to compat level version 12.
+  * debian/copyright:
+    - Update copyright.
+  * Add ukwm-common.lintian-overrides.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 13 Dec 2019 10:07:02 +0800
+
 ukwm (1.1.13-0ubuntu1) eoan; urgency=medium
 
   [ Liu Yi ]

@@ -6,9 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-05-20 13:48+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2016-05-08 18:48+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
@@ -20,272 +19,33 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../data/50-ukwm-navigation.xml.in.h:1
-msgid "Navigation"
-msgstr "Navigacion"
-
-#: ../data/50-ukwm-navigation.xml.in.h:2
-msgid "Move window to workspace 1"
-msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 1"
-
-#: ../data/50-ukwm-navigation.xml.in.h:3
-msgid "Move window to workspace 2"
-msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 2"
-
-#: ../data/50-ukwm-navigation.xml.in.h:4
-msgid "Move window to workspace 3"
-msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 3"
-
-#: ../data/50-ukwm-navigation.xml.in.h:5
-msgid "Move window to workspace 4"
-msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 4"
-
-#: ../data/50-ukwm-navigation.xml.in.h:6
-msgid "Move window to last workspace"
-msgstr "Desplaçar la fenèstra cap al darrièr espaci de trabalh"
-
-#: ../data/50-ukwm-navigation.xml.in.h:7
-msgid "Move window one workspace to the left"
-msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap a esquèrra"
-
-#: ../data/50-ukwm-navigation.xml.in.h:8
-msgid "Move window one workspace to the right"
-msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap a dreita"
-
-#: ../data/50-ukwm-navigation.xml.in.h:9
-msgid "Move window one workspace up"
-msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap amont"
-
-#: ../data/50-ukwm-navigation.xml.in.h:10
-msgid "Move window one workspace down"
-msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap aval"
-
-#: ../data/50-ukwm-navigation.xml.in.h:11
-msgid "Move window one monitor to the left"
-msgstr "Desplaçar la fenèstra d'un ecran cap a esquèrra"
-
-#: ../data/50-ukwm-navigation.xml.in.h:12
-msgid "Move window one monitor to the right"
-msgstr "Desplaçar la fenèstra d'un ecran cap a dreita"
-
-#: ../data/50-ukwm-navigation.xml.in.h:13
-msgid "Move window one monitor up"
-msgstr "Desplaçar la fenèstra d'un ecran cap amont"
-
-#: ../data/50-ukwm-navigation.xml.in.h:14
-msgid "Move window one monitor down"
-msgstr "Desplaçar la fenèstra d'un ecran cap aval"
-
-#: ../data/50-ukwm-navigation.xml.in.h:15
-msgid "Switch applications"
-msgstr "Cambiar d'aplicacion"
-
-#: ../data/50-ukwm-navigation.xml.in.h:16
-msgid "Switch to previous application"
-msgstr "Passar a l'aplicacion precedenta"
-
-#: ../data/50-ukwm-navigation.xml.in.h:17
-msgid "Switch windows"
-msgstr "Cambiar de fenèstra"
-
-#: ../data/50-ukwm-navigation.xml.in.h:18
-msgid "Switch to previous window"
-msgstr "Passar a la fenèstra precedenta"
-
-#: ../data/50-ukwm-navigation.xml.in.h:19
-msgid "Switch windows of an application"
-msgstr "Cambiar de fenèstra d'una aplicacion"
-
-#: ../data/50-ukwm-navigation.xml.in.h:20
-msgid "Switch to previous window of an application"
-msgstr "Passar a la fenèstra precedenta d'una aplicacion"
-
-#: ../data/50-ukwm-navigation.xml.in.h:21
-msgid "Switch system controls"
-msgstr "Cambiar los contraròtles sistèma"
-
-#: ../data/50-ukwm-navigation.xml.in.h:22
-msgid "Switch to previous system control"
-msgstr "Passar al contraròtle sistèma precedent"
-
-#: ../data/50-ukwm-navigation.xml.in.h:23
-msgid "Switch windows directly"
-msgstr "Cambiar de fenèstra dirèctament"
-
-#: ../data/50-ukwm-navigation.xml.in.h:24
-msgid "Switch directly to previous window"
-msgstr "Passar dirèctament a la fenèstra precedenta"
-
-#: ../data/50-ukwm-navigation.xml.in.h:25
-msgid "Switch windows of an app directly"
-msgstr "Cambiar de fenèstra d'una aplicacion dirèctament"
-
-#: ../data/50-ukwm-navigation.xml.in.h:26
-msgid "Switch directly to previous window of an app"
-msgstr "Passar dirèctament a la fenèstra precedenta d'una aplicacion"
-
-#: ../data/50-ukwm-navigation.xml.in.h:27
-msgid "Switch system controls directly"
-msgstr "Cambiar los contraròtles sistèma dirèctament"
-
-#: ../data/50-ukwm-navigation.xml.in.h:28
-msgid "Switch directly to previous system control"
-msgstr "Passar dirèctament al contraròtle sistèma precedent"
-
-#: ../data/50-ukwm-navigation.xml.in.h:29
-msgid "Hide all normal windows"
-msgstr "Amagar totas las fenèstras normalas"
-
-#: ../data/50-ukwm-navigation.xml.in.h:30
-msgid "Switch to workspace 1"
-msgstr "Passar a l'espaci de trabalh 1"
-
-#: ../data/50-ukwm-navigation.xml.in.h:31
-msgid "Switch to workspace 2"
-msgstr "Passar a l'espaci de trabalh 2"
-
-#: ../data/50-ukwm-navigation.xml.in.h:32
-msgid "Switch to workspace 3"
-msgstr "Passar a l'espaci de trabalh 3"
-
-#: ../data/50-ukwm-navigation.xml.in.h:33
-msgid "Switch to workspace 4"
-msgstr "Passar a l'espaci de trabalh 4"
-
-#: ../data/50-ukwm-navigation.xml.in.h:34
-msgid "Switch to last workspace"
-msgstr "Passar al darrièr espaci de trabalh"
-
-#: ../data/50-ukwm-navigation.xml.in.h:35
-msgid "Move to workspace left"
-msgstr "Desplaçar cap a l'espaci de trabalh d'esquèrra"
-
-#: ../data/50-ukwm-navigation.xml.in.h:36
-msgid "Move to workspace right"
-msgstr "Desplaçar cap a l'espaci de trabalh de dreita"
-
-#: ../data/50-ukwm-navigation.xml.in.h:37
-msgid "Move to workspace above"
-msgstr "Desplaçar cap a l'espaci de trabalh de dessús"
-
-#: ../data/50-ukwm-navigation.xml.in.h:38
-msgid "Move to workspace below"
-msgstr "Desplaçar cap a l'espaci de trabalh de dejós"
-
-#: ../data/50-ukwm-system.xml.in.h:1
-msgid "System"
-msgstr "Sistèma"
-
-#: ../data/50-ukwm-system.xml.in.h:2
-msgid "Show the run command prompt"
-msgstr "Afichar la fenèstra per aviar una comanda"
-
-#: ../data/50-ukwm-system.xml.in.h:3
-msgid "Show the activities overview"
-msgstr "Afichar l'apercebut de las activitats"
-
-#: ../data/50-ukwm-windows.xml.in.h:1
-msgid "Windows"
-msgstr "Fenèstras"
-
-#: ../data/50-ukwm-windows.xml.in.h:2
-msgid "Activate the window menu"
-msgstr "Activar lo menú fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:3
-msgid "Toggle fullscreen mode"
-msgstr "Bascular lo mòde ecran complet"
-
-#: ../data/50-ukwm-windows.xml.in.h:4
-msgid "Toggle maximization state"
-msgstr "Bascular l'estat d'agrandiment"
-
-#: ../data/50-ukwm-windows.xml.in.h:5
-msgid "Maximize window"
-msgstr "Maximizar la fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:6
-msgid "Restore window"
-msgstr "Restablir la fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:7
-msgid "Toggle shaded state"
-msgstr "Bascular l'estat de replec"
-
-#: ../data/50-ukwm-windows.xml.in.h:8
-msgid "Close window"
-msgstr "Tampar la fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:9
-msgid "Hide window"
-msgstr "Amagar la fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:10
-msgid "Move window"
-msgstr "Desplaçar la fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:11
-msgid "Resize window"
-msgstr "Redimensionar la fenèstra"
-
-#: ../data/50-ukwm-windows.xml.in.h:12
-msgid "Toggle window on all workspaces or one"
-msgstr "Plaçar la fenèstra sus totes los espacis de trabalh, o sus un sol"
-
-#: ../data/50-ukwm-windows.xml.in.h:13
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Metre la fenèstra al primièr plan se es amagada, siquenon al rèireplan"
-
-#: ../data/50-ukwm-windows.xml.in.h:14
-msgid "Raise window above other windows"
-msgstr "Metre la fenèstra al primièr plan"
-
-#: ../data/50-ukwm-windows.xml.in.h:15
-msgid "Lower window below other windows"
-msgstr "Metre la fenèstra jos las autras fenèstras"
-
-#: ../data/50-ukwm-windows.xml.in.h:16
-msgid "Maximize window vertically"
-msgstr "Maximizar la fenèstra verticalament"
-
-#: ../data/50-ukwm-windows.xml.in.h:17
-msgid "Maximize window horizontally"
-msgstr "Maximizar la fenèstra orizontalament"
-
-#: ../data/50-ukwm-windows.xml.in.h:18
-msgid "View split on left"
-msgstr "Vista devesida a esquèrra"
-
-#: ../data/50-ukwm-windows.xml.in.h:19
-msgid "View split on right"
-msgstr "Vista devesida a dreita"
-
-#: ../data/ukwm.desktop.in.h:1
+#: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr "Ukwm"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:7
 msgid "Modifier to use for extended window management operations"
 msgstr ""
 "Tòca d'utilizar per las operacions espandidas de gestion de las fenèstras"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.gschema.xml.in:8
+#, fuzzy
 msgid ""
-"This key will initiate the \"overlay\", which is a combination window "
-"overview and application launching system. The default is intended to be the "
-"\"Windows key\" on PC hardware. It's expected that this binding either the "
-"default or set to the empty string."
+"This key will initiate the “overlay”, which is a combination window overview "
+"and application launching system. The default is intended to be the “Windows "
+"key” on PC hardware. It’s expected that this binding either the default or "
+"set to the empty string."
 msgstr ""
 "Aquesta tòca inicia l'« overlay », una combinason d'apercebut de las "
 "fenèstras e d'un sistèma d'aviada d'aplicacions. La tòca per defaut sul "
 "material PC es la tòca Windows. En principi, aqueste acorchi es configurat "
 "sul reglatge per defaut o sus la cadena voida."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
 msgstr "Estacar las bóstias de dialòg modal"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.gschema.xml.in:21
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -295,11 +55,11 @@ msgstr ""
 "dialòg apareisson estacadas a la barra de títol de la fenèstra parenta e son "
 "desplaçadas ensembles amb ela."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.gschema.xml.in:30
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "Activar l'empilatge de las fenèstras depausadas suls bòrds de l'ecran"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.gschema.xml.in:31
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -310,13 +70,14 @@ msgstr ""
 "mitat de la zòna disponibla. Lo depaus de las fenèstras sul bòrd superior de "
 "l'ecran las maximiza completament."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
 msgstr "Les espacis de trabalh son gerits d'un biais dinamic"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.gschema.xml.in:41
+#, fuzzy
 msgid ""
-"Determines whether workspaces are managed dynamically or whether there's a "
+"Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
@@ -324,11 +85,11 @@ msgstr ""
 "nombre d'espacis de trabalh es fixe (determinat per la clau num-workspaces "
 "dins org.gnome.desktop.wm.preferences)."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.gschema.xml.in:50
 msgid "Workspaces only on primary"
 msgstr "Espacis de trabalh solament sus l'ecran principal"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.gschema.xml.in:51
 msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
@@ -337,11 +98,11 @@ msgstr ""
 "fenèstras de totes los ecrans o solament per las fenèstras de l'ecran "
 "principal."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
 msgstr "Pas cap d'aparicion en seguida d'una quichada sus la tòca tab"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.gschema.xml.in:60
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
@@ -349,40 +110,42 @@ msgstr ""
 "Determina se l'utilizacion de fenèstras sorgissentas e de mesa en valor deu "
 "èsser desactivada per la consultacion de las fenèstras."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:13
+#: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "Espèra l'arrèst del puntador abans lo cambiament de focus"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:14
+#: data/org.ukui.ukwm.gschema.xml.in:69
+#, fuzzy
 msgid ""
-"If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-"the focus will not be changed immediately when entering a window, but only "
-"after the pointer stops moving."
+"If set to true, and the focus mode is either “sloppy” or “mouse” then the "
+"focus will not be changed immediately when entering a window, but only after "
+"the pointer stops moving."
 msgstr ""
 "Se definit a true e que lo mòde de focus es siá « sloppy » o « mirga », "
 "alara lo focus serà pas cambiat immediatament en passant sus una fenèstra, "
 "mas solament aprèp que lo puntador s'arrèsta."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:15
+#: data/org.ukui.ukwm.gschema.xml.in:79
 msgid "Draggable border width"
 msgstr "Largor de bordadura ajustabla"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:16
+#: data/org.ukui.ukwm.gschema.xml.in:80
+#, fuzzy
 msgid ""
-"The amount of total draggable borders. If the theme's visible borders are "
+"The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
 "La talha totala de las bordaduras que se pòt desplaçar. Se las bordaduras "
 "visiblas del tèma son pas sufisentas, de bordaduras invisiblas son apondudas "
 "per arribar a aquesta valor."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:17
+#: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
 msgstr ""
 "Maximizar automaticament las fenèstras que la talha n'es pròcha de la de "
 "l'ecran"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:18
+#: data/org.ukui.ukwm.gschema.xml.in:90
 msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
@@ -390,11 +153,11 @@ msgstr ""
 "Se activat, las novèlas fenèstras qu'an gaireben la talha de l'ecran a la "
 "dobertura seràn maximizadas automaticament."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:19
+#: data/org.ukui.ukwm.gschema.xml.in:98
 msgid "Place new windows in the center"
 msgstr "Plaçar las novèlas fenèstras al centre"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:20
+#: data/org.ukui.ukwm.gschema.xml.in:99
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
@@ -402,109 +165,202 @@ msgstr ""
 "Se true (verai), las novèlas fenèstras seràn totjorn plaçadas al centre de "
 "l'ecran actiu del monitor."
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:21
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr ""
 "Seleccionar la fenèstra dins la vista qu'apareis en seguida d'una quichada "
 "sus la tòca tab"
 
-#: ../data/org.ukui.ukwm.gschema.xml.in.h:22
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Tampar la vista qu'apareis en seguida d'una quichada sus la tòca tab"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:1
+#: data/org.ukui.ukwm.gschema.xml.in:155
+#, fuzzy
+msgid "Switch monitor configurations"
+msgstr "Cambiar d'aplicacion"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
+msgstr ""
+
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
 msgstr "Passar a l'emulator de terminal 1"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:2
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:10
 msgid "Switch to VT 2"
 msgstr "Passar a l'emulator de terminal 2"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:3
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:14
 msgid "Switch to VT 3"
 msgstr "Passar a l'emulator de terminal 3"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:4
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:18
 msgid "Switch to VT 4"
 msgstr "Passar a l'emulator de terminal 4"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:5
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:22
 msgid "Switch to VT 5"
 msgstr "Passar a l'emulator de terminal 5"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:6
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:26
 msgid "Switch to VT 6"
 msgstr "Passar a l'emulator de terminal 6"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:7
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:30
 msgid "Switch to VT 7"
 msgstr "Passar a l'emulator de terminal 7"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:8
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:34
 msgid "Switch to VT 8"
 msgstr "Passar a l'emulator de terminal 8"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:9
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:38
 msgid "Switch to VT 9"
 msgstr "Passar a l'emulator de terminal 9"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:10
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:42
 msgid "Switch to VT 10"
 msgstr "Passar a l'emulator de terminal 10"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:11
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:46
 msgid "Switch to VT 11"
 msgstr "Passar a l'emulator de terminal 11"
 
-#: ../data/org.ukui.ukwm.wayland.gschema.xml.in.h:12
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:50
 msgid "Switch to VT 12"
 msgstr "Passar a l'emulator de terminal 12"
 
-#: ../src/backends/meta-monitor-manager.c:515
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
+#. TRANSLATORS: This string refers to a button that switches between
+#. * different modes.
+#.
+#: src/backends/meta-input-settings.c:2168
+#, c-format
+msgid "Mode Switch (Group %d)"
+msgstr ""
+
+#. TRANSLATORS: This string refers to an action, cycles drawing tablets'
+#. * mapping through the available outputs.
+#.
+#: src/backends/meta-input-settings.c:2191
+#, fuzzy
+msgid "Switch monitor"
+msgstr "Cambiar los contraròtles sistèma"
+
+#: src/backends/meta-input-settings.c:2193
+msgid "Show on-screen help"
+msgstr ""
+
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Afichatge integrat"
 
-#: ../src/backends/meta-monitor-manager.c:538
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Desconegut"
 
-#: ../src/backends/meta-monitor-manager.c:540
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Afichatge desconegut"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: ../src/backends/meta-monitor-manager.c:548
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: ../src/compositor/compositor.c:456
-#, c-format
+#: src/compositor/compositor.c:476
+#, fuzzy, c-format
 msgid ""
-"Another compositing manager is already running on screen %i on display \"%s"
-"\"."
+"Another compositing manager is already running on screen %i on display “%s”."
 msgstr ""
 "Un autre gestionari de composicion es ja aviat sus l'ecran %i de l'afichatge "
 "« %s »."
 
-#: ../src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Eveniment sonòr"
 
-#: ../src/core/delete.c:127
+#: src/core/display.c:609
+#, fuzzy, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr "Impossible de dobrir l'afichatge « %s » del sistèma X Window\n"
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr "Desactivar la connexion al gestionari de sessions"
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr "Remplaçar lo gestionari de fenèstras en cors de foncionament"
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr "Indicar l'ID de gestion de sessions"
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr "Afichatge X d'utilizar"
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr "Inicializar la session dempuèi lo fichièr de salvament"
+
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr "Rendre sincròns los apèls a X"
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr "Aviar coma un compositor wayland"
+
+#: src/core/main.c:232
+msgid "Run as a nested compositor"
+msgstr ""
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr "Aviar coma un servidor d'afichatge complet, puslèu qu'imbricat"
+
+#. Translators: %s is a window title
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "« %s » respond pas."
 
-#: ../src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "L'aplicacion respond pas."
 
-#: ../src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -512,60 +368,19 @@ msgstr ""
 "Podètz pacientar un moment per contunhar o forçar l'aplicacion a quitar "
 "definitivament."
 
-#: ../src/core/delete.c:141
-msgid "_Wait"
-msgstr "_Esperar"
-
-#: ../src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Forçar a quitar"
 
-#: ../src/core/display.c:555
-#, c-format
-msgid "Failed to open X Window System display '%s'\n"
-msgstr "Impossible de dobrir l'afichatge « %s » del sistèma X Window\n"
+#: src/core/meta-close-dialog-default.c:162
+msgid "_Wait"
+msgstr "_Esperar"
 
-#: ../src/core/main.c:181
-msgid "Disable connection to session manager"
-msgstr "Desactivar la connexion al gestionari de sessions"
-
-#: ../src/core/main.c:187
-msgid "Replace the running window manager"
-msgstr "Remplaçar lo gestionari de fenèstras en cors de foncionament"
-
-#: ../src/core/main.c:193
-msgid "Specify session management ID"
-msgstr "Indicar l'ID de gestion de sessions"
-
-#: ../src/core/main.c:198
-msgid "X Display to use"
-msgstr "Afichatge X d'utilizar"
-
-#: ../src/core/main.c:204
-msgid "Initialize session from savefile"
-msgstr "Inicializar la session dempuèi lo fichièr de salvament"
-
-#: ../src/core/main.c:210
-msgid "Make X calls synchronous"
-msgstr "Rendre sincròns los apèls a X"
-
-#: ../src/core/main.c:217
-msgid "Run as a wayland compositor"
-msgstr "Aviar coma un compositor wayland"
-
-#: ../src/core/main.c:223
-msgid "Run as a nested compositor"
-msgstr ""
-
-#: ../src/core/main.c:231
-msgid "Run as a full display server, rather than nested"
-msgstr "Aviar coma un servidor d'afichatge complet, puslèu qu'imbricat"
-
-#: ../src/core/ukwm.c:39
-#, c-format
+#: src/core/ukwm.c:41
+#, fuzzy, c-format
 msgid ""
 "ukwm %s\n"
-"Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
+"Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
 "This is free software; see the source for copying conditions.\n"
 "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
 "PARTICULAR PURPOSE.\n"
@@ -577,47 +392,228 @@ msgstr ""
 "I a PAS CAP DE garantida ; quitament pas de VALOR MERCANDA o\n"
 "d'ADEQÜACION A UN USATGE PARTICULAR.\n"
 
-#: ../src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Imprimir la version"
 
-#: ../src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Empeuton de Ukwm d'utilizar"
 
-#: ../src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Espaci de trabalh %d"
 
-#: ../src/core/screen.c:521
-#, c-format
+#: src/core/screen.c:584
+#, fuzzy, c-format
 msgid ""
-"Display \"%s\" already has a window manager; try using the --replace option "
-"to replace the current window manager."
+"Display “%s” already has a window manager; try using the --replace option to "
+"replace the current window manager."
 msgstr ""
 "L'afichatge « %s » a ja un gestionari de fenèstras ; ensajatz d'utilizar "
 "l'opcion --replace per remplaçar lo gestionari de fenèstras actual."
 
-#: ../src/core/screen.c:603
-#, c-format
-msgid "Screen %d on display '%s' is invalid\n"
+#: src/core/screen.c:669
+#, fuzzy, c-format
+msgid "Screen %d on display “%s” is invalid\n"
 msgstr "L'ecran %d sus l'afichatge « %s » es pas valid\n"
 
-#: ../src/core/util.c:121
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm es estat compilat sens la presa en carga del mòde verbós\n"
 
-#: ../src/x11/session.c:1815
+#: src/wayland/meta-wayland-tablet-pad.c:563
+#, c-format
+msgid "Mode Switch: Mode %d"
+msgstr ""
+
+#: src/x11/session.c:1816
+#, fuzzy
 msgid ""
-"These windows do not support &quot;save current setup&quot; and will have to "
-"be restarted manually next time you log in."
+"These windows do not support “save current setup” and will have to be "
+"restarted manually next time you log in."
 msgstr ""
 "Aquestas fenèstras prenon pas en carga « l'enregistrament de la "
 "configuracion actuala » e deuràn èsser reaviadas manualament a la connexion "
 "que ven."
 
-#: ../src/x11/window-props.c:549
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (sus %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigacion"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Desplaçar la fenèstra cap a l'espaci de trabalh 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Desplaçar la fenèstra cap al darrièr espaci de trabalh"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap a esquèrra"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap a dreita"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap amont"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Desplaçar la fenèstra d'un espaci de trabalh cap aval"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Desplaçar la fenèstra d'un ecran cap a esquèrra"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Desplaçar la fenèstra d'un ecran cap a dreita"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Desplaçar la fenèstra d'un ecran cap amont"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Desplaçar la fenèstra d'un ecran cap aval"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Passar a l'aplicacion precedenta"
+
+#~ msgid "Switch windows"
+#~ msgstr "Cambiar de fenèstra"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Passar a la fenèstra precedenta"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Cambiar de fenèstra d'una aplicacion"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Passar a la fenèstra precedenta d'una aplicacion"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Passar al contraròtle sistèma precedent"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Cambiar de fenèstra dirèctament"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Passar dirèctament a la fenèstra precedenta"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Cambiar de fenèstra d'una aplicacion dirèctament"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Passar dirèctament a la fenèstra precedenta d'una aplicacion"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Cambiar los contraròtles sistèma dirèctament"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Passar dirèctament al contraròtle sistèma precedent"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Amagar totas las fenèstras normalas"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Passar a l'espaci de trabalh 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Passar a l'espaci de trabalh 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Passar a l'espaci de trabalh 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Passar a l'espaci de trabalh 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Passar al darrièr espaci de trabalh"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Desplaçar cap a l'espaci de trabalh d'esquèrra"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Desplaçar cap a l'espaci de trabalh de dreita"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Desplaçar cap a l'espaci de trabalh de dessús"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Desplaçar cap a l'espaci de trabalh de dejós"
+
+#~ msgid "System"
+#~ msgstr "Sistèma"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Afichar la fenèstra per aviar una comanda"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Afichar l'apercebut de las activitats"
+
+#~ msgid "Windows"
+#~ msgstr "Fenèstras"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Activar lo menú fenèstra"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Bascular lo mòde ecran complet"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Bascular l'estat d'agrandiment"
+
+#~ msgid "Maximize window"
+#~ msgstr "Maximizar la fenèstra"
+
+#~ msgid "Restore window"
+#~ msgstr "Restablir la fenèstra"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Bascular l'estat de replec"
+
+#~ msgid "Close window"
+#~ msgstr "Tampar la fenèstra"
+
+#~ msgid "Hide window"
+#~ msgstr "Amagar la fenèstra"
+
+#~ msgid "Move window"
+#~ msgstr "Desplaçar la fenèstra"
+
+#~ msgid "Resize window"
+#~ msgstr "Redimensionar la fenèstra"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Plaçar la fenèstra sus totes los espacis de trabalh, o sus un sol"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr ""
+#~ "Metre la fenèstra al primièr plan se es amagada, siquenon al rèireplan"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Metre la fenèstra al primièr plan"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Metre la fenèstra jos las autras fenèstras"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Maximizar la fenèstra verticalament"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Maximizar la fenèstra orizontalament"
+
+#~ msgid "View split on left"
+#~ msgstr "Vista devesida a esquèrra"
+
+#~ msgid "View split on right"
+#~ msgstr "Vista devesida a dreita"

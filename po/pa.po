@@ -12,7 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity.gnome-2-26\n"
-"POT-Creation-Date: 2017-08-29 16:09+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-09-10 18:24-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -24,246 +25,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "\n"
 
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "ਨੇਵੀਗੇਸ਼ਨ"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੧ ਵਿੱਚ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੨ ਵਿੱਚ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੩ ਵਿੱਚ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੪ ਵਿੱਚ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਪਿਛਲੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਖੱਬੇ ਵੱਲ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਸੱਜੇ ਵੱਲ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਉੱਤੇ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਹੇਠਾਂ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਖੱਬੇ ਵੱਲ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਸੱਜੇ ਵੱਲ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਉੱਤੇ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਹੇਠਾਂ ਲਿਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "ਪਿਛਲੀ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "ਵਿੰਡੋਜ਼ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "ਪਿਛਲੀ ਵਿੰਡੋ ਲਈ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦੀਆਂ ਵਿੰਡੋਜ਼ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਪਿਛਲੀ ਵਿੰਡੋ ਵਿੱਚ ਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "ਸਿਸਟਮ ਕੰਟਰੋਲ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "ਪਿਛਲੇ ਸਿਸਟਮ ਕੰਟਰੋਲ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "ਵਿੰਡੋਜ਼ ਸਿੱਧੀਆਂ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "ਸਿੱਧਾ ਪਿਛਲੀ ਵਿੰਡੋ ਲਈ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਵਿੰਡੋਜ਼ ਸਿੱਧੀ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "ਸਿੱਧਾ ਐਪ ਦੀ ਪਿਛਲੀ ਵਿੰਡੋ ਲਈ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "ਸਿਸਟਮ ਕੰਟਰੋਲ ਸਿੱਧੇ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "ਸਿੱਧਾ ਪਿਛਲੇ ਸਿਸਟਮ ਕੰਟਰੋਲ ਲਈ ਬਦਲੋ"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "ਸਭ ਸਧਾਰਨ ਵਿੰਡੋਜ਼ ਓਹਲੇ ਕਰੋ"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "ਵਰਕਸਪੇਸ ੧ ਵਿੱਚ ਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "ਵਰਕਸਪੇਸ ੨ ਵਿੱਚ ਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "ਵਰਕਸਪੇਸ ੩ ਵਿੱਚ ਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "ਵਰਕਸਪੇਸ ੪ ਵਿੱਚ ਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "ਪਿਛਲੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਜਾਓ"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "ਖੱਬੇ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "ਸੱਜੇ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "ਉੱਤੇ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "ਹੇਠਾਂ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "ਸਿਸਟਮ"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "ਕਮਾਂਡ ਚਲਾਉ ਪਰੋਉਟ ਵੇਖੋ"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "ਸਰਗਰਮੀ ਸੰਖੇਪ ਜਾਣਕਾਰੀ ਵੇਖੋ"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "ਵਿੰਡੋਜ਼"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "ਐਕਟਿਵੇਟ ਵਿੰਡੋ ਮੇਨੂ"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "ਪੂਰੀ ਸਕਰੀਨ ਮੋਡ ਬਦਲੋ"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "ਅਧਿਕਤਮ ਸਥਿਤੀ ਬਦਲੋ"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "ਵਿੰਡੋ ਵੱਧੋ-ਵੱਧ"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "ਵਿੰਡੋ ਮੁੜ-ਸਟੋਰ"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "ਰੰਗਤ ਸਥਿਤੀ ਬਦਲੋ"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "ਵਿੰਡੋ ਬੰਦ ਕਰੋ"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "ਵਿੰਡੋ ਓਹਲੇ"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "ਵਿੰਡੋ ਹਿਲਾਓ"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "ਵਿੰਡੋ ਮੁੜ-ਅਕਾਰ"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "ਵਿੰਡੋ ਸਭ ਵਰਕਸਪੇਸ ਜਾਂ ਇੱਕ ਵਿੱਚ ਬਦਲੋ"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "ਵਿੰਡੋ ਉਭਾਰੋ, ਜੇ ਢੱਕੀ ਹੈ, ਨਹੀਂ ਤਾਂ ਹੇਠਾਂ ਭੇਜੋ"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਹੋਰ ਵਿੰਡੋਜ਼ ਤੋਂ ਉੱਤੇ ਲਿਆਓ"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "ਵਿੰਡੋ ਨੂੰ ਹੋਰ ਵਿੰਡੋ ਤੋਂ ਹੇਠਾਂ ਲੈ ਜਾਉ"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "ਵਿੰਡੋ ਖੜਵੇਂ ਰੂਪ ਵਿੱਚ ਵੱਧੋ-ਵੱਧ"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "ਵਿੰਡੋ ਲੇਟਵੇਂ ਰੂਪ ਵਿੱਚ ਵੱਧੋ-ਵੱਧ"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "ਖੱਬੇ ਪਾਸੇ ਵੰਡ ਵੇਖੋ"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "ਸੱਜੇ ਪਾਸੇ ਵੰਡ ਵੇਖੋ"
-
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
 msgstr "ਮੱਟਰ"
@@ -273,22 +34,15 @@ msgid "Modifier to use for extended window management operations"
 msgstr "ਵਾਧੂ ਵਿੰਡੋ ਪਰਬੰਧ ਓਪਰੇਸ਼ਨਾਂ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਮੋਡੀਫਾਇਰ"
 
 #: data/org.ukui.ukwm.gschema.xml.in:8
-#| msgid ""
-#| "This key will initiate the \"overlay\", which is a combination window "
-#| "overview and application launching system. The default is intended to be "
-#| "the \"Windows key\" on PC hardware. It's expected that this binding "
-#| "either the default or set to the empty string."
 msgid ""
 "This key will initiate the “overlay”, which is a combination window overview "
 "and application launching system. The default is intended to be the “Windows "
 "key” on PC hardware. It’s expected that this binding either the default or "
 "set to the empty string."
 msgstr ""
-"ਇਹ ਸਵਿੱਚ ”ਓਵਰਲੇ” ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ, ਜੋ ਕਿ ਵਿੰਡੋ ਸੰਖੇਪ ਤੇ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ ਸਿਸਟਮ ਦੀ"
-" ਜੋੜ ਹੈ। "
-"ਡਿਫਾਲਟ ਇਹ PC ਹਾਰਡਵੇਅਰ ਉੱਤੇ ”ਵਿੰਡੋਜ਼ ਸਵਿੱਚ” ਨਾਲ ਵਰਤਣ ਲਈ ਹੈ। ਇਹ ਉਮੀਦ ਕੀਤੀ ਜਾਂਦੀ"
-" ਹੈ ਕਿ "
-"ਜਾਂ ਤਾਂ ਡਿਫਾਲਟ ਬਾਈਡਿੰਗ ਰੱਖੀ ਜਾਵੇ ਜਾਂ ਖਾਲੀ ਲਾਈਨ ਵਰਤੀ ਜਾਵੇ।"
+"ਇਹ ਸਵਿੱਚ ”ਓਵਰਲੇ” ਸ਼ੁਰੂ ਕਰਦੀ ਹੈ, ਜੋ ਕਿ ਵਿੰਡੋ ਸੰਖੇਪ ਤੇ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਉਣ ਸਿਸਟਮ ਦੀ ਜੋੜ ਹੈ। ਡਿਫਾਲਟ "
+"ਇਹ PC ਹਾਰਡਵੇਅਰ ਉੱਤੇ ”ਵਿੰਡੋਜ਼ ਸਵਿੱਚ” ਨਾਲ ਵਰਤਣ ਲਈ ਹੈ। ਇਹ ਉਮੀਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਕਿ ਜਾਂ ਤਾਂ "
+"ਡਿਫਾਲਟ ਬਾਈਡਿੰਗ ਰੱਖੀ ਜਾਵੇ ਜਾਂ ਖਾਲੀ ਲਾਈਨ ਵਰਤੀ ਜਾਵੇ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
@@ -300,8 +54,7 @@ msgid ""
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
 msgstr ""
-"ਜਦੋਂ ਸਹੀਂ ਹੋਵੇ ਤਾਂ ਵੱਖ ਵੱਖ ਟਾਈਟਲਬਾਰ ਦੀ ਬਜਾਏ, ਮਾਡਲ ਡਾਈਲਾਗ ਮੁੱਢਲੀ ਵਿੰਡੋ ਦੇ"
-" ਟਾਈਟਲ ਬਾਰ ਨਾਲ "
+"ਜਦੋਂ ਸਹੀਂ ਹੋਵੇ ਤਾਂ ਵੱਖ ਵੱਖ ਟਾਈਟਲਬਾਰ ਦੀ ਬਜਾਏ, ਮਾਡਲ ਡਾਈਲਾਗ ਮੁੱਢਲੀ ਵਿੰਡੋ ਦੇ ਟਾਈਟਲ ਬਾਰ ਨਾਲ "
 "ਜੁੜਿਆ ਉਭਰੇਗਾ ਤੇ ਮੁੱਢਲੀ ਵਿੰਡੋ ਨਾਲ ਹੀ ਹਿੱਲੇਗਾ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:30
@@ -314,10 +67,8 @@ msgid ""
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
-"ਜੇ ਚਾਲੂ ਕੀਤਾ ਤਾਂ ਵਿੰਡੋਜ਼ ਨੂੰ ਖੜ੍ਹਵੀਂ ਸਕਰੀਨ ਬਾਹੀ ਉੱਤੇ ਲੈ ਜਾਣ ਨਾਲ ਉਹ ਖੜ੍ਹਵੇਂ"
-" ਰੂਪ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ "
-"ਕਰਦਾ ਹੈ ਅਤੇ ਖਿਤਿਜੀ (ਹਰੀਜੱਟਲ) ਰੂਪ ਵਿੱਚ ਉਪਲੱਬਧ ਖੇਤਰ ਵਿੱਚ ਅੱਧੇ ਥਾਂ ਲਈ ਮੁੜ-ਆਕਾਰ"
-" ਕਰਦਾ ਹੈ। ਵਿੰਡੋਜ਼ "
+"ਜੇ ਚਾਲੂ ਕੀਤਾ ਤਾਂ ਵਿੰਡੋਜ਼ ਨੂੰ ਖੜ੍ਹਵੀਂ ਸਕਰੀਨ ਬਾਹੀ ਉੱਤੇ ਲੈ ਜਾਣ ਨਾਲ ਉਹ ਖੜ੍ਹਵੇਂ ਰੂਪ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ "
+"ਕਰਦਾ ਹੈ ਅਤੇ ਖਿਤਿਜੀ (ਹਰੀਜੱਟਲ) ਰੂਪ ਵਿੱਚ ਉਪਲੱਬਧ ਖੇਤਰ ਵਿੱਚ ਅੱਧੇ ਥਾਂ ਲਈ ਮੁੜ-ਆਕਾਰ ਕਰਦਾ ਹੈ। ਵਿੰਡੋਜ਼ "
 "ਨੂੰ ਉੱਤੇ ਸਕਰੀਨ ਬਾਹੀ ਵਿੱਚ ਲੈ ਕੇ ਜਾਣ ਨਾਲ ਉਹ ਪੂਰੀ ਤਰ੍ਹਾਂ ਵੱਧ ਤੋਂ ਵੱਧ ਹੁੰਦਾ ਹੈ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:40
@@ -325,17 +76,12 @@ msgid "Workspaces are managed dynamically"
 msgstr "ਵਰਕਸਪੇਸ ਦਾ ਪਰਬੰਧ ਚਲਵੇਂ ਰੂਪ ਵਿੱਚ ਕੀਤਾ ਜਾਂਦਾ ਹੈ"
 
 #: data/org.ukui.ukwm.gschema.xml.in:41
-#| msgid ""
-#| "Determines whether workspaces are managed dynamically or whether there's "
-#| "a static number of workspaces (determined by the num-workspaces key in "
-#| "org.gnome.desktop.wm.preferences)."
 msgid ""
 "Determines whether workspaces are managed dynamically or whether there’s a "
 "static number of workspaces (determined by the num-workspaces key in org."
 "gnome.desktop.wm.preferences)."
 msgstr ""
-"ਦੱਸੋ ਕਿ ਕੀ ਵਰਕਸਪੇਸ ਨੂੰ ਚਲਵੇਂ ਰੂਪ ਵਿੱਚ ਰੱਖਣਾ ਹੈ ਜਾਂ ਵਰਕਸਪੇਸ ਦੀ ਗਿਣਤੀ ਸਥਿਰ ਹੋਵੇ"
-" (ਜੋ ਕਿ org."
+"ਦੱਸੋ ਕਿ ਕੀ ਵਰਕਸਪੇਸ ਨੂੰ ਚਲਵੇਂ ਰੂਪ ਵਿੱਚ ਰੱਖਣਾ ਹੈ ਜਾਂ ਵਰਕਸਪੇਸ ਦੀ ਗਿਣਤੀ ਸਥਿਰ ਹੋਵੇ (ਜੋ ਕਿ org."
 "gnome.desktop.wm.preferences ਵਿੱਚ num-workspaces ਕੁੰਜੀ ਰਾਹੀਂ ਦੱਸੀ ਜਾਂਦੀ ਹੈ)।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:50
@@ -347,8 +93,7 @@ msgid ""
 "Determines whether workspace switching should happen for windows on all "
 "monitors or only for windows on the primary monitor."
 msgstr ""
-"ਕੀ ਵਰਕਸਪੇਸ ਬਦਲਣਾ ਸਭ ਮਾਨੀਟਰ ਦੀਆਂ ਵਿੰਡੋ ਲਈ ਹੋਵੇ ਜਾਂ ਕੇਵਲ ਪ੍ਰਾਇਮਰੀ ਮਾਨੀਟਰ ਦੀਆਂ"
-" ਵਿੰਡੋ ਲਈ ਹੀ "
+"ਕੀ ਵਰਕਸਪੇਸ ਬਦਲਣਾ ਸਭ ਮਾਨੀਟਰ ਦੀਆਂ ਵਿੰਡੋ ਲਈ ਹੋਵੇ ਜਾਂ ਕੇਵਲ ਪ੍ਰਾਇਮਰੀ ਮਾਨੀਟਰ ਦੀਆਂ ਵਿੰਡੋ ਲਈ ਹੀ "
 
 #: data/org.ukui.ukwm.gschema.xml.in:59
 msgid "No tab popup"
@@ -358,26 +103,19 @@ msgstr "ਕੋਈ ਟੈਬ ਪੋਪਅੱਪ ਨਹੀਂ"
 msgid ""
 "Determines whether the use of popup and highlight frame should be disabled "
 "for window cycling."
-msgstr ""
-"ਜਾਣੋ ਕਿ ਕੀ ਪੋਪਅੱਪ ਅਤੇ ਹਾਈਲਾਈਟ ਫਰੇਮ ਦੀ ਵਰਤੋਂ ਨੂੰ ਵਿੰਡੋਜ਼ ਦੇ ਚੱਕਰ ਦੌਰਾਨ ਬੰਦ"
-" ਕਰਨਾ ਹੈ।"
+msgstr "ਜਾਣੋ ਕਿ ਕੀ ਪੋਪਅੱਪ ਅਤੇ ਹਾਈਲਾਈਟ ਫਰੇਮ ਦੀ ਵਰਤੋਂ ਨੂੰ ਵਿੰਡੋਜ਼ ਦੇ ਚੱਕਰ ਦੌਰਾਨ ਬੰਦ ਕਰਨਾ ਹੈ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:68
 msgid "Delay focus changes until the pointer stops moving"
 msgstr "ਪੁਆਇੰਟਰ ਦੇ ਰੁਕਣ ਤੱਕ ਫੋਕਸ ਬਦਲਣ ਨੂੰ ਰੋਕੋ"
 
 #: data/org.ukui.ukwm.gschema.xml.in:69
-#| msgid ""
-#| "If set to true, and the focus mode is either \"sloppy\" or \"mouse\" then "
-#| "the focus will not be changed immediately when entering a window, but "
-#| "only after the pointer stops moving."
 msgid ""
 "If set to true, and the focus mode is either “sloppy” or “mouse” then the "
 "focus will not be changed immediately when entering a window, but only after "
 "the pointer stops moving."
 msgstr ""
-"ਜੇ ਇਹ ਸਹੀਂ ਹੋਵੇ ਤਾਂ ਫੋਕਸ ਢੰਗ ਜਾਂ ਤਾਂ ”ਸਲੋਪੀ” ਜਾਂ ”ਮਾਊਂਸ” ਹੁੰਦਾ ਹੈ ਤਾਂ ਫੋਕਸ"
-" ਹੋਇਆ ਵਿੰਡੋ "
+"ਜੇ ਇਹ ਸਹੀਂ ਹੋਵੇ ਤਾਂ ਫੋਕਸ ਢੰਗ ਜਾਂ ਤਾਂ ”ਸਲੋਪੀ” ਜਾਂ ”ਮਾਊਂਸ” ਹੁੰਦਾ ਹੈ ਤਾਂ ਫੋਕਸ ਹੋਇਆ ਵਿੰਡੋ "
 "auto_raise_delay ਕੁੰਜੀ ਵਲੋਂ ਦਿੱਤੇ ਇੱਕ ਅੰਤਰਾਲ ਬਾਅਦ ਆਟੋਮੈਟਿਕ ਹੀ ਉਭਾਰਿਆ ਜਾਵੇਗਾ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:79
@@ -385,15 +123,11 @@ msgid "Draggable border width"
 msgstr "ਡਰੈਗ ਹੋਣ ਯੋਗ ਬਾਰਡਰ ਚੌੜਾਈ"
 
 #: data/org.ukui.ukwm.gschema.xml.in:80
-#| msgid ""
-#| "The amount of total draggable borders. If the theme's visible borders are "
-#| "not enough, invisible borders will be added to meet this value."
 msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
-"ਕੁੱਲ ਡਰੈਗ ਹੋਣ ਯੋਗ ਬਾਰਡਰ ਦੀ ਮਾਤਰਾ। ਜੇ ਥੀਮ ਦੇ ਦਿੱਖ ਬਾਰਡਰ ਲੋੜ ਮੁਤਾਬਕ ਨਾ ਹੋਣ ਤਾਂ"
-" ਅਦਿੱਖ ਬਾਰਡਰ "
+"ਕੁੱਲ ਡਰੈਗ ਹੋਣ ਯੋਗ ਬਾਰਡਰ ਦੀ ਮਾਤਰਾ। ਜੇ ਥੀਮ ਦੇ ਦਿੱਖ ਬਾਰਡਰ ਲੋੜ ਮੁਤਾਬਕ ਨਾ ਹੋਣ ਤਾਂ ਅਦਿੱਖ ਬਾਰਡਰ "
 "ਨੂੰ ਇਹ ਮੁੱਲ ਦੇ ਬਰਾਬਰ ਕਰਨ ਲਈ ਵਧਾਇਆ ਜਾਵੇਗਾ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:89
@@ -405,8 +139,7 @@ msgid ""
 "If enabled, new windows that are initially the size of the monitor "
 "automatically get maximized."
 msgstr ""
-"ਜੇ ਚਾਲੂ ਕੀਤਾ ਤਾਂ ਨਵੀਆਂ ਵਿੰਡੋਜ਼, ਜੋ ਕਿ ਸ਼ੁਰੂ ਵਿੱਚ ਮਾਨੀਟਰ ਦੇ ਆਕਾਰ ਦੀਆਂ ਹੁੰਦੀਆਂ"
-" ਹਨ, ਆਪਣੇ-ਆਪ ਵੱਧ ਤੋਂ "
+"ਜੇ ਚਾਲੂ ਕੀਤਾ ਤਾਂ ਨਵੀਆਂ ਵਿੰਡੋਜ਼, ਜੋ ਕਿ ਸ਼ੁਰੂ ਵਿੱਚ ਮਾਨੀਟਰ ਦੇ ਆਕਾਰ ਦੀਆਂ ਹੁੰਦੀਆਂ ਹਨ, ਆਪਣੇ-ਆਪ ਵੱਧ ਤੋਂ "
 "ਵੱਧ ਹੋ ਜਾਣਗੀਆਂ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:98
@@ -417,9 +150,7 @@ msgstr "ਨਵੀਆਂ ਵਿੰਡੋ ਕੇਂਦਰ ਵਿੱਚ ਰੱਖ�
 msgid ""
 "When true, the new windows will always be put in the center of the active "
 "screen of the monitor."
-msgstr ""
-"ਜੇ ਸਹੀਂ ਹੈ ਤਾਂ ਨਵੀਂ ਵਿੰਡੋਜ਼ ਨੂੰ ਹਮੇਸ਼ਾ ਮਾਨੀਟਰ ਦੀ ਸਰਗਰਮ ਸਕਰੀਮ ਦੇ ਕੇਂਦਰ ਵਿੱਚ"
-" ਰੱਖਿਆ ਜਾਵੇਗਾ।"
+msgstr "ਜੇ ਸਹੀਂ ਹੈ ਤਾਂ ਨਵੀਂ ਵਿੰਡੋਜ਼ ਨੂੰ ਹਮੇਸ਼ਾ ਮਾਨੀਟਰ ਦੀ ਸਰਗਰਮ ਸਕਰੀਮ ਦੇ ਕੇਂਦਰ ਵਿੱਚ ਰੱਖਿਆ ਜਾਵੇਗਾ।"
 
 #: data/org.ukui.ukwm.gschema.xml.in:107
 msgid "Enable experimental features"
@@ -432,12 +163,12 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"ukwm default to layout logical monitors in a logical pixel coordinate "
-"space, while scaling monitor framebuffers instead of window content, to "
-"manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
-"enables remote desktop support. To support remote desktop with screen "
-"sharing, “screen-cast” must also be enabled. • “screen-cast” — enables "
-"screen cast support."
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
 msgstr ""
 
 #: data/org.ukui.ukwm.gschema.xml.in:145
@@ -449,7 +180,6 @@ msgid "Cancel tab popup"
 msgstr "ਟੈਬ ਪੋਪਅੱਪ ਰੱਦ ਕਰੋ"
 
 #: data/org.ukui.ukwm.gschema.xml.in:155
-#| msgid "Switch applications"
 msgid "Switch monitor configurations"
 msgstr "ਮਾਨੀਟਰ ਸੰਰਚਨਾ ਨੂੰ ਬਦਲੋ"
 
@@ -512,7 +242,7 @@ msgstr "ਸ਼ਾਰਟਕੱਟ ਮੁੜ-ਸਮਰੱਥ ਕਰੋ"
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:2151
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "ਮੋਡ ਬਦਲੋ (ਗਰੁੱਪ %d)"
@@ -520,31 +250,30 @@ msgstr "ਮੋਡ ਬਦਲੋ (ਗਰੁੱਪ %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:2174
-#| msgid "Switch system controls"
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "ਮਾਨੀਟਰ ਨੂੰ ਬਦਲੋ"
 
-#: src/backends/meta-input-settings.c:2176
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "ਆਨ-ਸਕਰੀਨ ਮਦਦ ਵੇਖੋ"
 
-#: src/backends/meta-monitor-manager.c:903
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "ਬਿਲਟ-ਇਨ ਡਿਸਪਲੇਅ"
 
-#: src/backends/meta-monitor-manager.c:926
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "ਅਣਜਾਣ"
 
-#: src/backends/meta-monitor-manager.c:928
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "ਅਣਜਾਣ ਡਿਸਪਲੇਅ"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:936
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
@@ -553,96 +282,81 @@ msgstr "%s %s"
 #. * we have no way to get it to exit
 #: src/compositor/compositor.c:476
 #, c-format
-#| msgid ""
-#| "Another compositing manager is already running on screen %i on display "
-#| "\"%s\"."
 msgid ""
 "Another compositing manager is already running on screen %i on display “%s”."
-msgstr ""
-"ਇੱਕ ਹੋਰ ਕੰਪੋਜ਼ਟਿੰਗ ਮੈਨੇਜਰ %i ਸਕਰੀਨ ਉੱਤੇ ਡਿਸਪਲੇਅ ”%s” ਉੱਤੇ ਪਹਿਲਾਂ ਹੀ ਚੱਲ ਰਿਹਾ"
-" ਹੈ।"
+msgstr "ਇੱਕ ਹੋਰ ਕੰਪੋਜ਼ਟਿੰਗ ਮੈਨੇਜਰ %i ਸਕਰੀਨ ਉੱਤੇ ਡਿਸਪਲੇਅ ”%s” ਉੱਤੇ ਪਹਿਲਾਂ ਹੀ ਚੱਲ ਰਿਹਾ ਹੈ।"
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "ਘੰਟੀ ਈਵੈਂਟ"
 
-#: src/core/display.c:608
+#: src/core/display.c:609
 #, c-format
-#| msgid "Failed to open X Window System display '%s'\n"
 msgid "Failed to open X Window System display “%s”\n"
 msgstr "X ਵਿੰਡੋ ਸਿਸਟਮ ਡਿਸਪਲੇਅ ”%s” ਨੂੰ ਖੋਲਣ ਵਿੱਚ ਅਸਮਰਥ\n"
 
-#: src/core/main.c:189
+#: src/core/main.c:190
 msgid "Disable connection to session manager"
 msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਅਯੋਗ"
 
-#: src/core/main.c:195
+#: src/core/main.c:196
 msgid "Replace the running window manager"
 msgstr "ਚੱਲ ਰਹੇ ਵਿੰਡੋ ਮੈਨੇਜਰ ਨੂੰ ਬਦਲੋ"
 
-#: src/core/main.c:201
+#: src/core/main.c:202
 msgid "Specify session management ID"
 msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧਨ ID ਦਿਓ"
 
-#: src/core/main.c:206
+#: src/core/main.c:207
 msgid "X Display to use"
 msgstr "ਵਰਤਣ ਲਈ X ਡਿਸਪਲੇਅ"
 
-#: src/core/main.c:212
+#: src/core/main.c:213
 msgid "Initialize session from savefile"
 msgstr "ਸੰਭਾਲੀ ਫਾਇਲ ਤੋਂ ਸ਼ੈਸ਼ਨ ਸ਼ੁਰੂ"
 
-#: src/core/main.c:218
+#: src/core/main.c:219
 msgid "Make X calls synchronous"
 msgstr "X ਕਾਲ ਸੈਕਰੋਨਸ ਬਣਾਓ"
 
-#: src/core/main.c:225
+#: src/core/main.c:226
 msgid "Run as a wayland compositor"
 msgstr "ਵੇਲੈਂਡ ਕੰਪੋਜ਼ਰ ਵਜੋਂ ਚਲਾਓ"
 
-#: src/core/main.c:231
-#| msgid "Run as a wayland compositor"
+#: src/core/main.c:232
 msgid "Run as a nested compositor"
 msgstr "ਨੈਸਟਡ ਕੰਪੋਜ਼ਰ ਵਜੋਂ ਚਲਾਓ"
 
-#: src/core/main.c:239
+#: src/core/main.c:240
 msgid "Run as a full display server, rather than nested"
 msgstr "ਅੰਦਰੂਨੀ ਰੂਪ ਵਿੱਚ ਚਲਾਉਣ ਦੀ ਬਜਾਏ ਪੂਰੇ ਡਿਸਪਲੇਅ ਸਰਵਰ ਵਜੋਂ ਚਲਾਓ"
 
 #. Translators: %s is a window title
-#: src/core/meta-close-dialog-default.c:147
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "\"%s\" ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਹੀ ਹੈ।"
 
-#: src/core/meta-close-dialog-default.c:149
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਹੀ ਹੈ।"
 
-#: src/core/meta-close-dialog-default.c:154
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
-msgstr ""
-"ਤੁਸੀਂ ਇਸ ਲਈ ਕੁਝ ਸਮੇਂ ਵਾਸਤੇ ਉਡੀਕ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਕਾਰਜ ਨੂੰ ਧੱਕੇ ਨਾਲ ਬੰਦ ਕਰ ਸਕਦੇ"
-" ਹੋ।"
+msgstr "ਤੁਸੀਂ ਇਸ ਲਈ ਕੁਝ ਸਮੇਂ ਵਾਸਤੇ ਉਡੀਕ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਕਾਰਜ ਨੂੰ ਧੱਕੇ ਨਾਲ ਬੰਦ ਕਰ ਸਕਦੇ ਹੋ।"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "ਧੱਕੇ ਨਾਲ ਬੰਦ(_F)"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "ਉਡੀਕੋ(_W)"
 
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
-#| msgid ""
-#| "ukwm %s\n"
-#| "Copyright (C) 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
-#| "This is free software; see the source for copying conditions.\n"
-#| "There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A "
-#| "PARTICULAR PURPOSE.\n"
 msgid ""
 "ukwm %s\n"
 "Copyright © 2001-%d Havoc Pennington, Red Hat, Inc., and others\n"
@@ -655,39 +369,34 @@ msgstr ""
 "ਇਹ ਮੁਫਤ ਸਾਫਟਵੇਅਰ ਹੈ; ਉਤਾਰਾ ਹਾਲਤਾਂ ਲਈ ਸਰੋਤ ਵੇਖੋ।\n"
 "ਇਸ ਦੀ ਕੋਈ ਗਰੰਟੀ ਨਹੀ; ਇਥੋਂ ਤੱਕ ਕਿ ਖਰੀਦਦਾਰੀ ਜਾਂ ਖਾਸ ਮਕਸਦ ਦੀ ਪੂਰਤੀ ਲਈ ਵੀ।\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "ਵਰਜਨ ਛਾਪੋ"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "ਵਰਤਣ ਲਈ ਮੁੱਟਰ ਪਲੱਗਇਨ"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "ਵਰਕਸਪੇਸ %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
-#| msgid ""
-#| "Display \"%s\" already has a window manager; try using the --replace "
-#| "option to replace the current window manager."
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
 "replace the current window manager."
 msgstr ""
-"ਡਿਸਪਲੇਅ ”%s” ਉੱਤੇ ਪਹਿਲਾਂ ਹੀ ਵਿੰਡੋ ਮੈਨੇਜਰ ਮੌਜੂਦ ਹੈ; ਮੌਜੂਦਾ ਵਿੰਡੋ ਮੈਨੇਜਰ ਨੂੰ"
-" ਬਦਲਣ ਲਈ --replace "
-"ਚੋਣ ਵਰਤ ਕੇ ਦੇਖੋ।"
+"ਡਿਸਪਲੇਅ ”%s” ਉੱਤੇ ਪਹਿਲਾਂ ਹੀ ਵਿੰਡੋ ਮੈਨੇਜਰ ਮੌਜੂਦ ਹੈ; ਮੌਜੂਦਾ ਵਿੰਡੋ ਮੈਨੇਜਰ ਨੂੰ ਬਦਲਣ ਲਈ --replace ਚੋਣ "
+"ਵਰਤ ਕੇ ਦੇਖੋ।"
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
-#| msgid "Screen %d on display '%s' is invalid\n"
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "ਡਿਸਪਲੇਅ ”%2$s” ਉੱਤੇ ਸਕਰੀਨ %1$d ਗਲਤ ਹੈ\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "ਮੱਟਰ, ਵਰਬੋਜ਼ ਮੋਡ ਲਈ ਸਹਾਰੇ ਤੋਂ ਬਿਨਾਂ ਕੰਪਾਇਲ ਹੋਇਆ\n"
 
@@ -696,22 +405,198 @@ msgstr "ਮੱਟਰ, ਵਰਬੋਜ਼ ਮੋਡ ਲਈ ਸਹਾਰੇ ਤੋਂ
 msgid "Mode Switch: Mode %d"
 msgstr "ਮੋਡ ਬਦਲੋ: ਮੋਡ %d"
 
-#: src/x11/session.c:1815
-#| msgid ""
-#| "These windows do not support &quot;save current setup&quot; and will have "
-#| "to be restarted manually next time you log in."
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
 msgstr ""
-"ਇਹ ਵਿੰਡੋ ”ਮੌਜੂਦਾ ਸੈਟਅੱਪ ਸੰਭਾਲੋ” ਵਾਸਤੇ ਸਹਾਇਕ ਨਹੀਂ ਅਤੇ ਅਗਲੀ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ"
-" ਲਾਗਇਨ "
-"ਕਰੋਗੇ ਤਾਂ ਮੁੜ ਸ਼ੁਰੂ ਕਰਨਾ ਪਵੇਗਾ।"
+"ਇਹ ਵਿੰਡੋ ”ਮੌਜੂਦਾ ਸੈਟਅੱਪ ਸੰਭਾਲੋ” ਵਾਸਤੇ ਸਹਾਇਕ ਨਹੀਂ ਅਤੇ ਅਗਲੀ ਵਾਰ ਜਦੋਂ ਤੁਸੀਂ ਲਾਗਇਨ ਕਰੋਗੇ ਤਾਂ ਮੁੜ ਸ਼ੁਰੂ "
+"ਕਰਨਾ ਪਵੇਗਾ।"
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (%s ਉੱਤੇ)"
+
+#~ msgid "Navigation"
+#~ msgstr "ਨੇਵੀਗੇਸ਼ਨ"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੧ ਵਿੱਚ ਲਿਜਾਓ"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੨ ਵਿੱਚ ਲਿਜਾਓ"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੩ ਵਿੱਚ ਲਿਜਾਓ"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਵਰਕਸਪੇਸ ੪ ਵਿੱਚ ਲਿਜਾਓ"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਪਿਛਲੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਲਿਜਾਓ"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਖੱਬੇ ਵੱਲ ਲਿਜਾਓ"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਸੱਜੇ ਵੱਲ ਲਿਜਾਓ"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਉੱਤੇ ਲਿਜਾਓ"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਵਰਕਸਪੇਸ ਹੇਠਾਂ ਲਿਜਾਓ"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਖੱਬੇ ਵੱਲ ਲਿਜਾਓ"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਸੱਜੇ ਵੱਲ ਲਿਜਾਓ"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਉੱਤੇ ਲਿਜਾਓ"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਇੱਕ ਮਾਨੀਟਰ ਹੇਠਾਂ ਲਿਜਾਓ"
+
+#~ msgid "Switch applications"
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਬਦਲੋ"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "ਪਿਛਲੀ ਐਪਲੀਕੇਸ਼ਨ ਲਈ ਬਦਲੋ"
+
+#~ msgid "Switch windows"
+#~ msgstr "ਵਿੰਡੋਜ਼ ਬਦਲੋ"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "ਪਿਛਲੀ ਵਿੰਡੋ ਲਈ ਬਦਲੋ"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦੀਆਂ ਵਿੰਡੋਜ਼ ਬਦਲੋ"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਪਿਛਲੀ ਵਿੰਡੋ ਵਿੱਚ ਜਾਓ"
+
+#~ msgid "Switch system controls"
+#~ msgstr "ਸਿਸਟਮ ਕੰਟਰੋਲ ਬਦਲੋ"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "ਪਿਛਲੇ ਸਿਸਟਮ ਕੰਟਰੋਲ ਬਦਲੋ"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "ਵਿੰਡੋਜ਼ ਸਿੱਧੀਆਂ ਬਦਲੋ"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "ਸਿੱਧਾ ਪਿਛਲੀ ਵਿੰਡੋ ਲਈ ਬਦਲੋ"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦੀ ਵਿੰਡੋਜ਼ ਸਿੱਧੀ ਬਦਲੋ"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "ਸਿੱਧਾ ਐਪ ਦੀ ਪਿਛਲੀ ਵਿੰਡੋ ਲਈ ਬਦਲੋ"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "ਸਿਸਟਮ ਕੰਟਰੋਲ ਸਿੱਧੇ ਬਦਲੋ"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "ਸਿੱਧਾ ਪਿਛਲੇ ਸਿਸਟਮ ਕੰਟਰੋਲ ਲਈ ਬਦਲੋ"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "ਸਭ ਸਧਾਰਨ ਵਿੰਡੋਜ਼ ਓਹਲੇ ਕਰੋ"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "ਵਰਕਸਪੇਸ ੧ ਵਿੱਚ ਜਾਓ"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "ਵਰਕਸਪੇਸ ੨ ਵਿੱਚ ਜਾਓ"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "ਵਰਕਸਪੇਸ ੩ ਵਿੱਚ ਜਾਓ"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "ਵਰਕਸਪੇਸ ੪ ਵਿੱਚ ਜਾਓ"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "ਪਿਛਲੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਜਾਓ"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "ਖੱਬੇ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "ਸੱਜੇ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "ਉੱਤੇ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "ਹੇਠਾਂ ਵਰਕਸਪੇਸ 'ਚ ਭੇਜੋ"
+
+#~ msgid "System"
+#~ msgstr "ਸਿਸਟਮ"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "ਕਮਾਂਡ ਚਲਾਉ ਪਰੋਉਟ ਵੇਖੋ"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "ਸਰਗਰਮੀ ਸੰਖੇਪ ਜਾਣਕਾਰੀ ਵੇਖੋ"
+
+#~ msgid "Windows"
+#~ msgstr "ਵਿੰਡੋਜ਼"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "ਐਕਟਿਵੇਟ ਵਿੰਡੋ ਮੇਨੂ"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "ਪੂਰੀ ਸਕਰੀਨ ਮੋਡ ਬਦਲੋ"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "ਅਧਿਕਤਮ ਸਥਿਤੀ ਬਦਲੋ"
+
+#~ msgid "Maximize window"
+#~ msgstr "ਵਿੰਡੋ ਵੱਧੋ-ਵੱਧ"
+
+#~ msgid "Restore window"
+#~ msgstr "ਵਿੰਡੋ ਮੁੜ-ਸਟੋਰ"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "ਰੰਗਤ ਸਥਿਤੀ ਬਦਲੋ"
+
+#~ msgid "Close window"
+#~ msgstr "ਵਿੰਡੋ ਬੰਦ ਕਰੋ"
+
+#~ msgid "Hide window"
+#~ msgstr "ਵਿੰਡੋ ਓਹਲੇ"
+
+#~ msgid "Move window"
+#~ msgstr "ਵਿੰਡੋ ਹਿਲਾਓ"
+
+#~ msgid "Resize window"
+#~ msgstr "ਵਿੰਡੋ ਮੁੜ-ਅਕਾਰ"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "ਵਿੰਡੋ ਸਭ ਵਰਕਸਪੇਸ ਜਾਂ ਇੱਕ ਵਿੱਚ ਬਦਲੋ"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "ਵਿੰਡੋ ਉਭਾਰੋ, ਜੇ ਢੱਕੀ ਹੈ, ਨਹੀਂ ਤਾਂ ਹੇਠਾਂ ਭੇਜੋ"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਹੋਰ ਵਿੰਡੋਜ਼ ਤੋਂ ਉੱਤੇ ਲਿਆਓ"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "ਵਿੰਡੋ ਨੂੰ ਹੋਰ ਵਿੰਡੋ ਤੋਂ ਹੇਠਾਂ ਲੈ ਜਾਉ"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "ਵਿੰਡੋ ਖੜਵੇਂ ਰੂਪ ਵਿੱਚ ਵੱਧੋ-ਵੱਧ"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "ਵਿੰਡੋ ਲੇਟਵੇਂ ਰੂਪ ਵਿੱਚ ਵੱਧੋ-ਵੱਧ"
+
+#~ msgid "View split on left"
+#~ msgstr "ਖੱਬੇ ਪਾਸੇ ਵੰਡ ਵੇਖੋ"
+
+#~ msgid "View split on right"
+#~ msgstr "ਸੱਜੇ ਪਾਸੇ ਵੰਡ ਵੇਖੋ"
 
 #~ msgid "Failed to scan themes directory: %s\n"
 #~ msgstr "ਥੀਮ ਡਾਇਰੈਕਟਰੀ ਦੀ ਜਾਂਚ ਅਸਫਲ: %s\n"

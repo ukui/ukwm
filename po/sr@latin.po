@@ -9,13 +9,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-08-29 16:15+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-08-29 20:46+0200\n"
 "Last-Translator: Marko M. Kostić <marko.m.kostic@gmail.com>\n"
 "Language-Team: srpski <gnome-sr@googlegroups.org>\n"
-"Language: sr\n"
+"Language: sr@latin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,246 +22,6 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
 "X-Generator: Poedit 2.0.3\n"
-
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Navigacija"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Premešta prozor na radni prostor broj 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Premešta prozor na radni prostor broj 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Premešta prozor na radni prostor broj 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Premešta prozor na radni prostor broj 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Premešta prozor na poslednji radni prostor"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Premešta prozor jedan radni prostor na levo"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Premešta prozor jedan radni prostor na desno"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Premešta prozor jedan radni prostor na gore"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Premešta prozor jedan radni prostor na dole"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Premešta prozor jedan monitor na levo"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Premešta prozor jedan monitor na desno"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Premešta prozor jedan monitor na gore"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Premešta prozor jedan monitor na dole"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Prebacuje programe"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Prebacuje na prethodni program"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Prebacuje prozore"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Prebacuje na prethodni prozor"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Prebacuje prozore programa"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Prebacuje na prethodni prozor programa"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Prebacuje kontrole sistema"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Prebacuje na prethodnu kontrolu sistema"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Prebacuje prozore direktno"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Prebacuje neposredno na prethodni prozor"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Prebacuje prozore programa direktno"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Prebacuje neposredno na prethodni prozor programa"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Prebacuje kontrole sistema direktno"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Prebacuje neposredno na prethodnu kontrolu sistema"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Skriva sve obične prozore"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Prebacuje se na radni prostor 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Prebacuje se na radni prostor 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Prebacuje se na radni prostor 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Prebacuje se na radni prostor 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Prebacuje se na poslednji radni prostor"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Premešta na radni prostor levo"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Premešta na radni prostor desno"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Premešta na radni prostor iznad"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Premešta na radni prostor ispod"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "Sistem"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "Prikazuje upit za izvršavanje naredbe"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Prikazuje pregled aktivnosti"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Prozori"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Aktivira meni prozora"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Isključuje ili uključuje prikaz preko celog ekrana"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Isključuje ili uključuje stanje uvećanja"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Uvećava prozor"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Vraća veličinu prozora"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Isključuje ili uključuje stanje zasenčenosti"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Zatvara prozor"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Skriva prozor"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Premešta prozor"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Menja veličinu prozora"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "Prikazuje prozor na svim radnim prostorima ili samo na jednom"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Izdiže prozor ukoliko ga drugi prozor zaklanja, u protivnom ga spušta"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Izdiže prozor iznad ostalih prozora"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Spušta prozor ispod ostalih prozora"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Uvećava prozor vertikalno"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Uvećava prozor horizontalno"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Prikažite podelu na levo"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Prikažite podelu na desno"
 
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
@@ -280,9 +39,9 @@ msgid ""
 "set to the empty string."
 msgstr ""
 "Ovaj ključ pokreće „overlay“ (preklapanje), koje kombinuje pregled prozora i "
-"pokretač programa. Podrazumevano je namenjen kao „Windows key“ (ključ prozora) "
-"za komponente računara. Očekuje se da ovo vezuje ili podrazumevani ili niz "
-"praznih znakova."
+"pokretač programa. Podrazumevano je namenjen kao „Windows key“ (ključ "
+"prozora) za komponente računara. Očekuje se da ovo vezuje ili podrazumevani "
+"ili niz praznih znakova."
 
 #: data/org.ukui.ukwm.gschema.xml.in:20
 msgid "Attach modal dialogs"
@@ -310,8 +69,8 @@ msgid ""
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
 "Ako je uključeno, otpuštanje prozora na uspravnim ivicama ekrana uvećava ih "
-"uspravno i menja im veličinu vodoravno da prekriju polovinu dostupne oblasti. "
-"Otpuštanje prozora na gornjoj ivici ekrana uvećava ih u potpunosti."
+"uspravno i menja im veličinu vodoravno da prekriju polovinu dostupne "
+"oblasti. Otpuštanje prozora na gornjoj ivici ekrana uvećava ih u potpunosti."
 
 #: data/org.ukui.ukwm.gschema.xml.in:40
 msgid "Workspaces are managed dynamically"
@@ -374,8 +133,8 @@ msgid ""
 "The amount of total draggable borders. If the theme’s visible borders are "
 "not enough, invisible borders will be added to meet this value."
 msgstr ""
-"Iznos ukupne ivice za prevlačenje. Ako vidljive ivice teme nisu dovoljne, biće "
-"dodate nevidljive ivice za dostizanje ove vrednosti."
+"Iznos ukupne ivice za prevlačenje. Ako vidljive ivice teme nisu dovoljne, "
+"biće dodate nevidljive ivice za dostizanje ove vrednosti."
 
 #: data/org.ukui.ukwm.gschema.xml.in:89
 msgid "Auto maximize nearly monitor sized windows"
@@ -412,25 +171,25 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"ukwm default to layout logical monitors in a logical pixel coordinate "
-"space, while scaling monitor framebuffers instead of window content, to "
-"manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
-"enables remote desktop support. To support remote desktop with screen "
-"sharing, “screen-cast” must also be enabled. • “screen-cast” — enables "
-"screen cast support."
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
 msgstr ""
 "Da uključite probne funkcije, dodajte ključnu reč funkcije na spisak. Da li "
-"funkcija zahteva ponovno pokretanje sastavljača zavisi od date funkcije. Nije "
-"potrebno da neka probna mogućnost bude i dalje dostupna ili podesiva. Nemojte "
-"očekivati da dodavanje bilo čega u ovom podešavanju bude otporno na buduće "
-"izmene. Trenutno moguće ključne reči su: • „scale-monitor-framebuffer“ — čini "
-"da mater podrazumevano raspoređuje logičke ekrane u logičkom koordinantnom "
-"prostoru piksela, prilikom promene veličine spremišta kadrova ekrana umesto "
-"sadržaja prozora, zarad upravljanja ekranima visoke rezolucije. Ne zahteva "
-"ponovno pokretanje. • “remote-desktop” — omogućava udaljenu tehničku podršku. "
-"Da biste podržali udaljenu tehničku podršku sa deljenjem ekrana, “screen-cast” "
-"takođe mora biti omogućen. • “screen-cast” — omogućava podršku za "
-"projektovanje ekrana."
+"funkcija zahteva ponovno pokretanje sastavljača zavisi od date funkcije. "
+"Nije potrebno da neka probna mogućnost bude i dalje dostupna ili podesiva. "
+"Nemojte očekivati da dodavanje bilo čega u ovom podešavanju bude otporno na "
+"buduće izmene. Trenutno moguće ključne reči su: • „scale-monitor-"
+"framebuffer“ — čini da mater podrazumevano raspoređuje logičke ekrane u "
+"logičkom koordinantnom prostoru piksela, prilikom promene veličine spremišta "
+"kadrova ekrana umesto sadržaja prozora, zarad upravljanja ekranima visoke "
+"rezolucije. Ne zahteva ponovno pokretanje. • “remote-desktop” — omogućava "
+"udaljenu tehničku podršku. Da biste podržali udaljenu tehničku podršku sa "
+"deljenjem ekrana, “screen-cast” takođe mora biti omogućen. • “screen-cast” — "
+"omogućava podršku za projektovanje ekrana."
 
 #: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
@@ -503,7 +262,7 @@ msgstr "Ponovo uključivanje prečica"
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:2151
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "Režim prekidača (grupa %d)"
@@ -511,30 +270,30 @@ msgstr "Režim prekidača (grupa %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:2174
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Promeni monitor"
 
-#: src/backends/meta-input-settings.c:2176
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Prikaži pomoć na ekranu"
 
-#: src/backends/meta-monitor-manager.c:903
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Ugrađeni displej"
 
-#: src/backends/meta-monitor-manager.c:926
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Nepoznato"
 
-#: src/backends/meta-monitor-manager.c:928
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Nepoznat displej"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:936
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
@@ -548,62 +307,62 @@ msgid ""
 msgstr ""
 "Neki drugi kompozitni upravnik je već pokrenut na prikazu %i erkana „%s“."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Zvonca"
 
-#: src/core/display.c:608
+#: src/core/display.c:609
 #, c-format
 msgid "Failed to open X Window System display “%s”\n"
 msgstr "Nisam uspeo da otvorim ekran „%s“ Iks sistema prozora\n"
 
-#: src/core/main.c:189
+#: src/core/main.c:190
 msgid "Disable connection to session manager"
 msgstr "Isključuje vezu sa upravnikom sesije"
 
-#: src/core/main.c:195
+#: src/core/main.c:196
 msgid "Replace the running window manager"
 msgstr "Menja tekućeg upravnika prozorima"
 
-#: src/core/main.c:201
+#: src/core/main.c:202
 msgid "Specify session management ID"
 msgstr "Navodi IB upravnika sesije"
 
-#: src/core/main.c:206
+#: src/core/main.c:207
 msgid "X Display to use"
 msgstr "Iks ekran koji će biti korišćen"
 
-#: src/core/main.c:212
+#: src/core/main.c:213
 msgid "Initialize session from savefile"
 msgstr "Pokreće sesiju iz datoteke čuvanja"
 
-#: src/core/main.c:218
+#: src/core/main.c:219
 msgid "Make X calls synchronous"
 msgstr "Čini Iks pozive usklađenim"
 
-#: src/core/main.c:225
+#: src/core/main.c:226
 msgid "Run as a wayland compositor"
 msgstr "Radi kao vajlandov sastavnik"
 
-#: src/core/main.c:231
+#: src/core/main.c:232
 msgid "Run as a nested compositor"
 msgstr "Radi kao ugneždeni sastavnik"
 
-#: src/core/main.c:239
+#: src/core/main.c:240
 msgid "Run as a full display server, rather than nested"
 msgstr "Radi kao puni server prikaza, umesto kao ugneždeni"
 
 #. Translators: %s is a window title
-#: src/core/meta-close-dialog-default.c:147
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "„%s“ ne daje odziv."
 
-#: src/core/meta-close-dialog-default.c:149
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Program ne daje odziv."
 
-#: src/core/meta-close-dialog-default.c:154
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -611,15 +370,15 @@ msgstr ""
 "Možete malo sačekati dok se program ne sabere ili primorati program da "
 "kompletno prekine sa radom."
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Primoraj izlaz"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "_Sačekaj"
 
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -634,20 +393,20 @@ msgstr ""
 "NE postoji nikakva garancija; čak ni garancija o TRŽIŠNOJ VREDNOSTI ili "
 "PRILAGOĐENOSTI ODREĐENOJ NAMENI.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Ispisuje izdanje"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Priključci Matera za korišćenje"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "%d. radni prostor"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -656,12 +415,12 @@ msgstr ""
 "Prikaz „%s“ već ima upravnika prozora; probajte da koristite opciju „--"
 "replace“ da zamenite trenutnog upravnika prozora."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Prikaz „%d“ na ekranu „%s“ nije ispravan\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Mater je preveden bez podrške za opširan režim\n"
 
@@ -670,7 +429,7 @@ msgstr "Mater je preveden bez podrške za opširan režim\n"
 msgid "Mode Switch: Mode %d"
 msgstr "Režim prekidača: Režim %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
@@ -678,10 +437,191 @@ msgstr ""
 "Ovi prozori ne podržavaju mogućnost „sačuvaj trenutna podešavanja“ pa ćete "
 "morati ručno da ih ponovo pokrenete kada se sledeći put prijavite."
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (na %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigacija"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Premešta prozor na radni prostor broj 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Premešta prozor na radni prostor broj 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Premešta prozor na radni prostor broj 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Premešta prozor na radni prostor broj 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Premešta prozor na poslednji radni prostor"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Premešta prozor jedan radni prostor na levo"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Premešta prozor jedan radni prostor na desno"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Premešta prozor jedan radni prostor na gore"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Premešta prozor jedan radni prostor na dole"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Premešta prozor jedan monitor na levo"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Premešta prozor jedan monitor na desno"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Premešta prozor jedan monitor na gore"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Premešta prozor jedan monitor na dole"
+
+#~ msgid "Switch applications"
+#~ msgstr "Prebacuje programe"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Prebacuje na prethodni program"
+
+#~ msgid "Switch windows"
+#~ msgstr "Prebacuje prozore"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Prebacuje na prethodni prozor"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Prebacuje prozore programa"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Prebacuje na prethodni prozor programa"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Prebacuje kontrole sistema"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Prebacuje na prethodnu kontrolu sistema"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Prebacuje prozore direktno"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Prebacuje neposredno na prethodni prozor"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Prebacuje prozore programa direktno"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Prebacuje neposredno na prethodni prozor programa"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Prebacuje kontrole sistema direktno"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Prebacuje neposredno na prethodnu kontrolu sistema"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Skriva sve obične prozore"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Prebacuje se na radni prostor 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Prebacuje se na radni prostor 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Prebacuje se na radni prostor 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Prebacuje se na radni prostor 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Prebacuje se na poslednji radni prostor"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Premešta na radni prostor levo"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Premešta na radni prostor desno"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Premešta na radni prostor iznad"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Premešta na radni prostor ispod"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Prikazuje upit za izvršavanje naredbe"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Prikazuje pregled aktivnosti"
+
+#~ msgid "Windows"
+#~ msgstr "Prozori"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Aktivira meni prozora"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Isključuje ili uključuje prikaz preko celog ekrana"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Isključuje ili uključuje stanje uvećanja"
+
+#~ msgid "Maximize window"
+#~ msgstr "Uvećava prozor"
+
+#~ msgid "Restore window"
+#~ msgstr "Vraća veličinu prozora"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Isključuje ili uključuje stanje zasenčenosti"
+
+#~ msgid "Close window"
+#~ msgstr "Zatvara prozor"
+
+#~ msgid "Hide window"
+#~ msgstr "Skriva prozor"
+
+#~ msgid "Move window"
+#~ msgstr "Premešta prozor"
+
+#~ msgid "Resize window"
+#~ msgstr "Menja veličinu prozora"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Prikazuje prozor na svim radnim prostorima ili samo na jednom"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr ""
+#~ "Izdiže prozor ukoliko ga drugi prozor zaklanja, u protivnom ga spušta"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Izdiže prozor iznad ostalih prozora"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Spušta prozor ispod ostalih prozora"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Uvećava prozor vertikalno"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Uvećava prozor horizontalno"
+
+#~ msgid "View split on left"
+#~ msgstr "Prikažite podelu na levo"
+
+#~ msgid "View split on right"
+#~ msgstr "Prikažite podelu na desno"
 
 #~ msgid "Failed to scan themes directory: %s\n"
 #~ msgstr "Nisam uspeo da pročitam direktorijum tema: %s\n"
@@ -743,8 +683,8 @@ msgstr "%s (na %s)"
 #~ "Gtk:custom format is \"gtk:custom(color_name,fallback)\", \"%s\" does not "
 #~ "fit the format"
 #~ msgstr ""
-#~ "Gtk:proizvoljni format je „gtk:custom(naziv_boje,prebacivanje)“, „%s“ se ne "
-#~ "uklapa u format"
+#~ "Gtk:proizvoljni format je „gtk:custom(naziv_boje,prebacivanje)“, „%s“ se "
+#~ "ne uklapa u format"
 
 #~ msgid ""
 #~ "GTK color specification must have the state in brackets, e.g. gtk:"
@@ -935,8 +875,8 @@ msgstr "%s (na %s)"
 #~ msgid ""
 #~ "Alpha must be between 0.0 (invisible) and 1.0 (fully opaque), was %g\n"
 #~ msgstr ""
-#~ "Alfa stepen mora biti između 0.0 (nevidljivo) i 1.0 (potpuno vidljivo), bio "
-#~ "je %g\n"
+#~ "Alfa stepen mora biti između 0.0 (nevidljivo) i 1.0 (potpuno vidljivo), "
+#~ "bio je %g\n"
 
 #~ msgid ""
 #~ "Invalid title scale \"%s\" (must be one of xx-small,x-small,small,medium,"

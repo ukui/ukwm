@@ -1,10 +1,9 @@
 Source: ukwm
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Kylin Team <team+kylin@tracker.debian.org>
+Maintainer: Kylin Team <team+kylin@tracker.debian.org>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper-compat (= 12),
                dh-sequence-gir,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.15),

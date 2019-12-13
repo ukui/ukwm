@@ -9,9 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ukwm\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-09-04 14:39+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-09-05 00:14+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -20,246 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.3\n"
-
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Navigation"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Flytta fönster till arbetsyta 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Flytta fönster till arbetsyta 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Flytta fönster till arbetsyta 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Flytta fönster till arbetsyta 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Flytta fönster till sista arbetsyta"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Flytta fönster en arbetsyta åt vänster"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Flytta fönster en arbetsyta åt höger"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Flytta fönster en arbetsyta uppåt"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Flytta fönster en arbetsyta nedåt"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Flytta fönster en skärm åt vänster"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Flytta fönster en skärm åt höger"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Flytta fönster en skärm uppåt"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Flytta fönster en skärm nedåt"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Växla program"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Växla till föregående program"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Växla fönster"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Växla till föregående fönster"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Växla fönster för ett program"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Växla till föregående fönster för ett program"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Växla systemkontroller"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Växla till föregående systemkontroll"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Växla fönster direkt"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Växla direkt till föregående fönster"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Växla fönster för ett program direkt"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Växla direkt till föregående fönster för ett program"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Växla systemkontroller direkt"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Växla direkt till föregående systemkontroll"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Dölj alla normala fönster"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Växla till arbetsyta 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Växla till arbetsyta 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Växla till arbetsyta 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Växla till arbetsyta 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Växla till sista arbetsyta"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Flytta till arbetsyta till vänster"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Flytta till arbetsyta till höger"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Flytta till arbetsyta ovanför"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Flytta till arbetsyta nedanför"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "System"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "Visa Kör kommando-dialogen"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Visa aktivitetsöversikt"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Fönster"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Aktivera fönstermenyn"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Växla helskärmsläge"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Växla maximeringstillstånd"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Maximera fönster"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Återställ fönster"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Växla upprullat tillstånd"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Stäng fönster"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Dölj fönster"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Flytta fönster"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Ändra storlek på fönster"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "Växla fönster på alla arbetsytor eller bara en"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Höj fönstret om det skyms av ett annat fönster, sänk det annars"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Höj fönstret över andra fönster"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Sänk fönster under andra fönster"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Maximera fönster vertikalt"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Maximera fönster horisontellt"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Vy delad till vänster"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Vy delad till höger"
 
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
@@ -408,12 +167,12 @@ msgid ""
 "feature. Any experimental feature is not required to still be available, or "
 "configurable. Don’t expect adding anything in this setting to be future "
 "proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
-"ukwm default to layout logical monitors in a logical pixel coordinate "
-"space, while scaling monitor framebuffers instead of window content, to "
-"manage HiDPI monitors. Does not require a restart. • “remote-desktop” — "
-"enables remote desktop support. To support remote desktop with screen "
-"sharing, “screen-cast” must also be enabled. • “screen-cast” — enables "
-"screen cast support."
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
 msgstr ""
 "För att aktivera experimentella funktioner, lägg till funktionens nyckelord "
 "till listan. Huruvida funktionen kräver att kompositionshanteraren startas "
@@ -500,7 +259,7 @@ msgstr "Återaktivera genvägar"
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:2151
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "Lägesväxel (grupp %d)"
@@ -508,30 +267,30 @@ msgstr "Lägesväxel (grupp %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:2174
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Växla skärm"
 
-#: src/backends/meta-input-settings.c:2176
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Visa hjälp på skärmen"
 
-#: src/backends/meta-monitor-manager.c:903
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Inbyggd display"
 
-#: src/backends/meta-monitor-manager.c:926
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Okänd"
 
-#: src/backends/meta-monitor-manager.c:928
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Okänd display"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:936
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
@@ -544,62 +303,62 @@ msgid ""
 "Another compositing manager is already running on screen %i on display “%s”."
 msgstr "En annan kompositionshanterare körs redan på skärm %i på display ”%s”."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Ljudsignalhändelse"
 
-#: src/core/display.c:608
+#: src/core/display.c:609
 #, c-format
 msgid "Failed to open X Window System display “%s”\n"
 msgstr "Misslyckades med att öppna X Window System-displayen ”%s”\n"
 
-#: src/core/main.c:189
+#: src/core/main.c:190
 msgid "Disable connection to session manager"
 msgstr "Inaktivera anslutning till sessionshanteraren"
 
-#: src/core/main.c:195
+#: src/core/main.c:196
 msgid "Replace the running window manager"
 msgstr "Ersätt körande fönsterhanteraren"
 
-#: src/core/main.c:201
+#: src/core/main.c:202
 msgid "Specify session management ID"
 msgstr "Ange sessionshanteringsid"
 
-#: src/core/main.c:206
+#: src/core/main.c:207
 msgid "X Display to use"
 msgstr "X-display att använda"
 
-#: src/core/main.c:212
+#: src/core/main.c:213
 msgid "Initialize session from savefile"
 msgstr "Initiera session från sparandefil"
 
-#: src/core/main.c:218
+#: src/core/main.c:219
 msgid "Make X calls synchronous"
 msgstr "Gör X-anrop synkrona"
 
-#: src/core/main.c:225
+#: src/core/main.c:226
 msgid "Run as a wayland compositor"
 msgstr "Kör som en wayland-kompositionshanterare"
 
-#: src/core/main.c:231
+#: src/core/main.c:232
 msgid "Run as a nested compositor"
 msgstr "Kör som en nästlad kompositionshanterare"
 
-#: src/core/main.c:239
+#: src/core/main.c:240
 msgid "Run as a full display server, rather than nested"
 msgstr "Kör som en full display-tjänst, i stället för nästlad"
 
 #. Translators: %s is a window title
-#: src/core/meta-close-dialog-default.c:147
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "”%s” svarar inte."
 
-#: src/core/meta-close-dialog-default.c:149
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Programmet svarar inte."
 
-#: src/core/meta-close-dialog-default.c:154
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -607,15 +366,15 @@ msgstr ""
 "Du kan välja att vänta en kort stund på det för att fortsätta eller tvinga "
 "programmet att helt avslutas."
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Tvinga avslut"
 
-#: src/core/meta-close-dialog-default.c:161
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "_Vänta"
 
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -630,20 +389,20 @@ msgstr ""
 "Det finns INGA garantier; inte ens för SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT "
 "SPECIELLT ÄNDAMÅL.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Skriv ut version"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Ukwm-insticksmodul att använda"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Arbetsyta %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -652,12 +411,12 @@ msgstr ""
 "Display ”%s” har redan en fönsterhanterare; försök med flaggan --replace för "
 "att ersätta den aktuella fönsterhanteraren."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Skärm %d på display ”%s” är ogiltig\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr "Ukwm kompilerades utan stöd för utförligt läge\n"
 
@@ -666,7 +425,7 @@ msgstr "Ukwm kompilerades utan stöd för utförligt läge\n"
 msgid "Mode Switch: Mode %d"
 msgstr "Lägesväxel: Läge %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
@@ -674,7 +433,187 @@ msgstr ""
 "Dessa fönster saknar stöd för ”spara nuvarande inställningar” och kommer att "
 "behöva startas om manuellt nästa gång du loggar in."
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (på %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Flytta fönster till arbetsyta 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Flytta fönster till arbetsyta 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Flytta fönster till arbetsyta 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Flytta fönster till arbetsyta 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Flytta fönster till sista arbetsyta"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Flytta fönster en arbetsyta åt vänster"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Flytta fönster en arbetsyta åt höger"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Flytta fönster en arbetsyta uppåt"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Flytta fönster en arbetsyta nedåt"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Flytta fönster en skärm åt vänster"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Flytta fönster en skärm åt höger"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Flytta fönster en skärm uppåt"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Flytta fönster en skärm nedåt"
+
+#~ msgid "Switch applications"
+#~ msgstr "Växla program"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Växla till föregående program"
+
+#~ msgid "Switch windows"
+#~ msgstr "Växla fönster"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Växla till föregående fönster"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Växla fönster för ett program"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Växla till föregående fönster för ett program"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Växla systemkontroller"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Växla till föregående systemkontroll"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Växla fönster direkt"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Växla direkt till föregående fönster"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Växla fönster för ett program direkt"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Växla direkt till föregående fönster för ett program"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Växla systemkontroller direkt"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Växla direkt till föregående systemkontroll"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Dölj alla normala fönster"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Växla till arbetsyta 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Växla till arbetsyta 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Växla till arbetsyta 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Växla till arbetsyta 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Växla till sista arbetsyta"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Flytta till arbetsyta till vänster"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Flytta till arbetsyta till höger"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Flytta till arbetsyta ovanför"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Flytta till arbetsyta nedanför"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Visa Kör kommando-dialogen"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Visa aktivitetsöversikt"
+
+#~ msgid "Windows"
+#~ msgstr "Fönster"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Aktivera fönstermenyn"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Växla helskärmsläge"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Växla maximeringstillstånd"
+
+#~ msgid "Maximize window"
+#~ msgstr "Maximera fönster"
+
+#~ msgid "Restore window"
+#~ msgstr "Återställ fönster"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Växla upprullat tillstånd"
+
+#~ msgid "Close window"
+#~ msgstr "Stäng fönster"
+
+#~ msgid "Hide window"
+#~ msgstr "Dölj fönster"
+
+#~ msgid "Move window"
+#~ msgstr "Flytta fönster"
+
+#~ msgid "Resize window"
+#~ msgstr "Ändra storlek på fönster"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Växla fönster på alla arbetsytor eller bara en"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Höj fönstret om det skyms av ett annat fönster, sänk det annars"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Höj fönstret över andra fönster"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Sänk fönster under andra fönster"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Maximera fönster vertikalt"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Maximera fönster horisontellt"
+
+#~ msgid "View split on left"
+#~ msgstr "Vy delad till vänster"
+
+#~ msgid "View split on right"
+#~ msgstr "Vy delad till höger"

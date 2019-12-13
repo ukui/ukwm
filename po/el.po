@@ -18,9 +18,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: metacity.gnome-2-26\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=ukwm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-02-28 06:20+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/ukui/ukwm/issues\n"
+"POT-Creation-Date: 2019-12-13 09:56+0800\n"
 "PO-Revision-Date: 2017-04-07 13:41+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gnome.org>\n"
 "Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
@@ -31,246 +30,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.11\n"
 "X-Project-Style: gnome\n"
-
-#: data/50-ukwm-navigation.xml:6
-msgid "Navigation"
-msgstr "Περιήγηση"
-
-#: data/50-ukwm-navigation.xml:9
-msgid "Move window to workspace 1"
-msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 1"
-
-#: data/50-ukwm-navigation.xml:12
-msgid "Move window to workspace 2"
-msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 2"
-
-#: data/50-ukwm-navigation.xml:15
-msgid "Move window to workspace 3"
-msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 3"
-
-#: data/50-ukwm-navigation.xml:18
-msgid "Move window to workspace 4"
-msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 4"
-
-#: data/50-ukwm-navigation.xml:21
-msgid "Move window to last workspace"
-msgstr "Μετακίνηση παραθύρου στον τελευταίο χώρο εργασίας"
-
-#: data/50-ukwm-navigation.xml:24
-msgid "Move window one workspace to the left"
-msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας αριστερά"
-
-#: data/50-ukwm-navigation.xml:27
-msgid "Move window one workspace to the right"
-msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας δεξιά"
-
-#: data/50-ukwm-navigation.xml:30
-msgid "Move window one workspace up"
-msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας πάνω"
-
-#: data/50-ukwm-navigation.xml:33
-msgid "Move window one workspace down"
-msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας κάτω"
-
-#: data/50-ukwm-navigation.xml:36
-msgid "Move window one monitor to the left"
-msgstr "Μετακίνηση παραθύρου κατά μια οθόνη στα αριστερά"
-
-#: data/50-ukwm-navigation.xml:39
-msgid "Move window one monitor to the right"
-msgstr "Μετακίνηση παραθύρου κατά μια οθόνη στα δεξιά"
-
-#: data/50-ukwm-navigation.xml:42
-msgid "Move window one monitor up"
-msgstr "Μετακίνηση παραθύρου κατά μια οθόνη προς τα πάνω"
-
-#: data/50-ukwm-navigation.xml:45
-msgid "Move window one monitor down"
-msgstr "Μετακίνηση παραθύρου κατά μια οθόνη προς τα κάτω"
-
-#: data/50-ukwm-navigation.xml:49
-msgid "Switch applications"
-msgstr "Εναλλαγή εφαρμογών"
-
-#: data/50-ukwm-navigation.xml:54
-msgid "Switch to previous application"
-msgstr "Εναλλαγή στην προηγούμενη εφαρμογή"
-
-#: data/50-ukwm-navigation.xml:58
-msgid "Switch windows"
-msgstr "Εναλλαγή παραθύρων"
-
-#: data/50-ukwm-navigation.xml:63
-msgid "Switch to previous window"
-msgstr "Εναλλαγή στο προηγούμενο παράθυρο"
-
-#: data/50-ukwm-navigation.xml:67
-msgid "Switch windows of an application"
-msgstr "Εναλλαγή παραθύρων μιας εφαρμογής"
-
-#: data/50-ukwm-navigation.xml:72
-msgid "Switch to previous window of an application"
-msgstr "Εναλλαγή στο προηγούμενο παράθυρο μιας εφαρμογής"
-
-#: data/50-ukwm-navigation.xml:76
-msgid "Switch system controls"
-msgstr "Εναλλαγή ελέγχων συστήματος"
-
-#: data/50-ukwm-navigation.xml:81
-msgid "Switch to previous system control"
-msgstr "Εναλλαγή σε προηγούμενους ελέγχους συστήματος"
-
-#: data/50-ukwm-navigation.xml:85
-msgid "Switch windows directly"
-msgstr "Άμεση εναλλαγή παραθύρων"
-
-#: data/50-ukwm-navigation.xml:90
-msgid "Switch directly to previous window"
-msgstr "Άμεση εναλλαγή στο προηγούμενο παράθυρο"
-
-#: data/50-ukwm-navigation.xml:94
-msgid "Switch windows of an app directly"
-msgstr "Άμεση εναλλαγή παραθύρων μιας εφαρμογής"
-
-#: data/50-ukwm-navigation.xml:99
-msgid "Switch directly to previous window of an app"
-msgstr "Άμεση εναλλαγή στο προηγούμενο παράθυρο μιας εφαρμογής"
-
-#: data/50-ukwm-navigation.xml:103
-msgid "Switch system controls directly"
-msgstr "Άμεση εναλλαγή ελέγχων συστήματος"
-
-#: data/50-ukwm-navigation.xml:108
-msgid "Switch directly to previous system control"
-msgstr "Άμεση εναλλαγή σε προηγούμενους ελέγχους συστήματος"
-
-#: data/50-ukwm-navigation.xml:111
-msgid "Hide all normal windows"
-msgstr "Απόκρυψη όλων των κανονικών παραθύρων"
-
-#: data/50-ukwm-navigation.xml:114
-msgid "Switch to workspace 1"
-msgstr "Εναλλαγή στον χώρο εργασίας 1"
-
-#: data/50-ukwm-navigation.xml:117
-msgid "Switch to workspace 2"
-msgstr "Εναλλαγή στον χώρο εργασίας 2"
-
-#: data/50-ukwm-navigation.xml:120
-msgid "Switch to workspace 3"
-msgstr "Εναλλαγή στον χώρο εργασίας 3"
-
-#: data/50-ukwm-navigation.xml:123
-msgid "Switch to workspace 4"
-msgstr "Εναλλαγή στον χώρο εργασίας 4"
-
-#: data/50-ukwm-navigation.xml:126
-msgid "Switch to last workspace"
-msgstr "Εναλλαγή στον τελευταίο χώρο εργασίας"
-
-#: data/50-ukwm-navigation.xml:129
-msgid "Move to workspace left"
-msgstr "Μετακίνηση στον χώρο εργασίας αριστερά"
-
-#: data/50-ukwm-navigation.xml:132
-msgid "Move to workspace right"
-msgstr "Μετακίνηση στον χώρο εργασίας δεξιά"
-
-#: data/50-ukwm-navigation.xml:135
-msgid "Move to workspace above"
-msgstr "Μετακίνηση στον χώρο εργασίας επάνω"
-
-#: data/50-ukwm-navigation.xml:138
-msgid "Move to workspace below"
-msgstr "Μετακίνηση στον χώρο εργασίας κάτω"
-
-#: data/50-ukwm-system.xml:6
-msgid "System"
-msgstr "Σύστημα"
-
-#: data/50-ukwm-system.xml:8
-msgid "Show the run command prompt"
-msgstr "Εμφάνιση της προτροπής της εντολής run"
-
-#: data/50-ukwm-system.xml:10
-msgid "Show the activities overview"
-msgstr "Εμφάνιση της επισκόπησης των δραστηριοτήτων"
-
-#: data/50-ukwm-windows.xml:6
-msgid "Windows"
-msgstr "Παράθυρα"
-
-#: data/50-ukwm-windows.xml:8
-msgid "Activate the window menu"
-msgstr "Ενεργοποίηση του μενού παραθύρου"
-
-#: data/50-ukwm-windows.xml:10
-msgid "Toggle fullscreen mode"
-msgstr "Εναλλαγή κατάστασης πλήρους οθόνης"
-
-#: data/50-ukwm-windows.xml:12
-msgid "Toggle maximization state"
-msgstr "Εναλλαγή κατάστασης μεγιστοποίησης"
-
-#: data/50-ukwm-windows.xml:14
-msgid "Maximize window"
-msgstr "Μεγιστοποίηση παραθύρου"
-
-#: data/50-ukwm-windows.xml:16
-msgid "Restore window"
-msgstr "Επαναφορά παραθύρου"
-
-#: data/50-ukwm-windows.xml:18
-msgid "Toggle shaded state"
-msgstr "Εναλλαγή σκιασμένης κατάστασης"
-
-#: data/50-ukwm-windows.xml:20
-msgid "Close window"
-msgstr "Κλείσιμο παραθύρου"
-
-#: data/50-ukwm-windows.xml:22
-msgid "Hide window"
-msgstr "Απόκρυψη παραθύρου"
-
-#: data/50-ukwm-windows.xml:24
-msgid "Move window"
-msgstr "Μετακίνηση παραθύρου"
-
-#: data/50-ukwm-windows.xml:26
-msgid "Resize window"
-msgstr "Αυξομείωση παραθύρου"
-
-#: data/50-ukwm-windows.xml:29
-msgid "Toggle window on all workspaces or one"
-msgstr "Εναλλαγή παραθύρου σε όλες τις επιφάνειες εργασίας ή σε μία"
-
-#: data/50-ukwm-windows.xml:31
-msgid "Raise window if covered, otherwise lower it"
-msgstr "Ανύψωση παραθύρου εάν καλύπτεται, αλλιώς βύθισή του"
-
-#: data/50-ukwm-windows.xml:33
-msgid "Raise window above other windows"
-msgstr "Ανύψωση παραθύρου πάνω από τα άλλα παράθυρα"
-
-#: data/50-ukwm-windows.xml:35
-msgid "Lower window below other windows"
-msgstr "Βύθιση παραθύρου κάτω από τα άλλα παράθυρα"
-
-#: data/50-ukwm-windows.xml:37
-msgid "Maximize window vertically"
-msgstr "Μεγιστοποίηση παραθύρου κάθετα"
-
-#: data/50-ukwm-windows.xml:39
-msgid "Maximize window horizontally"
-msgstr "Μεγιστοποίηση παραθύρου οριζόντια"
-
-#: data/50-ukwm-windows.xml:43
-msgid "View split on left"
-msgstr "Μεγιστοποίηση στα αριστερά"
-
-#: data/50-ukwm-windows.xml:47
-msgid "View split on right"
-msgstr "Μεγιστοποίηση στα δεξιά"
 
 #: data/ukwm.desktop.in:4
 msgid "Ukwm"
@@ -415,13 +174,41 @@ msgstr ""
 "Αν είναι αληθές, τα νέα παράθυρα θα είναι πάντα τοποθετημένα στο κέντρο της "
 "κύριας οθόνης."
 
-#: data/org.ukui.ukwm.gschema.xml.in:120
+#: data/org.ukui.ukwm.gschema.xml.in:107
+msgid "Enable experimental features"
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:108
+msgid ""
+"To enable experimental features, add the feature keyword to the list. "
+"Whether the feature requires restarting the compositor depends on the given "
+"feature. Any experimental feature is not required to still be available, or "
+"configurable. Don’t expect adding anything in this setting to be future "
+"proof. Currently possible keywords: • “scale-monitor-framebuffer” — makes "
+"ukwm default to layout logical monitors in a logical pixel coordinate space, "
+"while scaling monitor framebuffers instead of window content, to manage "
+"HiDPI monitors. Does not require a restart. • “remote-desktop” — enables "
+"remote desktop support. To support remote desktop with screen sharing, "
+"“screen-cast” must also be enabled. • “screen-cast” — enables screen cast "
+"support."
+msgstr ""
+
+#: data/org.ukui.ukwm.gschema.xml.in:145
 msgid "Select window from tab popup"
 msgstr "Επιλογή παραθύρου από την αναδυόμενη καρτέλα"
 
-#: data/org.ukui.ukwm.gschema.xml.in:125
+#: data/org.ukui.ukwm.gschema.xml.in:150
 msgid "Cancel tab popup"
 msgstr "Ακύρωση αναδυόμενης καρτέλας"
+
+#: data/org.ukui.ukwm.gschema.xml.in:155
+#, fuzzy
+msgid "Switch monitor configurations"
+msgstr "Εναλλαγή οθόνης"
+
+#: data/org.ukui.ukwm.gschema.xml.in:160
+msgid "Rotates the built-in monitor configuration"
+msgstr ""
 
 #: data/org.ukui.ukwm.wayland.gschema.xml.in:6
 msgid "Switch to VT 1"
@@ -471,10 +258,14 @@ msgstr "Εναλλαγή στο VT 11"
 msgid "Switch to VT 12"
 msgstr "Εναλλαγή στο VT 12"
 
+#: data/org.ukui.ukwm.wayland.gschema.xml.in:54
+msgid "Re-enable shortcuts"
+msgstr ""
+
 #. TRANSLATORS: This string refers to a button that switches between
 #. * different modes.
 #.
-#: src/backends/meta-input-settings.c:1800
+#: src/backends/meta-input-settings.c:2168
 #, c-format
 msgid "Mode Switch (Group %d)"
 msgstr "Λειτουργία διακόπτη (ομάδα %d)"
@@ -482,58 +273,100 @@ msgstr "Λειτουργία διακόπτη (ομάδα %d)"
 #. TRANSLATORS: This string refers to an action, cycles drawing tablets'
 #. * mapping through the available outputs.
 #.
-#: src/backends/meta-input-settings.c:1822
+#: src/backends/meta-input-settings.c:2191
 msgid "Switch monitor"
 msgstr "Εναλλαγή οθόνης"
 
-#: src/backends/meta-input-settings.c:1824
+#: src/backends/meta-input-settings.c:2193
 msgid "Show on-screen help"
 msgstr "Εμφάνιση βοήθειας στην οθόνη"
 
-#: src/backends/meta-monitor-manager.c:675
+#: src/backends/meta-monitor-manager.c:916
 msgid "Built-in display"
 msgstr "Ενσωματωμένη οθόνη"
 
-#: src/backends/meta-monitor-manager.c:698
+#: src/backends/meta-monitor-manager.c:939
 msgid "Unknown"
 msgstr "Άγνωστη"
 
-#: src/backends/meta-monitor-manager.c:700
+#: src/backends/meta-monitor-manager.c:941
 msgid "Unknown Display"
 msgstr "Άγνωστη οθόνη"
 
 #. TRANSLATORS: this is a monitor vendor name, followed by a
 #. * size in inches, like 'Dell 15"'
 #.
-#: src/backends/meta-monitor-manager.c:708
+#: src/backends/meta-monitor-manager.c:949
 #, c-format
 msgid "%s %s"
 msgstr "%s %s"
 
 #. This probably means that a non-WM compositor like xcompmgr is running;
 #. * we have no way to get it to exit
-#: src/compositor/compositor.c:471
+#: src/compositor/compositor.c:476
 #, c-format
 msgid ""
 "Another compositing manager is already running on screen %i on display “%s”."
 msgstr ""
 "Εκτελείται ένας άλλος διαχειριστής παραθύρων στην οθόνη %i προβολή «%s»."
 
-#: src/core/bell.c:194
+#: src/core/bell.c:195
 msgid "Bell event"
 msgstr "Ηχητικό συμβάν κουδουνιού"
 
+# gconf/gconf-internals.c:2416
+#: src/core/display.c:609
+#, c-format
+msgid "Failed to open X Window System display “%s”\n"
+msgstr "Αποτυχία ανοίγματος οθόνης του συστήματος παραθύρων Χ «%s»\n"
+
+#: src/core/main.c:190
+msgid "Disable connection to session manager"
+msgstr "Απενεργοποίηση σύνδεσης στο διαχειριστή συνεδρίας"
+
+#: src/core/main.c:196
+msgid "Replace the running window manager"
+msgstr "Αντικατάσταση του τρέχοντος διαχειριστή παραθύρων"
+
+#: src/core/main.c:202
+msgid "Specify session management ID"
+msgstr "Καθορισμός αναγνωριστικού διαχείρισης συνεδρίας"
+
+#: src/core/main.c:207
+msgid "X Display to use"
+msgstr "Εμφάνιση Χ για χρήση"
+
+#: src/core/main.c:213
+msgid "Initialize session from savefile"
+msgstr "Εκκίνηση συνεδρίας από savefile"
+
+#: src/core/main.c:219
+msgid "Make X calls synchronous"
+msgstr "Να καταστούν σύγχρονες οι κλήσεις του X"
+
+#: src/core/main.c:226
+msgid "Run as a wayland compositor"
+msgstr "Εκτέλεση ως wayland compositor"
+
+#: src/core/main.c:232
+msgid "Run as a nested compositor"
+msgstr "Εκτέλεση ως ενσωματωμένος compositor"
+
+#: src/core/main.c:240
+msgid "Run as a full display server, rather than nested"
+msgstr "Εκτέλεση ως διακομιστής πλήρους οθόνης, αντί ενσωματωμένης"
+
 #. Translators: %s is a window title
-#: src/core/delete.c:127
+#: src/core/meta-close-dialog-default.c:148
 #, c-format
 msgid "“%s” is not responding."
 msgstr "Το “%s” δεν ανταποκρίνεται."
 
-#: src/core/delete.c:129
+#: src/core/meta-close-dialog-default.c:150
 msgid "Application is not responding."
 msgstr "Η εφαρμογή δεν ανταποκρίνεται."
 
-#: src/core/delete.c:134
+#: src/core/meta-close-dialog-default.c:155
 msgid ""
 "You may choose to wait a short while for it to continue or force the "
 "application to quit entirely."
@@ -541,57 +374,15 @@ msgstr ""
 "Μπορείτε να επιλέξετε να περιμένετε λίγο για να συνεχίσει, ή να εξαναγκάσετε "
 "την εφαρμογή σε έξοδο."
 
-#: src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Force Quit"
 msgstr "_Εξαναγκασμός σε τερματισμό"
 
-#: src/core/delete.c:141
+#: src/core/meta-close-dialog-default.c:162
 msgid "_Wait"
 msgstr "_Αναμονή"
 
-# gconf/gconf-internals.c:2416
-#: src/core/display.c:608
-#, c-format
-msgid "Failed to open X Window System display “%s”\n"
-msgstr "Αποτυχία ανοίγματος οθόνης του συστήματος παραθύρων Χ «%s»\n"
-
-#: src/core/main.c:189
-msgid "Disable connection to session manager"
-msgstr "Απενεργοποίηση σύνδεσης στο διαχειριστή συνεδρίας"
-
-#: src/core/main.c:195
-msgid "Replace the running window manager"
-msgstr "Αντικατάσταση του τρέχοντος διαχειριστή παραθύρων"
-
-#: src/core/main.c:201
-msgid "Specify session management ID"
-msgstr "Καθορισμός αναγνωριστικού διαχείρισης συνεδρίας"
-
-#: src/core/main.c:206
-msgid "X Display to use"
-msgstr "Εμφάνιση Χ για χρήση"
-
-#: src/core/main.c:212
-msgid "Initialize session from savefile"
-msgstr "Εκκίνηση συνεδρίας από savefile"
-
-#: src/core/main.c:218
-msgid "Make X calls synchronous"
-msgstr "Να καταστούν σύγχρονες οι κλήσεις του X"
-
-#: src/core/main.c:225
-msgid "Run as a wayland compositor"
-msgstr "Εκτέλεση ως wayland compositor"
-
-#: src/core/main.c:231
-msgid "Run as a nested compositor"
-msgstr "Εκτέλεση ως ενσωματωμένος compositor"
-
-#: src/core/main.c:239
-msgid "Run as a full display server, rather than nested"
-msgstr "Εκτέλεση ως διακομιστής πλήρους οθόνης, αντί ενσωματωμένης"
-
-#: src/core/ukwm.c:39
+#: src/core/ukwm.c:41
 #, c-format
 msgid ""
 "ukwm %s\n"
@@ -606,20 +397,20 @@ msgstr ""
 "ΔΕΝ παρέχεται καμία εγγύηση, ούτε ΕΜΠΟΡΕΥΣΙΜΟΤΗΤΑΣ ούτε ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΓΙΑ "
 "ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ.\n"
 
-#: src/core/ukwm.c:53
+#: src/core/ukwm.c:55
 msgid "Print version"
 msgstr "Εμφάνιση έκδοσης"
 
-#: src/core/ukwm.c:59
+#: src/core/ukwm.c:61
 msgid "Ukwm plugin to use"
 msgstr "Πρόσθετα του Ukwm για χρήση"
 
-#: src/core/prefs.c:1997
+#: src/core/prefs.c:2033
 #, c-format
 msgid "Workspace %d"
 msgstr "Χώρος εργασίας %d"
 
-#: src/core/screen.c:580
+#: src/core/screen.c:584
 #, c-format
 msgid ""
 "Display “%s” already has a window manager; try using the --replace option to "
@@ -629,12 +420,12 @@ msgstr ""
 "χρησιμοποιήσετε την επιλογή --replace για να αντικαταστήσετε τον τρέχων "
 "διαχειριστή παραθύρων."
 
-#: src/core/screen.c:665
+#: src/core/screen.c:669
 #, c-format
 msgid "Screen %d on display “%s” is invalid\n"
 msgstr "Η οθόνη %d στην προβολή «%s» δεν είναι έγκυρη\n"
 
-#: src/core/util.c:120
+#: src/core/util.c:121
 msgid "Ukwm was compiled without support for verbose mode\n"
 msgstr ""
 "Το Ukwm έχει μεταγλωττιστεί χωρίς υποστήριξη για λειτουργία εμφάνισης "
@@ -645,7 +436,7 @@ msgstr ""
 msgid "Mode Switch: Mode %d"
 msgstr "Λειτουργία διακόπτη: Λειτουργία %d"
 
-#: src/x11/session.c:1815
+#: src/x11/session.c:1816
 msgid ""
 "These windows do not support “save current setup” and will have to be "
 "restarted manually next time you log in."
@@ -653,10 +444,190 @@ msgstr ""
 "Αυτά τα παράθυρα δεν υποστηρίζουν «αποθήκευση της τρέχουσας εγκατάστασης» "
 "και θα πρέπει να επανεκκινηθούν χειροκίνητα στην επόμενη είσοδο σας."
 
-#: src/x11/window-props.c:559
+#: src/x11/window-props.c:560
 #, c-format
 msgid "%s (on %s)"
 msgstr "%s (σε %s)"
+
+#~ msgid "Navigation"
+#~ msgstr "Περιήγηση"
+
+#~ msgid "Move window to workspace 1"
+#~ msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 1"
+
+#~ msgid "Move window to workspace 2"
+#~ msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 2"
+
+#~ msgid "Move window to workspace 3"
+#~ msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 3"
+
+#~ msgid "Move window to workspace 4"
+#~ msgstr "Μετακίνηση παραθύρου στον χώρο εργασίας 4"
+
+#~ msgid "Move window to last workspace"
+#~ msgstr "Μετακίνηση παραθύρου στον τελευταίο χώρο εργασίας"
+
+#~ msgid "Move window one workspace to the left"
+#~ msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας αριστερά"
+
+#~ msgid "Move window one workspace to the right"
+#~ msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας δεξιά"
+
+#~ msgid "Move window one workspace up"
+#~ msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας πάνω"
+
+#~ msgid "Move window one workspace down"
+#~ msgstr "Μετακίνηση παραθύρου έναν χώρο εργασίας κάτω"
+
+#~ msgid "Move window one monitor to the left"
+#~ msgstr "Μετακίνηση παραθύρου κατά μια οθόνη στα αριστερά"
+
+#~ msgid "Move window one monitor to the right"
+#~ msgstr "Μετακίνηση παραθύρου κατά μια οθόνη στα δεξιά"
+
+#~ msgid "Move window one monitor up"
+#~ msgstr "Μετακίνηση παραθύρου κατά μια οθόνη προς τα πάνω"
+
+#~ msgid "Move window one monitor down"
+#~ msgstr "Μετακίνηση παραθύρου κατά μια οθόνη προς τα κάτω"
+
+#~ msgid "Switch applications"
+#~ msgstr "Εναλλαγή εφαρμογών"
+
+#~ msgid "Switch to previous application"
+#~ msgstr "Εναλλαγή στην προηγούμενη εφαρμογή"
+
+#~ msgid "Switch windows"
+#~ msgstr "Εναλλαγή παραθύρων"
+
+#~ msgid "Switch to previous window"
+#~ msgstr "Εναλλαγή στο προηγούμενο παράθυρο"
+
+#~ msgid "Switch windows of an application"
+#~ msgstr "Εναλλαγή παραθύρων μιας εφαρμογής"
+
+#~ msgid "Switch to previous window of an application"
+#~ msgstr "Εναλλαγή στο προηγούμενο παράθυρο μιας εφαρμογής"
+
+#~ msgid "Switch system controls"
+#~ msgstr "Εναλλαγή ελέγχων συστήματος"
+
+#~ msgid "Switch to previous system control"
+#~ msgstr "Εναλλαγή σε προηγούμενους ελέγχους συστήματος"
+
+#~ msgid "Switch windows directly"
+#~ msgstr "Άμεση εναλλαγή παραθύρων"
+
+#~ msgid "Switch directly to previous window"
+#~ msgstr "Άμεση εναλλαγή στο προηγούμενο παράθυρο"
+
+#~ msgid "Switch windows of an app directly"
+#~ msgstr "Άμεση εναλλαγή παραθύρων μιας εφαρμογής"
+
+#~ msgid "Switch directly to previous window of an app"
+#~ msgstr "Άμεση εναλλαγή στο προηγούμενο παράθυρο μιας εφαρμογής"
+
+#~ msgid "Switch system controls directly"
+#~ msgstr "Άμεση εναλλαγή ελέγχων συστήματος"
+
+#~ msgid "Switch directly to previous system control"
+#~ msgstr "Άμεση εναλλαγή σε προηγούμενους ελέγχους συστήματος"
+
+#~ msgid "Hide all normal windows"
+#~ msgstr "Απόκρυψη όλων των κανονικών παραθύρων"
+
+#~ msgid "Switch to workspace 1"
+#~ msgstr "Εναλλαγή στον χώρο εργασίας 1"
+
+#~ msgid "Switch to workspace 2"
+#~ msgstr "Εναλλαγή στον χώρο εργασίας 2"
+
+#~ msgid "Switch to workspace 3"
+#~ msgstr "Εναλλαγή στον χώρο εργασίας 3"
+
+#~ msgid "Switch to workspace 4"
+#~ msgstr "Εναλλαγή στον χώρο εργασίας 4"
+
+#~ msgid "Switch to last workspace"
+#~ msgstr "Εναλλαγή στον τελευταίο χώρο εργασίας"
+
+#~ msgid "Move to workspace left"
+#~ msgstr "Μετακίνηση στον χώρο εργασίας αριστερά"
+
+#~ msgid "Move to workspace right"
+#~ msgstr "Μετακίνηση στον χώρο εργασίας δεξιά"
+
+#~ msgid "Move to workspace above"
+#~ msgstr "Μετακίνηση στον χώρο εργασίας επάνω"
+
+#~ msgid "Move to workspace below"
+#~ msgstr "Μετακίνηση στον χώρο εργασίας κάτω"
+
+#~ msgid "System"
+#~ msgstr "Σύστημα"
+
+#~ msgid "Show the run command prompt"
+#~ msgstr "Εμφάνιση της προτροπής της εντολής run"
+
+#~ msgid "Show the activities overview"
+#~ msgstr "Εμφάνιση της επισκόπησης των δραστηριοτήτων"
+
+#~ msgid "Windows"
+#~ msgstr "Παράθυρα"
+
+#~ msgid "Activate the window menu"
+#~ msgstr "Ενεργοποίηση του μενού παραθύρου"
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Εναλλαγή κατάστασης πλήρους οθόνης"
+
+#~ msgid "Toggle maximization state"
+#~ msgstr "Εναλλαγή κατάστασης μεγιστοποίησης"
+
+#~ msgid "Maximize window"
+#~ msgstr "Μεγιστοποίηση παραθύρου"
+
+#~ msgid "Restore window"
+#~ msgstr "Επαναφορά παραθύρου"
+
+#~ msgid "Toggle shaded state"
+#~ msgstr "Εναλλαγή σκιασμένης κατάστασης"
+
+#~ msgid "Close window"
+#~ msgstr "Κλείσιμο παραθύρου"
+
+#~ msgid "Hide window"
+#~ msgstr "Απόκρυψη παραθύρου"
+
+#~ msgid "Move window"
+#~ msgstr "Μετακίνηση παραθύρου"
+
+#~ msgid "Resize window"
+#~ msgstr "Αυξομείωση παραθύρου"
+
+#~ msgid "Toggle window on all workspaces or one"
+#~ msgstr "Εναλλαγή παραθύρου σε όλες τις επιφάνειες εργασίας ή σε μία"
+
+#~ msgid "Raise window if covered, otherwise lower it"
+#~ msgstr "Ανύψωση παραθύρου εάν καλύπτεται, αλλιώς βύθισή του"
+
+#~ msgid "Raise window above other windows"
+#~ msgstr "Ανύψωση παραθύρου πάνω από τα άλλα παράθυρα"
+
+#~ msgid "Lower window below other windows"
+#~ msgstr "Βύθιση παραθύρου κάτω από τα άλλα παράθυρα"
+
+#~ msgid "Maximize window vertically"
+#~ msgstr "Μεγιστοποίηση παραθύρου κάθετα"
+
+#~ msgid "Maximize window horizontally"
+#~ msgstr "Μεγιστοποίηση παραθύρου οριζόντια"
+
+#~ msgid "View split on left"
+#~ msgstr "Μεγιστοποίηση στα αριστερά"
+
+#~ msgid "View split on right"
+#~ msgstr "Μεγιστοποίηση στα δεξιά"
 
 #~ msgid "background texture could not be created from file"
 #~ msgstr "η υφή παρασκηνίου δεν μπόρεσε να δημιουργηθεί από αρχείο"
@@ -1235,8 +1206,7 @@ msgstr "%s (σε %s)"
 
 #~ msgid "<ukwm_session> attribute seen but we already have the session ID"
 #~ msgstr ""
-#~ "βρέθηκε η ιδιότητα <ukwm_session> αλλά ήδη έχουμε την ταυτότητα "
-#~ "συνεδρίας"
+#~ "βρέθηκε η ιδιότητα <ukwm_session> αλλά ήδη έχουμε την ταυτότητα συνεδρίας"
 
 #~ msgid "Unknown attribute %s on <%s> element"
 #~ msgstr "Άγνωστο γνώρισμα %s στο στοιχείο <%s>"
