@@ -2408,7 +2408,6 @@ Files: ABOUT-NLS
        debian/rules
        debian/source/format
        debian/ukwm-common.install
-       debian/ukwm-common.lintian-overrides
        debian/ukwm.install
        debian/ukwm.postinst
        debian/ukwm.prerm

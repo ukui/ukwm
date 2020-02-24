@@ -1,3 +1,12 @@
+ukwm (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #952096)
+  * debian:
+    - Bump standards-vertion to 4.5.0.
+    - Remove unsed ukwm-common.lintian-overrides.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 24 Feb 2020 21:27:18 +0800
+
 ukwm (1.1.14-1) unstable; urgency=medium
 
   * New upstream release.
