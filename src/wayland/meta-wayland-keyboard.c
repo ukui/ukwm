@@ -66,7 +66,7 @@
 #include "backends/native/meta-backend-native.h"
 #endif
 
-#define USD_KEYBOARD_SCHEMA "org.mate.peripherals-keyboard"
+#define USD_KEYBOARD_SCHEMA "org.ukui.peripherals-keyboard"
 typedef enum
 {
   GSD_KEYBOARD_NUM_LOCK_STATE_UNKNOWN,
