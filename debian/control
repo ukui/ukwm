@@ -64,7 +64,7 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          ukwm-common (>= ${source:Version}),
          ukui-settings-daemon,
-         gsettings-desktop-schemas (>= 3.21.4),
+         gsettings-desktop-schemas (>= 3.31.0),
          zenity
 Provides: x-window-manager
 Recommends: ukui-window-switch
@@ -88,7 +88,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         gsettings-desktop-schemas (>= 3.15.92),
+         gsettings-desktop-schemas (>= 3.31.0),
          ukwm-common (>= ${source:Version})
 Description: window manager library from the Ukwm window manager
  Ukwm is a small window manager, using GTK+ and Clutter to do
