@@ -12,11 +12,6 @@ License: GPL-2+
 Files: src/backends/meta-backend-private.h
        src/backends/meta-cursor-renderer.c
        src/backends/meta-cursor-renderer.h
-       src/backends/x11/meta-backend-x11.h
-       src/backends/x11/meta-input-settings-x11.c
-       src/backends/x11/meta-cursor-renderer-x11.c
-       src/backends/x11/meta-cursor-renderer-x11.h
-       src/backends/x11/meta-backend-x11.c
        src/core/meta-accel-parse.h
        src/meta/meta-backend.h
        src/meta/meta-background-image.h
@@ -205,7 +200,7 @@ License: GPL-2+
 
 
 Files: src/wayland/meta-wayland-dma-buf.c
-       src/wayland/meta-wayland-dma-buf.c
+       src/wayland/meta-wayland-dma-buf.h
 Copyright:
    Copyright (C) 2016 Red Hat Inc.
    Copyright (C) 2017 Intel Corporation
@@ -295,6 +290,7 @@ License: GPL-2+
 Files: src/backends/meta-input-settings.c
        src/tests/test-runner.c
        src/tests/test-utils.c
+       src/tests/ukwm-all.test.in
        src/backends/native/meta-cursor-renderer-native.c
 Copyright:
    Copyright 2014 Red Hat Inc.
@@ -455,8 +451,7 @@ Copyright:
    Copyright (C) 2005 Elijah Newren
 License: GPL-2+
 
-Files: src/core/core.c
-       src/core/util-private.h
+Files: src/core/util-private.h
        src/core/util.c
        src/meta/common.h
        src/meta/util.h
@@ -2411,6 +2406,7 @@ Files: ABOUT-NLS
        debian/ukwm.install
        debian/ukwm.postinst
        debian/ukwm.prerm
+       debian/upstream/metadata
        debian/watch
        doc/code-overview.txt
        doc/dialogs.txt
@@ -2568,8 +2564,7 @@ Files: ABOUT-NLS
        src/tests/stacking/mixed-windows.metatest
        src/tests/stacking/override-redirect.metatest
        src/tests/stacking/set-parent.metatest
-       src/tests/ukwm-all.test.in
-       src/wayland/meta-wayland-dma-buf.h
+       src/tests/ukwm-all.testmeta-wayland-dma-buf.h
        src/wayland/protocol/gtk-primary-selection.xml
        src/wayland/protocol/gtk-shell.xml
        src/x11/ukwm-Xatomtype.h

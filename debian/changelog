@@ -1,14 +1,17 @@
-ukwm (1.2.1-1) unstable; urgency=medium
+ukwm (1.2.1-1) experimental; urgency=medium
 
   [ Debian Janitor ]
   * Use secure URI in Homepage field.
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
     Repository-Browse.
 
+  [ Marco Trevisan ]
+  * debian/control: Bump dependency on gsettings-desktop-schemas 3.31.0.
+
   [ handsome_feng ]
   * New upstream bugfix release.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 24 Sep 2020 19:41:48 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 03 Jun 2021 00:12:05 +0800
 
 ukwm (1.2.0-1) unstable; urgency=medium
 
