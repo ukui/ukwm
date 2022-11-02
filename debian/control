@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Kylin Team <team+kylin@tracker.debian.org>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>
-Build-Depends: debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
                dh-sequence-gir,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.15),
@@ -52,7 +52,7 @@ Build-Depends: debhelper-compat (= 12),
                xkb-data,
                xvfb <!nocheck>,
                xauth <!nocheck>
-Standards-Version: 4.5.0
+Standards-Version: 4.6.1
 Rules-Requires-Root: no
 Homepage: https://www.ukui.org
 Vcs-Git: https://github.com/ukui/ukwm.git
