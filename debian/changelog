@@ -1,17 +1,25 @@
-ukwm (1.2.1-1) experimental; urgency=medium
+ukwm (1.2.0-2.2) unstable; urgency=medium
 
-  [ Debian Janitor ]
-  * Use secure URI in Homepage field.
-  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
-    Repository-Browse.
+  * Non-maintainer upload.
+  * Rename libraries for 64-bit time_t transition.  Closes: #1063010
 
-  [ Marco Trevisan ]
-  * debian/control: Bump dependency on gsettings-desktop-schemas 3.31.0.
+ -- Steve Langasek <vorlon@debian.org>  Wed, 28 Feb 2024 21:05:01 +0000
 
-  [ handsome_feng ]
-  * New upstream bugfix release.
+ukwm (1.2.0-2.1) unstable; urgency=medium
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 03 Jun 2021 00:12:05 +0800
+  * Non-maintainer upload
+  * Add patch to stop using org.gnome.desktop.wm.keybindings toggle-shaded
+    (Closes: #1043423)
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Thu, 07 Sep 2023 12:00:21 -0400
+
+ukwm (1.2.0-2) unstable; urgency=medium
+
+  [ Simon McVittie ]
+  * Use libgdk-pixbuf-2.0-dev instead of libgdk-pixbuf2.0-dev.
+    (Closes: #976034)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2023 17:05:59 +0800
 
 ukwm (1.2.0-1) unstable; urgency=medium
 

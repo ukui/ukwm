@@ -1,4 +1,4 @@
-libukwm-1.so.0 libukwm-1-0 #MINVER#
+libukwm-1.so.0 libukwm-1-0t64 #MINVER#
 * Build-Depends-Package: libukwm-1-dev
  meta_activate_session@Base 1.1.6
  meta_activate_vt@Base 1.1.6
@@ -1724,7 +1724,7 @@ libukwm-1.so.0 libukwm-1-0 #MINVER#
  meta_xwayland_shutdown_selection@Base 1.1.6
  meta_xwayland_start@Base 1.1.6
  meta_xwayland_stop@Base 1.1.6
-libukwm-clutter-1.so libukwm-1-0 #MINVER#
+libukwm-clutter-1.so libukwm-1-0t64 #MINVER#
  _clutter_backend_add_event_translator@Base 1.1.6
  _clutter_backend_reset_cogl_framebuffer@Base 1.1.6
  _clutter_event_translator_get_type@Base 1.1.6
@@ -3447,7 +3447,7 @@ libukwm-clutter-1.so libukwm-1-0 #MINVER#
  clutter_zoom_action_new@Base 1.1.6
  clutter_zoom_action_set_zoom_axis@Base 1.1.6
  clutter_zoom_axis_get_type@Base 1.1.6
-libukwm-cogl-1.so libukwm-1-0 #MINVER#
+libukwm-cogl-1.so libukwm-1-0t64 #MINVER#
  _cogl_atlas_add_reorganize_callback@Base 1.1.6
  _cogl_atlas_new@Base 1.1.6
  _cogl_atlas_reserve_space@Base 1.1.6
@@ -4265,7 +4265,7 @@ libukwm-cogl-1.so libukwm-1-0 #MINVER#
  unit_test_check_pipeline_pruning@Base 1.1.6
  unit_test_check_point_size_shader@Base 1.1.6
  unit_test_check_uniform_ancestry@Base 1.1.6
-libukwm-cogl-pango-1.so libukwm-1-0 #MINVER#
+libukwm-cogl-pango-1.so libukwm-1-0t64 #MINVER#
  cogl_pango_ensure_glyph_cache_for_layout@Base 1.1.6
  cogl_pango_font_map_clear_glyph_cache@Base 1.1.6
  cogl_pango_font_map_create_context@Base 1.1.6
@@ -4284,7 +4284,7 @@ libukwm-cogl-pango-1.so libukwm-1-0 #MINVER#
  cogl_pango_renderer_get_type@Base 1.1.6
  cogl_pango_show_layout@Base 1.1.6
  cogl_pango_show_layout_line@Base 1.1.6
-libukwm-cogl-path-1.so libukwm-1-0 #MINVER#
+libukwm-cogl-path-1.so libukwm-1-0t64 #MINVER#
  cogl2_clip_push_from_path@Base 1.1.6
  cogl2_path_arc@Base 1.1.6
  cogl2_path_close@Base 1.1.6

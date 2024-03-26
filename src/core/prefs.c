@@ -444,7 +444,7 @@ static MetaStringPreference preferences_string[] =
     },
     {
       { "cursor-theme",
-        SCHEMA_MOUSE,          //SCHEMA_INTERFACE,
+        SCHEMA_INTERFACE,
         META_PREF_CURSOR_THEME,
       },
       NULL,
@@ -979,12 +979,7 @@ meta_prefs_init (void)
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_UKWM), settings);
 
   settings = g_settings_new (SCHEMA_MOUSE);
-  g_signal_connect (settings, "changed::" KEY_GNOME_CURSOR_THEME,
-                    G_CALLBACK (settings_changed), NULL);
-  if (meta_is_wayland_compositor ())
-    g_signal_connect (settings, "changed::cursor-size",
-                      G_CALLBACK (wayland_settings_changed), NULL);
-  g_signal_connect (settings, "changed::drag-threshold", G_CALLBACK (settings_changed), NULL);
+  g_signal_connect (settings, "changed", G_CALLBACK (settings_changed), NULL);
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_MOUSE), settings);
 
   /* Individual keys we watch outside of our schemas */
@@ -999,7 +994,11 @@ meta_prefs_init (void)
                     G_CALLBACK (settings_changed), NULL);
   g_signal_connect (settings, "changed::" KEY_GNOME_ANIMATIONS,
                     G_CALLBACK (settings_changed), NULL);
-
+  g_signal_connect (settings, "changed::" KEY_GNOME_CURSOR_THEME,
+                    G_CALLBACK (settings_changed), NULL);
+  if (meta_is_wayland_compositor ())
+    g_signal_connect (settings, "changed::cursor-size",
+                      G_CALLBACK (wayland_settings_changed), NULL);
   g_hash_table_insert (settings_schemas, g_strdup (SCHEMA_INTERFACE), settings);
 
   g_signal_connect (gtk_settings_get_default (),
