@@ -51,6 +51,7 @@
 #include <cairo/cairo.h>
 #include <sys/time.h>
 #include <sys/file.h>
+#include <sys/wait.h>
 #include <pthread.h>
 #include <unistd.h>
 

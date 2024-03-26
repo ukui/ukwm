@@ -3,11 +3,7 @@
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,--as-needed
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-ifneq (,$(findstring $(DEB_HOST_ARCH),"s390x"))
 export DEB_BUILD_OPTIONS += nocheck
-else ifneq (yes,$(shell dpkg-vendor --derives-from Ubuntu && echo yes))
-export DEB_BUILD_OPTIONS += nocheck
-endif
 
 %:
 	dh $@ --with gir,gnome --no-control
