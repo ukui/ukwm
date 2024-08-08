@@ -399,7 +399,7 @@ on_monitors_changed (MetaScreen *screen,
   g_rand_free (rand);
 }
 
-static gboolean ukwm_plugin_get_alt_tab_list(MetaPlugin *object,
+static gboolean ukwm_plugin_get_alt_tab_list(UkwmPlugin *object,
                                              GDBusMethodInvocation *invocation)
 {
   int count = 0;
@@ -496,7 +496,7 @@ static gboolean ukwm_plugin_get_alt_tab_list(MetaPlugin *object,
   return true;
 }
 
-static gboolean ukwm_plugin_activate_window_by_tab_list_index(MetaPlugin *object,
+static gboolean ukwm_plugin_activate_window_by_tab_list_index(UkwmPlugin *object,
                                                               GDBusMethodInvocation *invocation,
                                                               int index)
 {
@@ -617,7 +617,7 @@ bool InitUkwmPluginDBusCommServer(void)
   return bRet;
 }
 
-void ukui_window_switch_monitor(void)
+void* ukui_window_switch_monitor(void*)
 {
   sleep(5);
 
@@ -627,7 +627,7 @@ void ukui_window_switch_monitor(void)
     {
       fprintf(stderr, "Can not open pid file[%s], %s\n",
               pid_file, strerror(pid_file_fd));
-      return ;
+      return NULL;
     }
 
   while (1)

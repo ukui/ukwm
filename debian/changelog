@@ -1,9 +1,15 @@
+ukwm (1.2.3-1) unstable; urgency=medium
+
+  *  Fix ftbfs with GCC-14. (Closes: #1075598)
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Thu, 08 Aug 2024 23:40:49 +0800
+
 ukwm (1.2.2-1) unstable; urgency=medium
 
   * New upstream bug-fix release.
 
   [Matthias Klose & Bo Yu]
-  * Add missing #include. (Closes: 1066371)
+  * Add missing #include. (Closes: #1066371)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 26 Mar 2024 14:46:12 +0800
 
